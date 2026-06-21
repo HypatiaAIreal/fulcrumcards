@@ -1,0 +1,70 @@
+{
+  "id": "043",
+  "title": "El Poeta",
+  "sector": "Literatura",
+  "severity": "mixed",
+  "subtitle": "Una palanca — la fabricación de versos — que la IA imita con soltura, sostenida por un fulcro que no puede falsificar: que el poema haya sido vivido por alguien y firmado con su nombre.",
+  "opening": "Un martes de madrugada, una poeta tacha por sexta vez el mismo verso en un cuaderno manchado de café. Sabe que podría pedirle a una IA cien sonetos sobre el duelo de su madre y obtendría, en segundos, imágenes correctas, métrica impecable, metáforas que funcionan. Pero ninguna de ellas habría velado el cuerpo, ni recordaría el olor del hospital, ni cargaría con el peso de haberlo callado durante un año. Lo que ella escribe esta noche no compite por ser bello: compite por ser cierto. Y lo firma con su nombre, sabiendo que alguien, algún día, lo leerá buscando saber si fue verdad.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay colegiación, licencia ni infraestructura que proteja la entrada. Un cuaderno, un teclado, acceso a internet — la misma infraestructura que usa la máquina que genera versos a destajo. Cualquiera puede publicar poesía hoy, y la IA puede producir mil poemas técnicamente competentes en el tiempo que la poeta tarda en escribir uno.",
+      "crack": "El fulcro material es estructuralmente ausente: la poesía nunca tuvo barrera de entrada física, y ahora tampoco tiene barrera de producción.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "A diferencia del copy anónimo, al poema se le cree por quién lo firma y por lo que ese nombre ha demostrado leer tras leer. La credibilidad se verifica por consecuencias: un poema que miente sobre su propia experiencia se desmorona ante un lector atento, y la reputación construida verso a verso no se transfiere a un prompt. Se le cree no porque escriba bien, sino porque el lector apuesta a que detrás hay alguien que pagó por lo que dice.",
+      "crack": "La grieta: el epistémico solo es verificado para quien ya tiene nombre. Para el poeta sin obra reconocida, su credibilidad es indistinguible de un buen output de IA, y el lector no tiene cómo apostar por una voz que aún no conoce.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "La poeta cuenta con lectores, una editorial pequeña, otros poetas que la citan. Pero esa red rara vez tiene peso de decisión: nadie cambia el rumbo de su vida porque ella recomiende un libro, y el vínculo con el lector es real pero difuso, mediado por la página. Se asume una comunidad que sostiene, pero pocas veces se ha verificado que actúe.",
+      "crack": "La grieta: el relacional es asumido, no verificado. La poesía conmueve a muchos pero compromete a pocos; entre admirar una voz y actuar por ella hay una distancia que casi nunca se cruza.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "El poema se firma. Lleva nombre, fecha, una obra anterior que lo precede y una vida que lo respalda. La cadena es irreversible: este poema se escribió tras esa pérdida concreta, en ese año, por esas manos — y eso no se puede regenerar, solo imitar. La nueva aura no es el verso perfecto, sino la transparencia de saber que fue vivido.",
+      "crack": "La grieta: la procedencia de contenido se está volviendo indemostrable. Si un poema generado por IA se firma con un nombre humano, el lector ya no puede distinguir la cadena vivida de la fabricada — la procedencia exige rastro, y el rastro empieza a poder falsificarse.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "lever": "La fabricación del verso: dominio de la métrica, el ritmo, la imagen, la sorpresa sintáctica, el repertorio de formas. Todo esto la IA lo reproduce hoy con fluidez alarmante — un soneto correcto, una metáfora eficaz, una elegía conmovedora generados a demanda. La destreza técnica del poeta, antes su distinción, es ahora commodity.",
+  "fulcrum": "Que el poema haya sido vivido, firmado y verificado por una vida concreta. No la belleza del verso — la máquina la iguala — sino la apuesta de que detrás hay alguien que pagó el precio de lo que dice, y cuyo nombre responde por ello. Lo que no se regenera es la coincidencia entre la voz y la persona que la sostiene en el tiempo.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): ambos fabrican lenguaje que la IA replica, pero el copy es anónimo por diseño y el poema se firma. Ahí está la distancia entre critical y mixed — no es de prestigio, es de procedencia: a nadie le importa quién escribió el asunto del email, pero el lector de un poema necesita saber si quien lo firma lo vivió."
+  },
+  "escape": null,
+  "lesson": "Cuando la máquina escribe versos tan bellos como los tuyos, dejas de competir por la belleza y empiezas a competir por la verdad. El poema ya no vale por estar bien hecho — vale por haber sido vivido y firmado por alguien que responde con su nombre. La pregunta no es \"¿escribo mejor que la IA?\", sino \"¿qué desaparecería del mundo si dejaras de escribir lo que solo tú has vivido?\"",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar",
+    "Vol. 2, Cap. 24 — La nueva aura es transparencia"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

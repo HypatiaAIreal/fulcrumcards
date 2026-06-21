@@ -1,0 +1,70 @@
+{
+  "id": "013",
+  "title": "Patagonia: Don't Buy This Jacket",
+  "sector": "Casos del libro",
+  "severity": "strong",
+  "subtitle": "La marca que en pleno Black Friday pidió a sus clientes que no comprasen — y descubrió que la transparencia radical no es marketing, es el único fulcro que un competidor no puede regenerar.",
+  "opening": "El Viernes Negro de 2011, un lector abre The New York Times y se topa con un anuncio a página completa: la foto de una chaqueta Patagonia y, encima, en letras grandes, \"No compres esta chaqueta\". Debajo, la marca desglosa lo que cuesta esa prenda al planeta: los litros de agua, los kilos de CO2, los restos que dejará. No es una promesa de futuro ni un eslogan verde — es una confesión de los costes reales de su propio producto, en el día en que todo el comercio grita lo contrario. Lo que vende Patagonia ese día no es una chaqueta: es la prueba, verificable y autoinculpatoria, de que dice la verdad cuando mentir sería más rentable.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Patagonia existe como entidad física e irrebatible: fábricas, cadena de suministro auditada, tiendas, una corporación B certificada y, desde 2022, una estructura de propiedad cedida a un fideicomiso ambiental. No es una marca de papel — es infraestructura, contratos y materia que cualquiera puede inspeccionar. La IA puede describir todo esto; no puede poseer una fábrica ni firmar una auditoría.",
+      "crack": "El fulcro material es fuerte, aunque depende de una cadena de proveedores global cuya verificación total es un trabajo permanente, nunca cerrado.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "Se le cree porque su conocimiento se verifica por consecuencias contra su propio interés: publicó los costes ambientales de sus prendas, admitió el daño de sus propios productos y pidió no comprar en el día de mayor venta. La credibilidad que se construye confesando lo que perjudica vender es la más difícil de falsificar. El error es público y el coste es real — eso es epistémico verificado, no proclamado.",
+      "crack": "La credibilidad se sostiene mientras los actos confirmen el discurso; un solo greenwashing desmentido erosionaría décadas de prueba acumulada.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Existe una comunidad que actúa por Patagonia: clientes que reparan en vez de reemplazar, que defienden la marca, que cambian su decisión de compra por su recomendación. No son seguidores — son personas que han alineado su consumo con la confianza depositada en la marca. Esa red se construyó pidiendo lo contrario de lo que pide el marketing: comprar menos.",
+      "crack": "La confianza relacional es robusta pero exigente: esta comunidad castiga la incoherencia con la misma intensidad con que premia la integridad.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "El fulcro central de este caso. Décadas de actos costosos y documentados — el 1% para el planeta desde 1985, las demandas ambientales, la cesión de la empresa a un fideicomiso — forman una cadena irreversible que ocurrió en el tiempo real y se hizo pública para ser verificada. La transparencia no es el mensaje: es el rastro atestiguado de haber elegido la verdad cuando la mentira rendía más.",
+      "crack": "La procedencia es doblemente fuerte: la de contenido (estos actos ocurrieron) y la de forma (Patagonia originó un modo de comunicar que otros ahora imitan sin poder reclamar su origen).",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "lever": "El producto y su narrativa: chaquetas técnicas, campañas de impacto, informes de sostenibilidad, storytelling de marca con propósito. Todo esto es palanca — y hoy una IA puede generar el copy verde, diseñar la campaña y maquetar el informe en minutos. Cualquier competidor puede vestirse de activismo con las mismas herramientas y el mismo vocabulario.",
+  "fulcrum": "La transparencia vivida como cadena irreversible de actos costosos. No el mensaje \"somos sostenibles\", sino las décadas de decisiones que se pagaron en margen y se hicieron públicas para ser verificadas. Es la nueva aura: no la promesa, sino el rastro atestiguado de haber elegido la verdad cuando la mentira rendía más. Eso ocurrió en el tiempo y no se puede prompt-ear.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): produce mensajes anónimos, indistinguibles y regenerables en cuarenta segundos, sin firma ni procedencia. Patagonia es el reverso exacto — su mensaje vale precisamente porque está firmado por una cadena de actos que costaron dinero y no se pueden deshacer. La distancia no es de presupuesto publicitario: es de irreversibilidad. El copy se reescribe; una historia vivida de coherencia costosa, no."
+  },
+  "escape": null,
+  "lesson": "La IA puede generar el mensaje \"di la verdad\"; no puede haberla dicho cuando mentir era más barato. La transparencia no es lo que declaras — es la cadena de actos costosos que cualquiera puede verificar y nadie puede regenerar. La pregunta no es \"¿quién cuenta mejor su sostenibilidad?\", sino: \"¿qué desaparecería del mundo si tú dejaras de demostrarla con hechos que se pagan?\"",
+  "references": [
+    "Vol. 2, Cap. 24 — La nueva aura es transparencia",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

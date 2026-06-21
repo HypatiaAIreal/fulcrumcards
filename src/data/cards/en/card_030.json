@@ -1,0 +1,70 @@
+{
+  "id": "030",
+  "title": "The SaaS Founder",
+  "sector": "Tech / digital sector",
+  "severity": "mixed",
+  "subtitle": "A lever that today can be built over a weekend, held up by a fulcrum no product can contain: the trust of the specific people who bet on him before there was anything at all.",
+  "opening": "On a Wednesday at two in the morning, a founder stares at the dashboard of his B2B SaaS: one hundred and eighty paying customers, four percent churn, an MRR that finally covers payroll. He knows — and it's hard for him to admit — that the product itself could be replicated by a competent team using today's tools in a matter of weeks, because the stack is the same one everybody uses. What can't be replicated lies somewhere else: in the investor who signed the seed check when there was only a Figma, in the first three customers who trusted a promise, in the engineer who left a secure job because she believed in him. At nine he won't defend his code before the Series A committee — he'll defend why those people keep betting on him. What's being valued isn't the software. It's who decided to risk something for it when it didn't yet exist.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "There is a legal entity, cloud infrastructure, a domain, contracts. But everything rests on a commodity stack — the same Postgres, the same frameworks, the same APIs as any other founder. The company exists; the material barrier to entry, barely at all.",
+      "crack": "The only defensible material asset is usually the signed customer contract, not the code. And a contract is renewed — or not — every year.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "He's believed because he projects traction: growth metrics, customer logos, rounds raised, appearances in niche press. But much of that credibility is verified by signals — not by the ultimate consequence, which is whether the business survives five years. The market rewards the momentum narrative before the outcome confirms it.",
+      "crack": "It's the most dangerous state because it looks like the most solid: a high valuation gets mistaken for verified knowledge, until the next round — or its absence — passes sentence.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "This is the real fulcrum. Investors who invest again, customers who renew and recommend, key employees who stay through the desert crossing. That network of trust was built decision by decision, crisis by crisis, and it's the one thing AI cannot occupy: nobody entrusts their capital or their career to a language model.",
+      "crack": "The fulcrum is verified but personal and non-transferable: it lives in the specific founder, not in the company. If he leaves, do the first believers follow him, or do they stay with the cap table?",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "There is a real trail — the first commit, the documented pivots, five years of changelog, the founding emails. But content provenance is deliberately diluted into the brand: the product is signed as the company, not as the person. Form provenance — having originated a way of solving the problem that others copy — exists in the best ones, but is rarely made visible or claimed.",
+      "crack": "The chain of founding acts is the strongest proof that this was built by someone over time — but it stays buried under the corporate language of collective branding that erases it.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    }
+  },
+  "lever": "The product and everything around it: the tech stack, the onboarding, the pricing page, the growth playbook, the fundraising deck. AI and no-code tools now reproduce much of this in days, not quarters. The founder's MVP is increasingly indistinguishable from the one produced by a small team well directed by machines.",
+  "fulcrum": "The trust accumulated with the people who bet before there was any evidence. The judgment of knowing whom to hire, when to pivot, which customer to turn away. It's the network of specific believers who act on his judgment — not because the product is irreproducible, but because the relationship is.",
+  "contrast": {
+    "card_ref": "000",
+    "text": "Compare with The Fulcrum Project (Card #000): also an ecosystem built by its founders, also a mixed diagnosis. But there the provenance is verified — two years of documented and transparent co-authorship — and the bottleneck is the relational one. In the SaaS Founder the equation is inverted: the relational is the strong fulcrum and the provenance is diluted into the brand. The distance isn't one of prestige — it's about which axis has been made irreversible and which is still borrowed."
+  },
+  "escape": null,
+  "lesson": "When what you defend is the product, you're already competing with a faster team and a cheaper machine. When what you defend is why a handful of people risked their money, their careers and their time on you before anything existed, you have no competition. The question isn't \"do I build better than AI?\" — it's \"what would vanish from the world if you stopped being the person these people believed in first?\"",
+  "references": [
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 22 — The commoditization of the lever",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

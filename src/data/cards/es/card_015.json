@@ -1,0 +1,70 @@
+{
+  "id": "015",
+  "title": "Theranos",
+  "sector": "Casos del libro",
+  "severity": "critical",
+  "subtitle": "El caso que define el fulcro asumido: una verificación proclamada a voz en grito que, por debajo, nunca existió.",
+  "opening": "En 2014, una paciente extiende el dedo en una farmacia de Walgreens en Phoenix y deja que una lanceta le saque una sola gota de sangre. Le han prometido que ese pinchazo diminuto reemplazará al tubo de siempre, que de esa gota saldrán doscientos análisis, que la medicina acaba de cambiar. La fundadora de la compañía, vestida de negro, lo ha repetido en cada escenario con una voz grave y una mirada que nadie sostiene: la máquina funciona. No funcionaba. La gota de aquella paciente, como casi todas, se diluía en secreto y se procesaba en aparatos comerciales de otros fabricantes, porque el dispositivo prometido jamás dio un resultado fiable.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "Theranos tenía existencia material abrumadora en apariencia: una valoración de nueve mil millones de dólares, laboratorios certificados, un dispositivo patentado, el Edison, expuesto como prueba física de su existencia. Pero la máquina que justificaba todo no hacía lo que decía hacer. La infraestructura era real; lo que producía, no.",
+      "crack": "El fulcro material parecía verificado, pero era una carcasa: el aparato existía como objeto, no como capacidad. Hardware sin la función que lo definía.",
+      "bar": [
+        0.5,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "absent",
+      "detail": "Aquí está el corazón del fraude. Toda la credibilidad de Theranos se sostenía en una afirmación —la tecnología funciona— que nunca se verificó por consecuencias y que activamente se impidió verificar. El conocimiento epistémico no se autoproclama: se confirma cuando otros pueden auditarlo. Theranos hizo lo contrario: ocultó, falsificó demostraciones y persiguió a quien pedía la prueba.",
+      "crack": "Lo que el mundo leyó como epistémico verificado era epistémico ausente disfrazado de asumido. El secretismo no protegía un secreto: tapaba un vacío.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "El consejo era un desfile de nombres irreprochables: secretarios de Estado, generales, un exsecretario de Defensa. Walgreens, Safeway y la prensa actuaron por confianza en esa red. Pero ninguno de esos avales se basaba en haber verificado la tecnología; confiaban unos en la confianza de los otros. Una cadena de fe sin un solo eslabón anclado al dato real.",
+      "crack": "El fulcro relacional era espejismo apilado: cada aval prestaba credibilidad que no había comprobado, multiplicando un cero hasta que pareció una fortuna.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "No había rastro verificable de que el dispositivo hubiera hecho jamás lo que se afirmaba. La procedencia se sustituyó por relato: la fundadora que dejó Stanford, la gota de sangre, la fobia a las agujas convertida en mito de origen. Una narrativa pulida ocupó el lugar donde debería haber estado la cadena de actos reales y comprobables.",
+      "crack": "Donde la procedencia exige rastro, Theranos ofrecía storytelling. Y el relato, por bueno que sea, no es evidencia de que algo ocurriera.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "La palanca de Theranos fue la maquinaria de la persuasión: el storytelling de fundadora visionaria, las portadas de revista, el consejo estelar, la estética del genio disruptivo. Todo eso es hoy infinitamente reproducible —una IA redacta el pitch perfecto, genera la narrativa de origen y diseña la cubierta de revista en minutos. La persuasión sin sustancia es la palanca más barata que existe.",
+  "fulcrum": "El único fulcro que habría salvado a Theranos era el epistémico verificado: una máquina que un tercero independiente pudiera poner a prueba y confirmar. Eso no se puede simular, narrar ni avalar prestado —se demuestra o no existe. Theranos construyó toda su palanca sobre el supuesto de que ese fulcro estaba ahí, cuando en realidad era el único que faltaba.",
+  "contrast": {
+    "card_ref": "016",
+    "text": "Compárese con Wikipedia (Card #016): allí cada afirmación lleva su fuente al lado, expuesta para que cualquiera la audite y la derribe. Theranos hizo exactamente lo contrario: blindó la afirmación para que nadie pudiera comprobarla. La distancia no es de escala ni de prestigio —es de irreversibilidad: la confianza de Wikipedia se regenera con cada edición transparente, la de Theranos se evaporó en el instante en que la verificación llegó, y no volvió jamás."
+  },
+  "escape": "La salida no existió para Theranos como empresa, pero existe como lección operativa para cualquiera tentado de seguir su camino: invertir el secretismo. La única vía habría sido abrir el dispositivo a validación independiente —publicar datos revisados, someterse a la FDA antes de vender, dejar que un laboratorio rival replicara los resultados. Convertir el fulcro asumido en verificado exige exponerse al juicio externo. Theranos eligió lo contrario, y por eso el fraude era inevitable: no se puede sostener para siempre una verificación que no se deja verificar.",
+  "lesson": "El fulcro asumido es el más peligroso porque parece el más seguro —hasta que alguien pide la prueba. Theranos no mintió sobre su palanca; mintió sobre tener un fulcro que nunca tuvo. La pregunta que derriba todo imperio construido sobre humo no es \"¿te creen?\" sino \"¿qué quedaría si mañana cualquiera pudiera comprobarlo?\"",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar",
+    "Vol. 2, Cap. 24 — La nueva aura es transparencia"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

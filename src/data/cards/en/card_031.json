@@ -1,0 +1,70 @@
+{
+  "id": "031",
+  "title": "The Web Developer",
+  "sector": "Tech / digital sector",
+  "severity": "warning",
+  "subtitle": "Builds what an AI agent already builds faster — and his one real fulcrum, that the code works, is precisely the one the machine is learning to verify on its own.",
+  "opening": "One Wednesday at midnight, a web developer finishes laying out a client's landing page: React, Tailwind, a form wired to an API, fully responsive. It took him two days. The next morning, the same client forwards him, with no ill intent, a screenshot: he asked an AI agent for \"the same landing but with the hero on the left\" and had it deployed on Vercel before his coffee. The developer looks at his hourly invoice and understands, for the first time, that what he sells is not knowing how to program — it is something more fragile than that, and he still cannot name it.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "There is no professional licensing, certification, or physical infrastructure protecting entry. A laptop, a free editor, and access to open source frameworks — exactly the same tools used by the AI agent that generates, debugs, and deploys the same code. There is no body or presence the machine cannot occupy.",
+      "crack": "The stack that gives the trade its identity (React, Node, the GitHub repo) is the very terrain where AI is native. There is no material barrier; there is an open field shared with whoever replaces him.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Code is verified by real consequences: it compiles or it doesn't, it passes the tests or it doesn't, it holds up under load or it falls over in production. That is the only axis with tangible truth. But that same verification is what AI is learning to do on its own — it runs, reads the error, corrects — and on standard tasks the output is already indistinguishable from a human's.",
+      "crack": "Credibility is assumed because it rests on the code working, and working is precisely what the machine automates best. It holds up only in the non-standard: ambiguous architecture, inherited technical debt, trade-off decisions no one wrote down in the ticket.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "There is a network — agencies, recurring clients, a lead who passes him projects. But it is rarely trust in his singular judgment; it is usually dependence on his availability and his price. The client trusts him to deliver, not to decide on his behalf what he doesn't know how to ask for.",
+      "crack": "It is the axis that could save him, but it is unverified: no one has checked whether the relationship survives an alternative that delivers the same thing for a tenth of the cost. When the cost of code tends toward zero, loyalty based on cost evaporates.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "There is a trail: signed commits, a Git history, public repos, projects in production with his name on the team. Content provenance technically exists. But code gets refactored, rewritten, absorbed into the next sprint — the trail is erased with every deploy and no one cares who wrote the function.",
+      "crack": "Content provenance dissolves the moment someone else touches the file; provenance of form — having originated an architecture, a pattern, a way of solving — exists in the best, but is almost never made visible or claimed. The git blame is not an aura.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "The capacity to produce: laying out interfaces, wiring APIs, configuring the build, translating a Figma design into components, fixing the CSS bug. Speed, mastery of the framework of the moment, a portfolio of delivered sites. All of this AI now reproduces in minutes, not days — and the developer's lever is, increasingly, identical to the lever of the machine that wields it for less.",
+  "fulcrum": "The judgment about what is not in the ticket: which architecture will withstand the growth the client doesn't yet know he'll have, which shortcut will be paid for dearly in six months, when to say no to the feature that will break the system. It is not writing code — it is deciding which code not to write, and answering for that decision when it blows up in production. That lives in someone who has seen systems blow up before, not in someone who merely generates correct syntax.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): both sell a lever AI replicates instantly, but the copywriter has the epistemic absent — his output is indistinguishable and no one verifies the author — whereas the developer's survives as assumed: the code works or it falls, and that is still checked. That is the distance between critical and warning. It is not about prestige — it is about irreversibility: copy regenerates without consequence, but a poorly architected system leaves a scar that someone has to answer for."
+  },
+  "escape": "Yes, but it demands ceasing to sell oneself as someone who writes code. The developer who survives migrates toward the axis AI does not occupy: architect who decides and answers for the entire system (epistemic verified by consequences over years), or trusted technical partner who knows the client's business from the inside and decides on his behalf what he doesn't know how to ask for (relational verified). In both cases he stops charging by the line and starts charging by judgment. The diagnosis does not condemn the person — it condemns the function of \"hands that type.\"",
+  "lesson": "When what you sell is that the code works, you already compete with a machine that also makes it work — and more cheaply. The fulcrum is not in writing the function, but in knowing which one not to write and answering for it when the system burns. The question is not \"do I program faster than AI?\" — it is \"what would break in the world if I stopped deciding what to build?\"",
+  "references": [
+    "Vol. 1, Ch. 5 — The three properties of the lever",
+    "Vol. 2, Ch. 19 — The thinking gap",
+    "Vol. 2, Ch. 22 — The commoditization of the lever"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

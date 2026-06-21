@@ -1,0 +1,70 @@
+{
+  "id": "027",
+  "title": "El Consultor SEO",
+  "sector": "Sector tech/digital",
+  "severity": "mixed",
+  "subtitle": "Una palanca que el propio buscador y la IA están commoditizando — sostenida por el único fulcro que un algoritmo no entrega: haber visto, durante años, qué pasa de verdad después de pulsar publicar.",
+  "opening": "Un miércoles a las once de la noche, un consultor SEO recarga por enésima vez el Search Console de un cliente de e-commerce que perdió el 40% de su tráfico orgánico tras la última actualización del núcleo de Google. La IA ya le ha generado un informe impecable: clusters de keywords, auditoría técnica, cien sugerencias de contenido optimizado. Pero el informe no sabe que esa misma caída ocurrió en 2019 con otro cliente del mismo sector, ni por qué recuperarse tardó siete meses y no tres. Lo que el cliente paga a las nueve de la mañana no es el informe — es que alguien haya estado mirando esa pantalla cuando el tráfico se desplomó, y haya vivido lo que viene después. Y sin embargo, cada año que pasa, esa diferencia se estrecha.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay colegiación, licencia ni infraestructura física que proteja la entrada. Un portátil, una suscripción a Ahrefs o Semrush y acceso a las mismas APIs que cualquier IA consume. Las herramientas que antes eran la barrera — crawlers, análisis de backlinks, generación de informes — son ahora las que automatizan el oficio.",
+      "crack": "El único activo material es el acceso a datos del cliente, y ese acceso es prestado, no propio: termina cuando termina el contrato.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "Aquí está el fulcro real. A diferencia del copy o del informe genérico, el SEO se verifica por consecuencias medibles e inapelables: el tráfico sube o no sube, la posición se gana o se pierde, la conversión llega o no. El consultor que ha guiado decenas de sitios a través de actualizaciones del algoritmo acumula un juicio que se demuestra en el dato, no en la presentación.",
+      "crack": "El epistémico es verificado pero erosionable: gran parte del conocimiento técnico (estructura, schema, velocidad) ya es público y replicable por IA. Lo que resiste es el juicio sobre lo ambiguo — qué penalización fue algorítmica y cuál fue de marca, cuándo esperar y cuándo actuar.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0.5
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Se asume que el cliente confía, pero la relación rara vez sobrevive a un trimestre malo o a una oferta más barata. El SEO se contrata por resultados, no por vínculo, y el vínculo se rompe cuando el resultado tarda — justo cuando más juicio se necesita. La confianza existe, pero es contractual y condicional, no acumulada e intransferible.",
+      "crack": "El relacional es asumido, no verificado: pocos clientes seguirían al consultor si cambiara de agencia, porque creen estar comprando una técnica, no a una persona.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "Existe un rastro de carrera — sitios escalados, recuperaciones documentadas, casos de estudio — pero casi siempre envuelto en NDA, atribuido a la agencia o invisibilizado por la naturaleza anónima del trabajo. La procedencia de contenido se diluye: nadie sabe quién optimizó esa página. La de forma — haber originado un método de diagnóstico propio — existe en los mejores, pero rara vez se hace pública ni se reclama.",
+      "crack": "La procedencia es demostrable en privado pero invisible en público: el rastro existe en los Search Console de otros, no en un cuerpo de obra que el consultor pueda enseñar y firmar.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    }
+  },
+  "lever": "La auditoría técnica, la investigación de keywords, la generación de contenido optimizado, el análisis de backlinks, los informes de posicionamiento. La IA reproduce hoy casi todo esto en minutos y con menor coste — y el propio Google, con sus resúmenes generativos, está canibalizando el clic orgánico que da sentido a la disciplina. La palanca del SEO se erosiona por los dos lados a la vez.",
+  "fulcrum": "El juicio acumulado sobre lo que el dato no dice: distinguir una caída algorítmica de una crisis de marca, saber cuándo una recuperación exige paciencia y cuándo exige pivote, haber vivido suficientes actualizaciones del núcleo para reconocer el patrón antes de que la herramienta lo confirme. Es conocimiento verificado por consecuencias reales en el tiempo — no por declaración, sino por sitios que subieron o cayeron bajo su criterio.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): ambos venden una palanca que la IA replica en segundos, pero el copywriter tiene el epistémico ausente — su output es indistinguible — mientras que el del consultor SEO está verificado por consecuencias inapelables: el tráfico sube o no sube. Esa es la distancia entre critical y mixed. No es de prestigio — es de irreversibilidad de la prueba: al copy nadie lo mide, al SEO lo mide el algoritmo cada día."
+  },
+  "escape": null,
+  "lesson": "Cuando lo que vendes es el informe, ya compites con una máquina más rápida y más barata. Cuando lo que vendes es haber visto desplomarse cien sitios y saber cuáles volvieron y por qué, no tienes competencia — tienes memoria. La pregunta no es \"¿optimizo mejor que la IA?\" — es: \"¿qué desaparecería del diagnóstico si yo dejara de mirar la pantalla cuando el tráfico cae?\"",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

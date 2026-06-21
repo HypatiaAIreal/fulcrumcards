@@ -1,0 +1,70 @@
+{
+  "id": "029",
+  "title": "El Data Analyst",
+  "sector": "Sector tech/digital",
+  "severity": "mixed",
+  "subtitle": "Una palanca que la IA ya escribe sola — SQL, dashboards, regresiones — sostenida por el único fulcro que no se consulta: saber qué pregunta vale la pena hacer, y poder decirle a la dirección que el número que celebran no significa nada.",
+  "opening": "Un miércoles a las cinco de la tarde, una analista de datos mira el dashboard que el equipo de producto lleva una semana esperando: las conversiones han subido un dieciocho por ciento tras el rediseño. Podría enviarlo y cobrar el aplauso. Pero recuerda que esa semana coincidió con la campaña de email y con un festivo, así que abre la consulta, segmenta, y descubre que el rediseño no movió nada — fue el calendario. La IA le habría escrito el SQL en segundos y dibujado el gráfico aún más rápido; lo que no habría hecho es dudar del dato antes de mandarlo. Lo que se paga no es la consulta. Es la persona que sabe cuándo el número miente.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay colegiación, licencia ni infraestructura física que proteja la entrada. Un portátil, acceso al warehouse y SQL — las mismas herramientas que la IA conectada a esos datos maneja de memoria. La barrera de entrada es un bootcamp de tres meses, no un cuerpo entrenado durante años.",
+      "crack": "El fulcro material es estructuralmente ausente: la infraestructura que usa el analista es idéntica a la que usa la máquina que ejecuta su trabajo.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se le cree porque produce números con apariencia de rigor: gráficos limpios, intervalos de confianza, significancia estadística. Pero su credibilidad rara vez se verifica por consecuencias — el analista entrega el insight y rara vez está cuando el resultado a un año confirma o desmiente su lectura. Cuando el dashboard miente, la culpa fue del dato; cuando acierta, fue el análisis.",
+      "crack": "La credibilidad es asumida, no verificada: se mide por la pulcritud del informe, no por si la decisión que provocó funcionó. Es el estado más peligroso, porque un gráfico bonito parece más cierto que uno feo.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Este es el fulcro real. La dirección no contrata una consulta — contrata a alguien en quien confía para que le diga que la métrica que iban a celebrar es ruido, o que el experimento que querían lanzar no medirá lo que creen. Esa confianza se construye decisión a decisión, error evitado a error evitado, y es lo único que la IA no puede ocupar: nadie le pregunta a un modelo si debe fiarse de su propio entusiasmo.",
+      "crack": "El fulcro es verificado pero personal e intransferible: vive en la analista concreta que conoce el negocio y sus trampas, no en el puesto. Si se va, ¿se lleva el criterio, o queda el dashboard que cualquiera puede regenerar?",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "El entregable se firma como el equipo de datos, no como autor. Las consultas se heredan, se reutilizan entre proyectos, se atribuyen a la herramienta de BI. Existe un rastro de carrera — análisis que cambiaron decisiones, modelos que predijeron bien — pero casi siempre queda enterrado en confidencialidad interna y propiedad colectiva.",
+      "crack": "La procedencia de contenido se diluye en el dashboard anónimo; la de forma — haber originado un modo de interrogar los datos del negocio — existe en los mejores, pero rara vez se hace visible ni se reclama.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "La ejecución técnica: escribir SQL, limpiar datos, construir dashboards, correr regresiones y tests A/B, sintetizar tablas en gráficos legibles. La IA conectada al warehouse hace hoy la mayor parte de esto en segundos, no en tardes, y con menos errores de sintaxis. El producto visible del analista —la consulta y el gráfico— es cada vez más indistinguible del que genera una máquina bien dirigida.",
+  "fulcrum": "El juicio sobre qué pregunta merece datos y cuál es una trampa. La desconfianza entrenada que detecta el sesgo de selección, la causa confundida con el calendario, la métrica de vanidad disfrazada de éxito. Y la confianza acumulada con personas concretas que cambian una decisión de un millón de euros porque ella dijo \"este número no significa lo que crees\".",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): ambos venden una palanca que la IA replica al instante, pero el copywriter tiene el relacional apenas asumido y el analista lo tiene verificado. Esa es la distancia entre critical y mixed — no de prestigio, sino de irreversibilidad relacional. A nadie le confiesa un comité su miedo a invertir mal preguntándole a quien solo redacta asuntos de email; se lo pregunta a quien sabe desmentir el dato."
+  },
+  "escape": null,
+  "lesson": "Cuando lo que entregas es el dashboard, ya compites con una máquina que lo dibuja más rápido y más limpio. Cuando lo que entregas es haber frenado a la dirección antes de que celebrara una subida que no existía, no tienes competencia. La pregunta no es \"¿escribo mejor SQL que la IA?\" — es \"¿qué decisiones se tomarían sobre datos falsos si yo dejara de dudar de ellos?\"",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

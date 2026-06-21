@@ -1,0 +1,70 @@
+{
+  "id": "037",
+  "title": "El Director de Cine",
+  "sector": "Cine y audiovisual",
+  "severity": "mixed",
+  "subtitle": "La palanca creativa se está volviendo generable a golpe de prompt — pero nadie le confía treinta millones y noventa días de rodaje a un modelo de lenguaje.",
+  "opening": "Un lunes a las cinco y media de la madrugada, una directora llega a un plató en el que ciento veinte personas ya esperan una decisión suya. La IA puede generar el storyboard, proponer el encuadre, simular la iluminación de esa secuencia y hasta redactar un nuevo diálogo en treinta segundos. Pero a las seis, cuando el actor diga que no siente la escena y el jefe de fotografía advierta que la luz se va en cuarenta minutos, no habrá prompt que decida: habrá una persona a la que ese equipo ha decidido seguir. Lo que se rueda hoy no es lo que estaba en el guion — es lo que ella sostiene en la sala cuando todo se tuerce. La pregunta no es si la máquina imagina mejores planos. Es quién mueve a la gente para hacerlos reales antes de que se acabe la luz.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "El cine sigue siendo infraestructura pesada: platós, equipos, presupuestos, calendarios, seguros, sindicatos. Dirigir es ocupar físicamente el centro de una operación de decenas o cientos de personas durante semanas. La IA carece de cuerpo en esa sala — y la sala existe, cuesta dinero por minuto y exige presencia.",
+      "crack": "La grieta crece por abajo: el corto, el videoclip y el contenido digital ya se producen sin plató, donde la barrera material casi desaparece y un prompt basta.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se le cree porque proyecta visión: un montaje previo, un festival, una nota de prensa, el aura de autor. Pero su criterio rara vez se verifica de forma aislada — el resultado lo firman cien manos y lo juzga una taquilla que depende de marketing, fecha de estreno y azar. Cuando la película funciona, fue su mirada; cuando fracasa, fue el montaje, el estudio o el público.",
+      "crack": "La credibilidad es asumida, no verificada: se mide por el último resultado y por el relato del autor, no por una cadena de aciertos atribuibles solo a su juicio. Es el estado más peligroso porque parece el más sólido.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Este es el fulcro real. Un director es alguien por quien actores rechazan otros proyectos, a quien financiadores adelantan capital, detrás de quien un equipo técnico se vuelca durante meses de agotamiento. Esa confianza se construye rodaje a rodaje, crisis a crisis, y es exactamente lo que la IA no puede ocupar: nadie atraviesa un rodaje de noventa días por un modelo de lenguaje.",
+      "crack": "El fulcro es verificado pero personal e intransferible, y desigual: el director consagrado lo tiene blindado, el que aún no ha estrenado lo tiene apenas asumido y a prueba en cada nuevo proyecto.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "Existe el crédito 'una película de' y una filmografía rastreable en el tiempo. Pero la autoría es disputada por diseño: guionista, montador, director de fotografía y estudio comparten la obra, y la procedencia de forma — haber originado una manera de mirar reconocible plano a plano — solo la poseen unos pocos. Para la mayoría, el rastro dice que estuvieron ahí, no que aquello no podría haber existido sin ellos.",
+      "crack": "La procedencia de contenido se diluye en la autoría colectiva; la de forma —una firma visual irreproducible— es lo único que la IA no puede regenerar, y casi nadie la tiene.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    }
+  },
+  "lever": "La capacidad creativa visible: imaginar planos, escribir y reescribir escenas, diseñar la luz, el ritmo del montaje, las referencias visuales, el moodboard. La IA generativa reproduce hoy buena parte de esto en segundos — storyboards, previs, variantes de encuadre, incluso secuencias completas sin cámara. La palanca del director como generador de imágenes es cada vez más indistinguible de la de la máquina bien dirigida.",
+  "fulcrum": "La autoridad confiada que mueve a cien personas hacia una visión que aún no existe, bajo presión, cuando el plan se rompe. El juicio de saber qué toma vale, a quién empujar y a quién contener, cuándo parar. Y, en los mejores, una firma de forma — un modo de mirar reconocible — que se autopropaga y no se puede regenerar porque nació de una vida concreta detrás de la cámara.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): ambos empuñan una palanca creativa que la IA replica, pero el copywriter tiene el material ausente y el relacional apenas asumido —a prueba mientras dure el vínculo con el cliente—, mientras que el director tiene ambos verificados. Esa es la distancia entre critical y mixed — y no es de prestigio: es de irreversibilidad. El copy se regenera en cuarenta segundos; el rodaje que ciento veinte personas atravesaron por confiar en una directora no se puede rehacer con un prompt."
+  },
+  "escape": null,
+  "lesson": "Cuando lo que vendes son los planos, ya compites con una máquina que los imagina más rápido. Cuando lo que vendes es que cien personas crucen un rodaje de noventa días porque confían en tu mirada, no tienes competencia. La pregunta no es \"¿imagino mejores imágenes que la IA?\" — es \"¿qué desaparecería de esa sala, al amanecer, si yo dejara de entrar a dirigirla?\"",
+  "references": [
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

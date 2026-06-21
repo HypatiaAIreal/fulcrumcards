@@ -1,0 +1,70 @@
+{
+  "id": "015",
+  "title": "Theranos",
+  "sector": "Cases from the book",
+  "severity": "critical",
+  "subtitle": "The case that defines the assumed fulcrum: a verification proclaimed at the top of one's lungs that, underneath, never existed.",
+  "opening": "In 2014, a patient holds out her finger in a Walgreens pharmacy in Phoenix and lets a lancet draw a single drop of blood. She has been promised that this tiny prick will replace the usual vial, that two hundred tests will come from that drop, that medicine has just changed. The company's founder, dressed in black, has repeated it on every stage with a deep voice and a gaze no one holds: the machine works. It did not work. That patient's drop, like nearly all of them, was secretly diluted and processed on commercial machines made by other manufacturers, because the promised device never once produced a reliable result.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "Theranos had overwhelming material existence in appearance: a nine-billion-dollar valuation, certified laboratories, a patented device, the Edison, displayed as physical proof of its existence. But the machine that justified everything did not do what it claimed to do. The infrastructure was real; what it produced was not.",
+      "crack": "The material fulcrum appeared verified, but it was a shell: the device existed as an object, not as a capability. Hardware without the function that defined it.",
+      "bar": [
+        0.5,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "absent",
+      "detail": "Here lies the heart of the fraud. All of Theranos's credibility rested on one claim—the technology works—that was never verified by consequences and that was actively prevented from being verified. Epistemic knowledge does not proclaim itself: it is confirmed when others can audit it. Theranos did the opposite: it concealed, faked demonstrations, and pursued anyone who asked for the proof.",
+      "crack": "What the world read as verified epistemic was absent epistemic disguised as assumed. The secrecy was not protecting a secret: it was covering a void.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "The board was a parade of impeccable names: secretaries of state, generals, a former secretary of defense. Walgreens, Safeway, and the press acted on trust in that network. But none of those endorsements were based on having verified the technology; they trusted in one another's trust. A chain of faith without a single link anchored to the real data.",
+      "crack": "The relational fulcrum was a mirage stacked upon itself: each endorsement lent credibility it had not checked, multiplying a zero until it looked like a fortune.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "There was no verifiable trace that the device had ever done what was claimed. Provenance was replaced with narrative: the founder who left Stanford, the drop of blood, the fear of needles turned into an origin myth. A polished story occupied the place where the chain of real, verifiable acts should have been.",
+      "crack": "Where provenance demands a trace, Theranos offered storytelling. And a story, however good, is not evidence that something happened.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Theranos's lever was the machinery of persuasion: the storytelling of a visionary founder, the magazine covers, the all-star board, the aesthetics of the disruptive genius. All of that is today infinitely reproducible—an AI drafts the perfect pitch, generates the origin narrative, and designs the magazine cover in minutes. Persuasion without substance is the cheapest lever there is.",
+  "fulcrum": "The only fulcrum that would have saved Theranos was the verified epistemic one: a machine that an independent third party could test and confirm. That cannot be simulated, narrated, or borrowed on endorsement—it is demonstrated or it does not exist. Theranos built its entire lever on the assumption that this fulcrum was there, when in reality it was the only one missing.",
+  "contrast": {
+    "card_ref": "016",
+    "text": "Compare it with Wikipedia (Card #016): there, every claim carries its source alongside it, exposed so that anyone can audit it and tear it down. Theranos did exactly the opposite: it armored the claim so that no one could check it. The distance is not one of scale or prestige—it is one of irreversibility: Wikipedia's trust regenerates with every transparent edit, while Theranos's evaporated the instant verification arrived, and never came back."
+  },
+  "escape": "There was no escape for Theranos as a company, but there is one as an operational lesson for anyone tempted to follow its path: invert the secrecy. The only way would have been to open the device to independent validation—publish peer-reviewed data, submit to the FDA before selling, let a rival laboratory replicate the results. Turning an assumed fulcrum into a verified one requires exposing yourself to outside judgment. Theranos chose the opposite, and that is why the fraud was inevitable: you cannot sustain forever a verification that refuses to be verified.",
+  "lesson": "The assumed fulcrum is the most dangerous because it looks like the safest—until someone asks for the proof. Theranos did not lie about its lever; it lied about having a fulcrum it never had. The question that brings down any empire built on smoke is not \"do they believe you?\" but \"what would be left if anyone could check it tomorrow?\"",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain yourself",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated",
+    "Vol. 2, Ch. 24 — The new aura is transparency"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

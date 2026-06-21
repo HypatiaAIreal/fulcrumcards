@@ -1,0 +1,70 @@
+{
+  "id": "035",
+  "title": "El Ético de IA",
+  "sector": "Filosofía y humanidades",
+  "severity": "warning",
+  "subtitle": "Una autoridad moral construida sobre marcos que la propia IA recita de memoria — sostenida por un único fulcro real: estar en la sala cuando se decide qué se lanza y qué no.",
+  "opening": "Un miércoles por la tarde, una éticista de IA presenta ante el comité de producto un documento de catorce páginas: principios de equidad, mitigación de sesgos, un marco de gobernanza con citas a Floridi y a la AI Act europea. El director técnico asiente, agradece, y pregunta si esto bloquea el lanzamiento del viernes. Ella sabe que la respuesta honesta es \"debería\", y sabe también que el modelo de lenguaje sentado en la otra pantalla podría haber redactado las mismas catorce páginas en noventa segundos, con las mismas citas. Lo que no podría hacer el modelo es lo que ella hace a continuación: mirar al director a los ojos y decir que, si lanzan, ella no firma. En ese instante se revela qué sostiene realmente su trabajo — no el documento, sino la voluntad verificada de costarle algo a alguien.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No existe colegiación, licencia ni cuerpo profesional que regule quién puede llamarse éticista de IA. Un portátil, acceso a la literatura pública y a los mismos marcos —Belmont, OCDE, AI Act— que cualquier modelo conoce de memoria. La barrera de entrada es retórica, no material.",
+      "crack": "Lo único que parece material es el cargo dentro de una organización, pero el cargo pertenece a la empresa, no a la persona: se elimina con un cambio de organigrama.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se le cree porque domina el vocabulario —fairness, alineamiento, gobernanza— y proyecta la autoridad de la academia. Pero su conocimiento rara vez se verifica por consecuencias: emite el dictamen y el daño, si llega, llega meses después y se atribuye a la ingeniería o al mercado. La IA reproduce el mismo discurso normativo sin que el comité note la diferencia.",
+      "crack": "Es el estado más peligroso porque parece sólido: la credibilidad se mide por la elegancia del marco, no por haber acertado en un caso donde acertar costaba algo.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Aquí está el fulcro real. Cuando la éticista dice 'no firmo', alguien con poder de decisión cambia el calendario de lanzamiento. Esa confianza se construye caso a caso, negativa a negativa, y vive en personas concretas —un CEO, un consejo, un regulador— que actúan basándose en su criterio. Ningún modelo ocupa esa silla: nadie delega en una IA la responsabilidad moral de parar un producto.",
+      "crack": "El fulcro es verificado pero personal e intransferible y depende de que la organización quiera oír un 'no'. Si la cultura cambia o la persona se va, la confianza no se transfiere con el puesto: se va con ella.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "El entregable se firma como la empresa o se diluye en un documento de políticas colectivo. Salvo los pocos que originaron un marco propio y reconocido, el dictamen ético es anónimo por diseño: nadie recuerda quién redactó la cláusula que evitó el desastre que no ocurrió. La cadena de actos vividos casi no deja rastro reclamable.",
+      "crack": "La procedencia de contenido se evapora en el comité; la de forma —haber originado un modo de ver el problema que otros adoptan— existe en una minoría, pero rara vez se hace visible.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "El dominio de los marcos: principios de equidad, taxonomías de sesgo, regulación comparada, redacción de políticas de gobernanza, auditorías de modelo documentadas. La IA reproduce hoy la mayor parte de este corpus en segundos, con las mismas fuentes y mejor cobertura. El producto entregable del éticista —el informe normativo— es cada vez más indistinguible del que genera una máquina bien dirigida.",
+  "fulcrum": "La voluntad verificada de decir 'no firmo' y que eso pare algo. El juicio situado de saber qué riesgo es tolerable en este contexto y este equipo, y la confianza acumulada con quienes deciden, que actúan porque es ella quien lo dice. No es el saber lo que no se regenera —el saber es público— sino la responsabilidad asumida con el cuerpo y el nombre cuando equivocarse cuesta.",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compárese con el restaurador de arte (Card #021): su juicio se verifica en el instante, en el lienzo, y cada acto es irreversible. El de la éticista se verifica meses después, sobre un daño difuso que casi siempre se atribuye a otro. La distancia no es de prestigio —ambos son rigurosos— sino de irreversibilidad: el restaurador no puede deshacer su toque; la éticista casi nunca llega a tocar."
+  },
+  "escape": "Sí, pero exige dejar de vender el documento y empezar a poseer la decisión. El éticista que sobrevive migra hacia el fulcro relacional verificado —ser la persona cuyo 'no' detiene un lanzamiento, no la que redacta el informe que se archiva— o hacia la procedencia de forma: originar un marco, un método o un estándar que otros adopten y citen con su nombre. En ambos casos deja de ser un recitador de principios y se convierte en alguien que carga con consecuencias. El diagnóstico no condena a la persona — condena a la función de redactar lo que la máquina ya redacta.",
+  "lesson": "Cuando tu autoridad moral son los marcos que cualquiera puede citar, compites con una máquina que los cita más rápido y más completos. Cuando tu autoridad es haber dicho 'no firmo' y haber pagado por ello, no tienes competencia, porque ninguna IA puede ser responsable. La pregunta no es '¿conozco la ética mejor que la IA?' — es '¿qué se lanzaría al mundo si yo dejara de negarme a firmarlo?'",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

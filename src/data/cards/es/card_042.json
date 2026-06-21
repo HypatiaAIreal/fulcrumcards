@@ -1,0 +1,70 @@
+{
+  "id": "042",
+  "title": "El Novelista",
+  "sector": "Literatura",
+  "severity": "mixed",
+  "subtitle": "La palanca —escribir frases— ya la empuña la máquina. Lo que sostiene al novelista no es la prosa, sino el nombre en la portada y los años que ese nombre tardó en significar algo.",
+  "opening": "Un miércoles a las seis de la mañana, antes de que despierte la casa, una novelista relee el capítulo que escribió ayer y borra la mitad. No porque esté mal escrito —técnicamente es impecable—, sino porque suena a cualquiera. Sabe que podría pedirle a una IA las otras ochenta mil palabras y nadie en una lectura ciega notaría la costura. Lo que la mantiene en la silla no es que escriba mejor que la máquina: es que su nombre lleva doce años en las portadas y hay lectores que esperan ese nombre, no esa prosa. La pregunta que la despierta a las seis es si eso bastará.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay colegiación, licencia ni infraestructura física que proteja la entrada al oficio. Un portátil, una habitación y tiempo —los mismos recursos que usa quien publica con IA y autoedita en cuarenta y ocho horas. El sello editorial puede aportar barrera material, pero esa barrera es del sello, no de la persona, y se desmorona con la autopublicación masiva.",
+      "crack": "El único activo material indirecto es el contrato con una editorial de prestigio, y ese activo no le pertenece al novelista: la editorial puede dejar de llamar.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se le cree porque ha publicado antes, porque hay reseñas, premios, una solapa con méritos. Pero su credibilidad rara vez se verifica frase a frase: en tests ciegos, los lectores no distinguen ya la buena prosa humana de la generada por IA. La autoridad se proyecta por el aparato editorial —faja, crítica, catálogo—, no por una cualidad del texto que la máquina no pueda imitar.",
+      "crack": "La credibilidad es asumida, no verificada en el objeto: descansa en el prestigio acumulado del nombre, no en una distinción demostrable del texto. Es el estado más peligroso porque parece el más seguro.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Existe una relación real: lectores fieles que compran cada libro nuevo, que recomiendan el nombre, que asisten a las firmas. Esa confianza pesa y mueve decisiones de compra. Pero para la mayoría de los novelistas esa red es difusa —compradores, no comunidad— y no se ha verificado si sobreviviría a un mercado inundado de ficción más barata y a la atención fragmentada de los lectores.",
+      "crack": "El vínculo es asumido: lealtad de catálogo, no de pacto. Solo en una minoría de autores con culto declarado el relacional cruza a verificado.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "A diferencia del copy anónimo, la novela se firma: el nombre va en la portada, el ISBN registra al autor, el depósito legal fecha la obra, existe contrato y manuscrito. La cadena de actos —años de escritura, borradores, una bibliografía que crece en el tiempo— es verificable y atribuible a una persona concreta. Este es el eje fuerte.",
+      "crack": "La procedencia de contenido es sólida hoy, pero se atenúa: cuando la IA puede generar 'una novela al estilo de', la firma protege la autoría legal pero no la singularidad de la voz si esa voz se vuelve imitable.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "lever": "La capacidad de producir prosa fluida, de dominar estructura narrativa, ritmo, diálogo, descripción. Todo eso —el oficio técnico que tardaba años en pulirse— lo reproduce hoy una IA en minutos y a coste cero. El manuscrito como objeto-producto, frase a frase, es cada vez más indistinguible del que genera una máquina bien dirigida. La palanca del novelista es ahora idéntica a la palanca de la herramienta que amenaza con reemplazarlo.",
+  "fulcrum": "Lo que no se puede regenerar es el nombre en la portada con su historia detrás: una voz reconocible construida libro a libro, una visión del mundo que un lector concreto ha aprendido a confiar y esperar. La procedencia de forma —haber originado una manera de mirar, no solo una sucesión de frases— es el eje que persiste y se autopropaga. No es la frase: es quién la firma y por qué un lector la busca a ella entre diez mil voces idénticas.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): ambos venden una palanca —palabras— que la IA replica en segundos, pero el copy es anónimo por diseño y el novelista firma su obra. Esa firma es la distancia entre critical y mixed: la procedencia ausente frente a la procedencia verificada. No es de prestigio —es de irreversibilidad de la autoría: nadie recuerda quién escribió el asunto de un email, pero el nombre en la portada queda fechado en el tiempo y no se puede regenerar."
+  },
+  "escape": null,
+  "lesson": "Cuando la prosa se vuelve indistinguible de la de una máquina, dejas de competir por escribir mejor y empiezas a competir por importarle a alguien. El novelista que sobrevive no es el que teclea más limpio —es aquel cuyo nombre un lector busca entre diez mil voces idénticas. La pregunta ya no es \"¿escribo mejor que la IA?\". La pregunta es: \"¿qué desaparecería del mundo si esta voz, la mía, dejara de firmar?\"",
+  "references": [
+    "Vol. 2, Cap. 22 — La commoditización de la palanca",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar",
+    "Vol. 2, Cap. 24 — La nueva aura es transparencia"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

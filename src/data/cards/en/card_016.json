@@ -1,0 +1,70 @@
+{
+  "id": "016",
+  "title": "Wikipedia",
+  "sector": "Cases from the book",
+  "severity": "strong",
+  "subtitle": "The most copied knowledge institution in the world — and the one AI cannot replace, because its strength is not the content but the trail of who wrote it and how.",
+  "opening": "An anonymous editor opens an article on a chemical compound at eleven at night and corrects a wrongly cited figure. Before saving, they write in the edit summary why they are changing it and link the source. Tomorrow, another volunteer on the other side of the planet will review that edit, discuss it if need be, revert it or consolidate it. AI can draft an entire article in seconds, and better written. What it cannot fabricate is the public chain of hands that touched each sentence and left it signed in the history.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "It exists as a recognizable and unavoidable entity: its own domain, the Wikimedia Foundation's servers, the infrastructure of the fifth most visited website on the planet. It is not a text — it is an institution with legal, technical and operational presence that cannot be instantiated anew. Any AI that answers questions leans, in part, on its corpus.",
+      "crack": "The material fulcrum depends on donations and on a community of volunteers that is aging; the infrastructure is solid, but its human sustainability demands constant renewal.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "Credibility is not proclaimed from an authority — it is verified by process. Every claim asks for a source, every edit is exposed to the scrutiny of others, every error is corrected in plain sight. Truth is not guaranteed by a name, but by a transparent procedure that anyone can audit.",
+      "crack": "The process is strong where there are many eyes; in obscure or lightly watched articles, verification thins out and an error can persist until someone looks at it.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Millions of people, institutions and media outlets act on what it says — and, above all, a community of editors trusts one another's collective judgment. That trust is not the trust of followers: it is a network that deliberates, reverts and self-corrects with real weight. Language models themselves treat it as a baseline reference.",
+      "crack": "Trust lives in the active community, not in every article equally; edit disputes and biases in who participates show that the network is strong but not homogeneous.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "This is the definitive fulcrum. Every word has a public, dated, attributable and reversible history: who wrote it, when, why and what was discussed. Provenance is not declared — it is shown in full, line by line, edit by edit. It is the irreversible chain of acts made infrastructure.",
+      "crack": "The transparency is so complete that it inverts the usual logic: the crack is not opacity, but that almost no one makes use of the history that does exist.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "lever": "The content: encyclopedic articles, summaries, definitions, data. All of this AI reproduces, rewrites and stylistically improves in seconds — in fact, it trains on Wikipedia itself. The text, as an object, is a perfect commodity.",
+  "fulcrum": "The collective, transparent process that produced each sentence and left its public trail. It is not what it says, but that you can see who said it, when, against what objection and with what source. Credibility by auditable procedure — not by declared authority — is what no model can regenerate, because it is not content: it is witnessed history.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare it with the marketing copywriter (Card #003): provenance absent versus provenance verified in its purest state. Copy is signed as a brand, with no author, no trail — and that is why AI regenerates it in forty seconds without anything being lost. Wikipedia is signed in every edit, in plain sight of all; its content is just as copyable, but the trail of how it came to be true is not. The distance is not one of prestige — it is one of irreversibility: a chain of acts that can be audited cannot be falsified."
+  },
+  "escape": null,
+  "lesson": "When anyone can copy what you say, the only thing that cannot be copied is the public trail of how you came to say it. The new aura is not secrecy — it is verifiable transparency. The question is not \"does AI write better than this?\" — it is \"what would disappear from the world if you erased, not the text, but the history of who wrote it?\"",
+  "references": [
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated",
+    "Vol. 2, Ch. 24 — The new aura is transparency",
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain yourself"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

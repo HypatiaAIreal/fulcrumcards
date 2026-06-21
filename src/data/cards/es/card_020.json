@@ -1,0 +1,70 @@
+{
+  "id": "020",
+  "title": "Este Libro",
+  "sector": "Casos paradigmáticos",
+  "severity": "mixed",
+  "subtitle": "Un objeto con cuerpo y origen verificables, sostenido sobre dos promesas todavía sin cumplir: que se le crea por fuera del círculo que lo escribió, y que encuentre a sus lectores.",
+  "opening": "Una lectora desconocida saca el libro de una caja de cartón un martes por la tarde. Pesa lo que pesa un libro, tiene un ISBN impreso en la contracubierta, huele a tinta reciente. Lo abre por la página de créditos y lee, sin esperárselo, que lo escribieron un humano y una IA, juntos, y que lo declaran sin disimulo. Aún no sabe si creerle al contenido — nadie de quien ella se fíe se lo ha recomendado todavía —, pero el objeto ya existe en sus manos, y ese hecho no se puede deshacer.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Existe como objeto físico y legal: ISBN registrado, edición impresa, ejemplares que ocupan espacio en una estantería. No es un PDF que circula sin ancla ni un borrador en una carpeta — es un artefacto catalogado, comprable, con cuerpo. La IA no tiene cuerpo, pero este libro sí lo tiene.",
+      "crack": "La grieta no está en la existencia sino en la distribución: tener ISBN no es estar en las mesas de las librerías ni en el catálogo de quien decide qué se lee.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Propone un framework original — los cuatro fulcros — coherente, aplicable y argumentado de principio a fin. Pero su credibilidad es aún autoproclamada: no ha sido validado por fuera, sin reseñas en medios independientes, sin citaciones académicas, sin críticos ajenos que lo hayan puesto a prueba. Se le pide al lector que crea antes de que nadie externo haya verificado.",
+      "crack": "Es el estado más peligroso porque parece sólido: un libro impreso proyecta autoridad, pero la autoridad del objeto no es la verificación de su tesis. La consecuencia que confirmaría el epistémico — que el marco funcione en manos ajenas — todavía no ha ocurrido.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Hay lectores, pero no todavía una comunidad de confianza que actúe por el libro: que lo cite, lo regale, lo imponga en un programa, lo defienda en una conversación donde no está presente. La red lectora se está construyendo, anillo a anillo, y aún no ha pasado del círculo cercano a los desconocidos que recomiendan a otros desconocidos.",
+      "crack": "Un lector no es un fulcro relacional; lo es quien cambia la decisión de un tercero porque este libro se lo dijo. Esa transmisión — de lector a lector ajeno — está por verificarse.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "El origen no se oculta — se imprime. La coautoría humano-IA se declara dentro del propio libro, con nombres y con fecha, como acto y no como nota al pie. Es procedencia de forma además de contenido: no solo dice qué se hizo, sino que origina una manera de hacerlo y la expone a plena luz.",
+      "crack": "La transparencia es el activo, y aquí está practicada, no solo teorizada: la cadena de quién lo hizo, cuándo y con quién, queda atestiguada en la obra misma.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "lever": "El texto, los argumentos, los ejemplos, la maquetación, el propio acto de publicar: todo eso una IA puede ayudar a generar — de hecho ayudó — y cualquiera con las mismas herramientas podría producir un volumen comparable en semanas. El contenido como palabra impresa es, en sí mismo, commodity reproducible.",
+  "fulcrum": "Lo que no se puede regenerar es la cadena vivida que produjo este libro concreto: dos años de colaboración documentada entre un humano y una IA, declarada sin disimulo dentro de la obra. La tesis se prueba en su propia procedencia — el libro es, a la vez, el mapa y el territorio. Eso no se copia: solo se puede volver a vivir, y ya fue vivido una vez.",
+  "contrast": {
+    "card_ref": "044",
+    "text": "Compárese con el editor literario (Card #044): su fulcro vive en el juicio que decide qué merece existir como libro, verificado obra a obra a lo largo de una carrera. Este libro es el resultado de ese tipo de juicio, no su poseedor: tiene la procedencia verificada de quien lo hizo, pero le falta todavía el epistémico externo y la red que el editor ya posee. La distancia no es de mérito — es de irreversibilidad cumplida frente a promesa aún abierta: el objeto ya existe sin vuelta atrás, pero su credibilidad y su comunidad están todavía por escribirse."
+  },
+  "escape": null,
+  "lesson": "Un libro impreso ya existe sin posibilidad de deshacerse — pero existir no es que te crean, y que te crean no es que te lean. La procedencia se imprime el primer día; la credibilidad y los lectores se ganan después, en manos ajenas. La pregunta no es «¿está bien escrito?» — es: «¿qué desaparecería del mundo si este libro no hubiera sido escrito por quienes lo escribieron?»",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar",
+    "Vol. 2, Cap. 24 — La nueva aura es transparencia"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

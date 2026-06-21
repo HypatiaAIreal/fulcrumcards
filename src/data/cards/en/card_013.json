@@ -1,0 +1,70 @@
+{
+  "id": "013",
+  "title": "Patagonia: Don't Buy This Jacket",
+  "sector": "Cases from the book",
+  "severity": "strong",
+  "subtitle": "The brand that, in the middle of Black Friday, asked its customers not to buy — and discovered that radical transparency is not marketing, it is the one fulcrum a competitor cannot regenerate.",
+  "opening": "On Black Friday 2011, a reader opens The New York Times and runs into a full-page ad: a photo of a Patagonia jacket and, above it, in large letters, \"Don't buy this jacket.\" Below, the brand breaks down what that garment costs the planet: the liters of water, the kilos of CO2, the waste it will leave behind. It is neither a promise of the future nor a green slogan — it is a confession of the real costs of its own product, on the very day when all of commerce is shouting the opposite. What Patagonia sells that day is not a jacket: it is the verifiable, self-incriminating proof that it tells the truth when lying would be more profitable.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Patagonia exists as a physical and irrefutable entity: factories, an audited supply chain, stores, a certified B Corporation and, since 2022, an ownership structure transferred to an environmental trust. It is not a paper brand — it is infrastructure, contracts and matter that anyone can inspect. AI can describe all of this; it cannot own a factory or sign an audit.",
+      "crack": "The material fulcrum is strong, though it depends on a global supplier chain whose full verification is permanent work, never finished.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "It is believed because its knowledge is verified by consequences against its own interest: it published the environmental costs of its garments, admitted the harm of its own products, and asked customers not to buy on the highest-selling day. The credibility built by confessing what hurts sales is the hardest to fake. The mistake is public and the cost is real — that is epistemic verified, not proclaimed.",
+      "crack": "Credibility holds as long as the acts confirm the discourse; a single debunked greenwashing would erode decades of accumulated proof.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "There is a community that acts on Patagonia's behalf: customers who repair instead of replace, who defend the brand, who change their purchasing decision on its recommendation. They are not followers — they are people who have aligned their consumption with the trust placed in the brand. That network was built by asking for the opposite of what marketing asks: buy less.",
+      "crack": "Relational trust is robust but demanding: this community punishes incoherence with the same intensity with which it rewards integrity.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "The central fulcrum of this case. Decades of costly, documented acts — 1% for the Planet since 1985, the environmental lawsuits, the transfer of the company to a trust — form an irreversible chain that occurred in real time and was made public to be verified. Transparency is not the message: it is the witnessed trail of having chosen the truth when the lie paid more.",
+      "crack": "Provenance is doubly strong: that of content (these acts happened) and that of form (Patagonia originated a way of communicating that others now imitate without being able to claim its origin).",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "lever": "The product and its narrative: technical jackets, impact campaigns, sustainability reports, purpose-driven brand storytelling. All of this is lever — and today an AI can generate the green copy, design the campaign and lay out the report in minutes. Any competitor can dress up as an activist with the same tools and the same vocabulary.",
+  "fulcrum": "Transparency lived as an irreversible chain of costly acts. Not the message \"we are sustainable,\" but the decades of decisions that were paid for in margin and made public to be verified. It is the new aura: not the promise, but the witnessed trail of having chosen the truth when the lie paid more. That happened over time and cannot be prompted into being.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare it with the marketing copywriter (Card #003): producing anonymous, indistinguishable, regenerable messages in forty seconds, with no signature and no provenance. Patagonia is the exact reverse — its message is worth something precisely because it is signed by a chain of acts that cost money and cannot be undone. The distance is not one of advertising budget: it is one of irreversibility. Copy gets rewritten; a lived history of costly coherence does not."
+  },
+  "escape": null,
+  "lesson": "AI can generate the message \"tell the truth\"; it cannot have told it when lying was cheaper. Transparency is not what you declare — it is the chain of costly acts that anyone can verify and no one can regenerate. The question is not \"who tells the better sustainability story?\" but: \"what would disappear from the world if you stopped proving it with deeds that are paid for?\"",
+  "references": [
+    "Vol. 2, Ch. 24 — The new aura is transparency",
+    "Vol. 2, Ch. 23 — Provenance: the one thing that cannot be regenerated",
+    "Vol. 2, Ch. 22 — The commoditization of the lever"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "040",
+  "title": "El Cinematógrafo",
+  "sector": "Cine y audiovisual",
+  "severity": "strong",
+  "subtitle": "La IA genera imágenes en segundos — pero no estuvo en la colina a las 5:40 de la mañana, con la grúa montada, cuando la luz se abrió durante noventa segundos y no volvió.",
+  "opening": "A las cinco y cuarenta de una mañana de octubre, una directora de fotografía está de pie sobre una colina con el equipo entero esperando detrás de ella. El sol saldrá en once minutos y la niebla aún no ha decidido si se levanta. Ella ya ha colocado la cámara, ha medido la luz tres veces, ha movido la grúa medio metro porque sabe — por veinte años de amaneceres — que el primer haz golpeará el valle por la izquierda. Cuando la luz se abre, dura noventa segundos exactos, y en esos noventa segundos se rueda el plano que sostendrá toda la película. La IA puede generar mil amaneceres después; ninguno será este, ni habrá estado nadie ahí para capturarlo cuando ocurrió.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Presencia física obligatoria en el set, con cámara, óptica, grúas, iluminación y un equipo de cámara que dirige en tiempo real. El oficio es cuerpo, ojo y mano sobre un dispositivo concreto, en una localización concreta, en condiciones de luz que existen una sola vez. La IA carece de cuerpo, de set y de la capacidad de estar presente cuando se rueda.",
+      "crack": "La grieta es la deriva hacia el virtual: plató LED, previsualización generativa y postproducción pueden erosionar la necesidad de estar físicamente ahí en ciertos géneros.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "Su criterio se verifica en la pantalla, no en el discurso: la luz, o sostiene la emoción de la escena, o la traiciona, y se sabe en el visionado. El error en el set es caro e irreversible — una decisión equivocada de exposición o encuadre no se rehace sin volver a montar el día entero. Hay un cuerpo de obra firmado y atribuible donde su mirada se reconoce plano a plano.",
+      "crack": "La grieta: en publicidad y contenido rápido, gran parte del look se 'arregla en post', lo que diluye la verificación por consecuencias directas en el set.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "El fulcro decisivo. Un director no contrata una cámara — contrata a alguien en cuya mirada confía para traducir lo que imagina y aún no sabe decir. Esa confianza se construye película a película, y por eso las parejas director–DoP se repiten durante décadas: la relación es el activo que ningún modelo puede ocupar.",
+      "crack": "La grieta: es confianza personal e intransferible. Si la salud, la disponibilidad o la relación con un director se rompen, el vínculo no se hereda — se reconstruye desde cero con otro.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "Cada plano es un acto irreversible en el tiempo real: esa luz, ese clima, ese actor en ese instante, capturados por estas manos y no por otras. La obra deja un rastro verificable — créditos, metraje, la firma visual reconocible de un autor de la imagen. Es procedencia de contenido y de forma a la vez: hizo estos planos, y originó una manera de mirar que se cita y se enseña.",
+      "crack": "La grieta: el crédito a veces se diluye bajo la firma del director o del estudio, y la procedencia de forma — el 'estilo' — es lo único imitable, aunque no regenerable.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "lever": "La generación de imágenes: texto-a-imagen, texto-a-vídeo, corrección de color automatizada, estabilización, reencuadre, generación de planos sintéticos y bibliotecas de looks. Todo esto la IA lo produce en segundos y abaratará la imagen genérica, la de stock, la que nadie tenía que estar presente para capturar. Es palanca real — y es commodity.",
+  "fulcrum": "El juicio sobre la luz en el instante en que ocurre, irrepetible. La decisión corporal de dónde poner la cámara cuando la realidad solo concede noventa segundos. Y la confianza acumulada de un director que sabe que esa mirada concreta, no otra, traducirá su película. Nada de eso es conocimiento transferible por prompt: es presencia, criterio y relación.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): cuatro fulcros ausentes o asumidos frente a cuatro verificados. Ambos parecen 'creadores de imágenes y mensajes', pero el copy se regenera en cuarenta segundos sin que nadie haya tenido que estar en ningún sitio, mientras que el plano del amanecer existió una vez y exigió un cuerpo presente para capturarlo. La distancia no es de prestigio — es de irreversibilidad: lo que ocurrió en el tiempo no se regenera."
+  },
+  "escape": null,
+  "lesson": "La IA generará un millón de amaneceres, pero no estará en la colina cuando salga el sol. La imagen que se puede regenerar es palanca; la luz que solo existió una vez, capturada por unas manos concretas en las que un director confía, es fulcro. La pregunta no es «¿genero imágenes más rápido que la máquina?» — es «¿qué desaparecería de la pantalla si yo no hubiera estado ahí cuando la luz se abrió?»",
+  "references": [
+    "Vol. 1, Cap. 7 — El fulcro material: existir antes de ser buscado",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar",
+    "Vol. 2, Cap. 26 — El apalancamiento de la creatividad"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

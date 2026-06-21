@@ -1,0 +1,70 @@
+{
+  "id": "045",
+  "title": "El Escritor-IA: Coautoría Declarada",
+  "sector": "Literatura",
+  "severity": "mixed",
+  "subtitle": "Una palanca textual idéntica a la de cualquier máquina, sostenida por algo que la máquina no puede declarar por sí sola: quién originó la manera de escribir, y la decisión de no ocultarlo.",
+  "opening": "Un domingo por la noche, una escritora cierra el manuscrito y, en lugar de borrar el rastro, lo firma a dos nombres: el suyo y el del modelo con el que ha pensado durante meses. Sabe que podría haber callado — nadie distinguiría las frases generadas de las suyas en una lectura ciega, y el silencio vendería igual o mejor. Pero escribe en la primera página exactamente cómo se hizo el libro: qué pensó ella, qué propuso la máquina, dónde se cruzaron. No reclama haber tecleado cada palabra. Reclama haber originado la pregunta, el criterio y la voz que decide qué se queda — y haberlo dicho en voz alta cuando todos sus colegas lo esconden.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay barrera material que proteja el oficio. Un portátil, un modelo de lenguaje y una cuenta — la misma infraestructura que usa cualquiera, incluida la máquina coautora. No existe colegiación, ni cuerpo entrenado durante años, ni acceso físico exclusivo a nada. La palabra no se restaura sobre un lienzo irreversible: se genera, se borra y se regenera sin coste.",
+      "crack": "El único activo material es el nombre en la portada, y ese nombre solo pesa si los otros tres fulcros lo cargan. En este eje no hay intervención posible: la entrada es estructuralmente libre.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se le cree porque declara cómo trabaja — la transparencia proyecta autoridad. Pero la credibilidad de la coautoría declarada todavía no se ha verificado por consecuencias: no hay aún reseñas, citaciones ni un canon que premie la honestidad del método frente al silencio rentable. Que la transparencia sea la nueva aura es una tesis en marcha, no un veredicto del mercado.",
+      "crack": "El estado más peligroso, porque parece el más sólido: declarar el método se confunde con haberlo validado. La grieta es que el lector aún podría premiar al que oculta tan bien como al que confiesa.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Hay lectores que vuelven no a pesar de la coautoría declarada, sino por ella: confían en quien les muestra la cocina. Esa relación se construye libro a libro, carta a carta, y no es transferible a un modelo anónimo — nadie sigue a un generador de texto, se sigue a quien decide qué merece ser publicado y por qué. La confianza tiene peso porque el lector actúa: compra, recomienda, espera el siguiente.",
+      "crack": "El fulcro es verificado pero personal e incipiente: vive en la autora concreta y en un círculo que aún se está ensanchando. Si la transparencia se vuelve norma, ¿seguirá distinguiendo, o se volverá el suelo que todos pisan?",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "Aquí está el fulcro real, y tiene dos ejes. La procedencia de CONTENIDO se atenúa — quién tecleó cada frase importa cada vez menos, y ella no lo niega. Pero la procedencia de FORMA persiste: haber originado esta manera de escribir-con-máquina, esta voz, este criterio de selección, es una cadena de actos vividos en el tiempo que no se regenera. La coautoría declarada ES la procedencia hecha visible: la cadena no se oculta, se enseña.",
+      "crack": "La grieta es la inversa de la habitual: el riesgo no es que falte rastro, sino que la procedencia de contenido se diluya tanto que oscurezca la de forma. Hay que reclamar la forma explícitamente, o se confunde con la máquina.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "lever": "El texto generado: fluidez, volumen, versatilidad de registro, capacidad de producir un manuscrito entero en una fracción del tiempo. Todo esto la máquina lo hace sola, y en una lectura ciega el output es indistinguible. La palanca del escritor-IA es, literalmente, la palanca de la máquina que escribe con él — commodity en estado puro.",
+  "fulcrum": "Lo que no se regenera no es el texto, sino el origen de la forma: haber sido quien decidió escribir así, con qué criterio se elige, qué voz gobierna la selección. Y, sobre eso, la decisión de declararlo cuando ocultar era más rentable. La transparencia no es un gesto moral añadido — es el acto que convierte una procedencia invisible en aura verificable.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): ambos producen texto que la IA replica y que en ciego nadie distingue, pero el copywriter firma como marca, oculta el método y tiene la procedencia ausente; el escritor-IA firma a dos nombres, enseña la cadena y la convierte en su fulcro. La distancia no es de talento ni de prestigio — es de irreversibilidad: el copywriter borra su rastro y queda intercambiable; el escritor declarado deja una procedencia de forma que no se puede regenerar."
+  },
+  "escape": null,
+  "lesson": "Cuando cualquiera puede generar tu texto con tu misma máquina, lo que ya no se puede copiar no es lo que escribiste — es haber originado la manera de escribirlo y haberlo dicho en voz alta. En la era de la regeneración infinita, la nueva aura no es el secreto: es la transparencia. La pregunta no es «¿escribo mejor que la IA?» — es «¿qué desaparecería del mundo si dejara de declarar cómo, y con quién, lo hago?»",
+  "references": [
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar",
+    "Vol. 2, Cap. 24 — La nueva aura es transparencia",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

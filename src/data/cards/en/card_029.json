@@ -1,0 +1,70 @@
+{
+  "id": "029",
+  "title": "The Data Analyst",
+  "sector": "Tech / digital sector",
+  "severity": "mixed",
+  "subtitle": "A lever that AI already writes on its own — SQL, dashboards, regressions — held up by the one fulcrum nobody queries: knowing which question is worth asking, and being able to tell leadership that the number they're celebrating means nothing.",
+  "opening": "On a Wednesday at five in the afternoon, a data analyst looks at the dashboard the product team has been waiting on for a week: conversions are up eighteen percent after the redesign. She could send it and collect the applause. But she remembers that week coincided with the email campaign and a public holiday, so she opens the query, segments it, and discovers the redesign moved nothing — it was the calendar. AI would have written the SQL in seconds and drawn the chart even faster; what it would not have done is doubt the figure before sending it. What gets paid for isn't the query. It's the person who knows when the number is lying.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "There is no professional licensing, certification, or physical infrastructure protecting entry. A laptop, access to the warehouse, and SQL — the same tools that the AI connected to that data handles by heart. The barrier to entry is a three-month bootcamp, not a body trained over years.",
+      "crack": "The material fulcrum is structurally absent: the infrastructure the analyst uses is identical to the one used by the machine that executes their work.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "She is believed because she produces numbers with the appearance of rigor: clean charts, confidence intervals, statistical significance. But her credibility is rarely verified by consequences — the analyst delivers the insight and is rarely around when the one-year outcome confirms or refutes her reading. When the dashboard lies, the data was to blame; when it's right, it was the analysis.",
+      "crack": "Credibility is assumed, not verified: it is measured by the tidiness of the report, not by whether the decision it triggered worked. It is the most dangerous state, because a pretty chart looks more true than an ugly one.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "This is the real fulcrum. Leadership doesn't hire a query — it hires someone it trusts to say that the metric they were about to celebrate is noise, or that the experiment they wanted to launch won't measure what they think. That trust is built decision by decision, avoided mistake by avoided mistake, and it is the one thing AI cannot occupy: no one asks a model whether it should trust its own enthusiasm.",
+      "crack": "The fulcrum is verified but personal and non-transferable: it lives in the specific analyst who knows the business and its traps, not in the role. If she leaves, does she take the judgment with her, or does the dashboard remain, which anyone can regenerate?",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "The deliverable is signed as the data team, not as an author. Queries are inherited, reused across projects, attributed to the BI tool. There is a career trail — analyses that changed decisions, models that predicted well — but it almost always stays buried in internal confidentiality and collective ownership.",
+      "crack": "Provenance of content dissolves into the anonymous dashboard; provenance of form — having originated a way of interrogating the business's data — exists in the best of them, but is rarely made visible or claimed.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Technical execution: writing SQL, cleaning data, building dashboards, running regressions and A/B tests, distilling tables into legible charts. AI connected to the warehouse now does most of this in seconds, not afternoons, and with fewer syntax errors. The analyst's visible product — the query and the chart — is increasingly indistinguishable from what a well-directed machine generates.",
+  "fulcrum": "The judgment about which question deserves data and which is a trap. The trained distrust that detects selection bias, cause confused with calendar, the vanity metric disguised as success. And the trust accumulated with specific people who change a million-euro decision because she said \"this number doesn't mean what you think.\"",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): both sell a lever that AI replicates instantly, but the copywriter's relational fulcrum is barely assumed while the analyst's is verified. That is the distance between critical and mixed — not of prestige, but of relational irreversibility. No committee confesses its fear of investing badly to someone who only drafts email subject lines; it asks the person who knows how to debunk the data."
+  },
+  "escape": null,
+  "lesson": "When what you deliver is the dashboard, you already compete with a machine that draws it faster and cleaner. When what you deliver is having stopped leadership before it celebrated a rise that never happened, you have no competition. The question isn't \"do I write better SQL than the AI?\" — it's \"what decisions would be made on false data if I stopped doubting it?\"",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain",
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 22 — The commoditization of the lever"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

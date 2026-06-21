@@ -1,0 +1,70 @@
+{
+  "id": "017",
+  "title": "The AI Ghostwriter",
+  "sector": "Paradigmatic cases",
+  "severity": "critical",
+  "subtitle": "The limit case of the commoditized lever: he writes with AI a text that, by contract, will never bear his name. Provenance is not weakened — it is severed before it begins.",
+  "opening": "One Wednesday at midnight, a ghostwriter pastes into Claude the final chapter of a book by a CEO he has never seen in the flesh. \"Rewrite it in his voice, warmer, with a childhood anecdote.\" He reviews it, adjusts two sentences, sends it off. The book will come out next year with the CEO's photo on the cover and his name in gold letters; nowhere will the person who wrote it appear, and the confidentiality agreement guarantees he never will. Tonight he has done work that a machine did 80% of — so that someone else can sign what neither of them lived.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No barrier to entry, no professional accreditation, no physical infrastructure. A laptop, a confidentiality agreement, and access to the same AI that already generates prose in whatever voice is requested. The ghostwriter's tool is identical to the tool that replaces him.",
+      "crack": "The material fulcrum is structurally absent: there is nothing physical that must be there, with that body, those hands.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "absent",
+      "detail": "By definition, no one is meant to tell his hand apart from that of the credited author — the craft consists of disappearing. And ever since AI writes in any voice on demand, his output cannot be distinguished from the machine's either. A credibility measured by its own invisibility cannot accumulate in anyone.",
+      "crack": "The epistemic fulcrum is not only indistinguishable from AI: professional success REQUIRES it to be indistinguishable. The excellence of the craft is its own commoditization.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "There is a bond with the client who signs, but it is a relationship built on concealment, not on public recognition. The client does not recommend his ghostwriter — his value depends on denying that he exists. It is trust that, by contract, cannot become a network.",
+      "crack": "It is the only axis that is not absent, but it is assumed and fragile: a relationship that must remain secret generates no transferable reputation, and it breaks the moment a cheaper alternative appears that also signs in silence.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "Here the case becomes paradigmatic. Provenance is not diluted over time as in other anonymous crafts — it is amputated at the source: the contract stipulates that the name will never appear. There is no verifiable trace that he did this, because the confidentiality clause exists precisely to erase it.",
+      "crack": "It is not that provenance is weak: it is legally impossible. The chain of lived acts is severed before it begins, by design and by signature.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Fluency of prose, the ability to imitate others' voices, the speed to produce chapters on deadline, command of narrative structure and tone. AI reproduces all of this today in a single session — and it also reproduces the hardest part of the craft: writing convincingly in someone else's voice. The ghostwriter's lever is exactly what AI is native to.",
+  "fulcrum": "Almost nothing remains standing. The only irreducible thing would be the provenance of FORM — having originated a way of thinking that the client wants to embody — but the contract confiscates it: what is originated is attributed to another and sealed in silence. When the craft consists of your trace not existing, there is no fulcrum to regenerate: you signed it away so it would disappear.",
+  "contrast": {
+    "card_ref": "044",
+    "text": "Compare with the literary editor (Card #044): both work another's prose and both remain off the cover, but the editor leaves a verifiable trace — her judgment is recognized within the craft, her authors name her, her criterion accumulates reputation. The distance is not one of prestige: it is one of irreversibility. The editor originates a way of reading that persists and is attributed to her; the ghostwriter signs a contract so that his origin can never be proven."
+  },
+  "escape": "Yes, but it requires inverting the very contract that defines the craft. The ghostwriter who survives stops selling invisibility and starts selling visible authorship: he becomes a credited collaborator (\"with\", \"as told to\"), an author in his own right who builds provenance under his own name, or an editorial director whose criterion is recognized and cited. In each case he stops being a ghost — he recovers the trace. The diagnosis does not condemn the one who writes; it condemns the function of writing to disappear.",
+  "lesson": "There are crafts that AI commoditizes; ghostwriting commoditized itself the day it signed not to appear. When your excellence is measured by how invisible you are, you do not compete with the machine: you already agreed to be one. The question is not \"do I write in his voice better than AI?\" — it is \"what would be left of you in the world if no one could prove that anything was yours?\"",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain yourself",
+    "Vol. 2, Ch. 22 — The commoditization of the lever",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

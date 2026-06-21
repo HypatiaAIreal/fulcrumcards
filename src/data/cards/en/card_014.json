@@ -1,0 +1,70 @@
+{
+  "id": "014",
+  "title": "WeWork",
+  "sector": "Cases from the book",
+  "severity": "critical",
+  "subtitle": "An office-sublease real estate company dressed up as a technology firm — and what happens when the narrative is the only fulcrum, and it turns out to be merely assumed.",
+  "opening": "In August 2019, Adam Neumann walks barefoot across a Manhattan office floor that his company does not own: it leased the space long-term and subleases it by the month, with colorful sofas, beer on tap, and the word \"community\" painted on the walls. The IPO prospectus he has just filed uses the word \"technology\" more than a hundred times and promises to \"elevate the world's consciousness.\" Six weeks later, the valuation collapses from 47 billion to under 8 billion, the IPO is pulled, and the board ousts him. What was laid bare was not an accounting fraud like Theranos's — it was something more banal and more instructive: a commodity lever (office space leased and re-leased) disguised as a fulcrum just long enough to raise capital. When the market looked beneath the narrative, it found nothing that couldn't be regenerated with a lease and an interior designer.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "WeWork did not own its buildings: it leased them long-term and subleased them short-term. The material asset that propped up the valuation belonged to the property owners, not to WeWork. The supposed barrier to entry — opening coworking spaces — could be replicated by any competitor with capital and a lease, and indeed dozens did.",
+      "crack": "There was no proprietary infrastructure, only long-term lease liabilities financing short-term revenue. The only material asset belonged to others.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "absent",
+      "detail": "The central claim — that WeWork was a technology company and not a real estate company — did not survive verification by consequences. There was no defensible technology to justify a software multiple; there were subleased square meters with an app on top. As soon as the IPO prospectus exposed the accounts to public scrutiny, credibility collapsed within weeks.",
+      "crack": "Credibility was measured by the founder's charisma and SoftBank's backing, not by unit economics. It was self-proclaimed, never verified.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "A real network existed: tenants, employees, and first-rate investors such as SoftBank whose backing looked like validation. But that trust was anchored in the narrative, not in the business — investors were acting on Neumann's story, not on a relationship that would survive the truth. When the valuation fell, the network dissolved: SoftBank renegotiated, employees lost their options, tenants were month-to-month customers with no loyalty.",
+      "crack": "Trust was assumed, not verified: no one had checked whether the network would survive scrutiny. It did not survive six weeks of it.",
+      "bar": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "There was nothing originated that could not be regenerated. WeWork did not invent the coworking model — it already existed (Regus had been at it for decades). The form — \"community,\" \"elevate consciousness\" — was rhetorical wrapping, not a way of doing things that propagated itself. No trail of irreversible acts remained, only a brand that could be emptied out and resold.",
+      "crack": "Neither provenance of content (the format was pre-existing) nor of form (the narrative originated nothing replicable of value). The chain never existed.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Office space leased and re-leased, wrapped in attractive design, a booking app, and the vocabulary of software (\"platform,\" \"community,\" \"space-as-a-service\"). The entire lever was a commodity: anyone with access to capital and to leases could replicate it, and the very existence of Regus and dozens of imitators proved it. The speed of expansion, the branding, and the tech rhetoric were not a fulcrum — they were a rented lever, just like the buildings.",
+  "fulcrum": "There was none. The only point of support WeWork offered was the story it told about itself — and a story is not a fulcrum, because it rewrites itself the moment anyone looks underneath. Beneath the narrative there was no irreplaceable judgment, no defensible position, no irreversible history: only other people's square meters and a promise of the future that anyone could reword. The invisible fulcrum that appeared to hold up the valuation was, in fact, assumed; and an assumed fulcrum is an absent fulcrum that has simply not yet been tested.",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compare with the art restorer (Card #021): four verified fulcrums against zero. The restorer works with the irreversible — every touch leaves a mark that cannot be undone, and that is precisely why her provenance is the very condition of the craft. WeWork operated with the perfectly reversible: cancelable leases, rewritable narratives, tenants who leave. The distance between the two is not one of prestige or capital — it is one of irreversibility. What the restorer does cannot be regenerated; what WeWork built evaporated in six weeks without a trace."
+  },
+  "escape": "The diagnosis condemns the model, not the people or the physical space. WeWork survived the 2023 bankruptcy precisely when it stopped pretending to be what it was not: a flexible real estate company that charges by the square meter can have a modest but real material fulcrum, if it owns or controls assets instead of merely leasing them, and if it builds contractual relationships that survive scrutiny. The way out was not to write a better narrative — it was to stop needing the narrative. An honest business with a commodity lever can live; what cannot live is a commodity lever charging the price of a fulcrum.",
+  "lesson": "When your only fulcrum is the story you tell about yourself, you don't have a fulcrum — you have a deadline. A narrative can sustain a valuation, but it cannot sustain anything irreversible, because it rewrites itself the moment someone looks at the accounts. The question is not \"how much is the story worth?\" The question is: \"what would disappear from the world, and could not come back, if this ceased to exist tomorrow?\" For WeWork, the answer was: nothing that a lease couldn't replace by Monday.",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain yourself",
+    "Vol. 2, Ch. 22 — The commoditization of the lever",
+    "Vol. 2, Ch. 24 — The new aura is transparency"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

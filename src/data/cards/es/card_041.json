@@ -1,0 +1,70 @@
+{
+  "id": "041",
+  "title": "El Documentalista",
+  "sector": "Cine y audiovisual",
+  "severity": "strong",
+  "subtitle": "Su cámara captura algo que no se puede regenerar: un instante real que ocurrió una sola vez, ante esa persona, con esa confianza ganada.",
+  "opening": "Una documentalista lleva cuatro años filmando a una familia de pescadores en un puerto que el mar se está tragando. Esta mañana, a las seis, la matriarca rompe a llorar por primera vez delante de la cámara — y lo hace porque conoce a quien la sostiene desde hace cuatro años, no porque haya un objetivo enfrente. La IA puede generar un plano de un puerto, un rostro que llora, una luz de amanecer indistinguible de la real. Pero no estuvo en ese muelle, no esperó cuatro años, y nadie le confió ese llanto. Lo que se grabó esta mañana ocurrió una sola vez y no admite segunda toma.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Presencia física obligatoria: hay que estar en el lugar, con la cámara, en el momento en que ocurre. Equipo, acceso a localizaciones reales, permisos, cuerpo que aguanta esperas de horas o años. La IA no tiene cuerpo que poner en ese muelle — y el documental es estar ahí.",
+      "crack": "El equipo se abarata y la cámara del móvil basta para muchos rodajes; la barrera material es la presencia, no la tecnología.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "El documental se cree porque atestigua: lo que se ve ocurrió ante la cámara, y eso es verificable por la realidad misma. El error tiene consecuencias — falsear un testimonio destruye la credibilidad del autor de forma irreversible. La verdad no es declarada, es registrada en el tiempo real.",
+      "crack": "La IA generativa erosiona la confianza por defecto en la imagen; paradójicamente, eso vuelve más valioso al documentalista cuya procedencia se puede verificar.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "El acceso es el oficio. Filmar lo íntimo exige una confianza construida persona a persona, durante meses o años, que ninguna máquina puede ocupar: nadie llora ante un modelo de lenguaje. Los sujetos abren su vida porque confían en quien sostiene la cámara, no en la cámara.",
+      "crack": "La confianza es personal e intransferible: vive en la documentalista concreta, no en la productora que la contrata.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "Cada plano lleva la cadena irreversible de haber sido grabado por alguien, en un lugar, en una fecha que no vuelve. Las tomas crudas, las fechas de rodaje, los metadatos, los testigos presentes: todo constituye un rastro verificable de que esto fue hecho por ella, en el tiempo. La procedencia no es un añadido — es la materia del documental.",
+      "crack": "La procedencia de contenido (haber estado allí) es inatacable; la de forma — una mirada autoral reconocible — distingue al gran documentalista del simple operador.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "lever": "El dominio técnico: cámara, montaje, color, sonido, estructura narrativa, generación de planos de relleno o recreaciones. Todo esto la IA lo reproduce hoy a coste decreciente — puede inventar un amanecer, recrear un rostro, montar una secuencia plausible en minutos. La habilidad de fabricar imágenes bellas es ya commodity.",
+  "fulcrum": "Haber estado allí cuando ocurrió, y que alguien confiara en ti para dejarte estar. El instante real captado una sola vez, con la relación que lo hizo posible y el rastro verificable de que lo grabaste tú, en ese tiempo. No es la imagen lo que no se regenera — es el haber sido testigo presente de algo irrepetible.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): cuatro fulcros verificados frente a cero. La distancia no es de prestigio — es de irreversibilidad. El copy se regenera en cuarenta segundos porque nunca ocurrió en ningún sitio; el plano del llanto de la matriarca no se regenera porque ocurrió una sola vez, ante esa cámara, después de cuatro años de confianza."
+  },
+  "escape": null,
+  "lesson": "Una máquina puede fabricar un amanecer perfecto, pero no puede haber estado en el muelle cuando la matriarca lloró por primera vez. El documental no compite por la belleza de la imagen — compite por el haber sido testigo. La pregunta no es \"¿filmo mejor que la IA?\" — es \"¿qué dejaría de existir como prueba en el mundo si yo no hubiera estado allí?\"",
+  "references": [
+    "Vol. 1, Cap. 7 — El fulcro material: existir antes de ser buscado",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar",
+    "Vol. 2, Cap. 24 — La nueva aura es transparencia"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

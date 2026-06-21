@@ -1,0 +1,70 @@
+{
+  "id": "037",
+  "title": "The Film Director",
+  "sector": "Film & audiovisual",
+  "severity": "mixed",
+  "subtitle": "The creative lever is becoming generable at the stroke of a prompt — but nobody entrusts thirty million dollars and ninety days of shooting to a language model.",
+  "opening": "On a Monday at half past five in the morning, a director arrives on a set where a hundred and twenty people are already waiting for a decision from her. The AI can generate the storyboard, propose the framing, simulate the lighting of that sequence, and even draft a new line of dialogue in thirty seconds. But at six, when the actor says he doesn't feel the scene and the cinematographer warns that the light will be gone in forty minutes, no prompt will decide: there will be a person whom that crew has chosen to follow. What gets shot today is not what was in the script — it's what she holds together in the room when everything goes wrong. The question is not whether the machine imagines better shots. It's who moves people to make them real before the light runs out.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Cinema remains heavy infrastructure: sets, crews, budgets, schedules, insurance, unions. To direct is to physically occupy the center of an operation of dozens or hundreds of people for weeks. The AI has no body in that room — and the room exists, costs money by the minute, and demands presence.",
+      "crack": "The crack grows from below: the short film, the music video, and digital content are already produced without a set, where the material barrier almost disappears and a prompt is enough.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "She is believed because she projects vision: an early cut, a festival, a press note, the aura of the auteur. But her judgment is rarely verified in isolation — the result is signed by a hundred hands and judged by a box office that depends on marketing, release date, and chance. When the film works, it was her eye; when it fails, it was the editing, the studio, or the audience.",
+      "crack": "Credibility is assumed, not verified: it is measured by the last result and by the auteur's narrative, not by a chain of successes attributable to her judgment alone. It is the most dangerous state because it appears the most solid.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "This is the real fulcrum. A director is someone for whom actors turn down other projects, to whom financiers advance capital, behind whom a technical crew pours itself out through months of exhaustion. That trust is built shoot by shoot, crisis by crisis, and it is exactly what the AI cannot occupy: nobody gets through a ninety-day shoot for a language model.",
+      "crack": "The fulcrum is verified but personal and non-transferable, and unequal: the established director has it locked in, the one who hasn't yet premiered has it barely assumed and on trial with every new project.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "There is the 'a film by' credit and a filmography traceable over time. But authorship is disputed by design: screenwriter, editor, cinematographer, and studio share the work, and provenance of form — having originated a recognizable way of seeing, shot by shot — belongs only to a few. For most, the trail says they were there, not that it could not have existed without them.",
+      "crack": "Provenance of content dissolves into collective authorship; provenance of form — an irreproducible visual signature — is the only thing the AI cannot regenerate, and almost nobody has it.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    }
+  },
+  "lever": "The visible creative capacity: imagining shots, writing and rewriting scenes, designing the light, the rhythm of the edit, the visual references, the moodboard. Generative AI today reproduces much of this in seconds — storyboards, previs, framing variants, even complete sequences without a camera. The director's lever as an image generator is increasingly indistinguishable from that of the well-directed machine.",
+  "fulcrum": "The entrusted authority that moves a hundred people toward a vision that does not yet exist, under pressure, when the plan breaks. The judgment to know which take is worth it, whom to push and whom to restrain, when to stop. And, in the best of them, a signature of form — a recognizable way of seeing — that self-propagates and cannot be regenerated because it was born of a concrete life behind the camera.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): both wield a creative lever that the AI replicates, but the copywriter has the material fulcrum absent and the relational one only assumed — on trial for as long as the bond with the client lasts — while the director has both verified. That is the distance between critical and mixed — and it is not about prestige: it is about irreversibility. The copy is regenerated in forty seconds; the shoot that a hundred and twenty people got through because they trusted a director cannot be redone with a prompt."
+  },
+  "escape": null,
+  "lesson": "When what you sell are the shots, you already compete with a machine that imagines them faster. When what you sell is that a hundred people get through a ninety-day shoot because they trust your eye, you have no competition. The question is not \"do I imagine better images than the AI?\" — it is \"what would disappear from that room, at daybreak, if I stopped walking in to direct it?\"",
+  "references": [
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 22 — The commoditization of the lever",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

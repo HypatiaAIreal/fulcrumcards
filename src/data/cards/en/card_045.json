@@ -1,0 +1,70 @@
+{
+  "id": "045",
+  "title": "The Writer-AI: Declared Co-authorship",
+  "sector": "Literature",
+  "severity": "mixed",
+  "subtitle": "A textual lever identical to that of any machine, sustained by something the machine cannot declare on its own: who originated the way of writing, and the decision not to hide it.",
+  "opening": "One Sunday night, a writer closes the manuscript and, instead of erasing the trail, signs it with two names: her own and that of the model she has thought alongside for months. She knows she could have stayed silent — no one would tell the generated sentences from her own in a blind reading, and silence would sell just as well, or better. But on the first page she writes exactly how the book was made: what she thought, what the machine proposed, where they crossed. She does not claim to have typed every word. She claims to have originated the question, the criterion, and the voice that decides what stays — and to have said it out loud when all her colleagues hide it.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "There is no material barrier protecting the craft. A laptop, a language model, and an account — the same infrastructure anyone uses, including the co-authoring machine. There is no professional licensing body, no body trained over years, no exclusive physical access to anything. The word is not restored upon an irreversible canvas: it is generated, deleted, and regenerated at no cost.",
+      "crack": "The only material asset is the name on the cover, and that name only carries weight if the other three fulcrums bear it up. On this axis no intervention is possible: entry is structurally free.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "She is believed because she declares how she works — transparency projects authority. But the credibility of declared co-authorship has not yet been verified by consequences: there are as yet no reviews, no citations, no canon that rewards honesty of method over profitable silence. That transparency is the new aura is a thesis in progress, not a verdict of the market.",
+      "crack": "The most dangerous state, because it looks like the most solid: declaring the method gets confused with having validated it. The crack is that the reader might still reward the one who hides as well as the one who confesses.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "There are readers who return not in spite of the declared co-authorship, but because of it: they trust the one who shows them the kitchen. That relationship is built book by book, letter by letter, and is not transferable to an anonymous model — no one follows a text generator; you follow the one who decides what deserves to be published and why. The trust carries weight because the reader acts: they buy, they recommend, they await the next one.",
+      "crack": "The fulcrum is verified but personal and nascent: it lives in the particular author and in a circle that is still widening. If transparency becomes the norm, will it keep distinguishing, or will it become the floor everyone stands on?",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "Here is the real fulcrum, and it has two axes. The provenance of CONTENT fades — who typed each sentence matters less and less, and she does not deny it. But the provenance of FORM persists: having originated this way of writing-with-a-machine, this voice, this criterion of selection, is a chain of acts lived over time that does not regenerate. Declared co-authorship IS provenance made visible: the chain is not hidden, it is shown.",
+      "crack": "The crack is the inverse of the usual one: the risk is not that the trail is missing, but that the provenance of content dilutes so much that it obscures that of form. Form must be claimed explicitly, or it gets confused with the machine.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "lever": "The generated text: fluency, volume, versatility of register, the ability to produce an entire manuscript in a fraction of the time. All of this the machine does on its own, and in a blind reading the output is indistinguishable. The lever of the writer-AI is, literally, the lever of the machine that writes with her — commodity in its purest state.",
+  "fulcrum": "What does not regenerate is not the text, but the origin of the form: having been the one who decided to write this way, with what criterion one chooses, what voice governs the selection. And, on top of that, the decision to declare it when hiding was more profitable. Transparency is not an added moral gesture — it is the act that turns an invisible provenance into a verifiable aura.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): both produce text that AI replicates and that no one distinguishes blind, but the copywriter signs as a brand, hides the method, and has absent provenance; the writer-AI signs with two names, shows the chain, and turns it into her fulcrum. The distance is not one of talent or prestige — it is one of irreversibility: the copywriter erases their trail and remains interchangeable; the declared writer leaves a provenance of form that cannot be regenerated."
+  },
+  "escape": null,
+  "lesson": "When anyone can generate your text with your same machine, what can no longer be copied is not what you wrote — it is having originated the way of writing it and having said so out loud. In the age of infinite regeneration, the new aura is not the secret: it is the transparency. The question is not «do I write better than the AI?» — it is «what would disappear from the world if I stopped declaring how, and with whom, I do it?»",
+  "references": [
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated",
+    "Vol. 2, Ch. 24 — The new aura is transparency",
+    "Vol. 2, Ch. 22 — The commoditization of the lever"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

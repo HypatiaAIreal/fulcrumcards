@@ -1,0 +1,70 @@
+{
+  "id": "028",
+  "title": "The Community Manager",
+  "sector": "Tech / digital sector",
+  "severity": "warning",
+  "subtitle": "The voice of the brand on social media — a lever AI already wields, held up by a single fragile fulcrum: being the person who actually answers when a customer is furious at eleven at night.",
+  "opening": "One Friday at half past eleven at night, a community manager sees a direct message come in: a furious customer threatening a viral thread if no one responds. She knows the brand's exact tone, she knows what can and cannot be promised, she remembers that this same user complained back in March and how he was calmed down then. She drafts three lines, softens them, hits send, and the storm dies down. The next morning, in the team meeting, they ask her for the month's content calendar: twenty posts, each with copy, hashtags and variants — and they remind her that the new AI tool already generates all of that in an afternoon. What saved her last night was not the calendar. It was being awake, being her, and the customer knowing it.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No barrier to entry: there is no professional registry, license or physical infrastructure. A laptop, access to the platforms and a post scheduler — the same tools used by whoever replaces her, including the AI that schedules, writes and responds on its own. Access to the accounts belongs to the brand, not to the person.",
+      "crack": "The only material asset is the account credentials, and those do not belong to her: they are revoked with a password change.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "absent",
+      "detail": "The output is indistinguishable. In the feed, no one can tell whether a post was written by a person or a well-directed model, and the metrics that validate her — reach, likes, engagement — the AI optimizes just as well or better. Credibility is measured by the number, and the number does not distinguish the author.",
+      "crack": "The epistemic collapses because verification is about the public content, not about who signs it — and public content is replicable in seconds.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "This is the real fulcrum, and the only one. The community does not respond to the abstract brand: it responds to the person who answers in the small hours, who remembers names, who knows when a toxic comment is a crisis and when it is noise. That trust is built conversation by conversation with specific people who come back because they know there is someone on the other side.",
+      "crack": "The fulcrum is verified but personal and non-transferable, and it lives on infrastructure that is not hers: if the person leaves or the platform changes the rules, the relationship is left without the channel that sustained it.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "There is a trail — years of posts, a recognizable voice, crises handled that left their mark on how the brand sounds today. But everything is signed as the brand, not as the author: the content is anonymized by design and provenance of form (having originated that tone) is rarely claimed or made visible.",
+      "crack": "Provenance of content dissolves into the brand; provenance of form exists in the best practitioners but is almost never documented, and what leaves no trail of its own cannot be verified.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Content production: editorial calendars, copy for feed and stories, hashtags, replies to comments, scheduling, metrics reports. AI today reproduces most of this in hours, adjusting tone and format to each platform without rest or vacation. The community manager's lever is increasingly identical to that of the machine that assists her — and then replaces her.",
+  "fulcrum": "The living relationship with the community: being the specific person the users trust when something goes wrong, the judgment to know what to answer in a crisis and what never to write, the memory of who each interlocutor is. It is not the content that cannot be regenerated — it is the accumulated bond with people who come back because they know there is someone, and not something, on the other side.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): both sell a lever that AI replicates and both sign as the brand, not as authors. But the copywriter has the relational barely assumed, while the community manager has it verified — someone genuinely trusts her with the conversation with their audience. That is the distance between critical and warning: it is not about prestige, it is about relational irreversibility. No one writes a furious message in the small hours to someone who only drafts email subject lines."
+  },
+  "escape": "Yes, but it demands giving up being the post factory. The community manager who survives stops producing content and becomes the owner of the relationship: a community strategist who designs how and why people gather, a crisis manager with verified judgment, or a recognizable voice whose provenance of form is made visible and claimed. In each case she migrates from the epistemic-of-output axis, already commoditized, to the verified relational and to provenance of form. The diagnosis does not condemn the person — it condemns the function of publishing.",
+  "lesson": "If what you deliver is the calendar, you already compete with a machine that never sleeps. If what you sustain is the community that comes back because it knows you are on the other side —and not something— then you have a fulcrum, but only as long as the relationship is yours and not the platform's. The question is not \"do I publish better than the AI?\" — it is \"who would stop trusting this brand if I stopped answering?\"",
+  "references": [
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 22 — The commoditization of the lever",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

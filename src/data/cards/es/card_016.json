@@ -1,0 +1,70 @@
+{
+  "id": "016",
+  "title": "Wikipedia",
+  "sector": "Casos del libro",
+  "severity": "strong",
+  "subtitle": "La institución de conocimiento más copiada del mundo — y la que la IA no puede reemplazar, porque su fuerza no es el contenido sino el rastro de quién lo escribió y cómo.",
+  "opening": "Un editor anónimo abre a las once de la noche un artículo sobre un compuesto químico y corrige una cifra mal citada. Antes de guardar, escribe en el resumen por qué la cambia y enlaza la fuente. Mañana, otro voluntario al otro lado del planeta revisará esa edición, la discutirá si hace falta, la revertirá o la consolidará. La IA puede redactar un artículo entero en segundos y mejor escrito. Lo que no puede fabricar es la cadena pública de manos que tocaron cada frase y la dejaron firmada en el historial.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Existe como entidad reconocible e inevitable: dominio propio, servidores de la Fundación Wikimedia, infraestructura de la quinta web más visitada del planeta. No es un texto — es una institución con presencia legal, técnica y operativa que no se puede instanciar de nuevo. Cualquier IA que responde preguntas se apoya, en parte, en su corpus.",
+      "crack": "El fulcro material depende de donaciones y de una comunidad de voluntarios que envejece; la infraestructura es sólida, pero su sostenibilidad humana exige renovación constante.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "La credibilidad no se proclama desde una autoridad — se verifica por proceso. Cada afirmación pide fuente, cada edición queda expuesta al escrutinio de otros, cada error se corrige a la vista de todos. La verdad no la garantiza un nombre, sino un procedimiento transparente que cualquiera puede auditar.",
+      "crack": "El proceso es fuerte donde hay muchos ojos; en artículos oscuros o poco vigilados, la verificación se adelgaza y un error puede persistir hasta que alguien lo mire.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Millones de personas, instituciones y medios actúan basándose en lo que dice — y, sobre todo, una comunidad de editores confía en el juicio colectivo de la otra. Esa confianza no es de seguidores: es una red que delibera, revierte y se autocorrige con peso real. Los propios modelos de lenguaje la tratan como referencia de base.",
+      "crack": "La confianza vive en la comunidad activa, no en cada artículo por igual; disputas de edición y sesgos de quién participa muestran que la red es fuerte pero no homogénea.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "Este es el fulcro definitivo. Cada palabra tiene un historial público, fechado, atribuible y reversible: quién la escribió, cuándo, por qué y qué se discutió. La procedencia no se declara — se enseña entera, línea a línea, edición a edición. Es la cadena irreversible de actos hecha infraestructura.",
+      "crack": "La transparencia es tan completa que invierte la lógica habitual: la grieta no es la opacidad, sino que casi nadie aprovecha el historial que sí existe.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "lever": "El contenido: artículos enciclopédicos, resúmenes, definiciones, datos. Todo esto la IA lo reproduce, reescribe y mejora estilísticamente en segundos — de hecho, lo entrena con Wikipedia misma. El texto, como objeto, es commodity perfecto.",
+  "fulcrum": "El proceso colectivo y transparente que produjo cada frase y dejó su rastro público. No es lo que dice, sino que se puede ver quién lo dijo, cuándo, contra qué objeción y con qué fuente. La credibilidad por procedimiento auditable — no por autoridad declarada — es lo que ningún modelo puede regenerar, porque no es contenido: es historia atestiguada.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): procedencia ausente frente a procedencia verificada en estado puro. El copy se firma como marca, sin autor, sin rastro — y por eso la IA lo regenera en cuarenta segundos sin que nada se pierda. Wikipedia se firma en cada edición, a la vista de todos; su contenido es igual de copiable, pero el rastro de cómo llegó a ser cierto no lo es. La distancia no es de prestigio — es de irreversibilidad: una cadena de actos que se puede auditar no se puede falsificar."
+  },
+  "escape": null,
+  "lesson": "Cuando cualquiera puede copiar lo que dices, lo único que no se puede copiar es el rastro público de cómo llegaste a decirlo. La nueva aura no es el secreto — es la transparencia verificable. La pregunta no es \"¿la IA escribe mejor que esto?\" — es \"¿qué desaparecería del mundo si se borrara, no el texto, sino el historial de quién lo escribió?\"",
+  "references": [
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar",
+    "Vol. 2, Cap. 24 — La nueva aura es transparencia",
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

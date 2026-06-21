@@ -1,0 +1,70 @@
+{
+  "id": "043",
+  "title": "The Poet",
+  "sector": "Literature",
+  "severity": "mixed",
+  "subtitle": "A lever — the fabrication of verse — that AI imitates with ease, sustained by a fulcrum it cannot counterfeit: that the poem was lived by someone and signed with their name.",
+  "opening": "Early one Tuesday morning, a poet crosses out the same line for the sixth time in a coffee-stained notebook. She knows she could ask an AI for a hundred sonnets about her mother's death and would receive, in seconds, correct images, impeccable meter, metaphors that work. But none of them would have kept vigil over the body, nor remember the smell of the hospital, nor carry the weight of having kept silent about it for a year. What she writes tonight does not compete to be beautiful: it competes to be true. And she signs it with her name, knowing that someone, someday, will read it seeking to know whether it really happened.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "There is no professional accreditation, license, or infrastructure that protects entry. A notebook, a keyboard, internet access — the very infrastructure used by the machine that churns out verse by the bushel. Anyone can publish poetry today, and AI can produce a thousand technically competent poems in the time it takes the poet to write one.",
+      "crack": "The material fulcrum is structurally absent: poetry never had a physical barrier to entry, and now it has no barrier to production either.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "Unlike anonymous copy, a poem is believed because of who signs it and because of what that name has proven, reading after reading. Credibility is verified by consequences: a poem that lies about its own experience collapses before an attentive reader, and the reputation built verse by verse does not transfer to a prompt. She is believed not because she writes well, but because the reader wagers that behind it stands someone who paid for what they say.",
+      "crack": "The crack: the epistemic is verified only for those who already have a name. For the poet without recognized work, their credibility is indistinguishable from a good AI output, and the reader has no way to wager on a voice they do not yet know.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "The poet has readers, a small publishing house, other poets who cite her. But that network rarely carries decision-making weight: no one changes the course of their life because she recommends a book, and the bond with the reader is real but diffuse, mediated by the page. A community that sustains is assumed, but it has seldom been verified to act.",
+      "crack": "The crack: the relational is assumed, not verified. Poetry moves many but commits few; between admiring a voice and acting on its behalf lies a distance that is almost never crossed.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "The poem is signed. It bears a name, a date, an earlier body of work that precedes it, and a life that backs it. The chain is irreversible: this poem was written after that specific loss, in that year, by those hands — and that cannot be regenerated, only imitated. The new aura is not the perfect verse, but the transparency of knowing it was lived.",
+      "crack": "The crack: the provenance of content is becoming impossible to prove. If an AI-generated poem is signed with a human name, the reader can no longer distinguish the lived chain from the fabricated one — provenance demands a trail, and the trail is beginning to be falsifiable.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "lever": "The fabrication of the verse: command of meter, rhythm, image, syntactic surprise, the repertoire of forms. All of this AI now reproduces with alarming fluency — a correct sonnet, an effective metaphor, a moving elegy generated on demand. The poet's technical skill, once their distinction, is now a commodity.",
+  "fulcrum": "That the poem was lived, signed, and verified by a concrete life. Not the beauty of the verse — the machine matches it — but the wager that behind it stands someone who paid the price of what they say, and whose name answers for it. What cannot be regenerated is the coincidence between the voice and the person who sustains it over time.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): both fabricate language that AI replicates, but copy is anonymous by design and the poem is signed. Therein lies the distance between critical and mixed — it is not one of prestige, it is one of provenance: no one cares who wrote the email subject line, but the reader of a poem needs to know whether the one who signs it lived it."
+  },
+  "escape": null,
+  "lesson": "When the machine writes verse as beautiful as yours, you stop competing for beauty and begin competing for truth. The poem no longer has worth for being well made — it has worth for having been lived and signed by someone who answers with their name. The question is not \"do I write better than the AI?\", but \"what would disappear from the world if you stopped writing what only you have lived?\"",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain yourself",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated",
+    "Vol. 2, Ch. 24 — The new aura is transparency"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

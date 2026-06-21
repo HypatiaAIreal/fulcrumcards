@@ -1,0 +1,70 @@
+{
+  "id": "035",
+  "title": "The AI Ethicist",
+  "sector": "Philosophy & humanities",
+  "severity": "warning",
+  "subtitle": "A moral authority built on frameworks the AI itself recites from memory — held up by a single real fulcrum: being in the room when it is decided what ships and what does not.",
+  "opening": "On a Wednesday afternoon, an AI ethicist presents a fourteen-page document to the product committee: fairness principles, bias mitigation, a governance framework with citations to Floridi and the European AI Act. The technical director nods, thanks her, and asks whether this blocks Friday's launch. She knows the honest answer is \"it should,\" and she also knows that the language model sitting on the other screen could have drafted the same fourteen pages in ninety seconds, with the same citations. What the model could not do is what she does next: look the director in the eye and say that, if they launch, she will not sign off. In that instant it is revealed what truly holds up her work — not the document, but the verified willingness to make something cost someone.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "There is no professional registration, license, or governing body that regulates who may call themselves an AI ethicist. A laptop, access to the public literature and to the same frameworks — Belmont, OECD, AI Act — that any model knows by heart. The barrier to entry is rhetorical, not material.",
+      "crack": "The only thing that seems material is the position within an organization, but the position belongs to the company, not the person: it disappears with an org-chart change.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "She is believed because she commands the vocabulary — fairness, alignment, governance — and projects the authority of academia. But her knowledge is rarely verified by consequences: she issues the verdict, and the harm, if it comes, comes months later and is attributed to engineering or to the market. The AI reproduces the same normative discourse without the committee noticing the difference.",
+      "crack": "It is the most dangerous state because it looks solid: credibility is measured by the elegance of the framework, not by having been right in a case where being right cost something.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Here is the real fulcrum. When the ethicist says 'I won't sign off,' someone with decision-making power changes the launch calendar. That trust is built case by case, refusal by refusal, and lives in concrete people — a CEO, a board, a regulator — who act on the basis of her judgment. No model occupies that seat: no one delegates to an AI the moral responsibility of stopping a product.",
+      "crack": "The fulcrum is verified but personal and non-transferable, and it depends on the organization wanting to hear a 'no.' If the culture changes or the person leaves, the trust does not transfer with the post: it goes with her.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "The deliverable is signed as the company or dissolved into a collective policy document. Except for the few who originated a recognized framework of their own, the ethical verdict is anonymous by design: no one remembers who drafted the clause that prevented the disaster that never happened. The chain of lived acts leaves almost no claimable trace.",
+      "crack": "The provenance of content evaporates in the committee; the provenance of form — having originated a way of seeing the problem that others adopt — exists in a minority, but is rarely made visible.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Command of the frameworks: fairness principles, bias taxonomies, comparative regulation, drafting of governance policies, documented model audits. The AI today reproduces most of this corpus in seconds, with the same sources and better coverage. The ethicist's deliverable product — the normative report — is increasingly indistinguishable from what a well-directed machine generates.",
+  "fulcrum": "The verified willingness to say 'I won't sign off' and have that stop something. The situated judgment of knowing which risk is tolerable in this context and this team, and the trust accumulated with those who decide, who act because it is she who says it. It is not the knowledge that does not regenerate — the knowledge is public — but the responsibility taken on with body and name when being wrong costs something.",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compare with the art restorer (Card #021): their judgment is verified in the instant, on the canvas, and each act is irreversible. The ethicist's is verified months later, over a diffuse harm that is almost always attributed to someone else. The distance is not one of prestige — both are rigorous — but of irreversibility: the restorer cannot undo their touch; the ethicist almost never gets to touch at all."
+  },
+  "escape": "Yes, but it demands that she stop selling the document and start owning the decision. The ethicist who survives migrates toward the verified relational fulcrum — being the person whose 'no' halts a launch, not the one who drafts the report that gets filed away — or toward the provenance of form: originating a framework, a method, or a standard that others adopt and cite by her name. In both cases she ceases to be a reciter of principles and becomes someone who bears consequences. The diagnosis does not condemn the person — it condemns the function of drafting what the machine already drafts.",
+  "lesson": "When your moral authority is the frameworks anyone can cite, you compete with a machine that cites them faster and more completely. When your authority is having said 'I won't sign off' and having paid for it, you have no competition, because no AI can be held responsible. The question is not 'do I know ethics better than the AI?' — it is 'what would be released into the world if I stopped refusing to sign off on it?'",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain",
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 22 — The commoditization of the lever"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

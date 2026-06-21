@@ -1,0 +1,70 @@
+{
+  "id": "038",
+  "title": "El Guionista",
+  "sector": "Cine y audiovisual",
+  "severity": "warning",
+  "subtitle": "Tres fulcros que parecen sólidos y ninguno verificado: el oficio que la huelga de 2023 intentó blindar y que la IA sigue erosionando por dentro.",
+  "opening": "Un miércoles a medianoche, un guionista revisa la nota de la plataforma: \"el segundo acto se cae, prueba tres alternativas para mañana\". Abre el modelo, pega su escaleta, y en cuatro minutos tiene los tres giros — uno de ellos, reconoce con un nudo en el estómago, mejor que el suyo. Lleva quince años escribiendo y todavía recuerda cuando la sala de guionistas tenía nueve sillas; ahora son cuatro, y una es suya solo hasta que termine el arco. Lo que entrega no se firma con su nombre hasta los créditos, y los créditos cada vez los pelea más gente con menos horas dentro. La pregunta que no se hace en voz alta en la sala es si el año que viene la silla seguirá ahí.",
+  "fulcrum": "La voz: la manera particular en que este guionista oye hablar a un personaje y sabe qué callaría. El juicio estructural acumulado tras ver fracasar quince segundos actos y entender por qué. Y el rastro de haber estado en la sala cuando se decidió el tono de una serie que existe — procedencia de forma, no solo de contenido, que la IA puede imitar pero no haber originado.",
+  "lever": "La capacidad de generar escaletas, diálogos, beats, tres alternativas de giro, biblias de personaje y pases de pulido a velocidad de plataforma. Todo esto — dominio de estructura en tres actos, de arquetipos, de fórmulas de género — la IA lo reproduce en minutos y en borrador competente. La palanca del guionista de encargo es casi idéntica a la de la máquina que el estudio ya está probando en la sala de al lado.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): los cuatro fulcros ausentes frente a tres asumidos. La distancia entre warning y critical no es de talento ni de prestigio — es de irreversibilidad del rastro. El copy se firma como marca y desaparece; el guion deja un crédito WGA verificable y una voz que algunos ejecutivos todavía buscan por su nombre. Ese hilo de procedencia es lo único que separa el riesgo del colapso."
+  },
+  "escape": "Sí, migrando de la palanca al fulcro que ya tiene a medias. El guionista que sobrevive deja de ser proveedor de páginas y se vuelve autor con voz reclamable: showrunner que origina el tono (procedencia de forma), o creador cuyo nombre vende el proyecto antes de que exista la escaleta (relacional verificado). Quien solo entrega beats limpios a tiempo compite con un modelo más barato; quien es la razón por la que un proyecto se hizo así y no de otro modo, no. El diagnóstico no condena a la persona — condena a la función de escribir por encargo.",
+  "lesson": "Cuando entregas páginas limpias y a tiempo, ya compites con una máquina que no duerme. Cuando eres la voz por la que un personaje habla así y no de otra forma, no tienes competencia — tienes firma. La pregunta no es \"¿escribo mejor que la IA?\". Es: \"¿qué voz desaparecería del mundo si yo dejara de escribir?\"",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay colegiación ni licencia que proteja la entrada al oficio. Un portátil, un software de guion y acceso a la convocatoria — la misma infraestructura que usa quien le reemplaza, incluida la IA. El sindicato (WGA) aporta una barrera contractual real, pero protege condiciones, no la existencia de la función.",
+      "crack": "La única barrera material es contractual y colectiva, no personal: el convenio del sindicato puede frenar la sustitución, pero no pertenece al guionista concreto ni le da existencia propia.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se le cree porque tiene créditos producidos y un porfolio de cosas que se emitieron. Pero su output en fase de borrador es cada vez más indistinguible del de un modelo bien dirigido, y la verificación ocurre sobre las páginas, no sobre el autor. En lecturas a ciegas, los ejecutivos ya no siempre distinguen el pase humano del generado.",
+      "crack": "La credibilidad es asumida, no verificada: descansa en créditos pasados, no en que el lector note hoy la diferencia entre su pluma y la de la máquina.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Existe una red — showrunners que le llaman, ejecutivos que conocen su nombre, agentes que le colocan. Pero es una confianza gatekeepeada y frágil: depende de que la sala siga existiendo y de que el presupuesto la sostenga. No es el creador cuyo nombre vende el proyecto; es el que ocupa una silla mientras dure el arco.",
+      "crack": "El vínculo se asume sólido pero no se ha verificado contra la alternativa más barata: nadie ha comprobado si esas llamadas seguirían llegando cuando un modelo entregue el borrador por una fracción del coste.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "El crédito WGA es un rastro verificable y raro: deja constancia de que esto lo escribió esta persona, en este tiempo. Pero la procedencia de contenido se diluye en la sala colectiva, en los rewrites no acreditados y, ahora, en los pases asistidos por IA que nadie declara. La de forma — haber originado una voz reconocible — existe en los mejores pero casi nunca se reclama explícitamente.",
+      "crack": "El rastro existe pero se erosiona desde dentro: cada pase generado y no declarado corta un eslabón de la cadena que el crédito pretende certificar.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    }
+  },
+  "references": [
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

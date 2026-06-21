@@ -1,0 +1,70 @@
+{
+  "id": "031",
+  "title": "El Web Developer",
+  "sector": "Sector tech/digital",
+  "severity": "warning",
+  "subtitle": "Construye lo que un agente de IA ya construye más rápido — y su único fulcro real, que el código funcione, es justo el que la máquina aprende a verificar sola.",
+  "opening": "Un miércoles a medianoche, un desarrollador web termina de maquetar la landing de un cliente: React, Tailwind, un formulario conectado a una API, todo responsive. Le ha llevado dos días. A la mañana siguiente, el mismo cliente le reenvía, sin mala intención, una captura: ha pedido a un agente de IA \"una landing igual pero con el hero a la izquierda\" y la tiene desplegada en Vercel antes del café. El desarrollador mira su factura por hora y entiende, por primera vez, que lo que vende no es saber programar — es algo más frágil que eso, y aún no sabe nombrarlo.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay colegiación, licencia ni infraestructura física que proteja la entrada. Un portátil, un editor gratuito y acceso a frameworks open source — exactamente las mismas herramientas que usa el agente de IA que genera, depura y despliega el mismo código. No hay cuerpo ni presencia que la máquina no pueda ocupar.",
+      "crack": "El stack que da identidad al oficio (React, Node, el repo en GitHub) es el mismo terreno donde la IA es nativa. No hay barrera material; hay un campo abierto compartido con quien le reemplaza.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "El código se verifica por consecuencias reales: compila o no, pasa los tests o no, aguanta carga o cae en producción. Ese es el único eje con verdad tangible. Pero esa misma verificación es lo que la IA aprende a hacer sola — ejecuta, lee el error, corrige — y en tareas estándar el output ya es indistinguible del humano.",
+      "crack": "La credibilidad es asumida porque se apoya en que el código funcione, y funcionar es precisamente lo que la máquina mejor automatiza. Solo se sostiene en lo no estándar: arquitectura ambigua, deuda técnica heredada, decisiones de trade-off que nadie escribió en el ticket.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Existe una red — agencias, clientes recurrentes, un lead que le pasa proyectos. Pero rara vez es confianza en su juicio singular; suele ser dependencia de su disponibilidad y su precio. El cliente confía en que entregue, no en que decida por él lo que no sabe pedir.",
+      "crack": "Es el eje que podría salvarlo, pero está sin verificar: nadie ha comprobado si la relación sobrevive a una alternativa que entrega lo mismo por una décima parte. Cuando el coste del código tiende a cero, la lealtad basada en coste se evapora.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "Hay rastro: commits firmados, un historial de Git, repos públicos, proyectos en producción con su nombre en el equipo. La procedencia de contenido existe técnicamente. Pero el código se refactoriza, se reescribe, se absorbe en el siguiente sprint — el rastro se borra con cada deploy y a nadie le importa quién escribió la función.",
+      "crack": "La procedencia de contenido se diluye en cuanto otro toca el archivo; la de forma — haber originado una arquitectura, un patrón, una manera de resolver — existe en los mejores, pero casi nunca se hace visible ni se reclama. El git blame no es un aura.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "La capacidad de producir: maquetar interfaces, conectar APIs, configurar el build, traducir un diseño de Figma a componentes, resolver el bug de CSS. Velocidad, dominio del framework de moda, un portfolio de sitios entregados. Todo esto la IA lo reproduce hoy en minutos, no en días — y la palanca del desarrollador es, cada vez más, idéntica a la palanca de la máquina que la empuña por menos.",
+  "fulcrum": "El juicio sobre lo que no está en el ticket: qué arquitectura aguantará el crecimiento que el cliente aún no sabe que tendrá, qué atajo se pagará caro en seis meses, cuándo decir que no a la feature que romperá el sistema. No es escribir código — es decidir qué código no escribir, y responder por esa decisión cuando explote en producción. Eso vive en alguien que ha visto explotar sistemas antes, no en quien solo genera sintaxis correcta.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): ambos venden una palanca que la IA replica al instante, pero el copywriter tiene el epistémico ausente — su output es indistinguible y nadie verifica al autor — mientras el del desarrollador sobrevive como asumido: el código funciona o cae, y eso aún se comprueba. Esa es la distancia entre critical y warning. No es de prestigio — es de irreversibilidad: el copy se regenera sin consecuencia, pero un sistema mal arquitecturado deja una cicatriz que alguien tiene que responder."
+  },
+  "escape": "Sí, pero exige dejar de venderse como quien escribe código. El desarrollador que sobrevive migra hacia el eje que la IA no ocupa: arquitecto que decide y responde por el sistema entero (epistémico verificado por consecuencias a años), o socio técnico de confianza que conoce el negocio del cliente desde dentro y decide por él lo que no sabe pedir (relacional verificado). En ambos casos deja de cobrar por línea y empieza a cobrar por juicio. El diagnóstico no condena a la persona — condena a la función de \"manos que teclean\".",
+  "lesson": "Cuando lo que vendes es que el código funcione, ya compites con una máquina que también lo hace funcionar — y más barato. El fulcro no está en escribir la función, sino en saber cuál no escribir y responder por ello cuando el sistema arda. La pregunta no es \"¿programo más rápido que la IA?\" — es \"¿qué se rompería en el mundo si yo dejara de decidir qué construir?\"",
+  "references": [
+    "Vol. 1, Cap. 5 — Las tres propiedades de la palanca",
+    "Vol. 2, Cap. 19 — La brecha de pensamiento",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

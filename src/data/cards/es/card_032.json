@@ -1,0 +1,70 @@
+{
+  "id": "032",
+  "title": "El Digital Marketing Manager",
+  "sector": "Sector tech/digital",
+  "severity": "mixed",
+  "subtitle": "Una palanca que la IA ya empuña casi entera —campañas, copy, análisis, reporting— sostenida por el único fulcro que no cabe en un dashboard: ser la persona a quien la dirección le cree el número.",
+  "opening": "Un lunes a las nueve y diez, una Digital Marketing Manager abre el dashboard de la semana antes de la reunión de comité. La IA ya le ha redactado los tres asuntos del email, segmentado la audiencia, propuesto el reparto de presupuesto entre Google y Meta y resumido el rendimiento en cuatro bullets. Reconoce, sin decirlo en voz alta, que el ochenta por ciento de lo que entregará hoy lo ha generado una herramienta en minutos. Pero a las nueve y media no será el dashboard lo que decida si le aprueban duplicar la inversión del próximo trimestre: será que el CMO la mire y le pregunte, sin mirar la pantalla, \"¿tú te la jugarías con esto?\". Lo que se compra no es el plan de medios. Es que alguien con nombre responda por el número cuando el número falle.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay colegiación, licencia ni infraestructura física que proteja la entrada. Un portátil, una cuenta de Google Ads, Meta Business y una suite de analítica —exactamente las mismas herramientas que usa quien podría reemplazarla, y las mismas a las que la IA accede por API. La barrera no es material; es como mucho el acceso a los presupuestos de la empresa, y ese acceso es de la empresa, no de la persona.",
+      "crack": "El único activo material es el login a las cuentas de la marca —y ese login se revoca el día que te vas. No te pertenece nada de lo que operas.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se le cree porque exhibe los indicadores correctos: CTR, CAC, ROAS, certificaciones de plataforma, el vocabulario del sector. Pero su criterio rara vez se verifica de forma limpia —cuando la campaña funciona fue la estrategia, cuando fracasa fue el algoritmo, el mercado o el producto. La atribución, su propia herramienta, es también su coartada.",
+      "crack": "La credibilidad es asumida, no verificada: se mide por la calidad del reporting, no por causalidad demostrada. Es el estado más peligroso porque, rodeado de métricas, parece el más objetivo de todos.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Este es el fulcro real. La dirección no contrata un plan de medios —contrata a alguien en quien confía para apostar dinero real con incertidumbre y dar la cara por el resultado. Esa confianza se construye trimestre a trimestre, número cumplido a número fallado explicado a tiempo, y es lo único que la IA no puede ocupar: nadie le aprueba un presupuesto de siete cifras a un modelo de lenguaje.",
+      "crack": "El fulcro es verificado pero personal e intransferible: vive en la mánager concreta, no en el puesto. Si cambia de empresa, ¿la confianza la sigue, o se queda en el organigrama que abandona?",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "El trabajo se firma como la marca, nunca como autora. Las campañas se atribuyen al equipo, las creatividades a la agencia, los resultados al funnel. Existe un rastro de carrera —empresas, sectores, crecimientos— pero envuelto en NDAs, dashboards compartidos y métricas que cualquiera puede reclamar como propias.",
+      "crack": "La procedencia de contenido se disuelve en la marca; la de forma —haber originado una manera de mirar el embudo, una tesis de canal propia— existe en los mejores, pero casi nunca se hace visible ni se reclama fuera de la empresa.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "La ejecución: segmentación de audiencias, redacción de copy y asuntos, distribución de presupuesto entre canales, optimización de pujas, A/B testing, paneles de rendimiento y reporting semanal. La IA reproduce hoy la mayor parte de esto en minutos, con menor coste de error y sin descanso. El entregable visible del puesto —el plan, el deck, el informe— es cada vez más indistinguible del que genera una máquina bien dirigida.",
+  "fulcrum": "La autoría de la apuesta.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): ambos operan sobre el mismo terreno digital y venden una palanca que la IA replica en segundos, pero el copywriter tiene el relacional apenas asumido y la mánager lo tiene verificado. Esa es la distancia exacta entre critical y mixed. No es de prestigio —es de irreversibilidad relacional: a nadie le confían un presupuesto, ni la cara ante el board, a quien solo entrega asuntos de email."
+  },
+  "escape": null,
+  "lesson": "Cuando lo que entregas es el dashboard, ya compites con una máquina más barata que lo genera mientras duermes. Cuando lo que entregas es haber dicho \"me la juego\" delante del comité y haber dado la cara cuando el número no salió, no tienes competencia. La pregunta no es \"¿optimizo campañas mejor que la IA?\" —es \"¿qué presupuesto dejaría de aprobarse, qué apuesta dejaría de defenderse, si yo no entrara en esa reunión?\"",
+  "references": [
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

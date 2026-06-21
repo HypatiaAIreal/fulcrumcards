@@ -1,0 +1,70 @@
+{
+  "id": "044",
+  "title": "El Editor Literario",
+  "sector": "Literatura",
+  "severity": "strong",
+  "subtitle": "No escribe el libro — decide cuál merece existir, y carga con el juicio cuando se equivoca. Esa responsabilidad es lo que la IA no puede asumir.",
+  "opening": "Un martes de octubre, una editora abre el manuscrito número doscientos del año. En la página cuarenta deja de leer como editora y empieza a leer como lectora: algo en el ritmo se ha roto, y no sabrá explicar por qué hasta releerlo tres veces. Apuesta el catálogo de la temporada, el adelanto que firmará y dos años de su reputación a que esta voz, todavía torpe, va a importar dentro de una década. La IA puede resumir el manuscrito, corregir su gramática y compararlo con diez mil novelas publicadas. Lo que no puede hacer es responder con su nombre si se equivoca.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "No hay colegiación ni licencia, pero sí una infraestructura que la IA no posee: el sello editorial, el presupuesto de adelantos, el acceso a agentes y autores, la cadena de distribución física y la firma legal del contrato. La editora existe como entidad con autoridad para decir sí o no a que un libro se imprima. Ese poder de admisión es una barrera material real, aunque viva más en la casa editorial que en la persona.",
+      "crack": "El activo material pertenece en parte al sello: una editora sin editorial conserva el juicio pero pierde la imprenta. La barrera protege la función mejor que a la persona.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "Se le cree porque su juicio se verifica por consecuencias públicas e irreversibles: los libros que adquirió están en las estanterías, ganaron premios o fracasaron, con su nombre asociado en el mundo del oficio. Un editor con track record es alguien cuyas apuestas se pueden auditar a lo largo de los años. No proyecta credibilidad — la acumuló decisión a decisión, y cada decisión quedó publicada.",
+      "crack": "La credibilidad es verificada pero lenta de construir: un editor joven aún no tiene catálogo que lo respalde, y vive prestado del prestigio del sello hasta que sus propias apuestas maduren.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Este es el fulcro central. Los agentes le mandan primero los manuscritos buenos porque confían en su criterio y en su trato; los autores eligen quedarse con ella entre editoriales que pagan más. Esa red de confianza —agentes, autores, libreros, críticos— se construyó a lo largo de años de devolver llamadas, defender libros difíciles y no traicionar a un autor en la negociación. Nadie le confía un primer manuscrito a un algoritmo.",
+      "crack": "El fulcro es verificado pero personal e intransferible: si la editora cambia de sello, una parte de los agentes la siguen y otra se queda con el logo. La relación es suya, pero el catálogo no.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "La cadena de actos vividos es densa y atestiguada: las páginas de agradecimientos, las cartas a los autores, las decisiones editoriales que cambiaron un libro, el historial verificable de qué adquirió y cuándo. La procedencia de forma es aún más fuerte que la de contenido: un buen editor origina un modo de mirar un texto —una sensibilidad de catálogo— que se reconoce a través de los libros que firma a lo largo de décadas.",
+      "crack": "Parte del trabajo editorial es invisible por diseño —el editor opera tras el autor— pero el rastro existe y se reclama dentro del oficio. La aura está en la coherencia del catálogo a lo largo del tiempo.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "lever": "La parte mecánica del oficio: corrección de estilo, detección de inconsistencias, normalización ortotipográfica, resumen de manuscritos, análisis comparativo con el mercado, informes de lectura preliminares. La IA reproduce hoy casi todo esto en minutos, y bien dirigida lo hace con menos errores que un becario cansado. Toda esta capa de filtrado y pulido es palanca legítima — y es commodity.",
+  "fulcrum": "El juicio que apuesta.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): ambos trabajan con palabras y ambos usan la misma IA para la capa mecánica, pero ahí termina el parecido. El copywriter tiene los cuatro fulcros débiles porque su output es anónimo, indistinguible y regenerable; la editora los tiene fuertes porque su juicio es firmado, verificable por consecuencias y apostado en el tiempo. La distancia no es de prestigio literario — es de irreversibilidad: nadie responde con su nombre por un asunto de email, pero un catálogo se construye apuesta a apuesta y no se puede deshacer."
+  },
+  "escape": null,
+  "lesson": "La IA puede leer mil manuscritos y decirte a cuál se parece cada uno. No puede apostar su nombre a que uno de ellos importará dentro de diez años. Cuando tu trabajo es corregir el texto, ya compites con una máquina más barata; cuando es decidir qué merece existir y cargar con el error si te equivocas, no tienes competencia. La pregunta no es \"¿corrijo mejor que la IA?\" — es \"¿qué libros desaparecerían del mundo si yo dejara de apostar por ellos?\"",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

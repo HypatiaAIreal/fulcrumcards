@@ -1,0 +1,70 @@
+{
+  "id": "017",
+  "title": "El Ghostwriter con IA",
+  "sector": "Casos paradigmáticos",
+  "severity": "critical",
+  "subtitle": "El caso límite de la palanca commoditizada: escribe con IA un texto que, por contrato, jamás llevará su nombre. La procedencia no se debilita — se corta antes de empezar.",
+  "opening": "Un miércoles a medianoche, un ghostwriter pega en Claude el último capítulo del libro de un CEO al que no ha visto la cara. \"Reescríbelo en su voz, más cálido, con una anécdota de infancia.\" Lo revisa, ajusta dos frases, lo envía. El libro saldrá el año que viene con la foto del CEO en la portada y su nombre en letras doradas; en ningún lugar aparecerá quien lo escribió, y el contrato de confidencialidad garantiza que nunca aparecerá. Esta noche ha hecho un trabajo que una máquina hizo en un 80% — para que otro firme lo que ninguno de los dos vivió.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "Sin barrera de entrada, sin colegiación, sin infraestructura física. Un portátil, un acuerdo de confidencialidad y acceso a la misma IA que ya genera prosa en la voz que se le pide. La herramienta del ghostwriter es idéntica a la herramienta que lo sustituye.",
+      "crack": "El fulcro material es estructuralmente ausente: no hay nada físico que requiera estar ahí, con ese cuerpo, esas manos.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "absent",
+      "detail": "Por definición, nadie debe distinguir su mano de la del autor firmante — el oficio consiste en desaparecer. Y desde que la IA escribe en cualquier voz a demanda, su output tampoco se distingue del de la máquina. Una credibilidad que se mide por su propia invisibilidad no puede acumularse en nadie.",
+      "crack": "El epistémico no solo es indistinguible de la IA: el éxito profesional EXIGE que sea indistinguible. La excelencia del oficio es su propia commoditización.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Existe un vínculo con el cliente que firma, pero es una relación construida sobre el ocultamiento, no sobre el reconocimiento público. El cliente no recomienda a su ghostwriter — su valor depende de negar que exista. Es confianza que, por contrato, no puede convertirse en red.",
+      "crack": "Es el único eje no ausente, pero asumido y frágil: una relación que debe permanecer secreta no genera reputación transferible, y se rompe en cuanto aparece una alternativa más barata que también firma silencio.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "Aquí el caso se vuelve paradigmático. La procedencia no se diluye con el tiempo como en otros oficios anónimos — se amputa en el origen: el contrato estipula que el nombre nunca aparecerá. No hay rastro verificable de que esto lo hiciera él, porque la cláusula de confidencialidad existe precisamente para borrarlo.",
+      "crack": "No es que la procedencia sea débil: es legalmente imposible. La cadena de actos vividos se corta antes de empezar, por diseño y por firma.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Fluidez de prosa, capacidad de imitar voces ajenas, velocidad para producir capítulos en plazo, dominio de estructura narrativa y tono. Todo esto la IA lo reproduce hoy en una sesión — y reproduce además lo más difícil del oficio: escribir convincentemente en la voz de otro. La palanca del ghostwriter es exactamente aquello en lo que la IA es nativa.",
+  "fulcrum": "Casi nada queda en pie. Lo único irreductible sería la procedencia de FORMA — haber originado un modo de pensar que el cliente quiere encarnar — pero el contrato la confisca: lo que se origina se atribuye a otro y se sella en silencio. Cuando el oficio consiste en que tu rastro no exista, no hay fulcro que regenerar: lo has firmado para que desaparezca.",
+  "contrast": {
+    "card_ref": "044",
+    "text": "Compárese con el editor literario (Card #044): ambos trabajan la prosa de otro y ambos permanecen fuera de la portada, pero el editor deja un rastro verificable — su juicio se reconoce en el oficio, sus autores lo nombran, su criterio acumula reputación. La distancia no es de prestigio: es de irreversibilidad. El editor origina una manera de leer que persiste y se le atribuye; el ghostwriter firma un contrato para que su origen nunca pueda probarse."
+  },
+  "escape": "Sí, pero exige invertir el contrato que define el oficio. El ghostwriter que sobrevive deja de vender invisibilidad y empieza a vender autoría visible: se convierte en colaborador acreditado (\"con\", \"as told to\"), en autor propio que construye procedencia bajo su nombre, o en director editorial cuyo criterio se reconoce y se cita. En cada caso deja de ser ghost — recupera el rastro. El diagnóstico no condena a quien escribe; condena a la función de escribir para desaparecer.",
+  "lesson": "Hay oficios que la IA commoditiza; el ghostwriting se commoditizó a sí mismo el día que firmó no aparecer. Cuando tu excelencia se mide por lo invisible que eres, no compites con la máquina: ya pactaste ser una. La pregunta no es \"¿escribo en su voz mejor que la IA?\" — es \"¿qué quedaría de ti en el mundo si nadie pudiera probar que algo fue tuyo?\"",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

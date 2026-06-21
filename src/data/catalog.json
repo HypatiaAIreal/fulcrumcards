@@ -1,7 +1,7 @@
 {
   "catalog_version": "1.1",
   "total_planned": 47,
-  "total_created": 19,
+  "total_created": 46,
   "sectors": [
     {
       "name": {
@@ -25,7 +25,7 @@
             "en": "The AI Ghostwriter"
           },
           "severity": "critical",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "018",
@@ -34,7 +34,7 @@
             "en": "Hardy and the Apology"
           },
           "severity": "strong",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "019",
@@ -52,7 +52,7 @@
             "en": "This Book"
           },
           "severity": "mixed",
-          "status": "planned"
+          "status": "created"
         }
       ]
     },
@@ -185,7 +185,7 @@
             "en": "Patagonia: Don't Buy This Jacket"
           },
           "severity": "strong",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "014",
@@ -194,7 +194,7 @@
             "en": "WeWork"
           },
           "severity": "critical",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "015",
@@ -203,7 +203,7 @@
             "en": "Theranos"
           },
           "severity": "critical",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "016",
@@ -212,7 +212,7 @@
             "en": "Wikipedia"
           },
           "severity": "strong",
-          "status": "planned"
+          "status": "created"
         }
       ]
     },
@@ -291,7 +291,7 @@
             "en": "The SEO Consultant"
           },
           "severity": "mixed",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "028",
@@ -300,7 +300,7 @@
             "en": "The Community Manager"
           },
           "severity": "warning",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "029",
@@ -309,7 +309,7 @@
             "en": "The Data Analyst"
           },
           "severity": "mixed",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "030",
@@ -318,7 +318,7 @@
             "en": "The SaaS Founder"
           },
           "severity": "mixed",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "031",
@@ -327,7 +327,7 @@
             "en": "The Web Developer"
           },
           "severity": "warning",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "032",
@@ -336,7 +336,7 @@
             "en": "The Digital Marketing Manager"
           },
           "severity": "mixed",
-          "status": "planned"
+          "status": "created"
         }
       ]
     },
@@ -353,7 +353,7 @@
             "en": "The Academic Philosopher"
           },
           "severity": "mixed",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "034",
@@ -362,7 +362,7 @@
             "en": "The Public Philosopher"
           },
           "severity": "mixed",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "035",
@@ -371,7 +371,7 @@
             "en": "The AI Ethicist"
           },
           "severity": "warning",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "036",
@@ -380,7 +380,7 @@
             "en": "Philosophy as Operating System"
           },
           "severity": "strong",
-          "status": "planned"
+          "status": "created"
         }
       ]
     },
@@ -397,7 +397,7 @@
             "en": "The Film Director"
           },
           "severity": "mixed",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "038",
@@ -406,7 +406,7 @@
             "en": "The Screenwriter"
           },
           "severity": "warning",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "039",
@@ -415,7 +415,7 @@
             "en": "The Film Editor"
           },
           "severity": "strong",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "040",
@@ -424,7 +424,7 @@
             "en": "The Cinematographer"
           },
           "severity": "strong",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "041",
@@ -433,7 +433,7 @@
             "en": "The Documentary Filmmaker"
           },
           "severity": "strong",
-          "status": "planned"
+          "status": "created"
         }
       ]
     },
@@ -450,7 +450,7 @@
             "en": "The Novelist"
           },
           "severity": "mixed",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "043",
@@ -459,7 +459,7 @@
             "en": "The Poet"
           },
           "severity": "mixed",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "044",
@@ -468,7 +468,7 @@
             "en": "The Literary Editor"
           },
           "severity": "strong",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "045",
@@ -477,7 +477,7 @@
             "en": "The Writer-AI: Declared Co-authorship"
           },
           "severity": "mixed",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "046",
@@ -486,7 +486,7 @@
             "en": "The Literary Critic"
           },
           "severity": "warning",
-          "status": "planned"
+          "status": "created"
         }
       ]
     }

@@ -1,0 +1,70 @@
+{
+  "id": "046",
+  "title": "El Crítico Literario",
+  "sector": "Literatura",
+  "severity": "warning",
+  "subtitle": "Un oficio cuya autoridad se daba por supuesta — hasta que cualquiera pudo pedirle a una máquina una reseña razonada en diez segundos, y casi nadie notó la diferencia.",
+  "opening": "Un domingo por la noche, un crítico cierra la novela que reseñará el viernes en el suplemento cultural. Lleva treinta años leyendo así: con lápiz, marcando la página donde el libro se rompe o se sostiene, buscando la frase que delata al autor. Mientras escribe el primer párrafo, un becario de la redacción le enseña, divertido, lo que ChatGPT ha producido sobre el mismo título: estructura impecable, referencias a Bajtín y a Steiner, un juicio templado que no se equivoca en nada. El crítico lee esas líneas y siente, por primera vez en su carrera, que tendría que demostrar por qué las suyas valen más — y no sabe con qué argumento hacerlo.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay colegiación, licencia ni infraestructura que proteja el oficio. Se necesita un libro, tiempo para leerlo y un sitio donde publicar — y los tres se han abaratado o desaparecido. La tribuna que daba existencia material al crítico (el suplemento, la revista cultural) se ha contraído al mismo ritmo que la prensa que la sostenía.",
+      "crack": "El único activo material era la plataforma — el medio que prestaba su autoridad — y esa plataforma ya no le pertenece ni está garantizada.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se le cree porque ha leído mucho y porque firma en un medio con prestigio, no porque su juicio se verifique por consecuencias comprobables. La crítica rara vez se somete a contraste: nadie mide si el libro que ungió resistió diez años, ni si el que enterró era el bueno. Cuando una IA produce un juicio igual de articulado y con las mismas referencias, la credibilidad que se asumía deja de ser evidente.",
+      "crack": "La autoridad es asumida, no verificada — se mide por la elegancia del texto y el nombre de la cabecera, no por aciertos rastreables en el tiempo. Es el estado más peligroso, porque parece el más sólido.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Existe una red — editores que envían galeradas, autores que temen o cortejan, lectores fieles a una firma. Pero pocos cambian hoy su decisión de leer un libro porque este crítico lo recomiende: la curación se ha desplazado a algoritmos, clubes de lectura y recomendaciones entre pares. La relación con el lector se presume heredada, no se ha verificado que siga teniendo peso.",
+      "crack": "No se ha probado si esa confianza sobreviviría a la prueba real: ¿cuántos lectores compran o abandonan un libro hoy por la firma de este crítico, y no por una reseña anónima de cinco estrellas?",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "Hay un rastro de carrera — décadas de reseñas firmadas, una sensibilidad reconocible, a veces un estilo que otros imitan. La procedencia de forma (haber originado un modo de leer, una manera de mirar el género) existe en los mejores y persiste. Pero la procedencia de contenido se diluye: la reseña individual es desechable, se consume en una semana y rara vez se reclama como obra propia con peso duradero.",
+      "crack": "Quien solo acumula reseñas correctas tiene procedencia de contenido — atenuable y olvidada. Solo quien fundó una manera de leer tiene procedencia de forma, y casi nunca la hace visible ni la defiende como su verdadero fulcro.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    }
+  },
+  "lever": "El dominio: erudición, marco teórico, capacidad de situar una obra en su tradición, prosa pulida, juicio articulado con referencias. La IA reproduce hoy la mayor parte de esto en segundos — resume el libro, lo compara con el canon, emite un veredicto razonable y sin faltas. La palanca del crítico, la reseña bien escrita, es cada vez más indistinguible de la que genera una máquina bien dirigida.",
+  "fulcrum": "Una mirada que un lector reconoce como esa y no otra — un sesgo, un riesgo, una apuesta por lo que aún nadie ha leído, sostenida con un nombre que paga el precio de equivocarse en público. No es la capacidad de juzgar bien, que la máquina imita; es haber construido durante años una posición desde la cual ese juicio significa algo para alguien concreto. Cuando la crítica origina una forma de leer en lugar de validar el consenso, deja de ser regenerable.",
+  "contrast": {
+    "card_ref": "044",
+    "text": "Compárese con el editor literario (Card #044): ambos viven de juzgar textos, pero el editor interviene dentro de la obra antes de que exista — sus decisiones quedan inscritas, irreversibles, en el libro que llega al mundo. El crítico comenta desde fuera, después, sobre algo ya terminado que no cambia por lo que él diga. Esa es la distancia entre strong y warning: no de prestigio, sino de irreversibilidad. Lo que el editor toca queda; lo que el crítico escribe se puede regenerar."
+  },
+  "escape": "Sí, pero exige dejar de competir en el terreno que la máquina ya domina. El crítico que sobrevive no es el que emite el veredicto más justo — es el que se convierte en una voz con posición: quien arriesga por lo que nadie lee aún (fulcro epistémico verificado por aciertos rastreables), quien construye una comunidad que actúa por su criterio (fulcro relacional verificado), o quien funda una manera de leer que otros adoptan y citan (procedencia de forma). En cada caso deja de ser reseñista para ser autor de una mirada. El diagnóstico no condena a la persona — condena a la función de validar el consenso.",
+  "lesson": "Cuando tu juicio es tan articulado como el de una máquina, tan correcto y tan olvidable, no eres una autoridad: eres un consenso bien escrito. La crítica no se salva leyendo mejor que la IA, sino arriesgando un nombre por lo que aún nadie se atreve a defender. La pregunta no es \"¿reseño mejor que el algoritmo?\" — es: \"¿qué dejaría de existir en la conversación sobre los libros si yo dejara de leer?\"",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

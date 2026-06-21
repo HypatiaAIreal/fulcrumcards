@@ -1,0 +1,70 @@
+{
+  "id": "028",
+  "title": "El Community Manager",
+  "sector": "Sector tech/digital",
+  "severity": "warning",
+  "subtitle": "La voz de la marca en redes — una palanca que la IA ya empuña, sostenida por un único fulcro frágil: ser la persona que de verdad contesta cuando un cliente está furioso a las once de la noche.",
+  "opening": "Un viernes a las once y media de la noche, una community manager ve entrar un mensaje directo: un cliente furioso que amenaza con un hilo viral si nadie le responde. Conoce el tono exacto de la marca, sabe qué se puede prometer y qué no, recuerda que este mismo usuario ya se quejó en marzo y cómo se le calmó entonces. Redacta tres líneas, las suaviza, pulsa enviar, y la tormenta se apaga. A la mañana siguiente, en la reunión de equipo, le piden el calendario de contenido del mes: veinte posts, cada uno con copy, hashtags y variantes — y le recuerdan que la nueva herramienta de IA ya genera todo eso en una tarde. Lo que la salvó anoche no fue el calendario. Fue estar despierta, ser ella, y que el cliente lo supiera.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "Sin barrera de entrada: no hay colegiación, licencia ni infraestructura física. Un portátil, acceso a las plataformas y un planificador de publicaciones — las mismas herramientas que usa quien la sustituye, incluida la IA que programa, redacta y responde sola. El acceso a las cuentas pertenece a la marca, no a la persona.",
+      "crack": "El único activo material son las credenciales de las cuentas, y esas no le pertenecen: se revocan con un cambio de contraseña.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "absent",
+      "detail": "El output es indistinguible. En el feed, nadie puede saber si un post lo escribió una persona o un modelo bien dirigido, y las métricas que la validan — alcance, likes, engagement — la IA las optimiza igual o mejor. La credibilidad se mide por el número, y el número no distingue autor.",
+      "crack": "El epistémico colapsa porque la verificación es sobre el contenido público, no sobre quien lo firma — y el contenido público es replicable en segundos.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Este es el fulcro real, y el único. La comunidad no responde a la marca abstracta: responde a la persona que contesta de madrugada, que recuerda nombres, que sabe cuándo un comentario tóxico es una crisis y cuándo es ruido. Esa confianza se construye conversación a conversación con personas concretas que vuelven porque saben que del otro lado hay alguien.",
+      "crack": "El fulcro es verificado pero personal e intransferible, y vive sobre infraestructura ajena: si la persona se va o la plataforma cambia las reglas, la relación se queda sin el canal que la sostenía.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "Existe un rastro — años de publicaciones, una voz reconocible, crisis gestionadas que dejaron huella en cómo la marca suena hoy. Pero todo se firma como la marca, no como la autora: el contenido se anonimiza por diseño y la procedencia de forma (haber originado ese tono) rara vez se reclama ni se hace visible.",
+      "crack": "La procedencia de contenido se diluye en la marca; la de forma existe en las mejores pero casi nunca se documenta, y lo que no deja rastro propio no se puede verificar.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "La producción de contenido: calendarios editoriales, copy para feed e historias, hashtags, respuestas a comentarios, programación, informes de métricas. La IA reproduce hoy la mayor parte de esto en horas, ajustando tono y formato a cada plataforma sin descanso ni vacaciones. La palanca del community manager es cada vez más idéntica a la de la máquina que la asiste — y luego la reemplaza.",
+  "fulcrum": "La relación viva con la comunidad: ser la persona concreta en quien los usuarios confían cuando algo se tuerce, el juicio de saber qué responder en una crisis y qué no escribir nunca, la memoria de quién es cada interlocutor. No es el contenido lo que no se regenera — es el vínculo acumulado con personas que vuelven porque saben que hay alguien, y no algo, al otro lado.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): ambos venden una palanca que la IA replica y firman como la marca, no como autores. Pero el copywriter tiene el relacional apenas asumido, mientras el community manager lo tiene verificado — alguien le confía de verdad la conversación con su público. Esa es la distancia entre critical y warning: no es de prestigio, es de irreversibilidad relacional. A nadie le escribe un cliente furioso de madrugada a quien solo redacta asuntos de email."
+  },
+  "escape": "Sí, pero exige dejar de ser la fábrica de posts. El community manager que sobrevive deja de producir contenido y pasa a ser dueño de la relación: estratega de comunidad que diseña cómo y por qué la gente se reúne, gestor de crisis con criterio verificado, o voz reconocible cuya procedencia de forma se hace visible y se reclama. En cada caso migra del eje epistémico-de-output, ya commoditizado, al relacional verificado y a la procedencia de forma. El diagnóstico no condena a la persona — condena a la función de publicar.",
+  "lesson": "Si lo que entregas es el calendario, ya compites con una máquina que no duerme. Si lo que sostienes es la comunidad que vuelve porque sabe que del otro lado estás tú —y no algo— entonces tienes fulcro, pero solo mientras la relación sea tuya y no de la plataforma. La pregunta no es \"¿publico mejor que la IA?\" — es \"¿quién dejaría de confiar en esta marca si yo dejara de contestar?\"",
+  "references": [
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

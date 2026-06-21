@@ -1,0 +1,70 @@
+{
+  "id": "044",
+  "title": "The Literary Editor",
+  "sector": "Literature",
+  "severity": "strong",
+  "subtitle": "She doesn't write the book — she decides which one deserves to exist, and she bears the judgment when she's wrong. That responsibility is what AI cannot assume.",
+  "opening": "On a Tuesday in October, an editor opens the two-hundredth manuscript of the year. On page forty she stops reading as an editor and starts reading as a reader: something in the rhythm has broken, and she won't be able to explain why until she's read it three times over. She bets the season's catalogue, the advance she will sign, and two years of her reputation that this voice, still clumsy, is going to matter a decade from now. AI can summarize the manuscript, correct its grammar, and compare it with ten thousand published novels. What it cannot do is answer with its own name if it gets it wrong.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "There is no professional licensing board or license, but there is an infrastructure that AI does not possess: the publishing imprint, the budget for advances, access to agents and authors, the physical distribution chain, and the legal signature on the contract. The editor exists as an entity with the authority to say yes or no to a book being printed. That power of admission is a real material barrier, even though it lives more in the publishing house than in the person.",
+      "crack": "The material asset belongs in part to the imprint: an editor without a publisher keeps the judgment but loses the printing press. The barrier protects the function better than the person.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "She is believed because her judgment is verified by public and irreversible consequences: the books she acquired are on the shelves, won prizes or failed, with her name attached to them within the world of the trade. An editor with a track record is someone whose bets can be audited over the years. She doesn't project credibility — she accumulated it decision by decision, and each decision was published.",
+      "crack": "Credibility is verified but slow to build: a young editor has no catalogue yet to back them up, and lives on borrowed prestige from the imprint until their own bets mature.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "This is the central fulcrum. Agents send her the good manuscripts first because they trust her judgment and her dealings; authors choose to stay with her over publishers that pay more. That network of trust — agents, authors, booksellers, critics — was built over years of returning calls, championing difficult books, and not betraying an author in the negotiation. No one entrusts a first manuscript to an algorithm.",
+      "crack": "The fulcrum is verified but personal and non-transferable: if the editor changes imprint, some of the agents follow her and some stay with the logo. The relationship is hers, but the catalogue is not.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "The chain of lived acts is dense and witnessed: the acknowledgments pages, the letters to authors, the editorial decisions that changed a book, the verifiable record of what she acquired and when. Provenance of form is even stronger than provenance of content: a good editor originates a way of looking at a text — a catalogue sensibility — that is recognizable across the books she signs over decades.",
+      "crack": "Part of editorial work is invisible by design — the editor operates behind the author — but the trail exists and is claimed within the trade. The aura lies in the coherence of the catalogue over time.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "lever": "The mechanical part of the trade: copyediting, detecting inconsistencies, normalizing typographic and orthographic conventions, summarizing manuscripts, comparative market analysis, preliminary reader's reports. AI today reproduces almost all of this in minutes, and well directed it does so with fewer errors than a tired intern. This entire layer of filtering and polishing is a legitimate lever — and it is a commodity.",
+  "fulcrum": "The judgment that bets.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): both work with words and both use the same AI for the mechanical layer, but that is where the resemblance ends. The copywriter has all four fulcrums weak because their output is anonymous, indistinguishable, and regenerable; the editor has them strong because her judgment is signed, verifiable by consequences, and wagered over time. The distance is not one of literary prestige — it is one of irreversibility: no one answers with their name for an email subject line, but a catalogue is built bet by bet and cannot be undone."
+  },
+  "escape": null,
+  "lesson": "AI can read a thousand manuscripts and tell you which one each resembles. It cannot bet its name that one of them will matter ten years from now. When your work is correcting the text, you already compete with a cheaper machine; when it is deciding what deserves to exist and bearing the error if you're wrong, you have no competition. The question is not \"do I edit better than AI?\" — it is \"which books would vanish from the world if I stopped betting on them?\"",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain yourself",
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

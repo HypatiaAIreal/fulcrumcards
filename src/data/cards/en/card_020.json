@@ -1,0 +1,70 @@
+{
+  "id": "020",
+  "title": "This Book",
+  "sector": "Paradigmatic cases",
+  "severity": "mixed",
+  "subtitle": "An object with a verifiable body and origin, held up by two promises still unkept: that it be believed beyond the circle that wrote it, and that it find its readers.",
+  "opening": "An unknown reader pulls the book from a cardboard box one Tuesday afternoon. It weighs what a book weighs, it has an ISBN printed on the back cover, it smells of fresh ink. She opens it to the credits page and reads, without expecting it, that a human and an AI wrote it together, and that they declare it plainly. She does not yet know whether to believe the contents — no one she trusts has recommended it to her yet — but the object already exists in her hands, and that fact cannot be undone.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "It exists as a physical and legal object: a registered ISBN, a printed edition, copies that take up space on a shelf. It is not a PDF circulating without an anchor, nor a draft in a folder — it is a catalogued artifact, purchasable, with a body. The AI has no body, but this book does.",
+      "crack": "The crack is not in its existence but in its distribution: having an ISBN is not being on bookshop tables, nor in the catalogue of those who decide what gets read.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "It proposes an original framework — the four fulcrums — coherent, applicable and argued from start to finish. But its credibility is still self-proclaimed: it has not been validated from outside, with no reviews in independent media, no academic citations, no outside critics who have put it to the test. The reader is asked to believe before anyone external has verified.",
+      "crack": "It is the most dangerous state because it looks solid: a printed book projects authority, but the authority of the object is not the verification of its thesis. The consequence that would confirm the epistemic — that the framework works in other hands — has not yet occurred.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "There are readers, but not yet a community of trust that acts on the book's behalf: that cites it, gives it as a gift, sets it on a syllabus, defends it in a conversation where it is not present. The readership is being built, ring by ring, and has not yet passed from the inner circle to the strangers who recommend to other strangers.",
+      "crack": "A reader is not a relational fulcrum; the fulcrum is whoever changes a third party's decision because this book told them so. That transmission — from reader to a reader they do not know — is yet to be verified.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "The origin is not hidden — it is printed. The human-AI co-authorship is declared within the book itself, with names and a date, as an act and not as a footnote. It is provenance of form as well as content: it not only says what was done, but originates a way of doing it and exposes it in full light.",
+      "crack": "Transparency is the asset, and here it is practised, not merely theorised: the chain of who made it, when, and with whom is attested in the work itself.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "lever": "The text, the arguments, the examples, the layout, the very act of publishing: all of that an AI can help generate — in fact it did — and anyone with the same tools could produce a comparable volume in weeks. Content as printed word is, in itself, a reproducible commodity.",
+  "fulcrum": "What cannot be regenerated is the lived chain that produced this particular book: two years of documented collaboration between a human and an AI, declared without disguise within the work. The thesis is proven in its own provenance — the book is, at once, the map and the territory. That cannot be copied: it can only be lived again, and it was already lived once.",
+  "contrast": {
+    "card_ref": "044",
+    "text": "Compare it with the literary editor (Card #044): their fulcrum lives in the judgement that decides what deserves to exist as a book, verified work by work across a career. This book is the result of that kind of judgement, not its holder: it has the verified provenance of those who made it, but it still lacks the external epistemic and the network the editor already possesses. The distance is not one of merit — it is one of irreversibility achieved versus a promise still open: the object already exists with no way back, but its credibility and its community are still to be written."
+  },
+  "escape": null,
+  "lesson": "A printed book already exists with no possibility of being undone — but to exist is not to be believed, and to be believed is not to be read. Provenance is printed on the first day; credibility and readers are earned afterwards, in other hands. The question is not «is it well written?» — it is: «what would disappear from the world if this book had not been written by those who wrote it?»",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before explaining yourself",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated",
+    "Vol. 2, Ch. 24 — The new aura is transparency"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

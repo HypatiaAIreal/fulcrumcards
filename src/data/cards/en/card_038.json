@@ -1,0 +1,70 @@
+{
+  "id": "038",
+  "title": "The Screenwriter",
+  "sector": "Film & audiovisual",
+  "severity": "warning",
+  "subtitle": "Three fulcrums that look solid and not one of them verified: the craft the 2023 strike tried to armor-plate, and that AI keeps eroding from the inside.",
+  "opening": "At midnight on a Wednesday, a screenwriter reads the note from the platform: \"the second act falls apart, try three alternatives by tomorrow.\" He opens the model, pastes in his outline, and in four minutes he has the three turns — one of them, he admits with a knot in his stomach, better than his own. He has been writing for fifteen years and still remembers when the writers' room had nine chairs; now there are four, and one is his only until the arc wraps. What he hands in carries no name until the credits, and the credits are fought over by more people with fewer hours inside. The question nobody asks out loud in the room is whether next year the chair will still be there.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "There is no professional body or license that guards entry to the craft. A laptop, screenwriting software, and access to the call sheet — the same infrastructure used by whoever replaces him, AI included. The union (WGA) provides a real contractual barrier, but it protects conditions, not the existence of the function.",
+      "crack": "The only material barrier is contractual and collective, not personal: the union agreement can slow substitution, but it does not belong to the individual screenwriter nor grant him an existence of his own.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "He is believed because he has produced credits and a portfolio of things that aired. But his draft-stage output grows ever more indistinguishable from that of a well-directed model, and verification happens on the pages, not on the author. In blind reads, executives no longer always tell the human pass from the generated one.",
+      "crack": "Credibility is assumed, not verified: it rests on past credits, not on the reader noticing today the difference between his pen and the machine's.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "A network exists — showrunners who call him, executives who know his name, agents who place him. But it is gatekept and fragile trust: it depends on the room continuing to exist and on the budget sustaining it. He is not the creator whose name sells the project; he is the one who occupies a chair for as long as the arc lasts.",
+      "crack": "The bond is assumed solid but has not been verified against the cheaper alternative: no one has checked whether those calls would keep coming once a model delivers the draft for a fraction of the cost.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "The WGA credit is a verifiable and rare trace: it records that this was written by this person, at this time. But provenance of content dissolves in the collective room, in the uncredited rewrites and, now, in the AI-assisted passes nobody declares. Provenance of form — having originated a recognizable voice — exists in the best of them but is almost never claimed explicitly.",
+      "crack": "The trace exists but erodes from within: every generated, undeclared pass cuts a link in the chain the credit claims to certify.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    }
+  },
+  "lever": "The capacity to generate outlines, dialogue, beats, three alternative turns, character bibles and polish passes at platform speed. All of this — command of three-act structure, of archetypes, of genre formulas — AI reproduces in minutes and in a competent draft. The work-for-hire screenwriter's lever is nearly identical to that of the machine the studio is already testing in the room next door.",
+  "fulcrum": "The voice: the particular way this screenwriter hears a character speak and knows what they would leave unsaid. The structural judgment accumulated after watching fifteen second acts fail and understanding why. And the trace of having been in the room when the tone of a series that exists was decided — provenance of form, not just of content, which AI can imitate but cannot have originated.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): all four fulcrums absent versus three assumed. The distance between warning and critical is not one of talent or prestige — it is one of the irreversibility of the trace. Copy is signed as a brand and disappears; the script leaves a verifiable WGA credit and a voice that some executives still seek out by name. That thread of provenance is the only thing separating risk from collapse."
+  },
+  "escape": "Yes, by migrating from the lever to the fulcrum he already half holds. The screenwriter who survives stops being a supplier of pages and becomes an author with a claimable voice: a showrunner who originates the tone (provenance of form), or a creator whose name sells the project before the outline even exists (relational verified). Whoever only delivers clean beats on time competes with a cheaper model; whoever is the reason a project was made this way and not another, does not. The diagnosis does not condemn the person — it condemns the function of writing for hire.",
+  "lesson": "When you deliver clean pages on time, you already compete with a machine that never sleeps. When you are the voice through which a character speaks this way and no other, you have no competition — you have a signature. The question is not \"do I write better than the AI?\" It is: \"what voice would vanish from the world if I stopped writing?\"",
+  "references": [
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 22 — The commoditization of the lever",
+    "Vol. 2, Ch. 23 — Provenance: the one thing that cannot be regenerated"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

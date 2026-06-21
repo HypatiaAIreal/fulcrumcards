@@ -1,0 +1,70 @@
+{
+  "id": "041",
+  "title": "The Documentary Filmmaker",
+  "sector": "Film & audiovisual",
+  "severity": "strong",
+  "subtitle": "Her camera captures something that cannot be regenerated: a real instant that happened only once, before this person, with this hard-won trust.",
+  "opening": "A documentary filmmaker has spent four years filming a family of fishermen in a port the sea is swallowing. This morning, at six, the matriarch breaks down in tears for the first time in front of the camera — and she does so because she knows the woman who has held it for four years, not because a lens happens to be there. AI can generate a shot of a port, a weeping face, a dawn light indistinguishable from the real one. But it was not on that pier, it did not wait four years, and no one entrusted it with those tears. What was recorded this morning happened only once, and it allows no second take.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Physical presence is mandatory: you have to be in the place, with the camera, at the moment it happens. Equipment, access to real locations, permits, a body that endures waits of hours or years. AI has no body to plant on that pier — and the documentary is being there.",
+      "crack": "Equipment is getting cheaper and a phone camera is enough for many shoots; the material barrier is presence, not technology.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "The documentary is believed because it bears witness: what is seen happened before the camera, and that is verifiable by reality itself. Error has consequences — falsifying a testimony destroys the author's credibility irreversibly. Truth is not declared, it is recorded in real time.",
+      "crack": "Generative AI erodes the default trust in the image; paradoxically, that makes the documentary filmmaker whose provenance can be verified all the more valuable.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Access is the craft. Filming the intimate demands a trust built person to person, over months or years, that no machine can occupy: no one weeps before a language model. The subjects open their lives because they trust whoever holds the camera, not the camera.",
+      "crack": "Trust is personal and non-transferable: it lives in the particular filmmaker, not in the production company that hires her.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "Every shot carries the irreversible chain of having been recorded by someone, in a place, on a date that does not return. The raw takes, the shooting dates, the metadata, the witnesses present: all of it constitutes a verifiable trace that this was made by her, in time. Provenance is not an add-on — it is the very matter of the documentary.",
+      "crack": "The provenance of content (having been there) is unassailable; that of form — a recognizable authorial eye — distinguishes the great documentary filmmaker from the mere operator.",
+      "bar": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "lever": "Technical mastery: camera, editing, color, sound, narrative structure, the generation of filler shots or recreations. All of this AI reproduces today at a decreasing cost — it can invent a dawn, recreate a face, cut together a plausible sequence in minutes. The skill of manufacturing beautiful images is already a commodity.",
+  "fulcrum": "Having been there when it happened, and having someone trust you enough to let you be there. The real instant captured only once, with the relationship that made it possible and the verifiable trace that you recorded it, in that time. It is not the image that cannot be regenerated — it is having been the present witness to something unrepeatable.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): four verified fulcrums against zero. The distance is not one of prestige — it is one of irreversibility. The copy regenerates in forty seconds because it never happened anywhere; the shot of the matriarch's tears does not regenerate because it happened only once, before that camera, after four years of trust."
+  },
+  "escape": null,
+  "lesson": "A machine can manufacture a perfect dawn, but it cannot have been on the pier when the matriarch wept for the first time. The documentary does not compete on the beauty of the image — it competes on having been the witness. The question is not \"do I film better than the AI?\" — it is \"what would cease to exist as proof in the world if I had not been there?\"",
+  "references": [
+    "Vol. 1, Ch. 7 — The material fulcrum: to exist before being sought",
+    "Vol. 2, Ch. 23 — Provenance: the one thing that cannot be regenerated",
+    "Vol. 2, Ch. 24 — The new aura is transparency"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}
