@@ -1,0 +1,70 @@
+{
+  "id": "019",
+  "title": "Project Fetch",
+  "sector": "Casos paradigmáticos",
+  "severity": "warning",
+  "subtitle": "La IA cerró una brecha de ingeniería de ~20x en una sola generación de modelo — y la pelota de playa siguió exactamente donde estaba.",
+  "opening": "En un laboratorio de Anthropic, un perro robot Unitree Go2 espera frente a una pelota de playa. En la Fase 1, dos equipos de empleados lo programaron para ir a buscarla; el equipo que usó Claude fue mucho más rápido. En la Fase 2, Claude Opus 4.7 trabajó solo, sin humanos, y en cada tarea fue al menos 10x más veloz, con código que funcionó a la primera —1.045 líneas frente a las 10.309 del equipo humano-IA. Y entonces el robot intentó mover la pelota. La pelota no se movió.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "El acto físico —el contacto preciso entre el robot y la pelota, en tiempo real, en el espacio del mundo— es precisamente lo que el modelo no pudo ejecutar. La IA no tiene cuerpo: no siente el roce, el peso ni la fricción que decide si la pelota rueda o se queda. El material no es la infraestructura de cómputo; es el mundo físico que no se deja simular.",
+      "crack": "Grieta: aquí es donde el fulcro AGUANTA. Cuanto más se acerca la tarea al control encarnado y adaptativo, más terreno conservan el cuerpo humano y la física del mundo.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "El conocimiento se verificó por consecuencias, sin posibilidad de fingir: el código corría o no, la pelota se movía o no. La realidad arbitró antes que cualquier consenso. Y el veredicto fue inapelable —la palanca de ingeniería se multiplicó, el resultado físico no.",
+      "crack": "Grieta: lo verificado es la velocidad de generar código, no el juicio sobre el control encarnado. El epistémico de la ingeniería ya es commodity; el del cuerpo en tiempo real sigue siendo intransferible.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Se asume que un sistema autónomo que cierra brechas de ingeniería de 20x puede heredar la confianza para actuar en el mundo físico sin supervisión. Pero nadie confiaría todavía la ejecución física crítica a un modelo que no logra mover una pelota. La confianza relacional para lo encarnado no está verificada —está prestada por la métrica de velocidad.",
+      "crack": "Grieta: la confianza migra hacia la palanca veloz y se asume extensible al fulcro físico. No lo es. La velocidad de código no compra credibilidad corporal.",
+      "bar": [
+        0.5,
+        0,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "El modelo dejó un rastro de commits y líneas de código fechadas —procedencia de la palanca. Pero del acto físico no hay cadena vivida: ninguna mano aprendió a sentir cómo cae la pelota, ninguna hora de práctica encarnada quedó atestiguada. La procedencia que importa aquí —la del control adaptativo en el tiempo real del mundo— no existe porque el acto no ocurrió.",
+      "crack": "Grieta: la procedencia de contenido (el código) se generó a velocidad infinita; la procedencia de forma encarnada —saber moverse en el mundo— no se regeneró en absoluto.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "La velocidad de ingeniería: escribir, depurar y entregar código que funciona. En una sola generación de modelo, esta palanca se multiplicó ~20x —más de 37x más rápido que el equipo sin Claude, más de 18x que el equipo asistido por Claude, con un décimo de las líneas y acierto a la primera. Es la palanca más pura del commodity: tiende al infinito y cada vez cuesta menos.",
+  "fulcrum": "El juicio encarnado, adaptativo y en tiempo real: la intuición física que decide presión, ángulo e instante del contacto para que la pelota se mueva. No es conocimiento que se prompteé —es tacto, equilibrio y corrección continua en el mundo material. Por eso, mientras la palanca se multiplicó ~20x, este fulcro no se movió ni un milímetro.",
+  "contrast": {
+    "card_ref": "004",
+    "text": "Compárese con el desarrollador de software (Card #004): allí la palanca —escribir código— ya es commodity, y el fulcro es el juicio sobre qué construir y cuándo desconfiar de la máquina. Project Fetch es ese mismo diagnóstico llevado a su forma pura y física: la palanca de ingeniería se multiplicó hasta el infinito, pero el fulcro se desplazó del juicio abstracto al juicio encarnado. La distancia no es de prestigio —es que el código se regenera y la pelota no se deja mover."
+  },
+  "escape": "La salida no es competir en velocidad de código —esa palanca ya está perdida— sino migrar hacia donde el fulcro aún aguanta: el control encarnado, la supervisión del acto físico, el juicio sobre cuándo el mundo real desmiente a la simulación. Quien programa robots debe dejar de medirse por líneas por segundo y empezar a medirse por su dominio de lo que la máquina no puede tocar: la física adaptativa del mundo. El humano no defiende la ingeniería; defiende el cuerpo en el tiempo real.",
+  "lesson": "La palanca puede tender al infinito y el fulcro quedarse inmóvil: la pelota sigue en el suelo. Multiplicar ~20x la velocidad de hacer no mueve un milímetro lo que exige cuerpo, tiempo real y juicio encarnado. La pregunta no es \"¿cuánto más rápido genera código la IA?\" —es: \"¿qué seguiría sin moverse en el mundo aunque la palanca creciera para siempre?\"",
+  "references": [
+    "Vol. 2, Cap. 22 — La commoditización de la palanca",
+    "Vol. 2, Cap. 25 — La física del fulcro (dominios, topografía)",
+    "Vol. 1, Cap. 7 — El fulcro material: existir antes de ser buscado"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

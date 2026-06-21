@@ -1,0 +1,70 @@
+{
+  "id": "019",
+  "title": "Project Fetch",
+  "sector": "Paradigmatic cases",
+  "severity": "warning",
+  "subtitle": "AI closed an engineering gap of ~20x in a single model generation — and the beach ball stayed exactly where it was.",
+  "opening": "In an Anthropic lab, a Unitree Go2 robot dog waits in front of a beach ball. In Phase 1, two teams of employees programmed it to go fetch the ball; the team that used Claude was far faster. In Phase 2, Claude Opus 4.7 worked alone, without humans, and on every task it was at least 10x faster, with code that ran on the first try — 1,045 lines against the 10,309 of the human-AI team. And then the robot tried to move the ball. The ball did not move.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "The physical act — the precise contact between robot and ball, in real time, in the space of the world — is precisely what the model could not execute. AI has no body: it does not feel the grip, the weight, or the friction that decides whether the ball rolls or stays put. The material is not the compute infrastructure; it is the physical world that refuses to be simulated.",
+      "crack": "Crack: this is where the fulcrum HOLDS. The closer the task comes to embodied, adaptive control, the more ground the human body and the physics of the world keep.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "The knowledge was verified by consequences, with no possibility of pretending: the code ran or it didn't, the ball moved or it didn't. Reality arbitrated before any consensus. And the verdict was beyond appeal — the engineering lever multiplied, the physical result did not.",
+      "crack": "Crack: what is verified is the speed of generating code, not the judgment about embodied control. The epistemic of engineering is already a commodity; that of the body in real time remains untransferable.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "It is assumed that an autonomous system closing 20x engineering gaps can inherit the trust to act in the physical world without supervision. But no one would yet entrust critical physical execution to a model that cannot manage to move a ball. The relational trust for the embodied is not verified — it is borrowed from the speed metric.",
+      "crack": "Crack: trust migrates toward the fast lever and is assumed extensible to the physical fulcrum. It is not. Code speed does not buy bodily credibility.",
+      "bar": [
+        0.5,
+        0,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "The model left a trail of commits and dated lines of code — provenance of the lever. But of the physical act there is no lived chain: no hand learned to feel how the ball falls, no hour of embodied practice was witnessed. The provenance that matters here — that of adaptive control in the real time of the world — does not exist because the act never happened.",
+      "crack": "Crack: the provenance of content (the code) was generated at infinite speed; the provenance of embodied form — knowing how to move in the world — did not regenerate at all.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Engineering speed: writing, debugging, and shipping code that works. In a single model generation, this lever multiplied ~20x — more than 37x faster than the team without Claude, more than 18x the Claude-assisted team, with a tenth of the lines and success on the first try. It is the purest lever of the commodity: it tends toward infinity and costs less every time.",
+  "fulcrum": "Embodied, adaptive, real-time judgment: the physical intuition that decides the pressure, angle, and instant of contact so that the ball moves. It is not knowledge that can be prompted — it is touch, balance, and continuous correction in the material world. That is why, while the lever multiplied ~20x, this fulcrum did not move a single millimeter.",
+  "contrast": {
+    "card_ref": "004",
+    "text": "Compare with the software developer (Card #004): there the lever — writing code — is already a commodity, and the fulcrum is the judgment about what to build and when to distrust the machine. Project Fetch is that same diagnosis carried to its pure, physical form: the engineering lever multiplied to infinity, but the fulcrum shifted from abstract judgment to embodied judgment. The distance is not one of prestige — it is that code regenerates and the ball refuses to be moved."
+  },
+  "escape": "The way out is not to compete on code speed — that lever is already lost — but to migrate toward where the fulcrum still holds: embodied control, the supervision of the physical act, the judgment about when the real world contradicts the simulation. Whoever programs robots must stop measuring themselves by lines per second and begin measuring themselves by their mastery of what the machine cannot touch: the adaptive physics of the world. The human does not defend engineering; the human defends the body in real time.",
+  "lesson": "The lever can tend toward infinity and the fulcrum can stay motionless: the ball is still on the floor. Multiplying the speed of doing by ~20x does not move by a single millimeter what demands a body, real time, and embodied judgment. The question is not \"how much faster does AI generate code?\" — it is: \"what would still refuse to move in the world even if the lever grew forever?\"",
+  "references": [
+    "Vol. 2, Ch. 22 — The commoditization of the lever",
+    "Vol. 2, Ch. 25 — The physics of the fulcrum (domains, topography)",
+    "Vol. 1, Ch. 7 — The material fulcrum: existing before being sought"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

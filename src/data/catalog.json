@@ -1,7 +1,7 @@
 {
   "catalog_version": "1.1",
   "total_planned": 47,
-  "total_created": 46,
+  "total_created": 47,
   "sectors": [
     {
       "name": {
@@ -43,7 +43,7 @@
             "en": "Project Fetch"
           },
           "severity": "warning",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "020",
