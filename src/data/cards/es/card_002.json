@@ -1,0 +1,70 @@
+{
+  "id": "002",
+  "title": "El Abogado Corporativo",
+  "sector": "Profesiones de cuello blanco",
+  "severity": "mixed",
+  "subtitle": "Protegido por la colegiación que la IA no puede tener, vaciado por dentro por la automatización de todo lo que cobra por hora.",
+  "opening": "Un jueves a las once de la noche, un asociado de tercer año revisa la cláusula 14.3 de un contrato de fusión por séptima vez. A su lado, en otra pestaña, una herramienta de IA legal ya ha marcado las tres inconsistencias que él tardó dos horas en encontrar. Él cobra esas dos horas al cliente a 400 euros la hora; la herramienta las resolvió en nueve segundos. Lo que todavía no puede hacer la máquina es firmar el dictamen con su número de colegiado — y por ahora, eso es lo único que separa su factura de la extinción.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "La colegiación es una barrera de entrada real y legalmente protegida. Solo un abogado colegiado puede firmar dictámenes, comparecer ante tribunales y asumir responsabilidad profesional. La IA carece de existencia legal propia: no puede ser parte, no puede colegiarse, no puede responder ante un colegio profesional.",
+      "crack": "El fulcro protege el acto de firmar, no el acto de pensar. Blinda la última milla — la firma — mientras el trabajo que la precede se automatiza por debajo.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se presume que el juicio legal del abogado es superior al de la máquina, pero gran parte del trabajo facturado —revisión documental, due diligence, redacción de cláusulas estándar— produce un output cada vez más indistinguible del de la IA legal. La credibilidad se sostiene sobre el nombre del despacho, no sobre la verificabilidad del output.",
+      "crack": "Es el estado más peligroso: parece sólido porque nadie aún ha auditado cuánto del juicio facturado era criterio insustituible y cuánto era trabajo de patrón replicable.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "El director financiero no llama a una herramienta cuando la operación se tuerce a las dos de la mañana — llama al socio que lleva su cuenta desde hace ocho años. La confianza en operaciones de alto riesgo es nominativa: alguien actúa, firma y se la juega porque este abogado concreto lo recomienda.",
+      "crack": "La confianza está depositada en los socios, no en los asociados que hacen el trabajo. Quien construye la relación factura poco; quien factura mucho ya no la construye.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "Existe un rastro formal —minutas, versiones del contrato, registro de quién redactó qué— pero el producto se firma como despacho, no como autor. El cliente compra el membrete, no la cadena de actos de la persona que pensó la cláusula. La procedencia individual queda absorbida por la marca colectiva.",
+      "crack": "La procedencia de forma —haber originado una manera de estructurar operaciones, una doctrina, un precedente— sí persiste y se autopropaga. Pero pocos abogados la tienen; la mayoría produce procedencia de contenido, que se atenúa rápido.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Velocidad de revisión documental, dominio de plantillas y precedentes, capacidad de redactar cláusulas estándar, due diligence exhaustiva, conocimiento codificado de la regulación. Todo esto —el grueso de la hora facturable— es exactamente lo que la IA legal replica más rápido y más barato. La palanca del abogado se solapa cada año más con la palanca de la máquina.",
+  "fulcrum": "La colegiación que permite firmar y asumir responsabilidad legal, y el juicio acumulado para decidir qué riesgo correr cuando la ley es ambigua y hay cien millones en juego. No es saber qué dice la norma —eso lo sabe la máquina— sino saber hasta dónde tensarla, con quién, y cuándo conviene perder esta batalla para ganar la operación. Eso no se regenera: se vive, caso a caso, con consecuencias reales sobre clientes reales.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): material ausente, los cuatro fulcros débiles. El abogado tiene lo que al copywriter le falta por completo —una barrera material legalmente protegida y una relación nominativa de confianza. La distancia no es de prestigio: es de irreversibilidad. Al copywriter cualquiera lo reemplaza con las mismas herramientas; al abogado lo protege una firma que la máquina no puede estampar."
+  },
+  "escape": null,
+  "lesson": "Una credencial que la máquina no puede tener te protege la firma, no el oficio. Si el 80% de lo que facturas ya lo hace la IA en segundos, tu fulcro no es lo que sabes — es lo que te atreves a firmar cuando la ley calla. La pregunta no es \"¿reviso mejor que la IA?\", sino: \"¿qué desaparecería del mundo si yo dejara de decidir el riesgo?\"",
+  "references": [
+    "Vol. 1, Cap. 7 — El fulcro material: existir antes de ser buscado",
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

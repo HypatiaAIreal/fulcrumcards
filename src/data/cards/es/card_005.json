@@ -1,0 +1,70 @@
+{
+  "id": "005",
+  "title": "El Traductor",
+  "sector": "Profesiones de cuello blanco",
+  "severity": "mixed",
+  "subtitle": "Una profesión partida en dos: la que entrega palabras y la que responde por ellas. Solo una sobrevive a la máquina.",
+  "opening": "Una traductora abre el documento a las once de la noche: un contrato de compraventa entre una empresa alemana y un comprador español, cuarenta páginas, entrega mañana. Antes lo habría traducido en tres días; ahora pega el texto en un motor neuronal y en noventa segundos tiene un borrador casi limpio. Pasa la noche corrigiendo: una cláusula de responsabilidad que el motor invirtió de sentido, un término jurídico que en alemán significa exactamente lo contrario de lo que parece. Su sello de traductora jurada va al pie de la última página — y con él, su responsabilidad legal si el contrato falla en un tribunal. La pregunta no es si la máquina tradujo bien. Es quién firma cuando se equivoca.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay barrera física ni infraestructural. Un portátil, un par de idiomas y acceso a un motor de traducción neuronal — la misma infraestructura que usa quien la reemplaza. Para la traducción general no existe colegiación obligatoria ni herramienta exclusiva: el oficio se ejerce desde cualquier lugar con conexión.",
+      "crack": "Existe una excepción material estrecha: la traducción jurada exige un nombramiento oficial y un sello legalmente reconocido. Pero eso es estatus jurídico, no infraestructura — y solo cubre una fracción del trabajo.",
+      "bar": [
+        0.5,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "Aquí está el fulcro real. En la traducción jurada, jurídica o médica, alguien debe responder con su nombre por la fidelidad del texto: un error en un contrato, una patente o un consentimiento informado tiene consecuencias verificables y atribuibles. La credibilidad no se autoproclama — se acredita por nombramiento oficial y se sostiene por un track record de textos que resistieron el escrutinio de un tribunal o un regulador.",
+      "crack": "La grieta: este fulcro solo es verificado donde hay consecuencia y firma. En la traducción de marketing, contenido web o subtítulos sin atribución, el output es indistinguible del de la máquina y el epistémico colapsa al nivel del copywriter.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Muchas traductoras viven de una cartera estable: una editorial, un bufete, dos agencias que las llaman desde hace años. Esa confianza es real, pero rara vez se ha verificado contra la alternativa barata: ¿seguiría el cliente eligiéndola si un motor neuronal con post-edición ligera costara la quinta parte? En la mayoría de los casos esa prueba aún no ha ocurrido.",
+      "crack": "El vínculo suele ser con la agencia intermediaria, no con el cliente final. Cuando la agencia descubre que puede pre-traducir con IA y pagar solo la revisión, la relación se revela como dependencia de tarifa, no como confianza en el juicio.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "La inmensa mayoría de la traducción es invisible por diseño: el manual, el contrato, la web no llevan firma del traductor — el lector ni siquiera sabe que hubo uno. Es trabajo work-for-hire, anónimo, regenerable. Sin firma no hay rastro de quién lo hizo ni en qué tiempo.",
+      "crack": "Existe una excepción luminosa: la traducción literaria, donde el nombre del traductor aparece en la portada y la versión es reconocida como obra propia. Ahí la procedencia existe — pero es el nicho más pequeño y peor pagado del oficio.",
+      "bar": [
+        0,
+        0,
+        0.5,
+        0
+      ]
+    }
+  },
+  "lever": "Dominio de dos o más lenguas, velocidad de producción, conocimiento de glosarios y memorias de traducción, manejo de herramientas CAT. Todo esto era el músculo del oficio — y todo lo replica hoy un motor neuronal en segundos, a coste casi nulo. La palanca del traductor que solo entrega palabras es idéntica a la de la máquina que lo post-edita.",
+  "fulcrum": "Lo que no se regenera es la responsabilidad acreditada: el juicio de quien firma y responde legalmente por el sentido, no por las palabras. Saber que esta cláusula, en este sistema jurídico, significa lo contrario de su traducción literal — y poner el sello que lo garantiza. La máquina produce el texto; no puede comparecer ante un tribunal si el texto miente. La salida del oficio pasa por ahí: anclarse donde hay consecuencia y firma, y ascender a roles que la máquina no puede ocupar porque no puede responder.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): cuatro fulcros débiles, ninguna firma, output indistinguible. El traductor comparte ese destino en todo el trabajo anónimo — pero conserva un eje que el copywriter no tiene: el epistémico verificado de quien responde legalmente por el sentido. La distancia no es de prestigio sino de consecuencia: la máquina puede escribir el contrato, pero no puede ser citada cuando el contrato falla."
+  },
+  "escape": null,
+  "lesson": "La máquina ya traduce las palabras. Lo que no puede hacer es firmar al pie y responder ante un juez si se equivoca. En la era de la IA, el traductor no cobra por convertir un idioma en otro — cobra por poner su nombre donde la máquina no puede poner el suyo. ¿Qué desaparecería del mundo si dejaras de traducir: las palabras, o la persona que responde por ellas?",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

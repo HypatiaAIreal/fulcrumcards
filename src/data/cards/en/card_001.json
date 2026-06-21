@@ -1,0 +1,70 @@
+{
+  "id": "001",
+  "title": "The Graphic Designer",
+  "sector": "White-collar professions",
+  "severity": "mixed",
+  "subtitle": "A profession split in two: the craft of the deliverable file is sinking, the craft of the judgment that decides is holding firm — and almost no one knows which of the two they are in.",
+  "opening": "On a Thursday at eleven at night, a graphic designer checks the kerning of a logo for a specialty coffee brand for the seventh time. He has spent eleven years polishing this kind of detail: the half-point of letter-spacing that no one notices but everyone feels. The next morning, the client forwards him forty variants generated in Midjourney by his nineteen-year-old nephew and asks, without any malice, whether he can \"clean up the one he likes best.\" The designer understands, in that instant, that the market no longer distinguishes between the nephew's forty and his own — and that the difference he does see is precisely the one he will have to learn to make visible or stop charging for.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "There is a real but eroded material base. There is no mandatory licensing or certification, but there is professional software, frequent formal training and, in many cases, a studio presence or an in-person tie to client and printer. The barrier to entry dropped but did not vanish entirely: producing a coherent, applicable visual system still demands tools and craft that not everyone has.",
+      "crack": "The crack is that the infrastructure that used to set you apart — mastering Illustrator, Photoshop, InDesign — can now be operated by anyone with a prompt. What looked like a material barrier was a learning curve, and AI flattened it.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "absent",
+      "detail": "This is where the profession breaks. In the deliverable output — a logo, a piece, a composition — the average client can no longer tell AI-generated work from a professional's, and what cannot be distinguished is not paid for as judgment but as a commodity. The credibility the designer thought he had lived in the visible quality of the file, and that quality stopped being exclusive.",
+      "crack": "The epistemic crack is that the judgment still exists — knowing why this typeface and not that one, what to discard — but it is invisible in the deliverable. A fulcrum no one perceives is not paid for; the designer has the judgment but not the proof.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "This is the axis that sustains whoever survives. The designer with years in a sector has clients who come back, agencies that subcontract him and brands that entrust their identity to his judgment, not his speed. That trust was built piece by piece and does not transfer to a prompt: a brand director does not hand the rebranding to a machine, because the decision has consequences and needs someone to answer for them.",
+      "crack": "The crack is that relational trust is usually tied to the cheap output. As long as the client believes he is paying for files — and not for judgment — the relationship is vulnerable to the first alternative that delivers similar files for less.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "Provenance is ambiguous and therefore dangerous. The designer signs his portfolio, but the portfolio is provenance of content — \"I made these pieces\" — and that axis fades fast when the pieces are indistinguishable from generated ones. Strong provenance would be of form: having originated a recognizable visual language, a system others imitate. Few have it and almost no one documents it.",
+      "crack": "The crack is that the trail exists but does not prove irreversible authorship: a portfolio can be redone, an aesthetic can be cloned. Without a distinctive language attested over time, provenance remains a mere claim.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Software mastery, speed of execution, knowledge of trends, the library of resources and the portfolio of finished pieces. All of that is now a commodity lever: AI generates variants in seconds, iterates without fatigue and knows every catalogued visual trend. The part of the craft measured in files delivered per hour is exactly the part the machine wields more cheaply.",
+  "fulcrum": "The judgment that decides what not to do: why this visual system sustains a brand for ten years while that one runs out in six months, what to eliminate, where coherence matters more than novelty. And, when it exists, a distinctive visual language of one's own — a way of resolving that is recognized as yours before reading the signature. That cannot be regenerated, because it is not output; it is accumulated judgment and form originated over time.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): there all four fulcrums are weak and the diagnosis is terminal. The designer is not in that place — he keeps a verified relational axis and a material base the copywriter does not have. The distance is not one of talent or prestige: it is that the designer still has something left that cannot be regenerated, if he learns to make it visible before the market stops looking for it."
+  },
+  "escape": null,
+  "lesson": "Design was never the file you deliver — it was the decision of what to leave out. When the machine generates a thousand variants in a minute, your value is no longer producing the option: it is being the person someone trusts to choose it and answer for it. Ask yourself what would disappear from the world if you stopped designing: if the answer is files, you are replaced tomorrow; if the answer is a judgment a brand cannot find in any prompt, you still have a fulcrum.",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain",
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 22 — The commoditization of the lever"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

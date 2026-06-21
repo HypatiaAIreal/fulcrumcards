@@ -1,0 +1,70 @@
+{
+  "id": "009",
+  "title": "The University Professor",
+  "sector": "White-collar professions",
+  "severity": "mixed",
+  "subtitle": "Body present in the lecture hall, real provenance built over decades — yet a credibility and a network that rest on the institution's letterhead, not on themselves.",
+  "opening": "A Monday at nine, a fifty-eight-year-old full professor walks into a half-empty lecture hall and projects the same slides he has been using since 2019. In the back row, a student isn't taking notes: she has an AI chat open that summarizes the syllabus for her, generates exam questions, and explains the concept with more patience than he will have today. He knows it. What he doesn't yet know is that, outside the lecture hall, his name barely exists — not a single recent citation, not a conference this year, not one reader who searches for him and not for the university's imprint. The voice that fills the hall is real; the question is how much of it is still his own once the projector goes dark.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "It exists beyond dispute: a tenured chair, official accreditation (ANECA, habilitation, tenure), a body physically present in a lecture hall, access to research infrastructure and to an institution with legal personhood. The AI has no body and no legal existence; the professor is, materially, there.",
+      "crack": "The crack is that the material barrier protects the post, not the function: the institution exists even though the lecture is no longer irreplaceable.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "He is believed — but much of that credibility is lent by the title and the university's seal, not by an output the student can tell apart from an AI's. Peer review and a track record exist, but for the average student the authority is the chair, not the verified consequence of his judgment.",
+      "crack": "The most dangerous state: it looks solid because no one questions the letterhead, but it has never been verified whether the credibility would survive without it.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "There is a network — colleagues, doctoral candidates, cohorts — but much of it is institutional transit: the student trusts the role, not necessarily the person. The kind of trust that carries weight, the trust of someone who would change a decision because this professor recommends it, exists within a narrow circle and has rarely been put to the test outside the lecture hall.",
+      "crack": "The usual bottleneck: relationships mediated by the institution that have never been verified as one's own, portable trust.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "The strongest axis. Decades of dated and signed work, theses supervised, cohorts trained, a chain of teaching and research acts that are irreversible in real time. That happened, with those hands, in that context, and it leaves a verifiable trace.",
+      "crack": "The provenance of content (papers from years ago) fades; what persists is the provenance of form — having originated a way of thinking that others still cite.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "lever": "Transmitting content: explaining the subject, designing the syllabus, grading exams, producing slides and bibliography. All of this the AI replicates with more patience, availability, and personalization than a hall of eighty people. The lecture as the delivery of information is, in 2026, a commodity lever — the machine teaches the same content at three in the morning and without ever repeating the 2019 slide.",
+  "fulcrum": "What cannot be regenerated is the chain of cohorts trained in real time: the doctoral candidates he supervised through to their dissertations, the generations who passed through his lecture hall and changed course, the body of published work bearing a date and a signature. That provenance is an irreversible trail of lived acts that no AI could have accumulated. The risk does not lie in the fulcrum — it lies in the fact that it rests, unverified, on the borrowed credibility of the letterhead.",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compare him with the art restorer (Card #021): there, all four fulcrums are verified because every act is irreversible and trust was earned work by work, with no letterhead to lend it. The professor shares with him the strength of provenance, but his epistemic and relational fulcrums remain assumed — propped up by the institution, not verified in themselves. The distance is not one of prestige: it is that the restorer needs no one to sign off on his credibility, while the professor still does."
+  },
+  "escape": null,
+  "lesson": "The title says you ought to be believed; the trail says whether it is true. A professor with a chair but no living work is a lever the institution holds up — not a fulcrum that stands on its own. The question is not \"do I explain better than the AI?\", but: what would vanish from the field if you stopped thinking, and not merely teaching?",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain",
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

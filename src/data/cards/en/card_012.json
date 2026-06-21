@@ -1,0 +1,70 @@
+{
+  "id": "012",
+  "title": "The UX Designer",
+  "sector": "White-collar professions",
+  "severity": "mixed",
+  "subtitle": "A profession split down the middle: the screens generate themselves, but the decision of what to build and for whom still requires a human who bears the consequences.",
+  "opening": "One Thursday in the late afternoon, a UX designer drags the last frame of an onboarding flow and opens an AI tool to ask for three variants of it. In eleven seconds he has three polished screens, with correct visual hierarchy, decent microcopy and error states included — something that would have taken him half a morning. He looks at them and feels two things at once: relief at the time saved and a chill at the back of his neck. Because the part the machine just did is exactly the part he used to showcase in his portfolio. The question he doesn't dare ask out loud is which of the two things he does — drawing screens, or deciding which screens deserve to exist — is the one that actually pays his salary.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "There is no professional licensing or mandatory certification, but neither is it a purely ethereal craft: it exists embedded within an organization, with access to real users, to product data and to a team that executes. The body is not the tool — the position within the company is. That position is real, but it is not a barrier to entry of his own: it belongs to the chair, not to the person.",
+      "crack": "The material fulcrum does not live in the designer but in his employer. The day the org chart or the budget changes, the recognizable existence evaporates with the contract.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "The designer believes his judgment is distinguishable from the machine's, and in part that is true: he knows why a flow fails, not just how it looks. But much of what he delivers — wireframes, mockups, component systems — is already indistinguishable from an AI's output in a blind test. The credibility exists, but it is mixed in with commodity and no one has yet separated the two layers.",
+      "crack": "What is verifiable — the screen — is exactly what gets commoditized; what cannot be commoditized — the judgment about what to build — is almost never measured or billed separately. The epistemic is real but camouflaged inside a deliverable that no longer is.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Here is the strongest fulcrum. When a product manager trusts this designer, she defends his decision before engineering and leadership without asking the machine for a second opinion. There are concrete people who change their roadmap because he said something wasn't clear. That trust was earned research by research, launch by launch, and it carries weight because someone wagered resources on his judgment.",
+      "crack": "The trust is real but bounded to the current team; it has not been verified whether it survives a change of company, where the network would have to be rebuilt from scratch.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "The designer has shipped product that millions use, and that is a chain of acts lived out over time. But the provenance is diluted: the work is signed off as a team, decisions are rewritten in retros, and the portfolio shows final screens with no trace of who decided what. There is lived history, but little tangible evidence tying it to his hands.",
+      "crack": "The provenance of content — did you make this screen? — fades fast and is moreover collective. That of form — did you originate a way of deciding? — would exist, but is almost never documented as his own.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    }
+  },
+  "lever": "The screens, the wireframes, the design systems, the mastery of Figma, the speed to produce variants and navigable prototypes. All of it is exactly what generative AI already produces in seconds with quality sufficient for most cases. The UX designer's lever — his capacity to manufacture interfaces — is becoming identical to the lever of the machine that assists him.",
+  "fulcrum": "The judgment about which problem deserves to be solved and for whom, sustained by the trust of a team that acts on that judgment without double-checking it. It is not the screen: it is the decision not to build it. That lives in the relationship with concrete people and in having borne, in real time, the consequences of earlier decisions — something AI cannot accumulate because it never pays the cost of being wrong.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): there all four fulcrums collapse and the relationship is only assumed. The UX designer shares the same wound in the material and the epistemic — indistinguishable output, no barrier of his own — but retains a verified relational fulcrum that the copywriter never managed to build. The distance is not one of talent: it is that someone still changes their decision because the designer says so, and no one's day was ever changed by the subject line of an email."
+  },
+  "escape": null,
+  "lesson": "The UX designer does not compete with AI over drawing the screen — that fight is already lost and he has barely noticed. He competes over the question no machine can answer: what should we not build, and who will trust you enough not to build it? If all that remains of your work once AI makes the screens is an empty Figma, you had no fulcrum. If what remains is a team that would have made a worse decision without you, that was where everything was all along.",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain",
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 22 — The commoditization of the lever"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "010",
+  "title": "The Architect",
+  "sector": "White-collar professions",
+  "severity": "mixed",
+  "subtitle": "A material fulcrum the law protects and a provenance poured in concrete — held up over an epistemic axis that AI is beginning to hollow out.",
+  "opening": "On a Thursday at eleven at night, a forty-two-year-old architect stares at the screen where a generative tool has just spat out forty floor-plan variants for the same plot in under a minute. Some are frankly good: correct orientation, clean circulation, occupancy ratios he would have taken two days to fine-tune. Tomorrow he will sign and stamp one of them with his license number, and that signature makes him legally liable if the building fails. What the machine cannot do is apply that stamp — but for the first time, he is not sure the client understands why that is worth what it costs.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Mandatory professional licensing, a qualifying degree, and a legal signature no software can issue. The project needs an official approval and a party legally accountable to the client, the city council, and the insurer. There is a tangible barrier to entry that AI does not cross: it has no legal existence of its own and cannot assume liability.",
+      "crack": "The crack is that the legal monopoly protects the signature, not necessarily the work that precedes it — much of that work is already being delegated or automated without ever touching the signature.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "The architect's judgment — what to propose, what to discard, what is habitable — was taken as proven, but the client increasingly struggles to tell his criterion apart from that of a generative tool that produces plausible alternatives instantly. The credibility exists, but it rests more on the stamp than on any perceptible difference in the output. When the developer compares forty machine-made plans with the studio's, the epistemic edge stops being obvious.",
+      "crack": "This is the most exposed axis: what is assumed verified — that his judgment shows — is precisely what the commoditization of the draft begins to call into question.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Developers, construction firms, surveyors, and engineering practices that call him back project after project because they trust that his building stands up. That trust is earned delivery by delivery, with material consequences if it fails, and nobody switches architects mid-project lightly. There are concrete people who sign multimillion-euro contracts because he recommends a solution.",
+      "crack": "The crack is concentration: the network is real but narrow and personal, tied to a few recurring clients; if those bonds rotate, the axis does not rebuild itself.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "Every building constructed is a chain of irreversible acts: that building was raised, it is inhabited, it bears his name in the project record and the registry. It is not a portfolio of regenerable images — it is mass, location, and permanence in real time. The provenance of form (his way of resolving space) self-propagates with each new commission.",
+      "crack": "The crack appears upstream: if the origin of the design dissolves among AI-generated variants, the provenance of the content fades even though that of the built work endures.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "lever": "Photorealistic renders, BIM modeling, floor-plan variant generation, area calculations, automated code compliance, optimization of orientation and sunlight. All of this — the visible output the client celebrates — is increasingly reproducible by AI in minutes. The architect's lever is leveling out with that of the machine assisting him.",
+  "fulcrum": "What does not regenerate is the signature carrying legal liability over something that gets built and cannot be undone, and the judgment about how a space is inhabited in a specific place. The raised building is provenance in its purest state: it happened in time, with that plot, that light, and those irreversible decisions. No prompt assumes the consequences of the building failing.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): material absent, epistemic absent, provenance absent. The architect shares with him the threat over the epistemic axis — the output is starting to be indistinguishable — but unlike the copywriter he exists legally, signs with liability, and leaves irreversible work in the world. The distance is not one of prestige: it is that what the architect makes stays standing, and what the copywriter produces regenerates in forty seconds."
+  },
+  "escape": null,
+  "lesson": "AI can draw forty buildings in a minute; not one of them can sign for what gets built or answer for it if it falls. The day your client stops noticing the difference between your judgment and the machine's draft, the only thing separating you is the stamp — and a stamp with no judgment behind it is a formality, not a fulcrum. The question is not whether you design better than AI, but what would still be standing in the world if you stopped signing.",
+  "references": [
+    "Vol. 1, Ch. 7 — The material fulcrum: existing before being sought",
+    "Vol. 2, Ch. 22 — The commoditization of the lever",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

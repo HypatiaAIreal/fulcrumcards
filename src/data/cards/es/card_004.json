@@ -1,0 +1,70 @@
+{
+  "id": "004",
+  "title": "El Desarrollador de Software",
+  "sector": "Profesiones de cuello blanco",
+  "severity": "mixed",
+  "subtitle": "La misma IA que escribe su código verifica su trabajo por consecuencias — y deja en su historial de commits un rastro que el copywriter nunca tuvo.",
+  "opening": "Un jueves a las dos de la madrugada, un desarrollador mira fijamente un test que falla. Le ha pedido a la IA tres versiones de la función; las tres compilan, las tres pasan el caso obvio y las tres revientan el caso límite que él sospechaba desde el principio. Acepta la cuarta sugerencia, la corrige a mano en dos líneas, y el test se pone verde. El junior del equipo, que copió la primera versión sin leerla, mañana tendrá un bug en producción y no sabrá por qué. La diferencia entre los dos no es quién escribe más rápido — es quién sabe cuándo la máquina se equivoca.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "No hay colegiación ni certificación obligatoria. Un portátil, un editor y acceso a un repositorio — la misma infraestructura que usa el modelo que escribe el código a su lado. La barrera de entrada es asumida, no real: se cree que 'saber programar' protege, pero la herramienta de producción es idéntica a la del reemplazo.",
+      "crack": "Allí donde hay acceso a producción, responsabilidad sobre sistemas vivos y on-call con consecuencias reales, el material empieza a existir. Pero eso es rol, no oficio — y el rol se puede retirar.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "El conocimiento se verifica por consecuencias, no por declaración: el código corre o no corre, escala o cae, pasa el test o rompe producción. El error tiene factura inmediata y el acierto deja rastro. Este es el eje fuerte — la realidad arbitra antes que el consenso.",
+      "crack": "La grieta: gran parte del epistémico vive en lo que la IA ya hace bien — generar la función, recordar la API, sugerir el patrón. Lo que no se commoditiza es el juicio sobre qué construir y cuándo desconfiar de la sugerencia. Si el desarrollador solo acepta autocompletados, su epistémico se desliza hacia asumido.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Existe confianza dentro del equipo: el compañero al que se le pide la revisión difícil, el que conoce por qué aquel servicio se diseñó así en 2021. Pero es confianza de contexto, atada al puesto, raramente verificada fuera de la empresa actual. Pocos clientes cambiarían una decisión porque este desarrollador concreto la firma.",
+      "crack": "No se ha verificado si la relación sobrevive a una alternativa más barata o a un cambio de empleo. La confianza que no migra con la persona es confianza prestada por la nómina.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "El historial de commits es una cadena irreversible de actos fechados, atribuidos y atestiguados — procedencia en estado casi puro. La procedencia de contenido (¿escribiste esta línea?) se atenúa cuando la IA genera la mitad del diff. Pero la procedencia de forma — qué arquitectura originaste, qué manera de resolver dejaste como huella en el sistema — persiste y se autopropaga en el equipo.",
+      "crack": "La grieta es la atribución: cuando el commit lleva su nombre pero el diseño lo dictó un prompt, la procedencia de forma se vacía. Lo que no se puede regenerar no es el código — es la decisión arquitectónica que lo precede.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "lever": "Velocidad de tecleo, memoria de sintaxis, dominio de frameworks, conocimiento de algoritmos clásicos, capacidad de generar boilerplate y CRUD. Todo esto la IA lo reproduce en segundos y cada vez mejor — la palanca del que escribe código es hoy casi idéntica a la palanca de la máquina que lo escribe a su lado. Programar dejó de ser el fulcro el día en que la herramienta aprendió a programar.",
+  "fulcrum": "El juicio sobre qué construir y cuándo desconfiar de la respuesta que parece correcta: el caso límite que se huele antes de verlo, la decisión arquitectónica que evita el incendio dentro de seis meses, el saber detenerse. Eso no vive en el código generado — vive en la cadena de decisiones que dejaron rastro en sistemas que siguen en pie. La procedencia de forma, no la de contenido, es lo que no se regenera.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): mismo portátil, misma pantalla, misma IA. Pero el copy se verifica sobre un output indistinguible y se firma como marca, sin autor; el código se verifica por consecuencias — corre o cae — y queda fechado y atribuido en el historial. La distancia no es de prestigio: es que el copywriter no deja rastro y el desarrollador sí."
+  },
+  "escape": null,
+  "lesson": "Cuando la máquina aprende a escribir el código, el fulcro no es escribirlo: es saber cuándo la máquina se equivoca. El que solo acepta autocompletados se vuelve commodity; el que sabe qué construir y cuándo detenerse deja una huella que el siguiente prompt no puede regenerar. La pregunta no es \"¿programo más rápido que la IA?\" — es: \"¿qué dejaría de funcionar en el mundo si yo dejara de decidir cómo se construye?\"",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

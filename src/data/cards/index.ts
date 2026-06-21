@@ -1,0 +1,33 @@
+// AUTO-GENERADO por scripts/integrate-cards.mjs. No editar a mano.
+
+import esCard000 from "./es/card_000.json";
+import esCard001 from "./es/card_001.json";
+import esCard002 from "./es/card_002.json";
+import esCard003 from "./es/card_003.json";
+import esCard004 from "./es/card_004.json";
+import esCard005 from "./es/card_005.json";
+import esCard006 from "./es/card_006.json";
+import esCard007 from "./es/card_007.json";
+import esCard008 from "./es/card_008.json";
+import esCard009 from "./es/card_009.json";
+import esCard010 from "./es/card_010.json";
+import esCard011 from "./es/card_011.json";
+import esCard012 from "./es/card_012.json";
+import esCard021 from "./es/card_021.json";
+import enCard000 from "./en/card_000.json";
+import enCard001 from "./en/card_001.json";
+import enCard002 from "./en/card_002.json";
+import enCard003 from "./en/card_003.json";
+import enCard004 from "./en/card_004.json";
+import enCard005 from "./en/card_005.json";
+import enCard006 from "./en/card_006.json";
+import enCard007 from "./en/card_007.json";
+import enCard008 from "./en/card_008.json";
+import enCard009 from "./en/card_009.json";
+import enCard010 from "./en/card_010.json";
+import enCard011 from "./en/card_011.json";
+import enCard012 from "./en/card_012.json";
+import enCard021 from "./en/card_021.json";
+
+export const cardsEs = [esCard000, esCard001, esCard002, esCard003, esCard004, esCard005, esCard006, esCard007, esCard008, esCard009, esCard010, esCard011, esCard012, esCard021];
+export const cardsEn = [enCard000, enCard001, enCard002, enCard003, enCard004, enCard005, enCard006, enCard007, enCard008, enCard009, enCard010, enCard011, enCard012, enCard021];

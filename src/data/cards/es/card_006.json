@@ -1,0 +1,70 @@
+{
+  "id": "006",
+  "title": "El Analista Financiero",
+  "sector": "Profesiones de cuello blanco",
+  "severity": "warning",
+  "subtitle": "Una profesión con credenciales reales y juicio acumulable — pero cuyo producto visible ya es indistinguible del que genera una máquina en segundos.",
+  "opening": "Son las 7:40 de la mañana y un analista de equity research llega antes que nadie para terminar el modelo que defenderá en la reunión de las nueve. Lleva once años haciendo esto: ajusta los supuestos de crecimiento, recalcula el WACC, cuadra el DCF con los comparables del sector. A las 8:05 un compañero más joven le enseña la pantalla: ha pedido a un modelo de IA el mismo análisis y, salvo dos celdas, las cifras coinciden. El analista no dice nada, pero por primera vez en once años se pregunta qué parte de su trabajo es realmente suya — y qué parte es la hoja de cálculo.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "Hay credenciales reales: CFA, licencias regulatorias en ciertos roles, acceso a terminales Bloomberg y a datos de pago. Pero el trabajo en sí es portátil más hoja de cálculo, y las barreras de entrada son cada vez más blandas. La infraestructura que lo distingue es la del banco, no la suya.",
+      "crack": "La credencial existe pero protege menos cada año: el examen certifica que sabe hacer lo que la máquina ya hace. El fulcro material se asume sólido porque cuesta obtenerlo — no porque siga siendo escaso.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "El juicio existe y puede acumular track record: una recomendación que acierta deja rastro, una tesis que se sostiene en el tiempo construye credibilidad. Pero el output diario —modelos, comps, screenings, notas— es ya indistinguible del que produce una IA. La verificación se hace sobre el entregable, y el entregable converge.",
+      "crack": "Se cree que el cliente distingue el análisis del analista del de la máquina. Casi nunca se ha verificado en ciego — y cuando se verifica, la diferencia se estrecha.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "El analista vive de la confianza de gestores de cartera, clientes institucionales y comités de inversión. Pero esa confianza suele ser prestada por la firma: se confía en el research de la casa, no necesariamente en la persona. Cuando el analista cambia de banco, descubre cuánta de esa red era suya.",
+      "crack": "Es el eje que podría salvarlo, pero está sin verificar: nadie ha probado si el PM seguiría al analista a otra firma, o si seguía al membrete.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "Los informes salen firmados por la entidad, no por el autor. El modelo de Excel se hereda, se copia y se regenera sin rastro de quién lo originó. A nadie en la cadena le consta —ni le importa— qué manos construyeron exactamente ese DCF.",
+      "crack": "La procedencia se corta en origen: producto anónimo por diseño institucional. No es débil — sencillamente no se registra quién hizo qué, en qué momento.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "La fluidez con modelos financieros, el dominio de DCF, LBO y comparables, la velocidad para construir un screening, el acceso a datos de mercado y el vocabulario técnico. Todo ello —antes la prueba de competencia— hoy lo reproduce una IA en segundos, y a menudo sin los errores de fatiga de las siete de la mañana. La palanca del analista es casi idéntica a la de la máquina que la amplifica.",
+  "fulcrum": "Lo que no se regenera es el juicio bajo incertidumbre con consecuencias propias: la decisión de no fiarse del número que cuadra demasiado bien, la lectura de la sala cuando el CFO esquiva una pregunta, el criterio que solo se afina perdiendo dinero con uno mismo en juego. Eso vive en el eje epistémico y relacional verificados — no en la hoja de cálculo, que es lo único que el analista enseña.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): mismo sector de cuello blanco, pero un grado más abajo. El copywriter tiene los cuatro fulcros entre ausentes y asumido; el analista conserva tres asumidos sobre una base de credencial y track record. La distancia no es de prestigio sino de irreversibilidad: el analista aún tiene ejes donde apoyarse antes de que la palanca se desprenda — el copywriter ya no."
+  },
+  "escape": "Sí, y pasa por dejar de competir en el terreno donde la máquina ya ganó. El analista que sobrevive deja de vender el modelo y empieza a vender el juicio: convertir el track record en credibilidad propia y verificable (eje epistémico), y la confianza prestada por la firma en una red que lo seguiría a cualquier sitio (eje relacional verificado). El que se aferra a producir el entregable más rápido compite contra una API; el que se vuelve la persona cuyo criterio cambia decisiones de inversión migra hacia el único fulcro que no se regenera.",
+  "lesson": "Cuando el modelo que te costó once años dominar lo construye una máquina en segundos, tu valor deja de estar en el archivo de Excel y pasa a estar en la decisión de fiarte o no del número que cuadra demasiado bien. La pregunta no es \"¿modelo más rápido que la IA?\" La pregunta es: \"¿qué decisión de inversión dejaría de tomarse bien si yo dejara de estar en la sala?\"",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

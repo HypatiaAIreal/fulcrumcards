@@ -1,0 +1,70 @@
+{
+  "id": "008",
+  "title": "El Periodista",
+  "sector": "Profesiones de cuello blanco",
+  "severity": "mixed",
+  "subtitle": "Una profesión partida en dos: el que estuvo allí conserva un fulcro que nadie puede regenerar; el que solo reescribe teletipos ya compite con la máquina.",
+  "opening": "A las 23:40, una reportera local cruza el cordón policial con su carné de prensa colgando del cuello y habla con el bombero que acaba de salir del edificio en llamas. Anota el olor a plástico quemado, el nombre que el vecino le susurra entre lágrimas, la cifra que el portavoz aún no ha hecho oficial. A esa misma hora, en otra redacción, un compañero genera con IA el resumen de una nota de prensa institucional y lo publica en cuatro minutos sin levantarse de la silla. Mañana los dos firmarán artículos en el mismo periódico, bajo la misma cabecera, con el mismo salario. Pero solo uno de los dos hizo algo que la máquina no podía hacer.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "El periodista existe como entidad reconocible: carné de prensa, acreditación a actos, derecho legal a estar donde el público no entra, cuerpo presente en el lugar de los hechos. La IA no puede cruzar un cordón policial, entrar en una rueda de prensa ni mirar a los ojos a una fuente. Estar ahí, con ese cuerpo y esa credencial, es una barrera tangible.",
+      "crack": "La grieta: gran parte del periodismo actual nunca sale de la redacción. Cuando el trabajo es reescribir teletipos y notas de prensa, el cuerpo presente sobra y la credencial no se usa.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "La firma debería significar credibilidad acumulada: que te crean porque has acertado antes y has pagado por equivocarte. Pero en tests ciegos, el lector ya no distingue un teaser informativo escrito por un redactor del generado por IA. La credibilidad se asume por la cabecera, no se verifica en el autor.",
+      "crack": "La grieta es honda: la consecuencia por equivocarse —el desmentido, la rectificación, la fuente perdida— recae sobre quien estuvo expuesto. Quien solo agrega no acumula ese coste, y por tanto no acumula crédito verificable.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "El periodista cree tener una red: fuentes que le filtran, lectores que le siguen, instituciones que le devuelven la llamada. Y a veces es cierto y profundo. Pero buena parte de esa confianza pertenece a la marca —el periódico, la radio— y no migra con la persona cuando cambia de medio o se queda sin él.",
+      "crack": "No se ha verificado quién cambiaría su decisión por el nombre del periodista y no por el logo del medio. Las fuentes que llaman a la persona, no a la cabecera, son el único fulcro relacional real — y son menos de las que el oficio supone.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "El reportaje sobre el terreno es una cadena de actos irreversibles: estuviste en ese juicio, hablaste con esa viuda, viste el documento antes de que lo retiraran. Eso ocurrió en el tiempo real, con tu presencia, y no se puede regenerar después. La procedencia de la información presenciada es lo que ninguna IA puede fabricar sin haber estado.",
+      "crack": "La grieta: la procedencia solo cuenta si deja rastro verificable. El testimonio sin grabación, sin documento, sin segunda fuente, se atenúa hasta volverse indistinguible de lo inventado.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "lever": "Velocidad de redacción, dominio del estilo periodístico, capacidad de sintetizar una nota de prensa en titular y entradilla, SEO, producción de volumen. Todo esto la IA lo hace en segundos y a coste casi nulo. El periodista que solo apila contenido empuña exactamente la misma palanca que la máquina que abarata su puesto.",
+  "fulcrum": "Haber estado. La fuente que solo confía en ti, la pregunta incómoda hecha en persona, el dato que viste con tus ojos antes de que existiera el comunicado oficial. La procedencia del testimonio presenciado no se puede regenerar porque ocurrió una vez, en el tiempo, contigo dentro. Eso es lo que la cabecera no le puede transferir a un prompt.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): material ausente, epistémico ausente, procedencia ausente. El periodista comparte con él la grieta epistémica —output indistinguible— pero conserva dos fulcros verificados que el copywriter no tiene: el cuerpo acreditado en el lugar y la procedencia de lo presenciado. La distancia no es de prestigio: es que el periodista, si sale de la redacción, hace algo irreversible; el copywriter no."
+  },
+  "escape": null,
+  "lesson": "El periodismo no muere por la IA; muere por no salir de la redacción. Cuando tu trabajo es reescribir lo que ya existe, compites con la máquina y pierdes. Cuando tu trabajo es haber estado donde nadie más estuvo, eres lo único que la máquina no puede fabricar. La pregunta no es \"¿escribo más rápido que la IA?\" — es \"¿qué se quedaría sin contar si yo no hubiera ido?\"",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

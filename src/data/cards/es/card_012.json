@@ -1,0 +1,70 @@
+{
+  "id": "012",
+  "title": "El UX Designer",
+  "sector": "Profesiones de cuello blanco",
+  "severity": "mixed",
+  "subtitle": "Una profesión partida por la mitad: las pantallas se generan solas, pero la decisión de qué construir para quién todavía pide un humano que cargue con las consecuencias.",
+  "opening": "Un jueves a media tarde, un UX designer arrastra el último frame de un flujo de onboarding y abre una herramienta de IA para pedirle tres variantes del mismo. En once segundos tiene tres pantallas pulidas, con jerarquía visual correcta, microcopy decente y estados de error incluidos — algo que a él le habría llevado media mañana. Las mira y siente dos cosas a la vez: alivio por el tiempo ganado y un frío en la nuca. Porque la parte que la máquina acaba de hacer es justo la que él enseñaba en su portfolio. La pregunta que no se atreve a formular en voz alta es cuál de las dos cosas que hace —dibujar pantallas o decidir qué pantallas merecen existir— es la que de verdad le paga la nómina.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "No hay colegiación ni certificación obligatoria, pero tampoco es un oficio puramente etéreo: existe embebido en una organización, con acceso a usuarios reales, a datos de producto y a un equipo que ejecuta. El cuerpo no es la herramienta —lo es la posición dentro de la empresa—. Esa posición es real, pero no es una barrera de entrada propia: pertenece a la silla, no a la persona.",
+      "crack": "El fulcro material no vive en el designer sino en su empleador. El día que cambia el organigrama o el presupuesto, la existencia reconocible se evapora con el contrato.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "El designer cree que su juicio se distingue del de la máquina, y en parte es cierto: sabe por qué un flujo fracasa, no solo cómo se ve. Pero gran parte de lo que entrega —wireframes, mockups, sistemas de componentes— ya es indistinguible del output de una IA en un test ciego. La credibilidad existe, pero está mezclada con commodity y nadie ha separado todavía las dos capas.",
+      "crack": "Lo verificable —la pantalla— es justo lo que se commoditiza; lo no commoditizable —el criterio sobre qué construir— casi nunca se mide ni se factura por separado. El epistémico es real pero está camuflado dentro de un entregable que ya no lo es.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Aquí está el fulcro más fuerte. Cuando un product manager confía en este designer, defiende su decisión ante ingeniería y dirección sin pedir una segunda opinión a la máquina. Hay personas concretas que cambian su roadmap porque él dijo que algo no se entendía. Esa confianza se ganó investigación a investigación, lanzamiento a lanzamiento, y tiene peso porque alguien apostó recursos por su criterio.",
+      "crack": "La confianza es real pero acotada al equipo actual; no se ha verificado si sobrevive a un cambio de empresa, donde la red habría que reconstruirla desde cero.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "El designer ha enviado producto que millones usan, y eso es una cadena de actos vividos en el tiempo. Pero la procedencia está diluida: el trabajo se firma como equipo, las decisiones se reescriben en retros, y el portfolio muestra pantallas finales sin rastro de quién decidió qué. Hay historia vivida, pero poca evidencia tangible que la ate a sus manos.",
+      "crack": "La procedencia de contenido —¿hiciste esta pantalla?— se atenúa rápido y además es colectiva. La de forma —¿originaste una manera de decidir?— existiría, pero casi nunca está documentada como propia.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    }
+  },
+  "lever": "Las pantallas, los wireframes, los design systems, el dominio de Figma, la velocidad para producir variantes y prototipos navegables. Todo ello es exactamente lo que la IA generativa ya produce en segundos con calidad suficiente para la mayoría de los casos. La palanca del UX designer —su capacidad de fabricar interfaces— se está volviendo idéntica a la palanca de la máquina que lo asiste.",
+  "fulcrum": "El juicio sobre qué problema merece ser resuelto y para quién, sostenido por la confianza de un equipo que actúa según ese juicio sin verificarlo dos veces. No es la pantalla: es la decisión de no construirla. Eso vive en la relación con personas concretas y en haber cargado, en el tiempo real, con las consecuencias de decisiones anteriores —algo que la IA no puede acumular porque no paga el coste de equivocarse.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): allí los cuatro fulcros colapsan y la relación es solo asumida. El UX designer comparte la misma herida en lo material y lo epistémico —output indistinguible, sin barrera propia— pero conserva un fulcro relacional verificado que el copywriter no llegó a construir. La distancia no es de talento: es que alguien todavía cambia su decisión porque el designer lo dice, y a nadie le cambiaba el día el asunto del email."
+  },
+  "escape": null,
+  "lesson": "El UX designer no compite con la IA por dibujar la pantalla — esa pelea ya la perdió y casi no se ha dado cuenta. Compite por la pregunta que ninguna máquina puede responder: ¿qué no deberíamos construir, y quién va a confiar en ti lo suficiente para no construirlo? Si lo único que queda de tu trabajo cuando la IA hace las pantallas es un Figma vacío, no tenías fulcro. Si queda un equipo que habría tomado peor decisión sin ti, ahí estaba todo el tiempo.",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

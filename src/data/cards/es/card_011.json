@@ -1,0 +1,70 @@
+{
+  "id": "011",
+  "title": "El Recruiter de RRHH",
+  "sector": "Profesiones de cuello blanco",
+  "severity": "warning",
+  "subtitle": "Aún sostiene un fulcro relacional real, pero la parte de su trabajo que se ve y se mide ya la hace la máquina más rápido y más barato.",
+  "opening": "Un jueves a media tarde, un recruiter abre su bandeja y ve 312 candidaturas para una sola vacante de backend. Antes habría tardado dos días en cribarlas; ahora el ATS ya las ha puntuado, ordenado y redactado los primeros mensajes de rechazo mientras él tomaba café. Su jefa le pregunta, sin mala intención, cuántas de esas 312 ha leído él de verdad. La respuesta honesta es: ninguna todavía — y la máquina lo sabe.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay barrera de entrada material. Sin colegiación, sin certificación obligatoria, sin infraestructura física propia. Un LinkedIn Recruiter, un ATS y un portátil — exactamente las mismas herramientas que ya automatizan el cribado, el sourcing y el primer contacto.",
+      "crack": "El fulcro material es estructuralmente ausente y no hay intervención posible en este eje: el oficio nunca dependió de un cuerpo ni de un lugar.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se asume que el recruiter sabe distinguir al buen candidato — pero gran parte de ese juicio es cribado de CV contra requisitos, y eso la IA lo replica con igual o menor sesgo aparente. La credibilidad real solo aparece cuando su criterio se verifica por consecuencias: el contratado rinde y se queda dos años. Casi nadie mide esa cadena.",
+      "crack": "El epistémico es asumido, no verificado: el éxito de una contratación se atribuye al candidato o al manager, rara vez al juicio del recruiter, así que su credibilidad nunca se cobra ni se acumula.",
+      "bar": [
+        0.5,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Aquí vive lo que puede salvarlo. El recruiter que durante años ha construido confianza con managers que le creen y con candidatos pasivos que solo cogen el teléfono porque es él quien llama, tiene un fulcro real. Es relación con peso: alguien cambia su decisión porque él lo recomienda.",
+      "crack": "Pero está asumido, no verificado: gran parte del sector ejerce de intermediario transaccional sin vínculo singular, y esa confianza no se ha probado contra una alternativa más rápida y barata.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "El trabajo del recruiter es invisible por diseño: el mérito de una buena contratación se lo lleva el candidato que brilla o el manager que decidió. Nadie firma el shortlist. No queda rastro verificable de que ese encaje, ese año después, lo originó su criterio.",
+      "crack": "La procedencia se corta antes de empezar: sin firma ni rastro atribuible, no hay cadena que demuestre que esto lo hizo él, en el tiempo.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Sourcing, cribado de CVs, redacción de mensajes de contacto, agendado de entrevistas, scoring de candidatos contra una descripción de puesto. Velocidad para procesar cientos de candidaturas, dominio del ATS y de los booleanos de búsqueda. Todo esto ya lo hace la máquina más rápido, a cualquier hora y sin fatiga — es palanca pura, y es commodity.",
+  "fulcrum": "La confianza singular acumulada: el manager que delega su decisión porque ha visto a este recruiter acertar, y el candidato pasivo que solo se mueve porque confía en quien le llama. Es el juicio sobre el encaje humano que se valida años después, la conversación que detecta lo que ningún CV dice. Eso no es output reproducible: es relación con consecuencias, y solo existe si se ha construido en el tiempo.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): ambos comparten material y procedencia ausentes y un epistémico que colapsa. Pero el copywriter tiene su relacional también en mínimos, y por eso su diagnóstico es crítico. El recruiter conserva un fulcro relacional con peso real — y esa diferencia, no el prestigio, es lo que separa el riesgo de la condena."
+  },
+  "escape": "Sí, y pasa por dejar de ser el que filtra para ser el que decide con quién apostar. El recruiter que sobrevive abandona el cribado a la máquina y se reposiciona donde la IA no llega: cultivar relaciones de talento a largo plazo, hacer de asesor de confianza del hiring manager, convertirse en el juicio que un equipo no externaliza. Verificar su fulcro relacional — hacer que su criterio deje rastro y se cobre — lo mueve de intermediario reemplazable a socio insustituible. El diagnóstico no condena a la persona: condena a la función de cribar.",
+  "lesson": "Si tu valor es ordenar 312 CVs más rápido que ayer, la máquina ya te ganó esa carrera. Lo que no puede hacer es ser la voz que un candidato cree y un jefe deja decidir por él. La pregunta no es \"¿cribo mejor que la IA?\" — es \"¿quién dejaría de coger el teléfono si yo dejara de llamar?\"",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

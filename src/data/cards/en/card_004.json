@@ -1,0 +1,70 @@
+{
+  "id": "004",
+  "title": "The Software Developer",
+  "sector": "White-collar professions",
+  "severity": "mixed",
+  "subtitle": "The same AI that writes his code verifies his work through consequences — and leaves in his commit history a trail the copywriter never had.",
+  "opening": "One Thursday at two in the morning, a developer stares at a failing test. He has asked the AI for three versions of the function; all three compile, all three pass the obvious case, and all three blow up on the edge case he suspected from the start. He accepts the fourth suggestion, fixes it by hand in two lines, and the test goes green. The junior on the team, who copied the first version without reading it, will have a bug in production tomorrow and won't know why. The difference between the two isn't who writes faster — it's who knows when the machine is wrong.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "There is no professional licensing or mandatory certification. A laptop, an editor and access to a repository — the same infrastructure used by the model writing the code beside him. The barrier to entry is assumed, not real: people believe that 'knowing how to code' protects them, but the production tool is identical to the one that replaces them.",
+      "crack": "Wherever there is access to production, responsibility over live systems, and on-call duty with real consequences, the material begins to exist. But that is a role, not a craft — and the role can be withdrawn.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "Knowledge is verified through consequences, not through declaration: the code runs or it doesn't, it scales or it falls, it passes the test or it breaks production. Error bills immediately and success leaves a trail. This is the strong axis — reality arbitrates before consensus does.",
+      "crack": "The crack: much of the epistemic lives in what the AI already does well — generating the function, recalling the API, suggesting the pattern. What does not get commoditized is the judgment about what to build and when to distrust the suggestion. If the developer merely accepts autocompletions, his epistemic slides toward assumed.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Trust exists within the team: the colleague you ask for the hard review, the one who knows why that service was designed the way it was back in 2021. But it is contextual trust, tied to the position, rarely verified outside the current company. Few clients would change a decision because this particular developer signs off on it.",
+      "crack": "It has not been verified whether the relationship survives a cheaper alternative or a change of employer. Trust that does not migrate with the person is trust borrowed from the payroll.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "The commit history is an irreversible chain of dated, attributed and witnessed acts — provenance in an almost pure state. Provenance of content (did you write this line?) weakens when the AI generates half the diff. But provenance of form — what architecture you originated, what way of solving you left as a mark on the system — persists and propagates itself across the team.",
+      "crack": "The crack is attribution: when the commit bears his name but the design was dictated by a prompt, the provenance of form empties out. What cannot be regenerated is not the code — it is the architectural decision that precedes it.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "lever": "Typing speed, memory of syntax, command of frameworks, knowledge of classic algorithms, the ability to generate boilerplate and CRUD. All of this the AI reproduces in seconds and ever better — the lever of the one who writes code is today almost identical to the lever of the machine writing it beside him. Programming stopped being the fulcrum the day the tool learned to program.",
+  "fulcrum": "The judgment about what to build and when to distrust the answer that looks correct: the edge case smelled before it is seen, the architectural decision that prevents the fire six months from now, the knowing when to stop. That does not live in the generated code — it lives in the chain of decisions that left a trail in systems still standing. Provenance of form, not of content, is what cannot be regenerated.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): same laptop, same screen, same AI. But the copy is verified against an indistinguishable output and signed as a brand, with no author; the code is verified through consequences — it runs or it falls — and is left dated and attributed in the history. The distance is not one of prestige: it is that the copywriter leaves no trail and the developer does."
+  },
+  "escape": null,
+  "lesson": "When the machine learns to write the code, the fulcrum is not writing it: it is knowing when the machine is wrong. The one who merely accepts autocompletions becomes a commodity; the one who knows what to build and when to stop leaves a mark the next prompt cannot regenerate. The question is not \"do I program faster than the AI?\" — it is: \"what would stop working in the world if I stopped deciding how it gets built?\"",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain yourself",
+    "Vol. 2, Ch. 22 — The commoditization of the lever",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

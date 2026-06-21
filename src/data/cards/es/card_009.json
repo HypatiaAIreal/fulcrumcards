@@ -1,0 +1,70 @@
+{
+  "id": "009",
+  "title": "El Profesor Universitario",
+  "sector": "Profesiones de cuello blanco",
+  "severity": "mixed",
+  "subtitle": "Cuerpo presente en el aula, procedencia real de décadas — pero una credibilidad y una red que descansan sobre el membrete de la institución, no sobre sí mismas.",
+  "opening": "Un lunes a las nueve, un catedrático de cincuenta y ocho años entra en un aula medio vacía y proyecta las mismas diapositivas que lleva usando desde 2019. En la última fila, una estudiante no toma apuntes: tiene abierto un chat de IA que le resume el temario, le genera preguntas de examen y le explica el concepto con más paciencia de la que él tendrá hoy. Él lo sabe. Lo que no sabe todavía es que, fuera del aula, su nombre apenas existe — ni una cita reciente, ni una conferencia este año, ni un solo lector que lo busque a él y no al sello de la universidad. La voz que llena el aula es real; la pregunta es cuánto de ella sigue siendo suya cuando se apaga el proyector.",
+  "fulcrum": "Lo que no se puede regenerar es la cadena de cohortes formadas en el tiempo real: los doctorandos que dirigió hasta su tesis, las generaciones que pasaron por su aula y cambiaron de rumbo, el cuerpo de obra publicada con fecha y firma. Esa procedencia es un rastro irreversible de actos vividos que ninguna IA puede haber acumulado. El riesgo no está en el fulcro — está en que descansa, sin verificarse, sobre la credibilidad prestada del membrete.",
+  "lever": "Transmitir contenido: explicar la materia, diseñar el temario, corregir exámenes, producir slides y bibliografía. Todo esto la IA lo replica con más paciencia, disponibilidad y personalización que un aula de ochenta personas. La clase magistral como entrega de información es, en 2026, una palanca commodity — la máquina enseña el mismo contenido a las tres de la madrugada y sin repetir la diapositiva de 2019.",
+  "lesson": "El título dice que se te debe creer; el rastro dice si es verdad. Un profesor con cátedra y sin obra viva es una palanca que la institución sostiene — no un fulcro que se sostiene solo. La pregunta no es \"¿explico mejor que la IA?\", sino: ¿qué desaparecería del campo si tú dejaras de pensar, y no solo de enseñar?",
+  "escape": null,
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compárese con el restaurador de arte (Card #021): allí los cuatro fulcros están verificados porque cada acto es irreversible y la confianza se ganó obra a obra, sin membrete que la preste. El profesor comparte con él la fuerza de la procedencia, pero su epistémico y su relacional siguen siendo asumidos — apoyados en la institución, no verificados en sí mismos. La distancia no es de prestigio: es que el restaurador no necesita que nadie le firme la credibilidad, y el profesor todavía sí."
+  },
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Existe sin discusión: plaza, acreditación oficial (ANECA, habilitación, tenure), cuerpo presente en un aula física, acceso a infraestructura de investigación y a una institución con personalidad jurídica. La IA carece de cuerpo y de existencia legal; el profesor está, materialmente, ahí.",
+      "crack": "La grieta es que la barrera material protege el puesto, no la función: la institución existe aunque la clase magistral ya no sea insustituible.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se le cree — pero buena parte de esa credibilidad la presta el título y el sello de la universidad, no un output que el alumno pueda distinguir del de una IA. El peer review y la trayectoria existen, pero para el estudiante medio la autoridad es la cátedra, no la consecuencia verificada de su juicio.",
+      "crack": "El estado más peligroso: parece sólido porque nadie cuestiona el membrete, pero no se ha verificado si la credibilidad sobreviviría sin él.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Hay una red — colegas, doctorandos, cohortes — pero gran parte es tránsito institucional: el alumno confía en el rol, no necesariamente en la persona. La confianza con peso, la de quien cambiaría una decisión porque este profesor lo recomienda, existe en un círculo estrecho y rara vez se ha puesto a prueba fuera del aula.",
+      "crack": "El cuello de botella habitual: relaciones mediadas por la institución que no se han verificado como confianza propia y portátil.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "El eje más fuerte. Décadas de obra fechada y firmada, tesis dirigidas, cohortes formadas, una cadena de actos docentes e investigadores irreversibles en el tiempo real. Eso ocurrió, con esas manos, en ese contexto, y deja rastro verificable.",
+      "crack": "La procedencia de contenido (papers de hace años) se atenúa; lo que persiste es la procedencia de forma — haber originado una manera de pensar que otros siguen citando.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

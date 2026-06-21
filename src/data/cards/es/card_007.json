@@ -1,0 +1,70 @@
+{
+  "id": "007",
+  "title": "El Consultor de Gestión",
+  "sector": "Profesiones de cuello blanco",
+  "severity": "mixed",
+  "subtitle": "Una palanca casi enteramente commoditizada sostenida por un fulcro que la IA no puede tocar: estar sentado en esa sala, con esos directivos, cuando se decide.",
+  "opening": "Un jueves a las siete de la mañana, un consultor sénior repasa en el taxi las cuarenta y dos diapositivas que presentará al comité de dirección de una aseguradora. El marco de las cinco fuerzas, el benchmark del sector, la matriz de priorización: todo lo generó su equipo en tres días, y reconoce que una IA podría haber producido el ochenta por ciento en una tarde. Pero a las nueve no será la presentación lo que decida el contrato — será que el CEO le mire a los ojos y le pregunte, en voz baja, qué haría él en su lugar. Lo que se vende no son las diapositivas. Es la confianza de que alguien estuvo en la sala cuando importaba.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay colegiación, licencia ni infraestructura física que proteja la entrada. Un portátil, plantillas de PowerPoint y acceso a frameworks públicos — los mismos que cualquier IA conoce de memoria. La marca de la firma sustituye a la barrera material, pero la marca es de la firma, no del consultor.",
+      "crack": "El único activo material es el logo en la portada del informe — y ese activo no le pertenece a la persona, sino a la consultora que puede reemplazarla.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se le cree porque proyecta autoridad: títulos, lenguaje del sector, casos de otros clientes. Pero su conocimiento rara vez se verifica por consecuencias — el consultor entrega la recomendación y se marcha antes de que el resultado se materialice. Cuando la estrategia falla, fue la ejecución del cliente; cuando triunfa, fue el consejo.",
+      "crack": "La credibilidad es asumida, no verificada: se mide por la calidad de la presentación, no por el resultado a tres años. Es el estado más peligroso, porque parece el más sólido.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Este es el fulcro real. El CEO no contrata un informe — contrata a alguien en quien confía para pensar en voz alta sobre lo que no puede decir a su propio consejo. Esa relación se construye reunión a reunión, crisis a crisis, y es lo único que la IA no puede ocupar: nadie le confiesa su miedo a un modelo de lenguaje.",
+      "crack": "El fulcro es verificado pero personal e intransferible: vive en el consultor concreto, no en la firma. Si cambia de empresa, ¿le sigue el cliente, o se queda con el logo?",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "El entregable se firma como la firma, no como el autor. Las diapositivas se anonimizan, se reciclan entre clientes, se atribuyen a la metodología propietaria. Existe un rastro de carrera — proyectos, sectores, años — pero está envuelto en confidencialidad y marca colectiva.",
+      "crack": "La procedencia de contenido se diluye en la marca de la firma; la de forma — haber originado un modo de ver el problema — existe en los mejores, pero casi nunca se hace visible ni se reclama.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "El análisis: frameworks estratégicos, benchmarking, modelización financiera, síntesis de informes de mercado, redacción de recomendaciones pulidas. La IA reproduce hoy la mayor parte de esto en horas, no en semanas, y con menor coste de error. El producto entregable del consultor — el deck — es cada vez más indistinguible del que genera una máquina bien dirigida.",
+  "fulcrum": "La presencia confiada en la sala donde se decide. El juicio de saber qué no decir delante del consejo, a quién llamar después de la reunión, cuándo callar. Es confianza acumulada con personas concretas que actúan basándose en su criterio — no porque el análisis sea irreproducible, sino porque la relación lo es.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): ambos venden una palanca que la IA replica, pero el copywriter tiene el relacional apenas asumido y el consultor lo tiene verificado. Esa es la distancia entre critical y mixed. No es de prestigio — es de irreversibilidad relacional: a nadie le confiesan un miedo de board a quien solo escribe asuntos de email."
+  },
+  "escape": null,
+  "lesson": "Cuando lo que vendes son las diapositivas, ya compites con una máquina más barata. Cuando lo que vendes es haber estado en la sala cuando todo dependía de una conversación que nadie grabó, no tienes competencia. La pregunta no es \"¿analizo mejor que la IA?\" — es \"¿qué desaparecería de esa sala si yo dejara de entrar?\"",
+  "references": [
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

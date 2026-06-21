@@ -1,0 +1,70 @@
+{
+  "id": "001",
+  "title": "El Diseñador Gráfico",
+  "sector": "Profesiones de cuello blanco",
+  "severity": "mixed",
+  "subtitle": "Una profesión partida en dos: el oficio del archivo entregable se hunde, el oficio del criterio que decide se sostiene — y casi nadie sabe en cuál de los dos está.",
+  "opening": "Un jueves a las once de la noche, un diseñador gráfico revisa por séptima vez el kerning de un logotipo para una marca de café de especialidad. Lleva once años puliendo esta clase de detalle: el medio punto de interletrado que nadie nota pero todos sienten. A la mañana siguiente, el cliente le reenvía cuarenta variantes generadas en Midjourney por su sobrino de diecinueve años y pregunta, sin mala intención, si puede \"limpiar la que más le guste\". El diseñador entiende, en ese instante, que el mercado ya no distingue entre las cuarenta del sobrino y las suyas — y que la diferencia que él sí ve es justo la que tendrá que aprender a hacer visible o dejar de cobrar.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "Existe una base material real pero erosionada. No hay colegiación ni certificación obligatoria, pero sí software profesional, formación formal frecuente y, en muchos casos, presencia en estudio o vínculo presencial con cliente e imprenta. La barrera de entrada bajó pero no desapareció del todo: producir un sistema visual coherente y aplicable sigue exigiendo herramientas y oficio que no todo el mundo tiene.",
+      "crack": "La grieta es que la infraestructura que diferenciaba —dominar Illustrator, Photoshop, InDesign— ahora la opera cualquiera con un prompt. Lo que parecía barrera material era curva de aprendizaje, y la IA la aplanó.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "absent",
+      "detail": "Aquí se rompe la profesión. En el output entregable —un logo, una pieza, una composición— el cliente medio ya no distingue lo generado por IA de lo hecho por un profesional, y lo que no se distingue no se paga como criterio sino como commodity. La credibilidad que el diseñador creía tener vivía en la calidad visible del archivo, y esa calidad dejó de ser exclusiva.",
+      "crack": "La grieta epistémica es que el juicio sigue existiendo —saber por qué esta tipografía y no esa, qué descartar— pero es invisible en el entregable. Un fulcro que nadie percibe no se cobra; el diseñador tiene el criterio pero no la prueba.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Es el eje que sostiene a quien sobrevive. El diseñador con años en un sector tiene clientes que vuelven, agencias que lo subcontratan y marcas que confían su identidad a su criterio, no a su velocidad. Esa confianza se construyó pieza a pieza y no se transfiere a un prompt: un director de marca no le entrega el rebranding a una máquina porque la decisión tiene consecuencias y necesita alguien que responda por ellas.",
+      "crack": "La grieta es que la confianza relacional suele estar atada al output barato. Mientras el cliente crea que paga por archivos —y no por juicio— la relación es vulnerable a la primera alternativa que entregue archivos parecidos por menos.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "La procedencia es ambigua y por eso peligrosa. El diseñador firma su portfolio, pero el portfolio es procedencia de contenido —\"hice estas piezas\"— y ese eje se atenúa rápido cuando las piezas son indistinguibles de las generadas. La procedencia fuerte sería de forma: haber originado un lenguaje visual reconocible, un sistema que otros imitan. Pocos la tienen y casi nadie la documenta.",
+      "crack": "La grieta es que el rastro existe pero no prueba autoría irreversible: un portfolio se puede rehacer, una estética se puede clonar. Sin un lenguaje propio atestiguado en el tiempo, la procedencia se queda en declaración.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "El dominio del software, la velocidad de ejecución, el conocimiento de tendencias, la biblioteca de recursos y el portfolio de piezas terminadas. Todo eso es ahora palanca commodity: la IA genera variantes en segundos, itera sin cansancio y conoce cada tendencia visual catalogada. La parte del oficio que se mide en archivos entregados por hora es exactamente la que la máquina empuña más barato.",
+  "fulcrum": "El criterio que decide qué no hacer: por qué este sistema visual sostiene una marca durante diez años y aquel se agota en seis meses, qué eliminar, dónde la coherencia importa más que la novedad. Y, cuando existe, un lenguaje visual propio —una manera de resolver que se reconoce como tuya antes de leer la firma. Eso no se regenera porque no es output, es juicio acumulado y forma originada en el tiempo.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): allí los cuatro fulcros son débiles y el diagnóstico es terminal. El diseñador no está ahí — conserva un eje relacional verificado y una base material que el copywriter no tiene. La distancia no es de talento ni de prestigio: es que al diseñador todavía le queda algo que no se regenera, si aprende a hacerlo visible antes de que el mercado deje de buscarlo."
+  },
+  "escape": null,
+  "lesson": "El diseño nunca fue el archivo que entregas — fue la decisión de qué dejar fuera. Cuando la máquina genera mil variantes en un minuto, tu valor ya no es producir la opción: es ser la persona en quien alguien confía para elegirla y responder por ella. Pregúntate qué desaparecería del mundo si dejaras de diseñar: si la respuesta son archivos, te reemplazan mañana; si la respuesta es un criterio que una marca no encuentra en ningún prompt, todavía tienes fulcro.",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

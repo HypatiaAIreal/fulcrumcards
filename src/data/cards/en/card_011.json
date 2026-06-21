@@ -1,0 +1,70 @@
+{
+  "id": "011",
+  "title": "The HR Recruiter",
+  "sector": "White-collar professions",
+  "severity": "warning",
+  "subtitle": "He still holds a real relational fulcrum, but the part of his work that can be seen and measured is already done by the machine faster and cheaper.",
+  "opening": "On a Thursday in mid-afternoon, a recruiter opens his inbox and sees 312 applications for a single backend opening. He would once have spent two days screening them; now the ATS has already scored them, ranked them, and drafted the first rejection messages while he sipped his coffee. His boss asks him, with no ill intent, how many of those 312 he has actually read. The honest answer is: none yet — and the machine knows it.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "There is no material barrier to entry. No professional licensing, no mandatory certification, no physical infrastructure of his own. A LinkedIn Recruiter seat, an ATS, and a laptop — exactly the same tools that already automate screening, sourcing, and first contact.",
+      "crack": "The material fulcrum is structurally absent and no intervention is possible along this axis: the trade never depended on a body or a place.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "It is assumed the recruiter knows how to tell a good candidate apart — but much of that judgment is screening CVs against requirements, and AI replicates that with equal or even less apparent bias. Real credibility only emerges when his judgment is verified by consequences: the hire performs and stays two years. Almost no one measures that chain.",
+      "crack": "The epistemic is assumed, not verified: a hire's success is credited to the candidate or the manager, rarely to the recruiter's judgment, so his credibility is never cashed in or accumulated.",
+      "bar": [
+        0.5,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Here lives what can save him. The recruiter who has spent years building trust with managers who believe him, and with passive candidates who pick up the phone only because it is he who is calling, holds a real fulcrum. It is relationship with weight: someone changes their decision because he recommends it.",
+      "crack": "But it is assumed, not verified: much of the sector acts as a transactional intermediary with no singular bond, and that trust has never been tested against a faster, cheaper alternative.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "The recruiter's work is invisible by design: credit for a good hire goes to the candidate who shines or the manager who decided. No one signs the shortlist. No verifiable trace remains that this fit, a year later, was originated by his judgment.",
+      "crack": "Provenance is severed before it begins: with no signature or attributable trace, there is no chain to prove that he did this, over time.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Sourcing, CV screening, drafting outreach messages, scheduling interviews, scoring candidates against a job description. Speed to process hundreds of applications, mastery of the ATS and of Boolean search strings. All of this the machine already does faster, at any hour, and without fatigue — it is pure lever, and it is a commodity.",
+  "fulcrum": "The singular trust accumulated: the manager who delegates his decision because he has watched this recruiter get it right, and the passive candidate who moves only because he trusts whoever is calling. It is the judgment about human fit that is validated years later, the conversation that detects what no CV says. That is not reproducible output: it is relationship with consequences, and it exists only if it has been built over time.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): both share an absent material and provenance and an epistemic that collapses. But the copywriter has his relational at a minimum too, and that is why his diagnosis is critical. The recruiter retains a relational fulcrum with real weight — and that difference, not prestige, is what separates risk from condemnation."
+  },
+  "escape": "Yes, and it runs through ceasing to be the one who filters in order to become the one who decides who to bet on. The recruiter who survives hands the screening to the machine and repositions himself where AI cannot reach: cultivating long-term talent relationships, acting as a trusted advisor to the hiring manager, becoming the judgment a team will not outsource. Verifying his relational fulcrum — making his judgment leave a trace and get cashed in — moves him from replaceable intermediary to indispensable partner. The diagnosis does not condemn the person: it condemns the function of screening.",
+  "lesson": "If your value is sorting 312 CVs faster than yesterday, the machine has already won that race. What it cannot do is be the voice a candidate believes and a boss lets decide for him. The question is not \"do I screen better than AI?\" — it is \"who would stop picking up the phone if I stopped calling?\"",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain yourself",
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 22 — The commoditization of the lever"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

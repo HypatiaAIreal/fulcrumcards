@@ -4,12 +4,7 @@
  * MongoDB (colección `fichas`, con campo lang) sustituirá estos imports más
  * adelante manteniendo la misma interfaz pública.
  */
-import esCard000 from "@/data/cards/es/card_000.json";
-import esCard003 from "@/data/cards/es/card_003.json";
-import esCard021 from "@/data/cards/es/card_021.json";
-import enCard000 from "@/data/cards/en/card_000.json";
-import enCard003 from "@/data/cards/en/card_003.json";
-import enCard021 from "@/data/cards/en/card_021.json";
+import { cardsEs, cardsEn } from "@/data/cards/index";
 import catalogData from "@/data/catalog.json";
 import { defaultLocale, type Locale } from "@/lib/i18n";
 
@@ -55,8 +50,8 @@ export interface Card {
 }
 
 const cardsByLang = {
-  es: [esCard000, esCard003, esCard021],
-  en: [enCard000, enCard003, enCard021],
+  es: cardsEs,
+  en: cardsEn,
 } as unknown as Record<Locale, Card[]>;
 
 // Validación ligera (solo en desarrollo): cada barra debe tener 4 valores en {0, 0.5, 1}.

@@ -1,0 +1,70 @@
+{
+  "id": "002",
+  "title": "The Corporate Lawyer",
+  "sector": "White-collar professions",
+  "severity": "mixed",
+  "subtitle": "Protected by a bar membership the AI cannot hold, hollowed out from within by the automation of everything he bills by the hour.",
+  "opening": "On a Thursday at eleven at night, a third-year associate reviews clause 14.3 of a merger agreement for the seventh time. Beside him, in another tab, a legal AI tool has already flagged the three inconsistencies it took him two hours to find. He bills those two hours to the client at 400 euros an hour; the tool resolved them in nine seconds. What the machine still cannot do is sign the opinion with his bar number — and for now, that is the only thing separating his invoice from extinction.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Bar membership is a real, legally protected barrier to entry. Only a licensed lawyer can sign legal opinions, appear before courts, and assume professional liability. The AI has no legal existence of its own: it cannot be a party, cannot be admitted to the bar, cannot answer to a professional body.",
+      "crack": "The fulcrum protects the act of signing, not the act of thinking. It armors the last mile — the signature — while the work that precedes it is automated underneath.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "The lawyer's legal judgment is presumed superior to the machine's, but much of the billed work — document review, due diligence, drafting standard clauses — produces output increasingly indistinguishable from that of legal AI. Credibility rests on the firm's name, not on the verifiability of the output.",
+      "crack": "It is the most dangerous state: it looks solid because no one has yet audited how much of the billed judgment was irreplaceable discernment and how much was replicable pattern-work.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "The CFO does not call a tool when the deal goes sideways at two in the morning — he calls the partner who has handled his account for eight years. Trust in high-stakes operations is personal: someone acts, signs, and puts themselves on the line because this particular lawyer vouches for it.",
+      "crack": "The trust is deposited in the partners, not in the associates who do the work. Whoever builds the relationship bills little; whoever bills much no longer builds it.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "There is a formal trail — time entries, contract versions, a record of who drafted what — but the product is signed as the firm, not as the author. The client buys the letterhead, not the chain of acts of the person who thought up the clause. Individual provenance is absorbed into the collective brand.",
+      "crack": "Provenance of form — having originated a way of structuring deals, a doctrine, a precedent — does persist and self-propagate. But few lawyers have it; most produce provenance of content, which fades fast.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Speed of document review, command of templates and precedents, the ability to draft standard clauses, exhaustive due diligence, codified knowledge of the regulations. All of this — the bulk of the billable hour — is exactly what legal AI replicates faster and cheaper. The lawyer's lever overlaps more with the machine's lever every year.",
+  "fulcrum": "The bar membership that allows him to sign and assume legal liability, and the accumulated judgment to decide what risk to take when the law is ambiguous and a hundred million is at stake. It is not knowing what the rule says — the machine knows that — but knowing how far to stretch it, with whom, and when it pays to lose this battle to win the deal. That does not regenerate: it is lived, case by case, with real consequences for real clients.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): material absent, all four fulcrums weak. The lawyer has what the copywriter lacks entirely — a legally protected material barrier and a personal relationship of trust. The distance is not one of prestige: it is one of irreversibility. Anyone can replace the copywriter with the same tools; the lawyer is protected by a signature the machine cannot stamp."
+  },
+  "escape": null,
+  "lesson": "A credential the machine cannot hold protects your signature, not your craft. If 80% of what you bill is already done by AI in seconds, your fulcrum is not what you know — it is what you dare to sign when the law falls silent. The question is not \"do I review better than the AI?\", but: \"what would vanish from the world if I stopped deciding the risk?\"",
+  "references": [
+    "Vol. 1, Ch. 7 — The material fulcrum: to exist before being sought",
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: to be believed before you explain",
+    "Vol. 2, Ch. 22 — The commoditization of the lever"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

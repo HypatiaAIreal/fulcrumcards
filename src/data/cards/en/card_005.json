@@ -1,0 +1,70 @@
+{
+  "id": "005",
+  "title": "The Translator",
+  "sector": "White-collar professions",
+  "severity": "mixed",
+  "subtitle": "A profession split in two: the one that delivers words and the one that answers for them. Only one survives the machine.",
+  "opening": "A translator opens the document at eleven at night: a sales contract between a German company and a Spanish buyer, forty pages, due tomorrow. Once she would have translated it in three days; now she pastes the text into a neural engine and in ninety seconds has an almost clean draft. She spends the night correcting: a liability clause the engine reversed in meaning, a legal term that in German means exactly the opposite of what it seems. Her sworn-translator seal goes at the foot of the last page — and with it, her legal responsibility if the contract fails in court. The question is not whether the machine translated well. It is who signs when it gets it wrong.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "There is no physical or infrastructural barrier. A laptop, a couple of languages, and access to a neural translation engine — the very infrastructure used by whoever replaces her. For general translation there is no mandatory licensing body nor any exclusive tool: the trade is practiced from anywhere with a connection.",
+      "crack": "There is a narrow material exception: sworn translation requires an official appointment and a legally recognized seal. But that is legal status, not infrastructure — and it covers only a fraction of the work.",
+      "bar": [
+        0.5,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "Here is the real fulcrum. In sworn, legal, or medical translation, someone must answer with their name for the fidelity of the text: an error in a contract, a patent, or an informed-consent form has consequences that are verifiable and attributable. Credibility is not self-proclaimed — it is accredited by official appointment and sustained by a track record of texts that withstood the scrutiny of a court or a regulator.",
+      "crack": "The crack: this fulcrum is only verified where there is consequence and signature. In marketing translation, web content, or unattributed subtitles, the output is indistinguishable from the machine's and the epistemic collapses to the level of the copywriter.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Many translators live off a stable portfolio: a publisher, a law firm, two agencies that have been calling them for years. That trust is real, but it has rarely been tested against the cheap alternative: would the client still choose her if a neural engine with light post-editing cost a fifth as much? In most cases that test has not yet happened.",
+      "crack": "The bond is usually with the intermediary agency, not the end client. When the agency discovers it can pre-translate with AI and pay only for the review, the relationship reveals itself as dependence on rate, not trust in judgment.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "The vast majority of translation is invisible by design: the manual, the contract, the website carry no translator's signature — the reader does not even know there was one. It is work-for-hire, anonymous, regenerable. Without a signature there is no trace of who did it or in what time.",
+      "crack": "There is a luminous exception: literary translation, where the translator's name appears on the cover and the version is recognized as a work in its own right. There, provenance exists — but it is the smallest and worst-paid niche of the trade.",
+      "bar": [
+        0,
+        0,
+        0.5,
+        0
+      ]
+    }
+  },
+  "lever": "Command of two or more languages, speed of production, knowledge of glossaries and translation memories, fluency with CAT tools. All of this was the muscle of the trade — and all of it is now replicated by a neural engine in seconds, at near-zero cost. The lever of the translator who merely delivers words is identical to that of the machine that post-edits her.",
+  "fulcrum": "What does not regenerate is accredited responsibility: the judgment of the one who signs and answers legally for the meaning, not for the words. Knowing that this clause, in this legal system, means the opposite of its literal translation — and putting the seal that guarantees it. The machine produces the text; it cannot appear before a court if the text lies. The way out of the trade runs through here: anchoring where there is consequence and signature, and rising into roles the machine cannot occupy because it cannot answer.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): four weak fulcrums, no signature, indistinguishable output. The translator shares that fate across all anonymous work — but retains an axis the copywriter does not have: the verified epistemic of one who answers legally for the meaning. The distance is not one of prestige but of consequence: the machine can write the contract, but it cannot be summoned when the contract fails."
+  },
+  "escape": null,
+  "lesson": "The machine already translates the words. What it cannot do is sign at the foot of the page and answer before a judge if it gets it wrong. In the age of AI, the translator is not paid to turn one language into another — she is paid to put her name where the machine cannot put its own. What would vanish from the world if you stopped translating: the words, or the person who answers for them?",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain yourself",
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 22 — The commoditization of the lever"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

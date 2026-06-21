@@ -1,0 +1,70 @@
+{
+  "id": "006",
+  "title": "The Financial Analyst",
+  "sector": "White-collar professions",
+  "severity": "warning",
+  "subtitle": "A profession with real credentials and accruable judgment — yet whose visible product is already indistinguishable from what a machine generates in seconds.",
+  "opening": "It is 7:40 in the morning and an equity research analyst arrives before anyone else to finish the model he will defend at the nine o'clock meeting. He has been doing this for eleven years: he adjusts the growth assumptions, recalculates the WACC, reconciles the DCF with the sector comparables. At 8:05 a younger colleague shows him his screen: he asked an AI model for the same analysis and, save for two cells, the figures match. The analyst says nothing, but for the first time in eleven years he wonders which part of his work is truly his — and which part is the spreadsheet.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "There are real credentials: the CFA, regulatory licenses in certain roles, access to Bloomberg terminals and to paid data. But the work itself is a laptop plus a spreadsheet, and the barriers to entry grow softer every year. The infrastructure that sets him apart belongs to the bank, not to him.",
+      "crack": "The credential exists but protects less each year: the exam certifies that he knows how to do what the machine already does. The material fulcrum is assumed solid because it is costly to obtain — not because it remains scarce.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Judgment exists and can accumulate a track record: a recommendation that proves right leaves a trail, a thesis that holds over time builds credibility. But the daily output — models, comps, screenings, notes — is already indistinguishable from what an AI produces. Verification is performed on the deliverable, and the deliverable converges.",
+      "crack": "It is believed that the client can tell the analyst's analysis from the machine's. This has almost never been verified blind — and when it is, the difference narrows.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "The analyst lives off the trust of portfolio managers, institutional clients and investment committees. But that trust is usually lent by the firm: people trust the house's research, not necessarily the person. When the analyst changes banks, he discovers how much of that network was actually his.",
+      "crack": "It is the axis that could save him, but it is unverified: no one has tested whether the PM would follow the analyst to another firm, or whether he was following the letterhead.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "The reports go out signed by the institution, not by the author. The Excel model is inherited, copied and regenerated without any trace of who originated it. No one in the chain knows — or cares — exactly whose hands built that DCF.",
+      "crack": "Provenance is severed at the source: an anonymous product by institutional design. It is not weak — it is simply that no record is kept of who did what, and when.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Fluency with financial models, command of DCF, LBO and comparables, the speed to build a screening, access to market data and the technical vocabulary. All of it — once the proof of competence — is today reproduced by an AI in seconds, often without the seven-in-the-morning errors of fatigue. The analyst's lever is nearly identical to that of the machine that amplifies it.",
+  "fulcrum": "What does not regenerate is judgment under uncertainty with consequences of one's own: the decision not to trust the number that reconciles too neatly, the reading of the room when the CFO dodges a question, the criterion that is only honed by losing money with oneself at stake. That lives in the verified epistemic and relational axes — not in the spreadsheet, which is the only thing the analyst shows.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): the same white-collar sector, but one rung lower. The copywriter has all four fulcrums between absent and assumed; the analyst retains three assumed atop a base of credential and track record. The distance is not one of prestige but of irreversibility: the analyst still has axes to lean on before the lever comes loose — the copywriter no longer does."
+  },
+  "escape": "Yes, and it runs through ceasing to compete on the terrain the machine has already won. The analyst who survives stops selling the model and starts selling the judgment: turning the track record into credibility that is his own and verifiable (epistemic axis), and the trust lent by the firm into a network that would follow him anywhere (verified relational axis). The one who clings to producing the deliverable faster is competing against an API; the one who becomes the person whose criterion changes investment decisions migrates toward the only fulcrum that does not regenerate.",
+  "lesson": "When the model that took you eleven years to master is built by a machine in seconds, your value ceases to reside in the Excel file and comes to reside in the decision of whether or not to trust the number that reconciles too neatly. The question is not \"a faster model than the AI?\" The question is: \"which investment decision would stop being made well if I were no longer in the room?\"",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain",
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 22 — The commoditization of the lever"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}
