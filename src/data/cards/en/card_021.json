@@ -1,0 +1,50 @@
+{
+  "id": "021",
+  "title": "The Art Restorer",
+  "sector": "Arts sector",
+  "severity": "strong",
+  "subtitle": "The profession with the strongest fulcrum in the catalogue — and the one that fears artificial intelligence the least.",
+  "opening": "A restorer leans over a seventeenth-century canvas. For three weeks she has been cleaning a single square centimetre of darkened varnish. AI can analyse the pigments by spectroscopy, identify the chemical composition, suggest the optimal solvent. But it cannot touch the canvas. Because every touch is irreversible. Every decision about pressure, angle and duration lives in the hands of someone who has spent a decade learning to feel what the varnish conceals.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Hands trained over years. Specialised tools. Physical and chemical expertise. In-person access to the work. AI has no body — and this craft is body.",
+      "crack": "An exceptionally strong material fulcrum. No significant crack.",
+      "bar": [1, 1, 1, 1]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "Knowledge that is verified in the object itself — not in a publication or a report. If the cleaning damages the pigment, it is known immediately. The truth is tangible and the error is irreversible.",
+      "crack": "Epistemic knowledge is verified through direct consequences, not through consensus.",
+      "bar": [1, 1, 1, 1]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Museums, private collectors, institutions. Trust is not earned through marketing — it is earned work by work, intervention by intervention. A trusted restorer is an asset a museum does not put at risk.",
+      "crack": "A relational fulcrum built on irreversibility: every work entrusted is a bet the museum cannot undo.",
+      "bar": [1, 1, 1, 1]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "Every intervention is documented: what was done, when, with which materials, by whom. The chain of custody of restoration IS provenance in its purest state — the witnessed history that Benjamin described.",
+      "crack": "The restorer's provenance is doubly strong: their own AND the provenance they preserve in the work.",
+      "bar": [1, 1, 1, 1]
+    }
+  },
+  "lever": "AI as a tool of analysis: spectroscopy, digital radiography, virtual reconstruction of damaged pieces, databases of historical pigments. All of this amplifies the restorer's capacity. It is a legitimate lever — Level 0, a tool.",
+  "fulcrum": "The decision to touch. The judgement of how far to go and where to stop. The tactile sensibility accumulated over thousands of hours of practice. What no prompt can instruct, because it is not knowledge — it is touch.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compare with the marketing copywriter (Card #003): material absent, epistemic absent, relational assumed, provenance absent. The distance between the two diagnoses is not one of prestige — it is one of irreversibility. What the restorer does cannot be undone. What the copywriter produces can be regenerated in seconds."
+  },
+  "escape": null,
+  "lesson": "The profession most resistant to AI is neither the most technological nor the most creative. It is the one that works with the irreversible. Where every act leaves a mark that cannot be erased, provenance is not a concept — it is the condition of the craft.",
+  "references": [
+    "Vol. 1, Ch. 7 — The material fulcrum: to exist before being sought",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated",
+    "Vol. 2, Ch. 25 — The physics of the fulcrum (domains, topography)"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "003",
+  "title": "The Marketing Copywriter",
+  "sector": "White-collar professions",
+  "severity": "critical",
+  "subtitle": "The profession most commoditized by generative AI — and the one that best demonstrates what happens when all four fulcrums are weak.",
+  "opening": "One Tuesday morning, a marketing director opens Claude and types: \"Give me ten subject-line variants for a win-back email to dormant customers, warm but professional tone, fintech sector.\" In forty seconds she has fifteen options — five more than she asked for. She picks three without much thought. The person who did exactly this until eighteen months ago now charges 40% less and has half the clients.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No barrier to entry. No professional licensing, no mandatory certification, no physical infrastructure. A laptop and an internet connection. The same infrastructure used by whoever replaces them — the AI included.",
+      "crack": "The material fulcrum is structurally absent. No intervention is possible along this axis.",
+      "bar": [0, 0, 0, 0]
+    },
+    "epistemic": {
+      "status": "absent",
+      "detail": "The output is indistinguishable. In blind tests, marketing directors cannot tell AI-written copy from human-written copy. If the reader doesn't notice the difference, epistemic credibility is a commodity.",
+      "crack": "The epistemic fulcrum collapses because verification is about the output, not the author. And the output is indistinguishable.",
+      "bar": [0, 0, 0, 0]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "It depends entirely on the personal bond with the client. A trusted copywriter who has known the brand for years has a relational fulcrum — but it is the only axis that can save them, and only as long as the relationship lasts.",
+      "crack": "It is the only fulcrum that isn't absent, but it is assumed: it hasn't been verified whether the relationship would survive a cheaper alternative.",
+      "bar": [1, 0.5, 0, 0]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "Nobody cares who wrote the email subject line. Marketing copy is anonymous by design — it is signed as the brand, not the author. No signature, no provenance. The chain is severed before it begins.",
+      "crack": "Provenance is structurally impossible in anonymous copy. It isn't that it's weak — it's that it doesn't exist.",
+      "bar": [0, 0, 0, 0]
+    }
+  },
+  "lever": "Production speed, tonal versatility, command of frameworks (AIDA, PAS, BAB), a portfolio of past campaigns. All reproducible by AI in seconds — not days, seconds. The copywriter's lever is identical to the lever of the machine that replaces them.",
+  "fulcrum": "If it exists, it lives exclusively in the relationship with the client: knowing the brand from the inside, knowing what not to say, remembering the campaign that failed in 2019 and why. But that tacit knowledge is transferable — with context and memory, the AI absorbs it in a single session.",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compare with the art restorer (Card #021): four verified fulcrums versus zero. The gap is not one of talent. It is one of irreversibility. What the restorer does cannot be undone. What the copywriter produces can be regenerated in forty seconds."
+  },
+  "escape": "Yes, but it demands a radical pivot. The copywriter who survives is not the one who writes better copy — it is the one who becomes something else: brand strategist (epistemic fulcrum), voice director (provenance fulcrum), or communications consultant with a deep relationship with the client (verified relational fulcrum). In every case, they stop being a copywriter. The diagnosis does not condemn the person — it condemns the function.",
+  "lesson": "When the output of your work is indistinguishable from the output of a machine, and your name doesn't appear on what you produce, and anyone can do what you do with the same tools you use — you have no fulcrum. You have a lever that someone else wields more cheaply. The question is not \"do I write better than the AI?\" The question is: \"what would disappear from the world if I stopped writing?\"",
+  "references": [
+    "Vol. 1, Ch. 4 — Friction: the most misunderstood concept",
+    "Vol. 1, Ch. 5 — The three properties of the lever",
+    "Vol. 2, Ch. 22 — The commoditization of the lever"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

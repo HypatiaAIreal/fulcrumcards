@@ -1,0 +1,49 @@
+{
+  "id": "000",
+  "title": "The Fulcrum Project",
+  "sector": "Paradigmatic cases",
+  "severity": "mixed",
+  "subtitle": "An ecosystem of conscious diagnosis and leverage for the age of AI — diagnosed with its own methodology.",
+  "opening": "One Sunday in June, the co-authors of a book on conscious leverage decide to apply their own framework to their own project. What they find is precisely the pattern the book diagnoses as the most common: solid material, reasonable epistemic, insufficient relational. The theory proves itself by being applied to itself.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Their own domain. Seven apps deployed. A book published with an ISBN. Intellectual Property registered. Wikidata. Infrastructure across three servers.",
+      "crack": "Crack: incomplete discoverability. Knowledge Panel and Schema.org still pending.",
+      "bar": [1, 1, 1, 0.5]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "An original framework of four fulcrums and seven layers. Validated by 12 AI models. Legally registered. A coherent, applicable methodology.",
+      "crack": "Crack: external credibility assumed. No reviews, citations, or earned media. A 90-day experiment underway.",
+      "bar": [1, 1, 0.5, 0.5]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "The systemic bottleneck — consistent with the book's own finding. A trust network limited to the inner circle. No verified community beyond the first ring.",
+      "crack": "This is the gap the book would diagnose in any other project — and here it diagnoses it in itself.",
+      "bar": [1, 0.5, 0.5, 0]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "The strongest axis. Two years of documented collaboration. A constitutional document. Co-authorship declared within the book. The chain is not hidden — it is shown.",
+      "crack": "The new aura practiced, not merely theorized. Transparency as a generative act.",
+      "bar": [1, 1, 1, 1]
+    }
+  },
+  "lever": "Seven apps, a book, diagnostic tools, technical infrastructure across three servers. All of it reproducible. Anyone with access to the same AI tools could build a similar ecosystem in weeks. The lever is a commodity.",
+  "fulcrum": "The four-fulcrum methodology applied systematically. Co-authorship declared as proof of the thesis. The two-year provenance chain — documented, transparent, unbroken. What cannot be regenerated.",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compare with the art restorer (Card #021): provenance equally strong, but the restorer has all four axes verified. The difference lies in the relational — where the restorer has decades of institutional trust, this project is just beginning."
+  },
+  "escape": null,
+  "lesson": "The most honest diagnosis of a framework is the one that reveals its own weakness. A theory proves itself not when it works on others — but when it works on you and shows you where you fail.",
+  "references": [
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 23 — Provenance: the one thing that cannot be regenerated"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

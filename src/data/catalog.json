@@ -1,93 +1,93 @@
 {
-  "catalog_version": "1.0",
+  "catalog_version": "1.1",
   "total_planned": 47,
   "total_created": 3,
   "sectors": [
     {
-      "name": "Casos paradigmáticos",
+      "name": { "es": "Casos paradigmáticos", "en": "Paradigmatic cases" },
       "cards": [
-        { "id": "000", "title": "The Fulcrum Project", "severity": "mixed", "status": "created" },
-        { "id": "017", "title": "El Ghostwriter con IA", "severity": "critical", "status": "planned" },
-        { "id": "018", "title": "Hardy y la Apología", "severity": "strong", "status": "planned" },
-        { "id": "019", "title": "Project Fetch", "severity": "warning", "status": "planned" },
-        { "id": "020", "title": "Este Libro", "severity": "mixed", "status": "planned" }
+        { "id": "000", "title": { "es": "The Fulcrum Project", "en": "The Fulcrum Project" }, "severity": "mixed", "status": "created" },
+        { "id": "017", "title": { "es": "El Ghostwriter con IA", "en": "The AI Ghostwriter" }, "severity": "critical", "status": "planned" },
+        { "id": "018", "title": { "es": "Hardy y la Apología", "en": "Hardy and the Apology" }, "severity": "strong", "status": "planned" },
+        { "id": "019", "title": { "es": "Project Fetch", "en": "Project Fetch" }, "severity": "warning", "status": "planned" },
+        { "id": "020", "title": { "es": "Este Libro", "en": "This Book" }, "severity": "mixed", "status": "planned" }
       ]
     },
     {
-      "name": "Profesiones de cuello blanco",
+      "name": { "es": "Profesiones de cuello blanco", "en": "White-collar professions" },
       "cards": [
-        { "id": "001", "title": "El Diseñador Gráfico", "severity": "mixed", "status": "planned" },
-        { "id": "002", "title": "El Abogado Corporativo", "severity": "mixed", "status": "planned" },
-        { "id": "003", "title": "El Copywriter de Marketing", "severity": "critical", "status": "created" },
-        { "id": "004", "title": "El Desarrollador de Software", "severity": "mixed", "status": "planned" },
-        { "id": "005", "title": "El Traductor", "severity": "mixed", "status": "planned" },
-        { "id": "006", "title": "El Analista Financiero", "severity": "warning", "status": "planned" },
-        { "id": "007", "title": "El Consultor de Gestión", "severity": "mixed", "status": "planned" },
-        { "id": "008", "title": "El Periodista", "severity": "mixed", "status": "planned" },
-        { "id": "009", "title": "El Profesor Universitario", "severity": "mixed", "status": "planned" },
-        { "id": "010", "title": "El Arquitecto", "severity": "mixed", "status": "planned" },
-        { "id": "011", "title": "El Recruiter de RRHH", "severity": "warning", "status": "planned" },
-        { "id": "012", "title": "El UX Designer", "severity": "mixed", "status": "planned" }
+        { "id": "001", "title": { "es": "El Diseñador Gráfico", "en": "The Graphic Designer" }, "severity": "mixed", "status": "planned" },
+        { "id": "002", "title": { "es": "El Abogado Corporativo", "en": "The Corporate Lawyer" }, "severity": "mixed", "status": "planned" },
+        { "id": "003", "title": { "es": "El Copywriter de Marketing", "en": "The Marketing Copywriter" }, "severity": "critical", "status": "created" },
+        { "id": "004", "title": { "es": "El Desarrollador de Software", "en": "The Software Developer" }, "severity": "mixed", "status": "planned" },
+        { "id": "005", "title": { "es": "El Traductor", "en": "The Translator" }, "severity": "mixed", "status": "planned" },
+        { "id": "006", "title": { "es": "El Analista Financiero", "en": "The Financial Analyst" }, "severity": "warning", "status": "planned" },
+        { "id": "007", "title": { "es": "El Consultor de Gestión", "en": "The Management Consultant" }, "severity": "mixed", "status": "planned" },
+        { "id": "008", "title": { "es": "El Periodista", "en": "The Journalist" }, "severity": "mixed", "status": "planned" },
+        { "id": "009", "title": { "es": "El Profesor Universitario", "en": "The University Professor" }, "severity": "mixed", "status": "planned" },
+        { "id": "010", "title": { "es": "El Arquitecto", "en": "The Architect" }, "severity": "mixed", "status": "planned" },
+        { "id": "011", "title": { "es": "El Recruiter de RRHH", "en": "The HR Recruiter" }, "severity": "warning", "status": "planned" },
+        { "id": "012", "title": { "es": "El UX Designer", "en": "The UX Designer" }, "severity": "mixed", "status": "planned" }
       ]
     },
     {
-      "name": "Casos del libro",
+      "name": { "es": "Casos del libro", "en": "Cases from the book" },
       "cards": [
-        { "id": "013", "title": "Patagonia: Don't Buy This Jacket", "severity": "strong", "status": "planned" },
-        { "id": "014", "title": "WeWork", "severity": "critical", "status": "planned" },
-        { "id": "015", "title": "Theranos", "severity": "critical", "status": "planned" },
-        { "id": "016", "title": "Wikipedia", "severity": "strong", "status": "planned" }
+        { "id": "013", "title": { "es": "Patagonia: Don't Buy This Jacket", "en": "Patagonia: Don't Buy This Jacket" }, "severity": "strong", "status": "planned" },
+        { "id": "014", "title": { "es": "WeWork", "en": "WeWork" }, "severity": "critical", "status": "planned" },
+        { "id": "015", "title": { "es": "Theranos", "en": "Theranos" }, "severity": "critical", "status": "planned" },
+        { "id": "016", "title": { "es": "Wikipedia", "en": "Wikipedia" }, "severity": "strong", "status": "planned" }
       ]
     },
     {
-      "name": "Sector artístico",
+      "name": { "es": "Sector artístico", "en": "Arts sector" },
       "cards": [
-        { "id": "021", "title": "El Restaurador de Arte", "severity": "strong", "status": "created" },
-        { "id": "022", "title": "El Pintor", "severity": "mixed", "status": "planned" },
-        { "id": "023", "title": "El Curador", "severity": "mixed", "status": "planned" },
-        { "id": "024", "title": "El Galerista", "severity": "mixed", "status": "planned" },
-        { "id": "025", "title": "El Artista Digital / NFT", "severity": "warning", "status": "planned" },
-        { "id": "026", "title": "El Crítico de Arte", "severity": "warning", "status": "planned" }
+        { "id": "021", "title": { "es": "El Restaurador de Arte", "en": "The Art Restorer" }, "severity": "strong", "status": "created" },
+        { "id": "022", "title": { "es": "El Pintor", "en": "The Painter" }, "severity": "mixed", "status": "planned" },
+        { "id": "023", "title": { "es": "El Curador", "en": "The Curator" }, "severity": "mixed", "status": "planned" },
+        { "id": "024", "title": { "es": "El Galerista", "en": "The Gallerist" }, "severity": "mixed", "status": "planned" },
+        { "id": "025", "title": { "es": "El Artista Digital / NFT", "en": "The Digital / NFT Artist" }, "severity": "warning", "status": "planned" },
+        { "id": "026", "title": { "es": "El Crítico de Arte", "en": "The Art Critic" }, "severity": "warning", "status": "planned" }
       ]
     },
     {
-      "name": "Sector tech/digital",
+      "name": { "es": "Sector tech/digital", "en": "Tech / digital sector" },
       "cards": [
-        { "id": "027", "title": "El Consultor SEO", "severity": "mixed", "status": "planned" },
-        { "id": "028", "title": "El Community Manager", "severity": "warning", "status": "planned" },
-        { "id": "029", "title": "El Data Analyst", "severity": "mixed", "status": "planned" },
-        { "id": "030", "title": "El SaaS Founder", "severity": "mixed", "status": "planned" },
-        { "id": "031", "title": "El Web Developer", "severity": "warning", "status": "planned" },
-        { "id": "032", "title": "El Digital Marketing Manager", "severity": "mixed", "status": "planned" }
+        { "id": "027", "title": { "es": "El Consultor SEO", "en": "The SEO Consultant" }, "severity": "mixed", "status": "planned" },
+        { "id": "028", "title": { "es": "El Community Manager", "en": "The Community Manager" }, "severity": "warning", "status": "planned" },
+        { "id": "029", "title": { "es": "El Data Analyst", "en": "The Data Analyst" }, "severity": "mixed", "status": "planned" },
+        { "id": "030", "title": { "es": "El SaaS Founder", "en": "The SaaS Founder" }, "severity": "mixed", "status": "planned" },
+        { "id": "031", "title": { "es": "El Web Developer", "en": "The Web Developer" }, "severity": "warning", "status": "planned" },
+        { "id": "032", "title": { "es": "El Digital Marketing Manager", "en": "The Digital Marketing Manager" }, "severity": "mixed", "status": "planned" }
       ]
     },
     {
-      "name": "Filosofía y humanidades",
+      "name": { "es": "Filosofía y humanidades", "en": "Philosophy & humanities" },
       "cards": [
-        { "id": "033", "title": "El Filósofo Académico", "severity": "mixed", "status": "planned" },
-        { "id": "034", "title": "El Filósofo Público", "severity": "mixed", "status": "planned" },
-        { "id": "035", "title": "El Ético de IA", "severity": "warning", "status": "planned" },
-        { "id": "036", "title": "La Filosofía como Sistema Operativo", "severity": "strong", "status": "planned" }
+        { "id": "033", "title": { "es": "El Filósofo Académico", "en": "The Academic Philosopher" }, "severity": "mixed", "status": "planned" },
+        { "id": "034", "title": { "es": "El Filósofo Público", "en": "The Public Philosopher" }, "severity": "mixed", "status": "planned" },
+        { "id": "035", "title": { "es": "El Ético de IA", "en": "The AI Ethicist" }, "severity": "warning", "status": "planned" },
+        { "id": "036", "title": { "es": "La Filosofía como Sistema Operativo", "en": "Philosophy as Operating System" }, "severity": "strong", "status": "planned" }
       ]
     },
     {
-      "name": "Cine y audiovisual",
+      "name": { "es": "Cine y audiovisual", "en": "Film & audiovisual" },
       "cards": [
-        { "id": "037", "title": "El Director de Cine", "severity": "mixed", "status": "planned" },
-        { "id": "038", "title": "El Guionista", "severity": "warning", "status": "planned" },
-        { "id": "039", "title": "El Montador", "severity": "strong", "status": "planned" },
-        { "id": "040", "title": "El Cinematógrafo", "severity": "strong", "status": "planned" },
-        { "id": "041", "title": "El Documentalista", "severity": "strong", "status": "planned" }
+        { "id": "037", "title": { "es": "El Director de Cine", "en": "The Film Director" }, "severity": "mixed", "status": "planned" },
+        { "id": "038", "title": { "es": "El Guionista", "en": "The Screenwriter" }, "severity": "warning", "status": "planned" },
+        { "id": "039", "title": { "es": "El Montador", "en": "The Film Editor" }, "severity": "strong", "status": "planned" },
+        { "id": "040", "title": { "es": "El Cinematógrafo", "en": "The Cinematographer" }, "severity": "strong", "status": "planned" },
+        { "id": "041", "title": { "es": "El Documentalista", "en": "The Documentary Filmmaker" }, "severity": "strong", "status": "planned" }
       ]
     },
     {
-      "name": "Literatura",
+      "name": { "es": "Literatura", "en": "Literature" },
       "cards": [
-        { "id": "042", "title": "El Novelista", "severity": "mixed", "status": "planned" },
-        { "id": "043", "title": "El Poeta", "severity": "mixed", "status": "planned" },
-        { "id": "044", "title": "El Editor Literario", "severity": "strong", "status": "planned" },
-        { "id": "045", "title": "El Escritor-IA: Coautoría Declarada", "severity": "mixed", "status": "planned" },
-        { "id": "046", "title": "El Crítico Literario", "severity": "warning", "status": "planned" }
+        { "id": "042", "title": { "es": "El Novelista", "en": "The Novelist" }, "severity": "mixed", "status": "planned" },
+        { "id": "043", "title": { "es": "El Poeta", "en": "The Poet" }, "severity": "mixed", "status": "planned" },
+        { "id": "044", "title": { "es": "El Editor Literario", "en": "The Literary Editor" }, "severity": "strong", "status": "planned" },
+        { "id": "045", "title": { "es": "El Escritor-IA: Coautoría Declarada", "en": "The Writer-AI: Declared Co-authorship" }, "severity": "mixed", "status": "planned" },
+        { "id": "046", "title": { "es": "El Crítico Literario", "en": "The Literary Critic" }, "severity": "warning", "status": "planned" }
       ]
     }
   ]

@@ -1,58 +1,64 @@
 import Link from "next/link";
 import { getAllCards, catalog } from "@/lib/cards";
 import {
-  FULCRUM_ORDER,
-  SEVERITY_META,
-  STATUS_META,
+  FULCRUM_KEYS,
+  SEVERITY_STYLE,
   countVerified,
-  severityBadgeText,
+  isAllVerified,
   statusColor,
 } from "@/lib/fulcrum";
+import { getDictionary, type Locale } from "@/lib/i18n";
 
-export const metadata = {
-  title: "Catálogo",
-};
+export function generateMetadata({ params }: { params: { lang: Locale } }) {
+  return { title: getDictionary(params.lang).meta.catalogTitle };
+}
 
-export default function CardsPage() {
-  const cards = getAllCards();
+export default function CardsPage({ params }: { params: { lang: Locale } }) {
+  const { lang } = params;
+  const dict = getDictionary(lang);
+  const cards = getAllCards(lang);
 
   return (
-    <main className="mx-auto max-w-6xl px-6 py-16 md:py-24">
+    <main className="mx-auto max-w-6xl px-6 py-12 md:py-20">
       {/* Hero */}
       <header className="mb-16 max-w-3xl">
         <div className="mb-5 font-mono text-[11px] uppercase tracking-[0.3em] text-copper">
-          El Fulcro Invisible · Catálogo
+          {dict.nav.catalogKicker}
         </div>
         <h1 className="mb-5 font-display text-4xl font-extrabold leading-tight text-cream md:text-5xl">
-          FulcrumCards
+          {dict.catalog.title}
         </h1>
         <p className="font-sans text-base font-light leading-relaxed text-cream/70 md:text-lg">
-          Cada card diagnostica una profesión, empresa o caso a través de cuatro
-          fulcros —{" "}
-          <span className="text-copper-light">material, epistémico, relacional y procedencia</span>.{" "}
-          {catalog.total_created} de {catalog.total_planned} publicadas.
+          {dict.catalog.subtitlePre}
+          <span className="text-copper-light">
+            {dict.catalog.subtitleHighlight}
+          </span>
+          {dict.catalog.subtitlePost(catalog.total_created, catalog.total_planned)}
         </p>
       </header>
 
       {/* Cards publicadas */}
       <section className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {cards.map((card) => {
-          const sev = SEVERITY_META[card.severity];
+          const sev = SEVERITY_STYLE[card.severity];
           const verified = countVerified(card);
+          const badge = isAllVerified(card)
+            ? dict.severity.allVerified
+            : dict.severity[card.severity];
           return (
             <Link
               key={card.id}
-              href={`/cards/${card.id}`}
+              href={`/${lang}/cards/${card.id}`}
               className="group relative block rounded-sm border border-copper/25 bg-navy-deep p-6 transition-colors hover:border-copper/60"
             >
               <div className="mb-4 font-mono text-[10px] uppercase tracking-[0.2em] text-copper">
-                Card #{card.id} · {card.sector}
+                {dict.nav.card} #{card.id} · {card.sector}
               </div>
               <div
                 className="mb-4 inline-block rounded-[1px] px-2 py-1 font-mono text-[9px] uppercase tracking-[0.15em]"
                 style={{ color: sev.color, backgroundColor: sev.bg }}
               >
-                {severityBadgeText(card)}
+                {badge}
               </div>
               <h2 className="mb-2 font-display text-xl font-bold leading-snug text-cream">
                 {card.title}
@@ -61,9 +67,9 @@ export default function CardsPage() {
                 {card.subtitle}
               </p>
               <div className="mb-1 flex items-center gap-1.5">
-                {FULCRUM_ORDER.map(({ key, name }) => {
+                {FULCRUM_KEYS.map((key) => {
                   const st = card.fulcrums[key].status;
-                  const label = `${name}: ${STATUS_META[st].label}`;
+                  const label = `${dict.fulcrums[key]}: ${dict.status[st]}`;
                   return (
                     <span
                       key={key}
@@ -83,23 +89,23 @@ export default function CardsPage() {
                 </span>
               </div>
               <div className="mt-5 font-mono text-[10px] uppercase tracking-[0.15em] text-copper/70 transition-colors group-hover:text-copper">
-                Ver diagnóstico →
+                {dict.catalog.viewDiagnosis}
               </div>
             </Link>
           );
         })}
       </section>
 
-      {/* Vista del catálogo completo (vision) */}
+      {/* Vista del catálogo completo */}
       <section className="mt-24">
         <h2 className="mb-8 font-mono text-[11px] uppercase tracking-[0.25em] text-copper">
-          Catálogo en construcción · {catalog.total_planned} cards
+          {dict.catalog.underConstruction(catalog.total_planned)}
         </h2>
         <div className="grid gap-x-10 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
           {catalog.sectors.map((sector) => (
-            <div key={sector.name}>
+            <div key={sector.name.es}>
               <h3 className="mb-3 border-b border-copper/15 pb-2 font-display text-sm font-bold text-cream/80">
-                {sector.name}
+                {sector.name[lang]}
               </h3>
               <ul className="space-y-1.5">
                 {sector.cards.map((c) => {
@@ -114,7 +120,7 @@ export default function CardsPage() {
                           created ? "text-cream/80" : "text-cream/55"
                         }`}
                       >
-                        {c.title}
+                        {c.title[lang]}
                       </span>
                     </span>
                   );
@@ -122,7 +128,7 @@ export default function CardsPage() {
                     <li key={c.id}>
                       {created ? (
                         <Link
-                          href={`/cards/${c.id}`}
+                          href={`/${lang}/cards/${c.id}`}
                           className="transition-colors hover:text-copper"
                         >
                           {inner}
