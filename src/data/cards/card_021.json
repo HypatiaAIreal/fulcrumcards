@@ -1,0 +1,50 @@
+{
+  "id": "021",
+  "title": "El Restaurador de Arte",
+  "sector": "Sector artístico",
+  "severity": "strong",
+  "subtitle": "La profesión con el fulcro más fuerte del catálogo — y la que menos teme a la inteligencia artificial.",
+  "opening": "Una restauradora se inclina sobre un lienzo del siglo XVII. Lleva tres semanas limpiando un centímetro cuadrado de barniz oscurecido. La IA puede analizar los pigmentos por espectroscopía, identificar la composición química, sugerir el disolvente óptimo. Pero no puede tocar el lienzo. Porque cada toque es irreversible. Cada decisión sobre presión, ángulo y duración vive en las manos de alguien que ha pasado una década aprendiendo a sentir lo que el barniz esconde.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Manos entrenadas durante años. Herramientas específicas. Formación física y química. Acceso presencial a la obra. La IA no tiene cuerpo — y este oficio es cuerpo.",
+      "crack": "Fulcro material excepcionalmente fuerte. Sin grieta significativa.",
+      "bar": [1, 1, 1, 1]
+    },
+    "epistemic": {
+      "status": "verified",
+      "detail": "Conocimiento que se verifica en el objeto mismo — no en una publicación ni en un informe. Si la limpieza daña el pigmento, se sabe inmediatamente. La verdad es tangible y el error es irreversible.",
+      "crack": "El conocimiento epistémico se verifica por consecuencias directas, no por consenso.",
+      "bar": [1, 1, 1, 1]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Museos, coleccionistas privados, instituciones. La confianza no se gana por marketing — se gana obra a obra, intervención a intervención. Un restaurador de confianza es un activo que un museo no arriesga.",
+      "crack": "Fulcro relacional construido sobre irreversibilidad: cada obra confiada es una apuesta que el museo no puede deshacer.",
+      "bar": [1, 1, 1, 1]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "Cada intervención queda documentada: qué se hizo, cuándo, con qué materiales, por quién. La cadena de custodia de la restauración ES procedencia en estado puro — la historia atestiguada que Benjamin describió.",
+      "crack": "La procedencia del restaurador es doblemente fuerte: la suya propia Y la que preserva en la obra.",
+      "bar": [1, 1, 1, 1]
+    }
+  },
+  "lever": "La IA como herramienta de análisis: espectroscopía, radiografía digital, reconstrucción virtual de piezas dañadas, bases de datos de pigmentos históricos. Todo esto amplifica la capacidad del restaurador. Es palanca legítima — Nivel 0, herramienta.",
+  "fulcrum": "La decisión de tocar. El juicio sobre hasta dónde llegar y dónde detenerse. La sensibilidad táctil acumulada en miles de horas de práctica. Lo que ningún prompt puede instruir porque no es conocimiento — es tacto.",
+  "contrast": {
+    "card_ref": "003",
+    "text": "Compárese con el copywriter de marketing (Card #003): material ausente, epistémico ausente, relacional asumido, procedencia ausente. La distancia entre ambos diagnósticos no es de prestigio — es de irreversibilidad. Lo que el restaurador hace no se puede deshacer. Lo que el copywriter produce se puede regenerar en segundos."
+  },
+  "escape": null,
+  "lesson": "La profesión más resistente a la IA no es la más tecnológica ni la más creativa. Es la que trabaja con lo irreversible. Donde cada acto deja una marca que no se puede borrar, la procedencia no es un concepto — es la condición del oficio.",
+  "references": [
+    "Vol. 1, Cap. 7 — El fulcro material: existir antes de ser buscado",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar",
+    "Vol. 2, Cap. 25 — La física del fulcro (dominios, topografía)"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

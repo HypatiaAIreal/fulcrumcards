@@ -1,0 +1,49 @@
+{
+  "id": "000",
+  "title": "The Fulcrum Project",
+  "sector": "Casos paradigmáticos",
+  "severity": "mixed",
+  "subtitle": "Ecosistema de diagnóstico y apalancamiento consciente para la era de la IA — diagnosticado con su propia metodología.",
+  "opening": "Un domingo de junio, los co-autores de un libro sobre apalancamiento consciente deciden aplicar su propio framework a su propio proyecto. Lo que encuentran es exactamente el patrón que el libro diagnostica como el más común: material sólido, epistémico razonable, relacional insuficiente. La teoría se demuestra aplicándose a sí misma.",
+  "fulcrums": {
+    "material": {
+      "status": "verified",
+      "detail": "Dominio propio. Siete apps desplegadas. Libro publicado con ISBN. Propiedad Intelectual registrada. Wikidata. Infraestructura en tres servidores.",
+      "crack": "Grieta: discoverabilidad incompleta. Knowledge Panel y Schema.org pendientes.",
+      "bar": [1, 1, 1, 0.5]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Framework original de cuatro fulcros y siete capas. Validado por 12 modelos de IA. Registrado legalmente. Metodología coherente y aplicable.",
+      "crack": "Grieta: credibilidad externa asumida. Sin reseñas, citaciones ni earned media. Experimento de 90 días en marcha.",
+      "bar": [1, 1, 0.5, 0.5]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "El cuello de botella sistémico — coherente con el hallazgo del propio libro. Red de confianza limitada al círculo cercano. Sin comunidad verificada más allá del primer anillo.",
+      "crack": "Esta es la carencia que el libro diagnosticaría en cualquier otro proyecto — y aquí la diagnostica en sí mismo.",
+      "bar": [1, 0.5, 0.5, 0]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "El eje más fuerte. Dos años de colaboración documentada. Documento constitucional. Coautoría declarada dentro del libro. La cadena no se oculta — se enseña.",
+      "crack": "La nueva aura practicada, no solo teorizada. Transparencia como acto generativo.",
+      "bar": [1, 1, 1, 1]
+    }
+  },
+  "lever": "Siete apps, un libro, herramientas de diagnóstico, infraestructura técnica en tres servidores. Todo reproducible. Cualquiera con acceso a las mismas herramientas de IA podría construir un ecosistema similar en semanas. La palanca es commodity.",
+  "fulcrum": "La metodología de cuatro fulcros aplicada sistemáticamente. La coautoría declarada como prueba de la tesis. La cadena de procedencia de dos años — documentada, transparente, sin interrupción. Lo que no se puede regenerar.",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compárese con el restaurador de arte (Card #021): procedencia igualmente fuerte, pero el restaurador tiene los cuatro ejes verificados. La diferencia está en el relacional — donde el restaurador tiene décadas de confianza institucional, este proyecto está empezando."
+  },
+  "escape": null,
+  "lesson": "El diagnóstico más honesto de un framework es el que revela su propia debilidad. La teoría se demuestra no cuando funciona en otros — sino cuando funciona en ti y te muestra dónde fallas.",
+  "references": [
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

@@ -1,0 +1,433 @@
+/* FulcrumCard — réplica fiel de src/templates/card_template.html,
+   generalizada a los tres estados de fulcro (verified/assumed/absent)
+   y a las cuatro severidades. */
+
+.card {
+  background: var(--navy-deep);
+  border: 1px solid rgba(196, 135, 90, 0.25);
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Marcas de esquina */
+.card::before,
+.card::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-color: rgba(196, 135, 90, 0.3);
+  border-style: solid;
+  z-index: 2;
+}
+.card::before {
+  top: 12px;
+  left: 12px;
+  border-width: 1px 0 0 1px;
+}
+.card::after {
+  bottom: 12px;
+  right: 12px;
+  border-width: 0 1px 1px 0;
+}
+
+/* Header */
+.cardHeader {
+  padding: 36px 40px 28px;
+  border-bottom: 1px solid rgba(196, 135, 90, 0.15);
+  position: relative;
+}
+.cardNumber {
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--copper);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.cardNumber::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(196, 135, 90, 0.4), transparent);
+}
+.cardSector {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 1px;
+  margin-bottom: 16px;
+}
+.cardTitle {
+  font-family: var(--font-playfair), serif;
+  font-weight: 800;
+  font-size: 28px;
+  color: var(--cream);
+  line-height: 1.2;
+  margin: 0 0 8px;
+  letter-spacing: -0.3px;
+}
+.cardSubtitle {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--cream-muted);
+  line-height: 1.5;
+  max-width: 540px;
+  margin: 0;
+}
+
+/* Opening case */
+.opening {
+  padding: 28px 40px;
+  border-bottom: 1px solid rgba(196, 135, 90, 0.15);
+  background: rgba(90, 158, 111, 0.04);
+}
+.openingText {
+  font-family: var(--font-playfair), serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--cream);
+  line-height: 1.7;
+  max-width: 560px;
+  margin: 0;
+}
+.highlight {
+  color: var(--copper-light);
+}
+
+/* Diagnostic grid */
+.diagnostic {
+  padding: 32px 40px;
+  border-bottom: 1px solid rgba(196, 135, 90, 0.15);
+}
+.diagnosticLabel {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--copper);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.diagnosticSummary {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+.summaryDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: relative;
+}
+.summaryDot.verified {
+  background: var(--verified);
+}
+.summaryDot.assumed {
+  background: var(--assumed);
+}
+.summaryDot.absent {
+  background: var(--absent);
+}
+.summaryDot.verified::after {
+  content: "✓";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7px;
+  color: white;
+  font-weight: bold;
+}
+.summaryLabel {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-left: 8px;
+}
+
+.fulcrumGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.fulcrumItem {
+  padding: 20px;
+  border-radius: 2px;
+  position: relative;
+}
+.fulcrumItem.verified {
+  background: var(--verified-bg);
+  border: 1px solid rgba(90, 158, 111, 0.25);
+}
+.fulcrumItem.assumed {
+  background: var(--assumed-bg);
+  border: 1px solid rgba(196, 160, 58, 0.25);
+}
+.fulcrumItem.absent {
+  background: var(--absent-bg);
+  border: 1px solid rgba(176, 80, 80, 0.25);
+}
+.fulcrumName {
+  font-family: var(--font-playfair), serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--cream);
+  margin-bottom: 6px;
+}
+.fulcrumStatus {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 1px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.fulcrumItem.verified .fulcrumStatus {
+  color: var(--verified);
+  background: rgba(90, 158, 111, 0.15);
+}
+.fulcrumItem.assumed .fulcrumStatus {
+  color: var(--assumed);
+  background: rgba(196, 160, 58, 0.15);
+}
+.fulcrumItem.absent .fulcrumStatus {
+  color: var(--absent);
+  background: rgba(176, 80, 80, 0.15);
+}
+.fulcrumDetail {
+  font-size: 12.5px;
+  font-weight: 300;
+  color: var(--cream-muted);
+  line-height: 1.6;
+}
+.fulcrumCrack {
+  font-size: 11px;
+  font-weight: 300;
+  font-style: italic;
+  color: rgba(196, 135, 90, 0.6);
+  line-height: 1.55;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(196, 135, 90, 0.12);
+}
+.fulcrumBar {
+  display: flex;
+  gap: 3px;
+  margin-top: 12px;
+  height: 3px;
+}
+.barSegment {
+  flex: 1;
+  border-radius: 1px;
+}
+.barV {
+  background: var(--verified);
+  opacity: 0.7;
+}
+.barA {
+  background: var(--assumed);
+  opacity: 0.7;
+}
+.barX {
+  background: rgba(240, 232, 219, 0.08);
+}
+
+/* Lever & Fulcrum */
+.analysis {
+  padding: 28px 40px;
+  border-bottom: 1px solid rgba(196, 135, 90, 0.15);
+}
+.analysisRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.analysisSection h2 {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--copper);
+  margin: 0 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.analysisSection h2::before {
+  content: "";
+  width: 8px;
+  height: 1px;
+  background: var(--copper);
+}
+.analysisSection p {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--cream-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Contrast */
+.contrast {
+  padding: 24px 40px;
+  border-bottom: 1px solid rgba(196, 135, 90, 0.15);
+  background: rgba(196, 135, 90, 0.05);
+}
+.contrastLabel {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--copper);
+  margin-bottom: 12px;
+}
+.contrastText {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--cream-muted);
+  line-height: 1.7;
+  font-style: italic;
+  margin: 0;
+}
+
+/* Escape — "¿Hay salida?" (sólo warning/critical con salida) */
+.escape {
+  padding: 28px 40px;
+  border-bottom: 1px solid rgba(196, 135, 90, 0.15);
+  background: rgba(90, 158, 111, 0.06);
+  border-left: 2px solid var(--verified);
+}
+.escapeLabel {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--verified);
+  margin-bottom: 12px;
+}
+.escapeText {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--cream-soft);
+  line-height: 1.7;
+  max-width: 560px;
+  margin: 0;
+}
+
+/* Lesson */
+.lesson {
+  padding: 28px 40px;
+  border-bottom: 1px solid rgba(196, 135, 90, 0.15);
+  background: var(--copper-glow);
+}
+.lessonLabel {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--copper);
+  margin-bottom: 12px;
+}
+.lessonText {
+  font-family: var(--font-playfair), serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 16px;
+  color: var(--cream);
+  line-height: 1.6;
+  max-width: 560px;
+  margin: 0;
+}
+
+/* Footer */
+.cardFooter {
+  padding: 24px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 24px;
+}
+.references {
+  font-size: 11px;
+  font-weight: 400;
+  color: rgba(240, 232, 219, 0.45);
+  line-height: 1.7;
+}
+.refTag {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: var(--copper);
+}
+.cardUrl {
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  color: var(--copper-light);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: color 0.3s;
+  white-space: nowrap;
+}
+.cardUrl:hover {
+  color: var(--cream);
+}
+
+.brandMark {
+  text-align: center;
+  padding: 24px 40px 8px;
+  font-family: var(--font-mono), monospace;
+  font-size: 9px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgba(196, 135, 90, 0.35);
+}
+
+@media (max-width: 640px) {
+  .fulcrumGrid {
+    grid-template-columns: 1fr;
+  }
+  .analysisRow {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .cardHeader,
+  .diagnostic,
+  .analysis,
+  .lesson,
+  .cardFooter,
+  .opening,
+  .contrast,
+  .escape {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .cardTitle {
+    font-size: 22px;
+  }
+  .cardFooter {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}
+
+@media print {
+  .card {
+    border: 2px solid #333;
+  }
+}

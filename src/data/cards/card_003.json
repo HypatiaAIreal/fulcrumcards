@@ -1,0 +1,50 @@
+{
+  "id": "003",
+  "title": "El Copywriter de Marketing",
+  "sector": "Profesiones de cuello blanco",
+  "severity": "critical",
+  "subtitle": "La profesión más commoditizada por la IA generativa — y la que mejor demuestra qué pasa cuando los cuatro fulcros son débiles.",
+  "opening": "Un martes por la mañana, una directora de marketing abre Claude y escribe: \"Dame diez variantes de asunto para un email de reactivación de clientes inactivos, tono cercano pero profesional, sector fintech.\" En cuarenta segundos tiene quince opciones — cinco más de las que pidió. Elige tres sin pensarlo mucho. La persona que hacía exactamente esto hasta hace dieciocho meses cobra ahora un 40% menos y tiene la mitad de los clientes.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "Sin barrera de entrada. No hay colegiación, certificación obligatoria ni infraestructura física. Un portátil y acceso a internet. La misma infraestructura que usa quien le reemplaza — incluida la IA.",
+      "crack": "El fulcro material es estructuralmente ausente. No hay intervención posible en este eje.",
+      "bar": [0, 0, 0, 0]
+    },
+    "epistemic": {
+      "status": "absent",
+      "detail": "El output es indistinguible. En tests ciegos, directores de marketing no pueden diferenciar copy escrito por IA del escrito por humano. Si el lector no nota la diferencia, la credibilidad epistémica es commodity.",
+      "crack": "El epistémico colapsa porque la verificación es sobre el output, no sobre el autor. Y el output es indistinguible.",
+      "bar": [0, 0, 0, 0]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Depende enteramente del vínculo personal con el cliente. Un copywriter de confianza que conoce la marca desde hace años tiene fulcro relacional — pero es el único eje que puede salvarlo, y solo mientras dure la relación.",
+      "crack": "Es el único fulcro que no es ausente, pero es asumido: no se ha verificado si la relación sobreviviría a una alternativa más barata.",
+      "bar": [1, 0.5, 0, 0]
+    },
+    "provenance": {
+      "status": "absent",
+      "detail": "A nadie le importa quién escribió el asunto del email. El copy de marketing es anónimo por diseño — se firma como marca, no como autor. Sin firma, sin procedencia. La cadena se corta antes de empezar.",
+      "crack": "La procedencia es estructuralmente imposible en copy anónimo. No es que sea débil — es que no existe.",
+      "bar": [0, 0, 0, 0]
+    }
+  },
+  "lever": "Velocidad de producción, versatilidad de tono, conocimiento de frameworks (AIDA, PAS, BAB), portfolio de campañas anteriores. Todo reproducible por la IA en segundos — no en días, en segundos. La palanca del copywriter es idéntica a la palanca de la máquina que lo reemplaza.",
+  "fulcrum": "Si existe, vive exclusivamente en la relación con el cliente: conocer la marca desde dentro, saber qué no decir, recordar la campaña que fracasó en 2019 y por qué. Pero ese conocimiento tácito se transfiere — con contexto y memoria, la IA lo absorbe en una sesión.",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compárese con el restaurador de arte (Card #021): cuatro fulcros verificados frente a cero. La distancia no es de talento. Es de irreversibilidad. Lo que el restaurador hace no se puede deshacer. Lo que el copywriter produce se puede regenerar en cuarenta segundos."
+  },
+  "escape": "Sí, pero exige un pivote radical. El copywriter que sobrevive no es el que escribe mejor copy — es el que se convierte en otra cosa: estratega de marca (fulcro epistémico), director de voz (fulcro de procedencia), o consultor de comunicación con relación profunda con el cliente (fulcro relacional verificado). En cada caso, deja de ser copywriter. El diagnóstico no condena a la persona — condena a la función.",
+  "lesson": "Cuando el output de tu trabajo es indistinguible del output de una máquina, y tu nombre no aparece en lo que produces, y cualquiera puede hacer lo que haces con las mismas herramientas que tú usas — no tienes fulcro. Tienes una palanca que alguien más empuña más barato. La pregunta no es \"¿escribo mejor que la IA?\" La pregunta es: \"¿qué desaparecería del mundo si yo dejara de escribir?\"",
+  "references": [
+    "Vol. 1, Cap. 4 — La fricción: el concepto más malentendido",
+    "Vol. 1, Cap. 5 — Las tres propiedades de la palanca",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

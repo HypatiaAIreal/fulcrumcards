@@ -1,0 +1,94 @@
+{
+  "catalog_version": "1.0",
+  "total_planned": 47,
+  "total_created": 3,
+  "sectors": [
+    {
+      "name": "Casos paradigmáticos",
+      "cards": [
+        { "id": "000", "title": "The Fulcrum Project", "severity": "mixed", "status": "created" },
+        { "id": "017", "title": "El Ghostwriter con IA", "severity": "critical", "status": "planned" },
+        { "id": "018", "title": "Hardy y la Apología", "severity": "strong", "status": "planned" },
+        { "id": "019", "title": "Project Fetch", "severity": "warning", "status": "planned" },
+        { "id": "020", "title": "Este Libro", "severity": "mixed", "status": "planned" }
+      ]
+    },
+    {
+      "name": "Profesiones de cuello blanco",
+      "cards": [
+        { "id": "001", "title": "El Diseñador Gráfico", "severity": "mixed", "status": "planned" },
+        { "id": "002", "title": "El Abogado Corporativo", "severity": "mixed", "status": "planned" },
+        { "id": "003", "title": "El Copywriter de Marketing", "severity": "critical", "status": "created" },
+        { "id": "004", "title": "El Desarrollador de Software", "severity": "mixed", "status": "planned" },
+        { "id": "005", "title": "El Traductor", "severity": "mixed", "status": "planned" },
+        { "id": "006", "title": "El Analista Financiero", "severity": "warning", "status": "planned" },
+        { "id": "007", "title": "El Consultor de Gestión", "severity": "mixed", "status": "planned" },
+        { "id": "008", "title": "El Periodista", "severity": "mixed", "status": "planned" },
+        { "id": "009", "title": "El Profesor Universitario", "severity": "mixed", "status": "planned" },
+        { "id": "010", "title": "El Arquitecto", "severity": "mixed", "status": "planned" },
+        { "id": "011", "title": "El Recruiter de RRHH", "severity": "warning", "status": "planned" },
+        { "id": "012", "title": "El UX Designer", "severity": "mixed", "status": "planned" }
+      ]
+    },
+    {
+      "name": "Casos del libro",
+      "cards": [
+        { "id": "013", "title": "Patagonia: Don't Buy This Jacket", "severity": "strong", "status": "planned" },
+        { "id": "014", "title": "WeWork", "severity": "critical", "status": "planned" },
+        { "id": "015", "title": "Theranos", "severity": "critical", "status": "planned" },
+        { "id": "016", "title": "Wikipedia", "severity": "strong", "status": "planned" }
+      ]
+    },
+    {
+      "name": "Sector artístico",
+      "cards": [
+        { "id": "021", "title": "El Restaurador de Arte", "severity": "strong", "status": "created" },
+        { "id": "022", "title": "El Pintor", "severity": "mixed", "status": "planned" },
+        { "id": "023", "title": "El Curador", "severity": "mixed", "status": "planned" },
+        { "id": "024", "title": "El Galerista", "severity": "mixed", "status": "planned" },
+        { "id": "025", "title": "El Artista Digital / NFT", "severity": "warning", "status": "planned" },
+        { "id": "026", "title": "El Crítico de Arte", "severity": "warning", "status": "planned" }
+      ]
+    },
+    {
+      "name": "Sector tech/digital",
+      "cards": [
+        { "id": "027", "title": "El Consultor SEO", "severity": "mixed", "status": "planned" },
+        { "id": "028", "title": "El Community Manager", "severity": "warning", "status": "planned" },
+        { "id": "029", "title": "El Data Analyst", "severity": "mixed", "status": "planned" },
+        { "id": "030", "title": "El SaaS Founder", "severity": "mixed", "status": "planned" },
+        { "id": "031", "title": "El Web Developer", "severity": "warning", "status": "planned" },
+        { "id": "032", "title": "El Digital Marketing Manager", "severity": "mixed", "status": "planned" }
+      ]
+    },
+    {
+      "name": "Filosofía y humanidades",
+      "cards": [
+        { "id": "033", "title": "El Filósofo Académico", "severity": "mixed", "status": "planned" },
+        { "id": "034", "title": "El Filósofo Público", "severity": "mixed", "status": "planned" },
+        { "id": "035", "title": "El Ético de IA", "severity": "warning", "status": "planned" },
+        { "id": "036", "title": "La Filosofía como Sistema Operativo", "severity": "strong", "status": "planned" }
+      ]
+    },
+    {
+      "name": "Cine y audiovisual",
+      "cards": [
+        { "id": "037", "title": "El Director de Cine", "severity": "mixed", "status": "planned" },
+        { "id": "038", "title": "El Guionista", "severity": "warning", "status": "planned" },
+        { "id": "039", "title": "El Montador", "severity": "strong", "status": "planned" },
+        { "id": "040", "title": "El Cinematógrafo", "severity": "strong", "status": "planned" },
+        { "id": "041", "title": "El Documentalista", "severity": "strong", "status": "planned" }
+      ]
+    },
+    {
+      "name": "Literatura",
+      "cards": [
+        { "id": "042", "title": "El Novelista", "severity": "mixed", "status": "planned" },
+        { "id": "043", "title": "El Poeta", "severity": "mixed", "status": "planned" },
+        { "id": "044", "title": "El Editor Literario", "severity": "strong", "status": "planned" },
+        { "id": "045", "title": "El Escritor-IA: Coautoría Declarada", "severity": "mixed", "status": "planned" },
+        { "id": "046", "title": "El Crítico Literario", "severity": "warning", "status": "planned" }
+      ]
+    }
+  ]
+}

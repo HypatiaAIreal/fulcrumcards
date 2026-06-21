@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sistema visual HNV (Harmony Nexus Vitae) — El Fulcro Invisible */
+:root {
+  --navy-deep: #0b1a2e;
+  --navy-mid: #122240;
+  --navy-light: #1a3058;
+
+  --copper: #c4875a;
+  --copper-light: #d4a574;
+  --copper-glow: rgba(196, 135, 90, 0.15);
+
+  --cream: #f0e8db;
+  --cream-soft: #e8dfd0;
+  --cream-muted: rgba(240, 232, 219, 0.7);
+
+  --verified: #5a9e6f;
+  --verified-bg: rgba(90, 158, 111, 0.12);
+  --assumed: #c4a03a;
+  --assumed-bg: rgba(196, 160, 58, 0.12);
+  --warning: #bf7a3f;
+  --warning-bg: rgba(191, 122, 63, 0.12);
+  --absent: #b05050;
+  --absent-bg: rgba(176, 80, 80, 0.12);
+
+  --canvas: #0a0f18;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--canvas);
+  color: var(--cream);
+  font-family: var(--font-plex), system-ui, sans-serif;
+  min-height: 100vh;
+}

@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card #021 — El Restaurador de Arte</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy-deep: #0b1a2e;
+    --navy-mid: #122240;
+    --navy-light: #1a3058;
+    --copper: #c4875a;
+    --copper-light: #d4a574;
+    --copper-glow: rgba(196, 135, 90, 0.15);
+    --cream: #f0e8db;
+    --cream-soft: #e8dfd0;
+    --cream-muted: rgba(240, 232, 219, 0.7);
+    --verified: #5a9e6f;
+    --verified-bg: rgba(90, 158, 111, 0.12);
+    --assumed: #c4a03a;
+    --assumed-bg: rgba(196, 160, 58, 0.12);
+    --absent: #b05050;
+    --absent-bg: rgba(176, 80, 80, 0.12);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0a0f18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
+  .card-container {
+    width: 100%;
+    max-width: 680px;
+  }
+
+  .card {
+    background: var(--navy-deep);
+    border: 1px solid rgba(196, 135, 90, 0.25);
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .card::before,
+  .card::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-color: rgba(196, 135, 90, 0.3);
+    border-style: solid;
+    z-index: 2;
+  }
+  .card::before {
+    top: 12px; left: 12px;
+    border-width: 1px 0 0 1px;
+  }
+  .card::after {
+    bottom: 12px; right: 12px;
+    border-width: 0 1px 1px 0;
+  }
+
+  /* Header */
+  .card-header {
+    padding: 36px 40px 28px;
+    border-bottom: 1px solid rgba(196, 135, 90, 0.15);
+    position: relative;
+  }
+
+  .card-number {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .card-number::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(196, 135, 90, 0.4), transparent);
+  }
+
+  .card-sector {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--verified);
+    background: var(--verified-bg);
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 1px;
+    margin-bottom: 16px;
+  }
+
+  .card-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 28px;
+    color: var(--cream);
+    line-height: 1.2;
+    margin-bottom: 8px;
+    letter-spacing: -0.3px;
+  }
+
+  .card-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--cream-muted);
+    line-height: 1.5;
+    max-width: 540px;
+  }
+
+  /* Opening case */
+  .opening {
+    padding: 28px 40px;
+    border-bottom: 1px solid rgba(196, 135, 90, 0.15);
+    background: rgba(90, 158, 111, 0.04);
+  }
+
+  .opening-text {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--cream);
+    line-height: 1.7;
+    max-width: 560px;
+  }
+
+  .opening-text .highlight {
+    color: var(--copper-light);
+  }
+
+  /* Diagnostic grid */
+  .diagnostic {
+    padding: 32px 40px;
+    border-bottom: 1px solid rgba(196, 135, 90, 0.15);
+  }
+
+  .diagnostic-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .diagnostic-summary {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 24px;
+    align-items: center;
+  }
+
+  .summary-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--verified);
+    position: relative;
+  }
+
+  .summary-dot::after {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .summary-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--verified);
+    margin-left: 8px;
+  }
+
+  .fulcrum-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .fulcrum-item {
+    padding: 20px;
+    border-radius: 2px;
+    position: relative;
+  }
+
+  .fulcrum-item.verified {
+    background: var(--verified-bg);
+    border: 1px solid rgba(90, 158, 111, 0.25);
+  }
+
+  .fulcrum-name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--cream);
+    margin-bottom: 6px;
+  }
+
+  .fulcrum-status {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 1px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: var(--verified);
+    background: rgba(90, 158, 111, 0.15);
+  }
+
+  .fulcrum-detail {
+    font-size: 12.5px;
+    font-weight: 300;
+    color: var(--cream-muted);
+    line-height: 1.6;
+  }
+
+  .fulcrum-bar {
+    display: flex;
+    gap: 3px;
+    margin-top: 12px;
+    height: 3px;
+  }
+
+  .bar-segment {
+    flex: 1;
+    border-radius: 1px;
+  }
+
+  .bar-verified { background: var(--verified); opacity: 0.7; }
+
+  /* Lever & Fulcrum */
+  .analysis {
+    padding: 28px 40px;
+    border-bottom: 1px solid rgba(196, 135, 90, 0.15);
+  }
+
+  .analysis-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .analysis-section h3 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .analysis-section h3::before {
+    content: '';
+    width: 8px;
+    height: 1px;
+    background: var(--copper);
+  }
+
+  .analysis-section p {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--cream-muted);
+    line-height: 1.7;
+  }
+
+  /* Contrast */
+  .contrast {
+    padding: 24px 40px;
+    border-bottom: 1px solid rgba(196, 135, 90, 0.15);
+    background: rgba(196, 135, 90, 0.05);
+  }
+
+  .contrast-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin-bottom: 12px;
+  }
+
+  .contrast-text {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--cream-muted);
+    line-height: 1.7;
+    font-style: italic;
+  }
+
+  /* Lesson */
+  .lesson {
+    padding: 28px 40px;
+    border-bottom: 1px solid rgba(196, 135, 90, 0.15);
+    background: var(--copper-glow);
+  }
+
+  .lesson-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin-bottom: 12px;
+  }
+
+  .lesson-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+    color: var(--cream);
+    line-height: 1.6;
+    max-width: 560px;
+  }
+
+  /* Footer */
+  .card-footer {
+    padding: 24px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .references {
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(240, 232, 219, 0.45);
+    line-height: 1.7;
+  }
+
+  .references span {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: var(--copper);
+  }
+
+  .card-url {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--copper-light);
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    transition: color 0.3s;
+  }
+
+  .card-url:hover {
+    color: var(--cream);
+  }
+
+  .brand-mark {
+    text-align: center;
+    padding: 24px 40px 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(196, 135, 90, 0.35);
+  }
+
+  @media print {
+    body { background: white; padding: 0; }
+    .card { border: 2px solid #333; }
+    .card-container { max-width: 100%; }
+  }
+
+  @media (max-width: 640px) {
+    .fulcrum-grid { grid-template-columns: 1fr; }
+    .analysis-row { grid-template-columns: 1fr; gap: 24px; }
+    .card-header, .diagnostic, .analysis, .lesson, .card-footer, .opening, .contrast {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    .card-title { font-size: 22px; }
+    .card-footer { flex-direction: column; align-items: flex-start; gap: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="card-container">
+  <div class="card">
+
+    <!-- Header -->
+    <div class="card-header">
+      <div class="card-number">Card #021 · Sector artístico</div>
+      <div class="card-sector">Cuatro fulcros verificados</div>
+      <h1 class="card-title">El Restaurador de Arte</h1>
+      <p class="card-subtitle">La profesión con el fulcro más fuerte del catálogo — y la que menos teme a la inteligencia artificial.</p>
+    </div>
+
+    <!-- Opening case -->
+    <div class="opening">
+      <p class="opening-text">Una restauradora se inclina sobre un lienzo del siglo XVII. Lleva tres semanas limpiando un centímetro cuadrado de barniz oscurecido. La IA puede analizar los pigmentos por espectroscopía, identificar la composición química, sugerir el disolvente óptimo. <span class="highlight">Pero no puede tocar el lienzo.</span> Porque cada toque es irreversible. Cada decisión sobre presión, ángulo y duración vive en las manos de alguien que ha pasado una década aprendiendo a sentir lo que el barniz esconde.</p>
+    </div>
+
+    <!-- Diagnostic -->
+    <div class="diagnostic">
+      <div class="diagnostic-label">Diagnóstico de fulcros</div>
+
+      <div class="diagnostic-summary">
+        <div class="summary-dot"></div>
+        <div class="summary-dot"></div>
+        <div class="summary-dot"></div>
+        <div class="summary-dot"></div>
+        <span class="summary-label">4 / 4 verificados</span>
+      </div>
+
+      <div class="fulcrum-grid">
+
+        <div class="fulcrum-item verified">
+          <div class="fulcrum-name">Material</div>
+          <div class="fulcrum-status">✓ Verificado</div>
+          <div class="fulcrum-detail">
+            Manos entrenadas durante años. Herramientas específicas. Formación física y química. Acceso presencial a la obra. La IA no tiene cuerpo — y este oficio es cuerpo.
+          </div>
+          <div class="fulcrum-bar">
+            <div class="bar-segment bar-verified"></div>
+            <div class="bar-segment bar-verified"></div>
+            <div class="bar-segment bar-verified"></div>
+            <div class="bar-segment bar-verified"></div>
+          </div>
+        </div>
+
+        <div class="fulcrum-item verified">
+          <div class="fulcrum-name">Epistémico</div>
+          <div class="fulcrum-status">✓ Verificado</div>
+          <div class="fulcrum-detail">
+            Conocimiento que se verifica en el objeto mismo — no en una publicación ni en un informe. Si la limpieza daña el pigmento, se sabe inmediatamente. La verdad es tangible y el error es irreversible.
+          </div>
+          <div class="fulcrum-bar">
+            <div class="bar-segment bar-verified"></div>
+            <div class="bar-segment bar-verified"></div>
+            <div class="bar-segment bar-verified"></div>
+            <div class="bar-segment bar-verified"></div>
+          </div>
+        </div>
+
+        <div class="fulcrum-item verified">
+          <div class="fulcrum-name">Relacional</div>
+          <div class="fulcrum-status">✓ Verificado</div>
+          <div class="fulcrum-detail">
+            Museos, coleccionistas privados, instituciones. La confianza no se gana por marketing — se gana obra a obra, intervención a intervención. Un restaurador de confianza es un activo que un museo no arriesga.
+          </div>
+          <div class="fulcrum-bar">
+            <div class="bar-segment bar-verified"></div>
+            <div class="bar-segment bar-verified"></div>
+            <div class="bar-segment bar-verified"></div>
+            <div class="bar-segment bar-verified"></div>
+          </div>
+        </div>
+
+        <div class="fulcrum-item verified">
+          <div class="fulcrum-name">Procedencia</div>
+          <div class="fulcrum-status">✓ Verificado</div>
+          <div class="fulcrum-detail">
+            Cada intervención queda documentada: qué se hizo, cuándo, con qué materiales, por quién. La cadena de custodia de la restauración ES procedencia en estado puro — la historia atestiguada que Benjamin describió.
+          </div>
+          <div class="fulcrum-bar">
+            <div class="bar-segment bar-verified"></div>
+            <div class="bar-segment bar-verified"></div>
+            <div class="bar-segment bar-verified"></div>
+            <div class="bar-segment bar-verified"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Lever & Fulcrum -->
+    <div class="analysis">
+      <div class="analysis-row">
+        <div class="analysis-section">
+          <h3>Palanca visible</h3>
+          <p>La IA como herramienta de análisis: espectroscopía, radiografía digital, reconstrucción virtual de piezas dañadas, bases de datos de pigmentos históricos. Todo esto amplifica la capacidad del restaurador. Es palanca legítima — Nivel 0, herramienta.</p>
+        </div>
+        <div class="analysis-section">
+          <h3>Fulcro invisible</h3>
+          <p>La decisión de tocar. El juicio sobre hasta dónde llegar y dónde detenerse. La sensibilidad táctil acumulada en miles de horas de práctica. Lo que ningún prompt puede instruir porque no es conocimiento — es tacto.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contrast -->
+    <div class="contrast">
+      <div class="contrast-label">Contraste</div>
+      <p class="contrast-text">Compárese con el copywriter de marketing (Card #003): material débil, epistémico débil, relacional variable, procedencia ausente. La distancia entre ambos diagnósticos no es de prestigio — es de irreversibilidad. Lo que el restaurador hace no se puede deshacer. Lo que el copywriter produce se puede regenerar en segundos.</p>
+    </div>
+
+    <!-- Lesson -->
+    <div class="lesson">
+      <div class="lesson-label">Lección</div>
+      <p class="lesson-text">La profesión más resistente a la IA no es la más tecnológica ni la más creativa. Es la que trabaja con lo irreversible. Donde cada acto deja una marca que no se puede borrar, la procedencia no es un concepto — es la condición del oficio. La IA amplifica al restaurador. No lo reemplaza. No puede.</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="card-footer">
+      <div class="references">
+        <span>Ref.</span> Vol. 1, Cap. 7 — El fulcro material: existir antes de ser buscado<br>
+        <span>Ref.</span> Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar<br>
+        <span>Ref.</span> Vol. 2, Cap. 25 — La física del fulcro (dominios, topografía)
+      </div>
+      <a href="https://thefulcrumproject.org" class="card-url">thefulcrumproject.org</a>
+    </div>
+
+  </div>
+
+  <div class="brand-mark">El Fulcro Invisible · García Bach & Hypatia · 2026</div>
+</div>
+
+</body>
+</html>
