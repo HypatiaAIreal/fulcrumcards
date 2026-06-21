@@ -1,0 +1,70 @@
+{
+  "id": "025",
+  "title": "El Artista Digital / NFT",
+  "sector": "Sector artístico",
+  "severity": "warning",
+  "subtitle": "La única profesión artística que convirtió la procedencia en infraestructura — y que sin embargo dejó su palanca expuesta a la máquina que mejor la imita.",
+  "opening": "Un domingo de madrugada, un artista digital exporta a 4K la pieza número doscientos de su colección y la acuña en la cadena antes de irse a dormir. En su feed, esa misma noche, alguien ha generado en doce segundos una imagen con su misma paleta, su mismo grano, su misma niebla — y la ha puesto a la venta por una décima parte. Él tardó cuatro días; el prompt tardó lo que dura un bostezo. Lo que firmó en la blockchain sigue siendo suyo, fechado e irrepetible. Pero la estética que lo hacía reconocible acaba de volverse un ajuste de menú.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay cuerpo en juego ni gesto irreversible: la obra nace como archivo, infinitamente copiable y restaurable con un Ctrl+Z. No existe colegiación, taller físico ni herramienta que la IA no comparta — el mismo software, la misma tableta, la misma pantalla. La barrera de entrada es una cuenta y una conexión.",
+      "crack": "Lo único material es la infraestructura de la cadena, pero esa no le pertenece al artista: es un raíl público que cualquiera puede usar para acuñar lo mismo.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se le cree porque su estilo es reconocible, no porque su output sea distinguible. En la práctica, una imagen generada con su misma gramática visual pasa el test ciego del comprador medio. La credibilidad descansa en la firma del autor, no en una cualidad de la obra que la máquina no pueda alcanzar.",
+      "crack": "Es asumido y no verificado: nadie ha comprobado si el coleccionista distinguiría su pieza de una imitación generativa sin mirar la cartera que la acuñó.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "Tiene comunidad: holders, Discord, una lista de coleccionistas que compraron drops anteriores. Pero buena parte de ese vínculo es especulativo — se sostiene mientras el floor sube, no mientras el artista importa. La confianza está mezclada con expectativa de reventa.",
+      "crack": "El relacional parece sólido por el volumen de seguidores, pero no se ha verificado quién seguiría comprando si el precio dejara de prometer ganancia. Seguidores no es lo mismo que confianza con peso.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "Aquí está el fulcro real, y es estructural: la cadena registra quién acuñó qué, cuándo y en qué orden, sin posibilidad de reescribir el pasado. La procedencia de contenido — que esta pieza salió de esta cartera en esta fecha — es verificable por cualquiera, para siempre. Es la profesión artística que convirtió la procedencia en protocolo.",
+      "crack": "La procedencia de contenido está blindada, pero la de forma — haber originado un modo de ver que otros no puedan regenerar — es lo que la IA erosiona. La cadena prueba que él lo acuñó primero; no prueba que solo él podía hacerlo.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "lever": "La estética como output: paleta, textura, composición, el estilo reconocible que se vende como serie. Velocidad de producción, dominio de las herramientas generativas, capacidad de iterar variantes hasta llenar una colección de diez mil piezas. Todo esto la IA lo reproduce hoy en segundos — y peor aún, aprende el estilo concreto del artista y lo sirve a quien lo pida.",
+  "fulcrum": "Lo que no se puede regenerar no es la imagen — es el acto fechado de haberla originado y firmado en una cadena que nadie puede reescribir. La procedencia verificada es el único eje que la máquina no toca: puede imitar la forma, pero no puede haber sido el primero, ni puede ocupar el lugar en el tiempo donde un coleccionista decidió confiar. El fulcro es la historia atestiguada, no el píxel.",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compárese con el restaurador de arte (Card #021): los cuatro fulcros verificados frente a uno solo. El restaurador trabaja con lo irreversible en la materia — cada toque deja una marca que no se deshace. El artista digital trabaja con lo infinitamente reversible — y tuvo que inventar la irreversibilidad por fuera, en la cadena, porque su medio no se la daba. Por eso la procedencia lo salva mientras la materia lo abandona."
+  },
+  "escape": "Sí, pero exige dejar de competir en la estética y mudarse a lo que la cadena ya le regala: la procedencia. El artista que sobrevive no es el que pinta el estilo más bonito — es el que construye un cuerpo de obra cuya forma originó él y cuya autoría está atestiguada acto a acto, de modo que el valor migre del píxel imitable a la trayectoria irrepetible. Convertir el relacional asumido en verificado (coleccionistas que compran por él, no por el floor) y reclamar la procedencia de forma, no solo la de contenido, es el único pivote real.",
+  "lesson": "El artista digital fue el primero en blindar quién hizo qué y cuándo — y el primero en descubrir que eso no basta cuando la máquina aprende a hacer lo mismo más rápido. La cadena prueba que fuiste el primero; no prueba que solo tú podías serlo. La pregunta no es \"¿genero mejores imágenes que la IA?\" — es \"¿qué desaparecería del mundo si dejara de existir mi rastro, no mi estilo?\"",
+  "references": [
+    "Vol. 2, Cap. 22 — La commoditización de la palanca",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar",
+    "Vol. 2, Cap. 24 — La nueva aura es transparencia"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

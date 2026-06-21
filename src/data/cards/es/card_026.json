@@ -1,0 +1,70 @@
+{
+  "id": "026",
+  "title": "El Crítico de Arte",
+  "sector": "Sector artístico",
+  "severity": "warning",
+  "subtitle": "Una palabra que aún mueve carreras y precios, sostenida por una autoridad que ya casi nadie verifica y que una máquina imita sin que se note.",
+  "opening": "Un viernes a medianoche, una crítica cierra el portátil con la reseña ya enviada: dos mil palabras sobre una exposición que vio durante cuarenta minutos esa tarde. Sabe que mañana un galerista la citará en su nota de prensa, que un coleccionista leerá entre líneas si conviene comprar, que el propio artista la releerá tres veces buscando la frase que lo consagre o lo entierre. Por curiosidad, pega el comunicado de prensa en una IA y le pide el mismo texto: en treinta segundos recibe una reseña culta, fluida, llena de referencias a Krauss y a Buchloh, indistinguible de la suya para cualquiera que no haya estado en la sala. Lo que la salva no es haber escrito mejor. Es que el coleccionista todavía la llama a ella antes de firmar el cheque.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay colegiación, licencia ni infraestructura física que proteja el oficio. Un portátil, una invitación al vernissage y acceso a la bibliografía — la misma que cualquier modelo de lenguaje ha absorbido. La acreditación de prensa abre puertas, pero la concede el medio, no la persona.",
+      "crack": "El único activo material es la entrada al evento y la cabecera que publica — y ninguno de los dos le pertenece al crítico, sino al medio que puede sustituirlo.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se le cree porque firma en una cabecera prestigiosa y maneja el léxico del campo: genealogías, escuelas, citas oportunas. Pero su juicio casi nunca se verifica por consecuencias — nadie audita a tres años si el artista que ungió importaba o si el que despreció era el bueno. La autoridad se mide por la elegancia del texto, no por el acierto del veredicto.",
+      "crack": "La credibilidad es asumida, no verificada: es exactamente el estado que la IA imita mejor, porque puede reproducir el tono de autoridad sin haber acertado nunca. Es el estado más peligroso porque parece el más sólido.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Este es el fulcro que aún sostiene. Hay críticos cuya reseña llena una galería, cuya frase entra en el catálogo razonado, cuya llamada un coleccionista atiende antes de pujar. Esa confianza es singular e intransferible: se actúa por su criterio, no por su prosa, y ningún modelo de lenguaje recibe la llamada nocturna del galerista que duda.",
+      "crack": "El fulcro es verificado pero estrecho y personal: vive en un puñado de relaciones concretas, no en la firma. Si el medio cierra o la generación de coleccionistas que confía en ella se retira, la red se evapora sin que la prosa la pueda reconstruir.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "Existe un rastro real — un cuerpo de textos firmados a lo largo de los años, posiciones tomadas, artistas defendidos antes de que fueran nadie. A diferencia del copy anónimo, aquí hay autor y hay archivo. Pero la procedencia de contenido (¿esta reseña la pensó ella?) se vuelve indemostrable cuando la IA produce el mismo registro, y la de forma (¿originó una manera de mirar?) solo la tienen los poquísimos que crearon escuela.",
+      "crack": "El archivo de firmas prueba que escribió, no que vio ni que acertó: el rastro atestigua la cantidad, no la mirada. Y una mirada propia, cuando existe, casi nunca se reclama como tal.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "La prosa",
+  "fulcrum": "La presencia frente a la obra que mueve decisiones ajenas",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compárese con el restaurador de arte (Card #021), del mismo sector: cuatro fulcros verificados frente a un solo fulcro que aguanta. La distancia no es de cultura ni de sensibilidad — es de irreversibilidad. El restaurador toca el lienzo y su acto no se puede deshacer; el crítico escribe un juicio que la IA regenera con el mismo barniz de autoridad. Donde el restaurador deja una marca en la materia, el crítico deja una opinión que solo pesa mientras alguien siga confiando en quién la firma."
+  },
+  "escape": "Sí, pero exige dejar de competir por la prosa. El crítico que sobrevive no es el que escribe más fino — es el que convierte su juicio en consecuencia verificable: comisariar exposiciones por las que responde, asesorar colecciones donde su acierto se mide en el tiempo, defender públicamente a artistas antes del consenso y firmar con su nombre esa apuesta. Cada movimiento desplaza el peso desde el epistémico asumido (que la IA imita) hacia el relacional y la procedencia verificados (que la IA no puede ocupar). En todos los casos deja de ser el que opina sobre el arte para ser el que se la juega con él. El diagnóstico no condena a la persona — condena a la función de comentar sin consecuencia.",
+  "lesson": "Cuando tu autoridad se mide por lo bien que escribes y no por lo que aciertas, ya compites con una máquina que escribe igual de bien y nunca se ha mojado. El crítico que perdura no es el que mejor describe la obra — es aquel cuya llamada un coleccionista atiende antes de firmar. La pregunta no es «¿escribo mejor que la IA sobre arte?». Es: «¿qué decisión dejaría de tomarse en este mundo si yo dejara de mirar?»",
+  "references": [
+    "Vol. 1, Cap. 8 — El fulcro epistémico: que te crean antes de explicarte",
+    "Vol. 2, Cap. 22 — La commoditización de la palanca",
+    "Vol. 2, Cap. 24 — La nueva aura es transparencia"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

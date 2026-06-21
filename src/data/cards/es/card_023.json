@@ -1,0 +1,70 @@
+{
+  "id": "023",
+  "title": "El Curador",
+  "sector": "Sector artístico",
+  "severity": "mixed",
+  "subtitle": "Una mirada que la IA imita en el discurso pero no puede ocupar en la sala: el curador no produce el arte, decide qué merece ser visto — y a quién se le confía la obra que no se puede arriesgar.",
+  "opening": "Un miércoles por la tarde, una curadora recorre sola la planta vacía del museo dos semanas antes de la inauguración. Ha pedido a una IA que le redacte tres versiones del texto de sala y que proponga un recorrido alternativo: en minutos tiene un guion impecable, citas de Benjamin incluidas. Pero lo que la tiene parada frente a la pared norte no es ningún texto — es la decisión de colgar ahí el cuadro pequeño y dejar en penumbra el grande que todos esperan ver primero. Esa decisión nadie se la puede dictar, porque depende de haber pasado veinte años mirando obras hasta que la mirada se volvió criterio. Y porque el coleccionista que prestó el cuadro pequeño no se lo confió al museo: se lo confió a ella.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "No hay colegiación, licencia ni barrera de entrada que proteja el oficio. El edificio, la colección y el presupuesto pertenecen a la institución, no al curador. La IA genera hoy conceptos de exposición, textos de sala, fichas de catálogo y recorridos museográficos con la misma soltura que un equipo curatorial junior.",
+      "crack": "Lo único material que el curador toca es la obra ajena, y solo mientras la institución le preste su espacio. Cuando cambia de museo, no se lleva nada físico consigo.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se le cree porque proyecta connoisseurship: el ojo entrenado, la genealogía de referencias, el discurso teórico que envuelve la selección. Pero ese juicio rara vez se verifica por consecuencias inmediatas — el acierto de una exposición se discute durante años y nunca se demuestra del todo. Y el discurso, precisamente, es lo que la IA reproduce con más fidelidad: la prosa curatorial es uno de los géneros más imitables que existen.",
+      "crack": "La credibilidad es asumida, no verificada: separar el ojo real del discurso bien construido es casi imposible desde fuera, y eso vuelve el fulcro frágil justo donde parece más sólido.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Este es el fulcro real. Coleccionistas, galeristas, artistas vivos, herederos y otras instituciones prestan obras irremplazables porque confían en una persona concreta, no en un organigrama. Un préstamo es una apuesta que no se puede deshacer si la obra se daña o se descontextualiza; nadie confía una pieza única a un modelo de lenguaje. El artista que elige con quién expone está eligiendo una mirada, no un algoritmo.",
+      "crack": "El fulcro es verificado pero personal e intransferible: vive en el curador concreto. Si deja la institución, ¿le siguen los prestadores y los artistas, o se quedan con el nombre del museo?",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "Existe un rastro de carrera verificable — qué exposiciones firmó, qué artistas mostró primero, qué relecturas inauguró — pero queda diluido en el crédito institucional y en el catálogo colectivo. La procedencia de contenido (haber montado esta muestra) se atenúa rápido; la de forma — haber originado un modo de ver, una manera de poner en relación las obras que otros luego copian — persiste en los grandes, pero casi nunca se reclama ni se hace visible.",
+      "crack": "El curador que descubrió a un artista antes que nadie rara vez puede probarlo: el mérito migra al museo y a la obra, no a quien tuvo el ojo primero.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "La producción del aparato curatorial: el concepto de exposición, los textos de sala y de catálogo, la investigación documental, la propuesta de recorrido, la cartela y el discurso teórico que justifica la selección. La IA reproduce hoy la mayor parte de esto en horas, y con una prosa indistinguible de la del oficio. El género curatorial — articulado, referenciado, persuasivo — es precisamente lo más fácil de imitar.",
+  "fulcrum": "La decisión de qué colgar, junto a qué, y qué dejar fuera — el juicio acumulado en miles de horas de mirar obras hasta que la mirada se volvió criterio. Y, sobre todo, la confianza de quienes prestan lo irremplazable a una persona concreta. No se le confía una obra única al museo: se le confía a alguien cuyo ojo y cuya palabra tienen historial. Eso no se regenera con un prompt porque no es discurso — es relación con peso y mirada vivida.",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compárese con el restaurador de arte (Card #021), del mismo sector: cuatro fulcros verificados frente a uno solo. El restaurador trabaja sobre lo irreversible — cada toque deja una marca física que no se puede borrar, y por eso su material, su epistémico y su procedencia son sólidos. El curador no toca la obra; ordena miradas. Su único fulcro firme es relacional: la confianza de quien presta lo único. La distancia entre strong y mixed no es de prestigio — es de irreversibilidad: el restaurador deja huella en la materia; el curador, solo en la memoria de quien vio la sala."
+  },
+  "escape": null,
+  "lesson": "La IA escribirá el texto de la sala mejor de lo que tú lo escribes. Lo que no puede hacer es que un coleccionista le confíe el cuadro que no se puede arriesgar, ni decidir, mirando la pared vacía, qué merece ser visto. La pregunta no es \"¿escribo de arte mejor que la máquina?\" — es \"¿qué dejaría de verse en el mundo si tu mirada dejara de elegir?\"",
+  "references": [
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar",
+    "Vol. 2, Cap. 24 — La nueva aura es transparencia"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

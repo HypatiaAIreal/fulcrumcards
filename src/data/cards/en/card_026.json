@@ -1,0 +1,70 @@
+{
+  "id": "026",
+  "title": "The Art Critic",
+  "sector": "Arts sector",
+  "severity": "warning",
+  "subtitle": "A word that still moves careers and prices, propped up by an authority almost no one verifies anymore and that a machine imitates without anyone noticing.",
+  "opening": "On a Friday at midnight, a critic closes her laptop with the review already sent: two thousand words on an exhibition she spent forty minutes with that afternoon. She knows that tomorrow a gallerist will quote her in his press release, that a collector will read between the lines to decide whether to buy, that the artist himself will reread it three times searching for the sentence that anoints or buries him. Out of curiosity, she pastes the press release into an AI and asks for the same text: in thirty seconds she gets back a cultured, fluent review, full of references to Krauss and Buchloh, indistinguishable from hers to anyone who wasn't in the room. What saves her is not having written better. It's that the collector still calls her before signing the check.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "There is no professional licensing, certification, or physical infrastructure that protects the craft. A laptop, an invitation to the opening, and access to the bibliography — the very one every language model has already absorbed. Press accreditation opens doors, but the outlet grants it, not the person.",
+      "crack": "The only material asset is admission to the event and the masthead that publishes her — and neither belongs to the critic, but to the outlet that can replace her.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "She is believed because she signs in a prestigious outlet and commands the field's lexicon: genealogies, schools, well-placed citations. But her judgment is almost never verified by consequences — no one audits three years later whether the artist she anointed mattered or whether the one she dismissed was the good one. Authority is measured by the elegance of the text, not by the soundness of the verdict.",
+      "crack": "Credibility is assumed, not verified: it is exactly the state AI imitates best, because it can reproduce the tone of authority without ever having been right. It is the most dangerous state because it looks like the most solid.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "This is the fulcrum that still holds. There are critics whose review fills a gallery, whose phrase enters the catalogue raisonné, whose call a collector takes before bidding. That trust is singular and non-transferable: people act on her judgment, not her prose, and no language model gets the late-night call from the gallerist who hesitates.",
+      "crack": "The fulcrum is verified but narrow and personal: it lives in a handful of concrete relationships, not in the byline. If the outlet folds or the generation of collectors who trust her retires, the network evaporates and no prose can rebuild it.",
+      "bar": [
+        1,
+        1,
+        0.5,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "There is a real trail — a body of texts signed over the years, positions taken, artists championed before they were anyone. Unlike anonymous copy, here there is an author and an archive. But provenance of content (did she actually think this review?) becomes unprovable once AI produces the same register, and provenance of form (did she originate a way of seeing?) belongs only to the very few who founded a school.",
+      "crack": "The archive of bylines proves she wrote, not that she saw or that she was right: the trail attests to quantity, not to the gaze. And a gaze of one's own, when it exists, is almost never claimed as such.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "Prose",
+  "fulcrum": "Presence before the work that moves other people's decisions",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compare with the art restorer (Card #021), from the same sector: four verified fulcrums against a single fulcrum that holds. The distance is not one of culture or sensibility — it is one of irreversibility. The restorer touches the canvas and the act cannot be undone; the critic writes a judgment that AI regenerates with the same varnish of authority. Where the restorer leaves a mark in the matter, the critic leaves an opinion that carries weight only as long as someone keeps trusting whose name signs it."
+  },
+  "escape": "Yes, but it requires giving up the competition over prose. The critic who survives is not the one who writes more finely — it's the one who turns judgment into verifiable consequence: curating exhibitions she answers for, advising collections where her accuracy is measured over time, publicly championing artists before the consensus and signing that bet with her name. Each move shifts the weight from the assumed epistemic (which AI imitates) toward the verified relational and provenance (which AI cannot occupy). In every case she stops being the one who opines on art to become the one who stakes herself on it. The diagnosis does not condemn the person — it condemns the function of commenting without consequence.",
+  "lesson": "When your authority is measured by how well you write and not by what you get right, you are already competing with a machine that writes just as well and has never put itself on the line. The critic who endures is not the one who best describes the work — it is the one whose call a collector takes before signing. The question is not \"do I write about art better than the AI?\" It is: \"what decision would stop being made in this world if I stopped looking?\"",
+  "references": [
+    "Vol. 1, Ch. 8 — The epistemic fulcrum: being believed before you explain yourself",
+    "Vol. 2, Ch. 22 — The commoditization of the lever",
+    "Vol. 2, Ch. 24 — The new aura is transparency"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "025",
+  "title": "The Digital / NFT Artist",
+  "sector": "Arts sector",
+  "severity": "warning",
+  "subtitle": "The only artistic profession that turned provenance into infrastructure — and yet left its lever exposed to the machine that imitates it best.",
+  "opening": "Early one Sunday morning, a digital artist exports the two-hundredth piece of his collection in 4K and mints it on the chain before going to sleep. That same night, in his feed, someone has generated in twelve seconds an image with his same palette, his same grain, his same fog — and listed it for a tenth of the price. He took four days; the prompt took as long as a yawn. What he signed on the blockchain is still his, dated and unrepeatable. But the aesthetic that made him recognizable has just become a menu setting.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "There is no body at stake and no irreversible gesture: the work is born as a file, infinitely copyable and restorable with a Ctrl+Z. There is no professional licensing body, no physical studio, no tool that the AI does not share — the same software, the same tablet, the same screen. The barrier to entry is an account and a connection.",
+      "crack": "The only material thing is the chain's infrastructure, but that does not belong to the artist: it is a public rail that anyone can use to mint the very same thing.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "He is believed because his style is recognizable, not because his output is distinguishable. In practice, an image generated with his same visual grammar passes the average buyer's blind test. The credibility rests on the author's signature, not on a quality of the work that the machine cannot reach.",
+      "crack": "It is assumed and not verified: no one has tested whether the collector could tell his piece from a generative imitation without looking at the wallet that minted it.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "assumed",
+      "detail": "He has a community: holders, a Discord, a list of collectors who bought previous drops. But much of that bond is speculative — it holds while the floor rises, not while the artist matters. Trust is mixed with the expectation of resale.",
+      "crack": "The relational fulcrum looks solid because of the volume of followers, but it has not been verified who would keep buying if the price stopped promising a profit. Followers are not the same as trust that carries weight.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "Here is the real fulcrum, and it is structural: the chain records who minted what, when, and in what order, with no possibility of rewriting the past. Content provenance — that this piece came out of this wallet on this date — is verifiable by anyone, forever. This is the artistic profession that turned provenance into protocol.",
+      "crack": "Content provenance is armored, but provenance of form — having originated a way of seeing that others cannot regenerate — is what the AI erodes. The chain proves that he minted it first; it does not prove that only he could have made it.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "lever": "Aesthetics as output: palette, texture, composition, the recognizable style sold as a series. Speed of production, mastery of generative tools, the ability to iterate variants until a collection of ten thousand pieces is filled. All of this the AI reproduces today in seconds — and worse still, it learns the artist's specific style and serves it to whoever asks.",
+  "fulcrum": "What cannot be regenerated is not the image — it is the dated act of having originated it and signed it on a chain that no one can rewrite. Verified provenance is the only axis the machine does not touch: it can imitate the form, but it cannot have been the first, nor can it occupy the place in time where a collector decided to trust. The fulcrum is the witnessed history, not the pixel.",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compare with the art restorer (Card #021): four verified fulcrums against a single one. The restorer works with the irreversible in matter — every touch leaves a mark that cannot be undone. The digital artist works with the infinitely reversible — and had to invent irreversibility from the outside, on the chain, because his medium did not give it to him. That is why provenance saves him while matter abandons him."
+  },
+  "escape": "Yes, but it demands giving up competing on aesthetics and moving to what the chain already grants him: provenance. The artist who survives is not the one who paints the prettiest style — it is the one who builds a body of work whose form he originated and whose authorship is witnessed act by act, so that value migrates from the imitable pixel to the unrepeatable trajectory. Turning the assumed relational into verified (collectors who buy for him, not for the floor) and reclaiming provenance of form, not only of content, is the only real pivot.",
+  "lesson": "The digital artist was the first to armor who made what and when — and the first to discover that this is not enough when the machine learns to do the same thing faster. The chain proves you were the first; it does not prove that only you could be. The question is not \"do I generate better images than the AI?\" — it is \"what would disappear from the world if my trace, not my style, ceased to exist?\"",
+  "references": [
+    "Vol. 2, Ch. 22 — The commoditization of the lever",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated",
+    "Vol. 2, Ch. 24 — The new aura is transparency"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

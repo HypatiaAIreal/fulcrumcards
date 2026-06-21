@@ -1,0 +1,70 @@
+{
+  "id": "023",
+  "title": "The Curator",
+  "sector": "Arts sector",
+  "severity": "mixed",
+  "subtitle": "A gaze that AI imitates in discourse but cannot occupy in the room: the curator does not produce the art — they decide what deserves to be seen, and to whom one entrusts the work that cannot be risked.",
+  "opening": "One Wednesday afternoon, a curator walks alone through the empty floor of the museum two weeks before the opening. She has asked an AI to draft three versions of the wall text and to propose an alternative route through the show: within minutes she has a flawless script, complete with quotations from Benjamin. But what holds her motionless before the north wall is no text — it is the decision to hang the small painting there and leave in shadow the large one everyone expects to see first. That decision no one can dictate to her, because it rests on having spent twenty years looking at works until the gaze itself became judgment. And because the collector who lent the small painting did not entrust it to the museum: he entrusted it to her.",
+  "fulcrums": {
+    "material": {
+      "status": "absent",
+      "detail": "There is no professional body, license, or barrier to entry that protects the craft. The building, the collection, and the budget belong to the institution, not to the curator. AI today generates exhibition concepts, wall texts, catalogue entries, and museographic routes with the same ease as a junior curatorial team.",
+      "crack": "The only material thing the curator touches is someone else's work, and only while the institution lends them its space. When they move to another museum, they take nothing physical with them.",
+      "bar": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "They are believed because they project connoisseurship: the trained eye, the genealogy of references, the theoretical discourse that frames the selection. But that judgment is rarely verified by immediate consequences — the rightness of an exhibition is debated for years and never fully proven. And the discourse, precisely, is what AI reproduces with greatest fidelity: curatorial prose is one of the most imitable genres in existence.",
+      "crack": "The credibility is assumed, not verified: separating the real eye from well-constructed discourse is nearly impossible from the outside, and that makes the fulcrum fragile exactly where it appears most solid.",
+      "bar": [
+        1,
+        0.5,
+        0.5,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "This is the real fulcrum. Collectors, gallerists, living artists, heirs, and other institutions lend irreplaceable works because they trust a specific person, not an org chart. A loan is a bet that cannot be undone if the work is damaged or decontextualized; no one entrusts a unique piece to a language model. The artist who chooses whom to exhibit with is choosing a gaze, not an algorithm.",
+      "crack": "The fulcrum is verified but personal and nontransferable: it lives in the specific curator. If they leave the institution, do the lenders and artists follow them, or do they stay with the museum's name?",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "assumed",
+      "detail": "There is a verifiable career trail — which exhibitions they signed, which artists they showed first, which rereadings they inaugurated — but it dissolves into institutional credit and the collective catalogue. Provenance of content (having mounted this show) fades quickly; provenance of form — having originated a way of seeing, a manner of placing works in relation that others later copy — persists in the great ones, but is almost never claimed or made visible.",
+      "crack": "The curator who discovered an artist before anyone else can rarely prove it: the credit migrates to the museum and the work, not to the one who had the eye first.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    }
+  },
+  "lever": "The production of the curatorial apparatus: the exhibition concept, the wall and catalogue texts, the documentary research, the proposed route, the label, and the theoretical discourse that justifies the selection. AI today reproduces most of this in hours, with prose indistinguishable from that of the craft. The curatorial genre — articulate, referenced, persuasive — is precisely the easiest to imitate.",
+  "fulcrum": "The decision of what to hang, beside what, and what to leave out — the judgment accumulated over thousands of hours of looking at works until the gaze became criterion. And, above all, the trust of those who lend the irreplaceable to a specific person. A unique work is not entrusted to the museum: it is entrusted to someone whose eye and whose word have a track record. That cannot be regenerated with a prompt because it is not discourse — it is relationship with weight and a lived gaze.",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compare with the art restorer (Card #021), from the same sector: four verified fulcrums against just one. The restorer works on the irreversible — every touch leaves a physical mark that cannot be erased, and that is why their material, epistemic, and provenance fulcrums are solid. The curator does not touch the work; they arrange gazes. Their only firm fulcrum is relational: the trust of those who lend the one and only. The distance between strong and mixed is not one of prestige — it is one of irreversibility: the restorer leaves a trace in the matter; the curator, only in the memory of whoever saw the room."
+  },
+  "escape": null,
+  "lesson": "AI will write the wall text better than you write it. What it cannot do is make a collector entrust it with the painting that cannot be risked, nor decide, looking at the empty wall, what deserves to be seen. The question is not \"do I write about art better than the machine?\" — it is \"what would stop being seen in the world if your gaze stopped choosing?\"",
+  "references": [
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated",
+    "Vol. 2, Ch. 24 — The new aura is transparency"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}

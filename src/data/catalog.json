@@ -1,7 +1,7 @@
 {
   "catalog_version": "1.1",
   "total_planned": 47,
-  "total_created": 14,
+  "total_created": 19,
   "sectors": [
     {
       "name": {
@@ -238,7 +238,7 @@
             "en": "The Painter"
           },
           "severity": "mixed",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "023",
@@ -247,7 +247,7 @@
             "en": "The Curator"
           },
           "severity": "mixed",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "024",
@@ -256,7 +256,7 @@
             "en": "The Gallerist"
           },
           "severity": "mixed",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "025",
@@ -265,7 +265,7 @@
             "en": "The Digital / NFT Artist"
           },
           "severity": "warning",
-          "status": "planned"
+          "status": "created"
         },
         {
           "id": "026",
@@ -274,7 +274,7 @@
             "en": "The Art Critic"
           },
           "severity": "warning",
-          "status": "planned"
+          "status": "created"
         }
       ]
     },

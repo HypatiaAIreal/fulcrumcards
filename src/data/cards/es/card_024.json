@@ -1,0 +1,70 @@
+{
+  "id": "024",
+  "title": "El Galerista",
+  "sector": "Sector artístico",
+  "severity": "mixed",
+  "subtitle": "Vende objetos que la IA puede imitar, en un espacio que internet puede saltar — y sin embargo sostiene dos fulcros que ninguna máquina toca: a quién conoce y qué puede atestiguar.",
+  "opening": "Un sábado a media tarde, un galerista cruza la sala vacía de su espacio de cuatrocientos metros cuadrados y se detiene ante una pieza que aún no ha vendido. Sabe que un coleccionista de Basilea la quiere, pero también sabe que ese coleccionista no ha entrado nunca por esa puerta: lo conoce de doce ferias, tres cenas y una llamada que hizo a las dos de la mañana cuando otra galería intentó robarle un artista. Esta semana una plataforma le ha ofrecido vender su catálogo online sin comisión de espacio, y una herramienta de IA ya genera \"obras en el estilo de\" sus artistas más cotizados por el precio de una suscripción. La pieza que tiene delante puede reproducirse en segundos. Lo que no puede reproducirse es la llamada de las dos de la mañana.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "El espacio físico existe: paredes, luz, ubicación, el peso simbólico de un cubo blanco en el barrio correcto. Pero la barrera material se ha vuelto porosa — viewing rooms online, ferias digitales y ventas por WhatsApp permiten operar casi sin sala. El metro cuadrado caro ya no protege la entrada; muchos de los marchantes que más venden no tienen galería física.",
+      "crack": "Se asume que el espacio es el activo, pero el alquiler es coste, no foso. Lo que da estatus al galerista no es tener paredes — es a quién deja entrar por la puerta.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "Se le cree por su \"ojo\": la capacidad de detectar al artista antes que el mercado. Pero ese juicio se verifica con una lentitud brutal — una apuesta puede tardar quince años en confirmarse, y cuando el precio sube nadie sabe si fue el ojo del galerista o la maquinaria de prensa, ferias y subastas que él mismo orquestó. La credibilidad se proclama mucho antes de poder probarse.",
+      "crack": "El epistémico es asumido, no verificado: el mercado del arte confunde causar el valor con haberlo previsto. Es el estado más peligroso, porque el galerista cuyo único activo es \"tener ojo\" rara vez puede demostrar que no fue suerte.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "Este es el fulcro real. El galerista es un nodo de confianza entre tres redes que no se hablan solas: artistas que le confían su carrera, coleccionistas que compran por su palabra, instituciones que validan por su sello. Un coleccionista no compra un cuadro — compra el acceso a la lista de espera del próximo, y esa lista vive en el teléfono del galerista, no en ningún catálogo.",
+      "crack": "Verificado pero personal e intransferible: la red vive en la persona, no en el local. Si el galerista cierra o se va, los artistas y coleccionistas se van con él — y si delega el trato a un algoritmo de recomendación, deja de ser el nodo.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "La galería es, literalmente, una institución de procedencia. Certificados de autenticidad, cadena de custodia, el registro de quién expuso, quién compró y cuándo: ese rastro irreversible es lo que distingue una obra de su falsificación perfecta. La IA puede generar la imagen; no puede generar el historial de haber pasado por manos verificables en el tiempo.",
+      "crack": "La procedencia que la galería custodia es fortísima — pero es la de la obra, no necesariamente la del galerista. Quien solo revende lo que ya tiene aura hereda la procedencia ajena; quien descubre y la origina, la construye.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "lever": "La función de venta y exhibición: colgar obra, fijar precio, redactar el dossier, llevar la pieza a la feria, gestionar el viewing room. La IA y las plataformas ya replican casi todo el aparato visible — generan imágenes \"en el estilo de\", montan exposiciones virtuales, automatizan la venta y hasta escriben los textos curatoriales. El escaparate del galerista es cada vez más indistinguible de un marketplace bien diseñado.",
+  "fulcrum": "La red de confianza y la custodia de la procedencia. No la capacidad de mostrar arte, sino la de garantizar que esta obra es esta obra, hecha por esta persona, y de convencer a un coleccionista de que apueste su dinero y su prestigio por un nombre que aún nadie conoce. Es confianza acumulada con personas concretas más un rastro atestiguado que el tiempo hizo irreversible — las dos cosas que ninguna máquina puede regenerar.",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compárese con el restaurador de arte (Card #021), del mismo sector: allí los cuatro fulcros están verificados porque el oficio es cuerpo e irreversibilidad pura. El galerista comparte con él la procedencia y la relación, pero su material y su epistémico son apenas asumidos — vende un juicio que tarda años en probarse desde un espacio que internet puede saltar. La distancia entre strong y mixed no es de prestigio: es cuántos de tus fulcros puedes demostrar antes de que el mercado los confirme por ti."
+  },
+  "escape": null,
+  "lesson": "Cuando lo que vendes es colgar la obra y cobrar la comisión, ya compites con una plataforma sin alquiler. Cuando lo que vendes es haber descubierto al artista antes que nadie y poder jurar que la pieza es la pieza, no tienes competencia. La IA puede generar el cuadro en segundos; no puede generar el haber estado ahí cuando no valía nada. La pregunta no es \"¿muestro mejor arte que un algoritmo?\" — es \"¿qué dejaría de existir si yo no hubiera abierto esa puerta?\"",
+  "references": [
+    "Vol. 1, Cap. 9 — El fulcro relacional y la secuencia",
+    "Vol. 2, Cap. 23 — La procedencia: lo único que no se puede regenerar",
+    "Vol. 2, Cap. 24 — La nueva aura es transparencia"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "es"
+}

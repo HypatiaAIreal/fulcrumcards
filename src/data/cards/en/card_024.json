@@ -1,0 +1,70 @@
+{
+  "id": "024",
+  "title": "The Gallerist",
+  "sector": "Arts sector",
+  "severity": "mixed",
+  "subtitle": "Sells objects AI can imitate, in a space the internet can bypass — and yet holds two fulcrums no machine can touch: whom he knows and what he can attest to.",
+  "opening": "On a Saturday in mid-afternoon, a gallerist crosses the empty floor of his four-hundred-square-meter space and stops before a piece he has not yet sold. He knows a collector in Basel wants it, but he also knows that collector has never walked through that door: he knows him from twelve fairs, three dinners, and one call he made at two in the morning when another gallery tried to poach one of his artists. This week a platform offered to sell his catalogue online with no space commission, and an AI tool already generates \"works in the style of\" his most sought-after artists for the price of a subscription. The piece in front of him can be reproduced in seconds. What cannot be reproduced is the two-in-the-morning call.",
+  "fulcrums": {
+    "material": {
+      "status": "assumed",
+      "detail": "The physical space exists: walls, light, location, the symbolic weight of a white cube in the right neighborhood. But the material barrier has grown porous — online viewing rooms, digital fairs, and WhatsApp sales make it possible to operate almost without a floor. The expensive square meter no longer guards the entrance; many of the best-selling dealers have no physical gallery at all.",
+      "crack": "It is assumed that the space is the asset, but rent is a cost, not a moat. What gives the gallerist status is not having walls — it is whom he lets through the door.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "epistemic": {
+      "status": "assumed",
+      "detail": "He is believed for his \"eye\": the ability to spot the artist before the market does. But that judgment is verified with brutal slowness — a bet may take fifteen years to be confirmed, and when the price rises no one knows whether it was the gallerist's eye or the machinery of press, fairs, and auctions he himself orchestrated. Credibility is proclaimed long before it can be proven.",
+      "crack": "The epistemic is assumed, not verified: the art market confuses causing value with having foreseen it. It is the most dangerous state, because the gallerist whose only asset is \"having an eye\" can rarely prove it wasn't luck.",
+      "bar": [
+        1,
+        0.5,
+        0,
+        0
+      ]
+    },
+    "relational": {
+      "status": "verified",
+      "detail": "This is the real fulcrum. The gallerist is a node of trust between three networks that do not talk to one another on their own: artists who entrust him with their careers, collectors who buy on his word, institutions that validate by his stamp. A collector does not buy a painting — he buys access to the waiting list for the next one, and that list lives in the gallerist's phone, not in any catalogue.",
+      "crack": "Verified but personal and non-transferable: the network lives in the person, not the premises. If the gallerist closes or leaves, the artists and collectors leave with him — and if he delegates the relationship to a recommendation algorithm, he stops being the node.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    },
+    "provenance": {
+      "status": "verified",
+      "detail": "The gallery is, literally, an institution of provenance. Certificates of authenticity, chain of custody, the record of who exhibited, who bought, and when: that irreversible trail is what distinguishes a work from its perfect forgery. AI can generate the image; it cannot generate the history of having passed through verifiable hands over time.",
+      "crack": "The provenance the gallery safeguards is extremely strong — but it is the work's, not necessarily the gallerist's. Whoever merely resells what already carries an aura inherits someone else's provenance; whoever discovers and originates it builds his own.",
+      "bar": [
+        1,
+        1,
+        1,
+        0.5
+      ]
+    }
+  },
+  "lever": "The function of selling and exhibiting: hanging the work, setting the price, drafting the dossier, taking the piece to the fair, running the viewing room. AI and platforms already replicate almost the entire visible apparatus — they generate images \"in the style of,\" mount virtual exhibitions, automate the sale, and even write the curatorial texts. The gallerist's storefront is increasingly indistinguishable from a well-designed marketplace.",
+  "fulcrum": "The network of trust and the custody of provenance. Not the ability to show art, but to guarantee that this work is this work, made by this person, and to convince a collector to stake their money and their prestige on a name no one yet knows. It is trust accumulated with specific people plus an attested trail that time made irreversible — the two things no machine can regenerate.",
+  "contrast": {
+    "card_ref": "021",
+    "text": "Compare with the art restorer (Card #021), from the same sector: there all four fulcrums are verified because the craft is body and pure irreversibility. The gallerist shares provenance and relationship with him, but his material and epistemic are barely assumed — he sells a judgment that takes years to prove, from a space the internet can bypass. The distance between strong and mixed is not one of prestige: it is how many of your fulcrums you can demonstrate before the market confirms them for you."
+  },
+  "escape": null,
+  "lesson": "When what you sell is hanging the work and collecting the commission, you already compete with a platform that pays no rent. When what you sell is having discovered the artist before anyone else and being able to swear the piece is the piece, you have no competition. AI can generate the painting in seconds; it cannot generate having been there when it was worth nothing. The question is not \"do I show better art than an algorithm?\" — it is \"what would cease to exist if I had not opened that door?\"",
+  "references": [
+    "Vol. 1, Ch. 9 — The relational fulcrum and the sequence",
+    "Vol. 2, Ch. 23 — Provenance: the only thing that cannot be regenerated",
+    "Vol. 2, Ch. 24 — The new aura is transparency"
+  ],
+  "url": "https://thefulcrumproject.org",
+  "created_at": "2026-06-21",
+  "lang": "en"
+}
