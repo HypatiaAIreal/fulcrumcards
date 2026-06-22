@@ -35,7 +35,10 @@ export default async function CardsPage({ params }: { params: { lang: Locale } }
           <span className="text-copper-light">
             {dict.catalog.subtitleHighlight}
           </span>
-          {dict.catalog.subtitlePost(catalog.total_created, catalog.total_planned)}
+          {dict.catalog.subtitlePost(
+            cards.length,
+            Math.max(catalog.total_planned, cards.length)
+          )}
         </p>
       </header>
 
