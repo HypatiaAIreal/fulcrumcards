@@ -53,24 +53,43 @@ export async function POST(req: Request) {
   const sectorEn = known ? known.name.en : null;
 
   try {
-    // 1) Borrador en español con el system prompt de generación.
-    const r1 = await client.messages.create({
+    // Una sola llamada: genera la card ES y su traducción EN en un único JSON.
+    const r = await client.messages.create({
       model: "claude-sonnet-4-6",
-      max_tokens: 4096,
+      max_tokens: 8192,
       system: SYSTEM_PROMPT,
       messages: [
         {
           role: "user",
-          content: `Genera la card en ESPAÑOL para:
+          content: `Genera DOS versiones de la card y devuélvelas en un ÚNICO objeto JSON.
+
+ESPAÑOL — sigue la metodología y la estructura exactamente:
 - id: "${id}"
 - profesión/caso: "${title}"
 - sector: "${sectorEs}"
 - created_at: "${today}"
-Sigue exactamente la metodología y la estructura JSON. Responde SOLO con el JSON.`,
+- lang: "es"
+
+INGLÉS — traducción de calidad publicable de la card española, preservando la voz literaria (la apertura con persona, la lección memorable). Mantén IDÉNTICOS id, severity, todos los fulcrums[*].bar y status, contrast.card_ref, url y created_at. lang: "en". sector: ${
+            sectorEn ? `"${sectorEn}"` : "la traducción al inglés del sector"
+          }.
+
+Responde SOLO con este objeto JSON, sin texto adicional ni markdown:
+{"es": <card en español>, "en": <card en inglés>}`,
         },
       ],
     });
-    const es = extractJson(textOf(r1)) as Card;
+
+    const obj = extractJson(textOf(r)) as { es?: Card; en?: Card };
+    const es = obj.es;
+    const en = obj.en;
+    if (!es || !en) {
+      return NextResponse.json(
+        { error: "La respuesta no contenía {es, en}" },
+        { status: 502 }
+      );
+    }
+
     es.id = id;
     es.lang = "es";
     es.sector = sectorEs;
@@ -78,23 +97,6 @@ Sigue exactamente la metodología y la estructura JSON. Responde SOLO con el JSO
     es.url = "https://thefulcrumproject.org";
     es.status = "draft";
 
-    // 2) Traducción al inglés preservando estructura y voz.
-    const r2 = await client.messages.create({
-      model: "claude-sonnet-4-6",
-      max_tokens: 4096,
-      messages: [
-        {
-          role: "user",
-          content: `Traduce esta card de "El Fulcro Invisible" del español al inglés, con calidad publicable y preservando la voz literaria (la apertura con persona, la lección memorable).
-Reglas: traduce SOLO el texto legible; mantén idénticos id, severity, cada fulcrums[*].bar y status, contrast.card_ref, url y created_at; lang debe ser "en"; sector debe ser ${
-            sectorEn ? `"${sectorEn}"` : "la traducción al inglés del sector"
-          }. Devuelve SOLO el JSON.
-Card ES:
-${JSON.stringify(es)}`,
-        },
-      ],
-    });
-    const en = extractJson(textOf(r2)) as Card;
     en.id = id;
     en.lang = "en";
     en.severity = es.severity;
