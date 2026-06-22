@@ -64,7 +64,7 @@ export default function CardEditor({
 
   const isNewVersion = mode === "new" && !!id;
   const showCreateTools = mode === "new";
-  const showEditor = mode === "edit" || (!!esText.trim() && !!enText.trim());
+  const showEditor = mode === "edit" || !!esText.trim() || !!enText.trim();
 
   async function generate() {
     setError("");
@@ -95,11 +95,11 @@ export default function CardEditor({
     }
   }
 
-  function importJson() {
+  function loadJson(text: string) {
     setError("");
     let obj: Record<string, unknown>;
     try {
-      obj = JSON.parse(importText);
+      obj = JSON.parse(text);
     } catch (e) {
       setError("JSON inválido: " + (e instanceof Error ? e.message : String(e)));
       return;
@@ -107,17 +107,32 @@ export default function CardEditor({
     if (obj.es && obj.en) {
       setEsText(pretty(obj.es));
       setEnText(pretty(obj.en));
+      setTab("es");
     } else if (obj.lang === "es") {
       setEsText(pretty(obj));
+      setTab("es");
     } else if (obj.lang === "en") {
       setEnText(pretty(obj));
+      setTab("en");
     } else {
-      setError('Se esperaba {"es":…,"en":…} o una card con campo "lang".');
+      setError('Se esperaba {"es":…,"en":…} o una card individual con campo "lang".');
       return;
     }
     setModel("manual");
     setCreatedBy("json-import");
-    setTab("es");
+  }
+
+  function onFile(e: React.ChangeEvent<HTMLInputElement>) {
+    const f = e.target.files?.[0];
+    if (!f) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      const txt = String(reader.result || "");
+      setImportText(txt);
+      loadJson(txt);
+    };
+    reader.onerror = () => setError("No se pudo leer el archivo.");
+    reader.readAsText(f);
   }
 
   async function save(publish: boolean) {
@@ -230,18 +245,27 @@ export default function CardEditor({
             </div>
           ) : (
             <div className="space-y-3">
+              <input
+                type="file"
+                accept=".json,application/json"
+                onChange={onFile}
+                className="block w-full font-mono text-[11px] text-cream/70 file:mr-3 file:cursor-pointer file:rounded-sm file:border-0 file:bg-copper file:px-3 file:py-1.5 file:font-mono file:text-[10px] file:uppercase file:tracking-wider file:text-navy-deep hover:file:bg-copper-light"
+              />
+              <p className="font-sans text-[11px] text-cream/40">
+                Sube un archivo .json o pégalo abajo. Acepta {"{ \"es\": {…}, \"en\": {…} }"} o una card individual con campo &quot;lang&quot;.
+              </p>
               <textarea
                 value={importText}
                 onChange={(e) => setImportText(e.target.value)}
-                placeholder='Pega aquí: {"es": {…}, "en": {…}}  (o una card individual con "lang")'
+                placeholder='{"es": {…}, "en": {…}}  (o una card individual con "lang")'
                 spellCheck={false}
                 className={`${inputCls} h-40 w-full resize-y font-mono`}
               />
               <button
-                onClick={importJson}
+                onClick={() => loadJson(importText)}
                 className="rounded-sm bg-copper px-4 py-2 font-mono text-[10px] uppercase tracking-[0.15em] text-navy-deep transition-colors hover:bg-copper-light"
               >
-                Cargar JSON
+                Cargar JSON pegado
               </button>
             </div>
           )}
