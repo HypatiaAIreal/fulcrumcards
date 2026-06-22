@@ -1,7 +1,7 @@
 {
   "catalog_version": "1.1",
-  "total_planned": 47,
-  "total_created": 47,
+  "total_planned": 48,
+  "total_created": 48,
   "sectors": [
     {
       "name": {
@@ -484,6 +484,23 @@
           "title": {
             "es": "El Crítico Literario",
             "en": "The Literary Critic"
+          },
+          "severity": "warning",
+          "status": "created"
+        }
+      ]
+    },
+    {
+      "name": {
+        "es": "Medicina",
+        "en": "Medicine"
+      },
+      "cards": [
+        {
+          "id": "047",
+          "title": {
+            "es": "El Radiólogo",
+            "en": "The Radiologist"
           },
           "severity": "warning",
           "status": "created"
