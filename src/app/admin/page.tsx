@@ -110,6 +110,7 @@ export default async function AdminDashboard({
               <th className="px-3 py-2">Sector</th>
               <th className="px-3 py-2">Severidad</th>
               <th className="px-3 py-2">Estado</th>
+              <th className="px-3 py-2">Versión</th>
               <th className="px-3 py-2 text-right">Acciones</th>
             </tr>
           </thead>
@@ -130,6 +131,12 @@ export default async function AdminDashboard({
                 <td className="px-3 py-2 font-mono text-[10px] uppercase tracking-wider text-cream/50">
                   {c.status || "published"}
                 </td>
+                <td className="px-3 py-2 font-mono text-[10px] text-cream/50">
+                  v{c.version ?? 1}
+                  {c._versions > 1 && (
+                    <span className="text-copper/60"> · {c._versions} vers.</span>
+                  )}
+                </td>
                 <td className="px-3 py-2">
                   <div className="flex items-center justify-end gap-4">
                     <Link
@@ -140,10 +147,10 @@ export default async function AdminDashboard({
                       Ver
                     </Link>
                     <Link
-                      href={`/admin/cards/${c.id}/edit`}
+                      href={`/admin/cards/${c.id}`}
                       className="font-mono text-[10px] uppercase tracking-wider text-copper hover:text-copper-light"
                     >
-                      Editar
+                      Versiones
                     </Link>
                     <DeleteButton id={c.id} title={c.title} />
                   </div>

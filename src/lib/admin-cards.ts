@@ -1,29 +1,37 @@
-import { upsertCard } from "@/lib/cards";
 import { validateCard } from "@/lib/card-schema";
+import type { Card, VersionMeta } from "@/lib/cards";
 
-/** Valida y guarda el par ES/EN de una card. Devuelve un resultado HTTP-friendly. */
-export async function saveCardPair(
-  esRaw: unknown,
-  enRaw: unknown,
-  expectedId?: string
-): Promise<{ status: number; body: unknown }> {
-  const ve = validateCard(esRaw);
-  const vn = validateCard(enRaw);
+export interface ParsedPair {
+  es: Card;
+  en: Card;
+  meta: VersionMeta;
+  publish: boolean;
+}
+
+/** Valida el cuerpo { es, en, meta?, publish? } de una operación de guardado. */
+export function parsePairBody(body: unknown):
+  | { error: string; details?: { es: string[]; en: string[] } }
+  | { pair: ParsedPair } {
+  const b = (body || {}) as Record<string, unknown>;
+  const ve = validateCard(b.es);
+  const vn = validateCard(b.en);
   if (!ve.ok || !vn.ok) {
-    return { status: 400, body: { error: "Card inválida", es: ve.errors, en: vn.errors } };
+    return { error: "Card inválida", details: { es: ve.errors, en: vn.errors } };
   }
   const es = ve.card!;
   const en = vn.card!;
-  if (es.lang !== "es") return { status: 400, body: { error: 'La card "es" debe tener lang=es' } };
-  if (en.lang !== "en") return { status: 400, body: { error: 'La card "en" debe tener lang=en' } };
-  if (es.id !== en.id) return { status: 400, body: { error: "Los ids de es y en no coinciden" } };
-  if (expectedId && es.id !== expectedId) {
-    return { status: 400, body: { error: "El id del cuerpo no coincide con la ruta" } };
-  }
-  const status = es.status === "draft" ? "draft" : "published";
-  es.status = status;
-  en.status = status;
-  await upsertCard(es);
-  await upsertCard(en);
-  return { status: 200, body: { ok: true, id: es.id, status } };
+  if (es.lang !== "es") return { error: 'La card "es" debe tener lang=es' };
+  if (en.lang !== "en") return { error: 'La card "en" debe tener lang=en' };
+  if (es.id !== en.id) return { error: "Los ids de es y en no coinciden" };
+
+  const m = (b.meta || {}) as Record<string, unknown>;
+  const meta: VersionMeta = {
+    model: typeof m.model === "string" && m.model.trim() ? m.model.trim() : "manual",
+    created_by:
+      typeof m.created_by === "string" && m.created_by.trim()
+        ? m.created_by.trim()
+        : "carles",
+    notes: typeof m.notes === "string" ? m.notes : "",
+  };
+  return { pair: { es, en, meta, publish: !!b.publish } };
 }

@@ -1,7 +1,8 @@
 /**
- * Capa de datos de FulcrumCards — respaldada por MongoDB (colección `fichas`).
- * Cada card es un documento con su campo `lang` ("es" | "en") y un `id` de 3 dígitos
- * compartido entre idiomas. Funciones públicas (catálogo) y de admin (CRUD).
+ * Capa de datos de FulcrumCards — MongoDB (colección `fichas`).
+ * Sistema de versiones: cada documento es (id, lang, version). Una sola
+ * versión por id está "published" a la vez; las demás quedan "draft"/"archived".
+ * El catálogo público muestra siempre la versión publicada.
  */
 import { unstable_noStore as noStore } from "next/cache";
 import { getDb } from "@/lib/mongodb";
@@ -10,7 +11,7 @@ import { defaultLocale, type Locale } from "@/lib/i18n";
 
 export type FulcrumStatus = "verified" | "assumed" | "absent";
 export type Severity = "strong" | "mixed" | "warning" | "critical";
-export type CardStatus = "published" | "draft";
+export type CardStatus = "published" | "draft" | "archived";
 
 export interface Fulcrum {
   status: FulcrumStatus;
@@ -46,8 +47,31 @@ export interface Card {
   url: string;
   created_at: string;
   lang: string;
-  /** Ausente = "published" (las 47 sembradas no lo llevan). */
+  // --- metadata de versión ---
+  version?: number;
   status?: CardStatus;
+  model?: string;
+  created_by?: string;
+  notes?: string;
+}
+
+export interface VersionMeta {
+  model: string;
+  created_by: string;
+  notes: string;
+  created_at?: string;
+}
+
+/** Resumen de una versión (para el panel de versiones). */
+export interface VersionSummary {
+  version: number;
+  status: CardStatus;
+  model: string;
+  created_by: string;
+  notes: string;
+  created_at: string;
+  title: string;
+  langs: string[];
 }
 
 /** Metadatos del catálogo (orden y nombres bilingües de sectores). */
@@ -59,34 +83,27 @@ async function fichas() {
   return (await getDb()).collection<Card>("fichas");
 }
 
+function today(): string {
+  return new Date().toISOString().slice(0, 10);
+}
+
 /* ---------------------------------- Público --------------------------------- */
 
-/** Cards publicadas de un idioma, ordenadas por id. */
 export async function getAllCards(lang: Locale): Promise<Card[]> {
   noStore();
   const col = await fichas();
-  return col
-    .find({ lang, status: { $ne: "draft" } }, NO_ID)
-    .sort({ id: 1 })
-    .toArray();
+  return col.find({ lang, status: "published" }, NO_ID).sort({ id: 1 }).toArray();
 }
 
-export async function getCardById(
-  lang: Locale,
-  id: string
-): Promise<Card | null> {
+export async function getCardById(lang: Locale, id: string): Promise<Card | null> {
   noStore();
   const col = await fichas();
-  return col.findOne({ lang, id, status: { $ne: "draft" } }, NO_ID);
+  return col.findOne({ lang, id, status: "published" }, NO_ID);
 }
 
-/** Ids de cards publicadas (independientes del idioma). */
 export async function getCardIds(): Promise<string[]> {
   const col = await fichas();
-  const ids = await col.distinct("id", {
-    lang: defaultLocale,
-    status: { $ne: "draft" },
-  });
+  const ids = await col.distinct("id", { lang: defaultLocale, status: "published" });
   return ids.sort();
 }
 
@@ -100,53 +117,171 @@ export interface CardFilters {
   q?: string;
 }
 
-/** Listado para el panel admin (incluye borradores), con filtros opcionales. */
-export async function adminListCards(filters: CardFilters = {}): Promise<Card[]> {
+export type AdminCardRow = Card & { _versions: number };
+
+/** Una fila por id: la versión representativa (publicada > draft > archivada). */
+export async function adminListCards(filters: CardFilters = {}): Promise<AdminCardRow[]> {
   const col = await fichas();
-  const query: Record<string, unknown> = {};
-  if (filters.lang) query.lang = filters.lang;
-  if (filters.sector) query.sector = filters.sector;
-  if (filters.severity) query.severity = filters.severity;
-  if (filters.status === "draft") query.status = "draft";
-  else if (filters.status === "published") query.status = { $ne: "draft" };
-  if (filters.q) query.title = { $regex: filters.q, $options: "i" };
-  return col.find(query, NO_ID).sort({ id: 1, lang: 1 }).toArray();
+  const match: Record<string, unknown> = { lang: filters.lang || defaultLocale };
+  if (filters.sector) match.sector = filters.sector;
+  if (filters.severity) match.severity = filters.severity;
+  if (filters.q) match.title = { $regex: filters.q, $options: "i" };
+
+  const pipeline: object[] = [
+    { $match: match },
+    {
+      $addFields: {
+        _rank: {
+          $switch: {
+            branches: [
+              { case: { $eq: ["$status", "published"] }, then: 2 },
+              { case: { $eq: ["$status", "draft"] }, then: 1 },
+            ],
+            default: 0,
+          },
+        },
+      },
+    },
+    { $sort: { _rank: -1, version: -1 } },
+    { $group: { _id: "$id", doc: { $first: "$$ROOT" }, versions: { $sum: 1 } } },
+    { $replaceRoot: { newRoot: { $mergeObjects: ["$doc", { _versions: "$versions" }] } } },
+  ];
+  if (filters.status) pipeline.push({ $match: { status: filters.status } });
+  pipeline.push({ $project: { _id: 0, _rank: 0 } }, { $sort: { id: 1 } });
+
+  return col.aggregate<AdminCardRow>(pipeline).toArray();
 }
 
-/** Una card por id+idioma sin filtrar por estado (para editar). */
+/** Todas las versiones de un id (resumen, más reciente primero). */
+export async function adminListVersions(id: string): Promise<VersionSummary[]> {
+  const col = await fichas();
+  const docs = await col
+    .find({ id }, { projection: { _id: 0 } })
+    .sort({ version: -1 })
+    .toArray();
+  const byVersion = new Map<number, VersionSummary>();
+  for (const d of docs) {
+    const v = d.version ?? 1;
+    if (!byVersion.has(v)) {
+      byVersion.set(v, {
+        version: v,
+        status: (d.status as CardStatus) ?? "published",
+        model: d.model ?? "",
+        created_by: d.created_by ?? "",
+        notes: d.notes ?? "",
+        created_at: d.created_at ?? "",
+        title: d.lang === "es" ? d.title : d.title,
+        langs: [],
+      });
+    }
+    const s = byVersion.get(v)!;
+    if (d.lang === "es") s.title = d.title; // preferimos el título ES
+    if (!s.langs.includes(d.lang)) s.langs.push(d.lang);
+  }
+  return [...byVersion.values()].sort((a, b) => b.version - a.version);
+}
+
 export async function adminGetCard(
   id: string,
-  lang: Locale
+  lang: Locale,
+  version?: number
 ): Promise<Card | null> {
   const col = await fichas();
-  return col.findOne({ id, lang }, NO_ID);
+  if (version) return col.findOne({ id, lang, version }, NO_ID);
+  const published = await col.findOne({ id, lang, status: "published" }, NO_ID);
+  if (published) return published;
+  return col.find({ id, lang }, NO_ID).sort({ version: -1 }).limit(1).next();
 }
 
-/** Crea o reemplaza una card (clave id+lang). */
-export async function upsertCard(card: Card): Promise<void> {
+async function nextVersion(id: string): Promise<number> {
   const col = await fichas();
-  await col.replaceOne({ id: card.id, lang: card.lang }, card, { upsert: true });
+  const versions = (await col.distinct("version", { id })) as (number | undefined)[];
+  const max = versions.reduce<number>((m, v) => Math.max(m, v || 0), 0);
+  return max + 1;
 }
 
-/** Elimina una card en todos los idiomas. */
-export async function deleteCard(id: string): Promise<number> {
-  const col = await fichas();
-  const res = await col.deleteMany({ id });
-  return res.deletedCount ?? 0;
-}
-
-/** Próximo id de 3 dígitos disponible (máximo + 1). */
 export async function nextCardId(): Promise<string> {
   const col = await fichas();
   const ids = await col.distinct("id");
-  const max = ids.reduce(
-    (m: number, s: string) => Math.max(m, parseInt(s, 10) || 0),
-    -1
-  );
+  const max = ids.reduce((m: number, s: string) => Math.max(m, parseInt(s, 10) || 0), -1);
   return String(max + 1).padStart(3, "0");
 }
 
-/** Sectores conocidos (bilingües) para el selector del admin. */
+function applyMeta(card: Card, id: string, lang: Locale, version: number, status: CardStatus, meta: VersionMeta) {
+  card.id = id;
+  card.lang = lang;
+  card.version = version;
+  card.status = status;
+  card.model = meta.model;
+  card.created_by = meta.created_by;
+  card.notes = meta.notes;
+  card.created_at = meta.created_at || card.created_at || today();
+}
+
+async function archiveOthers(id: string, exceptVersion: number) {
+  const col = await fichas();
+  await col.updateMany(
+    { id, version: { $ne: exceptVersion }, status: "published" },
+    { $set: { status: "archived" } }
+  );
+}
+
+async function writePair(id: string, version: number, status: CardStatus, es: Card, en: Card, meta: VersionMeta) {
+  const col = await fichas();
+  applyMeta(es, id, "es", version, status, meta);
+  applyMeta(en, id, "en", version, status, meta);
+  await col.replaceOne({ id, lang: "es", version }, es, { upsert: true });
+  await col.replaceOne({ id, lang: "en", version }, en, { upsert: true });
+  if (status === "published") await archiveOthers(id, version);
+}
+
+/** Crea la versión 1 de una card con el id que trae la propia card. */
+export async function createCard(es: Card, en: Card, meta: VersionMeta, publish: boolean): Promise<string> {
+  const id = es.id;
+  await writePair(id, 1, publish ? "published" : "draft", es, en, { ...meta, created_at: today() });
+  return id;
+}
+
+/** Añade una versión nueva a un id existente. */
+export async function addVersion(id: string, es: Card, en: Card, meta: VersionMeta, publish: boolean): Promise<number> {
+  const version = await nextVersion(id);
+  await writePair(id, version, publish ? "published" : "draft", es, en, { ...meta, created_at: today() });
+  return version;
+}
+
+/** Actualiza el contenido/metadata de una versión concreta. */
+export async function updateVersion(
+  id: string,
+  version: number,
+  es: Card,
+  en: Card,
+  meta: VersionMeta,
+  publish: boolean
+): Promise<void> {
+  await writePair(id, version, publish ? "published" : "draft", es, en, meta);
+}
+
+/** Publica una versión y archiva las demás. */
+export async function publishVersion(id: string, version: number): Promise<void> {
+  const col = await fichas();
+  await archiveOthers(id, version);
+  await col.updateMany({ id, version }, { $set: { status: "published" } });
+}
+
+/** Elimina una versión (ambos idiomas). */
+export async function deleteVersion(id: string, version: number): Promise<number> {
+  const col = await fichas();
+  const r = await col.deleteMany({ id, version });
+  return r.deletedCount ?? 0;
+}
+
+/** Elimina la card entera (todas las versiones, todos los idiomas). */
+export async function deleteCard(id: string): Promise<number> {
+  const col = await fichas();
+  const r = await col.deleteMany({ id });
+  return r.deletedCount ?? 0;
+}
+
 export function listSectors(): { es: string; en: string }[] {
   return catalog.sectors.map((s) => s.name);
 }

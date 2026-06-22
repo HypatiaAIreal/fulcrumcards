@@ -36,6 +36,7 @@ export async function POST(req: Request) {
   const body = await req.json().catch(() => ({}));
   const sector = typeof body.sector === "string" ? body.sector.trim() : "";
   const title = typeof body.title === "string" ? body.title.trim() : "";
+  const context = typeof body.context === "string" ? body.context.trim() : "";
   if (!sector || !title) {
     return NextResponse.json({ error: "Sector y título son obligatorios" }, { status: 400 });
   }
@@ -69,6 +70,7 @@ ESPAÑOL — sigue la metodología y la estructura exactamente:
 - sector: "${sectorEs}"
 - created_at: "${today}"
 - lang: "es"
+${context ? `\nCONTEXTO ADICIONAL (incorpóralo al diagnóstico — datos, papers, enfoques, matices):\n${context}\n` : ""}
 
 INGLÉS — traducción de calidad publicable de la card española, preservando la voz literaria (la apertura con persona, la lección memorable). Mantén IDÉNTICOS id, severity, todos los fulcrums[*].bar y status, contrast.card_ref, url y created_at. lang: "en". sector: ${
             sectorEn ? `"${sectorEn}"` : "la traducción al inglés del sector"
@@ -90,19 +92,21 @@ Responde SOLO con este objeto JSON, sin texto adicional ni markdown:
       );
     }
 
-    es.id = id;
+    const notes = context ? `Contexto: ${context.slice(0, 140)}` : "Generada desde el admin";
+    for (const c of [es, en]) {
+      c.id = id;
+      c.created_at = today;
+      c.url = "https://thefulcrumproject.org";
+      c.status = "draft";
+      c.version = 1;
+      c.model = "claude-sonnet-4-6";
+      c.created_by = "claude-api";
+      c.notes = notes;
+    }
     es.lang = "es";
     es.sector = sectorEs;
-    es.created_at = today;
-    es.url = "https://thefulcrumproject.org";
-    es.status = "draft";
-
-    en.id = id;
     en.lang = "en";
     en.severity = es.severity;
-    en.created_at = today;
-    en.url = "https://thefulcrumproject.org";
-    en.status = "draft";
     if (sectorEn) en.sector = sectorEn;
 
     return NextResponse.json({ es, en });

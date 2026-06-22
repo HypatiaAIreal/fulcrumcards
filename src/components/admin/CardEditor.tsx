@@ -10,12 +10,8 @@ type Mode = "new" | "edit";
 type Lang = "es" | "en";
 
 const FK = ["material", "epistemic", "relational", "provenance"] as const;
+const pretty = (o: unknown) => JSON.stringify(o, null, 2);
 
-function pretty(obj: unknown): string {
-  return JSON.stringify(obj, null, 2);
-}
-
-/** Comprobación superficial para evitar que el preview crashee con JSON a medias. */
 function previewable(obj: unknown): obj is Card {
   const c = obj as Card | null;
   return !!(
@@ -28,31 +24,46 @@ function previewable(obj: unknown): obj is Card {
   );
 }
 
+const inputCls =
+  "rounded-sm border border-copper/25 bg-navy-deep px-2 py-2 font-sans text-xs text-cream outline-none focus:border-copper";
+
 export default function CardEditor({
   mode,
   sectors = [],
   initialEs,
   initialEn,
   id,
+  version,
 }: {
   mode: Mode;
   sectors?: { es: string; en: string }[];
   initialEs?: Card;
   initialEn?: Card;
   id?: string;
+  version?: number;
 }) {
   const router = useRouter();
   const [esText, setEsText] = useState(initialEs ? pretty(initialEs) : "");
   const [enText, setEnText] = useState(initialEn ? pretty(initialEn) : "");
   const [tab, setTab] = useState<Lang>("es");
   const [error, setError] = useState("");
-  const [busy, setBusy] = useState<"gen" | "save" | null>(null);
+  const [busy, setBusy] = useState<null | "gen" | "save">(null);
 
-  // Generación (modo nuevo)
+  // Metadata de versión
+  const [model, setModel] = useState(initialEs?.model || "manual");
+  const [createdBy, setCreatedBy] = useState(initialEs?.created_by || "carles");
+  const [notes, setNotes] = useState(initialEs?.notes || "");
+
+  // Entradas de creación
+  const [source, setSource] = useState<"gen" | "import">("gen");
   const [sectorSel, setSectorSel] = useState(sectors[0]?.es || "");
   const [customSector, setCustomSector] = useState("");
   const [title, setTitle] = useState("");
+  const [context, setContext] = useState("");
+  const [importText, setImportText] = useState("");
 
+  const isNewVersion = mode === "new" && !!id;
+  const showCreateTools = mode === "new";
   const showEditor = mode === "edit" || (!!esText.trim() && !!enText.trim());
 
   async function generate() {
@@ -67,18 +78,46 @@ export default function CardEditor({
       const res = await fetch("/api/admin/generate", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ sector, title: title.trim() }),
+        body: JSON.stringify({ sector, title: title.trim(), context: context.trim() }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Error de generación");
       setEsText(pretty(data.es));
       setEnText(pretty(data.en));
+      setModel(data.es?.model || "claude-sonnet-4-6");
+      setCreatedBy(data.es?.created_by || "claude-api");
+      setNotes(data.es?.notes || "");
       setTab("es");
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
     } finally {
       setBusy(null);
     }
+  }
+
+  function importJson() {
+    setError("");
+    let obj: Record<string, unknown>;
+    try {
+      obj = JSON.parse(importText);
+    } catch (e) {
+      setError("JSON inválido: " + (e instanceof Error ? e.message : String(e)));
+      return;
+    }
+    if (obj.es && obj.en) {
+      setEsText(pretty(obj.es));
+      setEnText(pretty(obj.en));
+    } else if (obj.lang === "es") {
+      setEsText(pretty(obj));
+    } else if (obj.lang === "en") {
+      setEnText(pretty(obj));
+    } else {
+      setError('Se esperaba {"es":…,"en":…} o una card con campo "lang".');
+      return;
+    }
+    setModel("manual");
+    setCreatedBy("json-import");
+    setTab("es");
   }
 
   async function save(publish: boolean) {
@@ -91,29 +130,34 @@ export default function CardEditor({
       setError("El JSON (ES o EN) no es válido.");
       return;
     }
-    es.status = publish ? "published" : "draft";
-    en.status = publish ? "published" : "draft";
+    if (id) {
+      es.id = id;
+      en.id = id;
+    }
+    const meta = { model, created_by: createdBy, notes };
+    let url = "/api/admin/cards";
+    let method = "POST";
+    if (mode === "edit") {
+      url = `/api/admin/cards/${id}/versions/${version}`;
+      method = "PUT";
+    } else if (isNewVersion) {
+      url = `/api/admin/cards/${id}/versions`;
+    }
     setBusy("save");
     try {
-      const url = mode === "new" ? "/api/admin/cards" : `/api/admin/cards/${id}`;
-      const method = mode === "new" ? "POST" : "PUT";
       const res = await fetch(url, {
         method,
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ es, en }),
+        body: JSON.stringify({ es, en, meta, publish }),
       });
       const data = await res.json();
       if (!res.ok) {
-        const detail = [
-          data.error,
-          data.es?.length ? `ES: ${data.es.join("; ")}` : "",
-          data.en?.length ? `EN: ${data.en.join("; ")}` : "",
-        ]
+        const detail = [data.error, data.es?.join?.("; "), data.en?.join?.("; ")]
           .filter(Boolean)
           .join(" · ");
         throw new Error(detail || "Error al guardar");
       }
-      router.push("/admin");
+      router.push(id || data.id ? `/admin/cards/${id || data.id}` : "/admin");
       router.refresh();
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
@@ -134,57 +178,73 @@ export default function CardEditor({
 
   return (
     <div>
-      {/* Generación con Claude (solo nuevo) */}
-      {mode === "new" && (
+      {showCreateTools && (
         <div className="mb-8 rounded-sm border border-copper/20 p-4">
-          <div className="mb-3 font-mono text-[10px] uppercase tracking-[0.2em] text-copper">
-            Generar borrador con Claude (Sonnet 4.6)
-          </div>
-          <div className="grid gap-3 sm:grid-cols-[1fr_1fr_auto]">
-            <select
-              value={sectorSel}
-              onChange={(e) => setSectorSel(e.target.value)}
-              className="rounded-sm border border-copper/25 bg-navy-deep px-2 py-2 font-sans text-xs text-cream"
-            >
-              {sectors.map((s) => (
-                <option key={s.es} value={s.es}>{s.es}</option>
-              ))}
-              <option value="__new__">➕ Nuevo sector…</option>
-            </select>
-            {sectorSel === "__new__" ? (
-              <input
-                value={customSector}
-                onChange={(e) => setCustomSector(e.target.value)}
-                placeholder="Nombre del sector (ES)"
-                className="rounded-sm border border-copper/25 bg-navy-deep px-2 py-2 font-sans text-xs text-cream"
-              />
-            ) : (
-              <input
-                value={title}
-                onChange={(e) => setTitle(e.target.value)}
-                placeholder="Profesión o caso (ej. El Notario)"
-                className="rounded-sm border border-copper/25 bg-navy-deep px-2 py-2 font-sans text-xs text-cream"
-              />
-            )}
+          <div className="mb-3 flex items-center gap-4 font-mono text-[10px] uppercase tracking-[0.15em]">
             <button
-              onClick={generate}
-              disabled={busy !== null}
-              className="rounded-sm bg-copper px-4 py-2 font-mono text-[10px] uppercase tracking-[0.15em] text-navy-deep transition-colors hover:bg-copper-light disabled:opacity-50"
+              onClick={() => setSource("gen")}
+              className={source === "gen" ? "text-copper" : "text-cream/40 hover:text-cream"}
             >
-              {busy === "gen" ? "Generando…" : "Generar"}
+              Generar con Claude
+            </button>
+            <span className="text-copper/30">·</span>
+            <button
+              onClick={() => setSource("import")}
+              className={source === "import" ? "text-copper" : "text-cream/40 hover:text-cream"}
+            >
+              Importar JSON
             </button>
           </div>
-          {sectorSel === "__new__" && (
-            <input
-              value={title}
-              onChange={(e) => setTitle(e.target.value)}
-              placeholder="Profesión o caso (ej. El Notario)"
-              className="mt-3 w-full rounded-sm border border-copper/25 bg-navy-deep px-2 py-2 font-sans text-xs text-cream"
-            />
+
+          {source === "gen" ? (
+            <div className="space-y-3">
+              <div className="grid gap-3 sm:grid-cols-[1fr_1fr]">
+                <select value={sectorSel} onChange={(e) => setSectorSel(e.target.value)} className={inputCls}>
+                  {sectors.map((s) => (
+                    <option key={s.es} value={s.es}>{s.es}</option>
+                  ))}
+                  <option value="__new__">➕ Nuevo sector…</option>
+                </select>
+                {sectorSel === "__new__" ? (
+                  <input value={customSector} onChange={(e) => setCustomSector(e.target.value)} placeholder="Nombre del sector (ES)" className={inputCls} />
+                ) : (
+                  <input value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Profesión o caso (ej. El Notario)" className={inputCls} />
+                )}
+              </div>
+              {sectorSel === "__new__" && (
+                <input value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Profesión o caso (ej. El Notario)" className={`${inputCls} w-full`} />
+              )}
+              <textarea
+                value={context}
+                onChange={(e) => setContext(e.target.value)}
+                placeholder="Contexto adicional (opcional): datos, papers, enfoques, matices que Claude debe usar en el diagnóstico…"
+                className={`${inputCls} h-24 w-full resize-y`}
+              />
+              <button
+                onClick={generate}
+                disabled={busy !== null}
+                className="rounded-sm bg-copper px-4 py-2 font-mono text-[10px] uppercase tracking-[0.15em] text-navy-deep transition-colors hover:bg-copper-light disabled:opacity-50"
+              >
+                {busy === "gen" ? "Generando… (~40s)" : "Generar borrador"}
+              </button>
+            </div>
+          ) : (
+            <div className="space-y-3">
+              <textarea
+                value={importText}
+                onChange={(e) => setImportText(e.target.value)}
+                placeholder='Pega aquí: {"es": {…}, "en": {…}}  (o una card individual con "lang")'
+                spellCheck={false}
+                className={`${inputCls} h-40 w-full resize-y font-mono`}
+              />
+              <button
+                onClick={importJson}
+                className="rounded-sm bg-copper px-4 py-2 font-mono text-[10px] uppercase tracking-[0.15em] text-navy-deep transition-colors hover:bg-copper-light"
+              >
+                Cargar JSON
+              </button>
+            </div>
           )}
-          <p className="mt-2 font-sans text-[11px] text-cream/40">
-            Genera el borrador ES + traducción EN. Después puedes editar el JSON y previsualizar antes de publicar.
-          </p>
         </div>
       )}
 
@@ -196,22 +256,34 @@ export default function CardEditor({
 
       {showEditor && (
         <>
-          {/* Tabs idioma */}
+          {/* Metadata de versión */}
+          <div className="mb-5 grid gap-3 sm:grid-cols-3">
+            <label className="block">
+              <span className="font-mono text-[9px] uppercase tracking-[0.15em] text-copper/70">model</span>
+              <input value={model} onChange={(e) => setModel(e.target.value)} className={`${inputCls} mt-1 w-full`} />
+            </label>
+            <label className="block">
+              <span className="font-mono text-[9px] uppercase tracking-[0.15em] text-copper/70">created_by</span>
+              <input value={createdBy} onChange={(e) => setCreatedBy(e.target.value)} className={`${inputCls} mt-1 w-full`} />
+            </label>
+            <label className="block">
+              <span className="font-mono text-[9px] uppercase tracking-[0.15em] text-copper/70">notes</span>
+              <input value={notes} onChange={(e) => setNotes(e.target.value)} placeholder="Notas de esta versión" className={`${inputCls} mt-1 w-full`} />
+            </label>
+          </div>
+
           <div className="mb-3 flex items-center gap-3">
             {(["es", "en"] as Lang[]).map((l) => (
               <button
                 key={l}
                 onClick={() => setTab(l)}
-                className={`font-mono text-[10px] uppercase tracking-[0.15em] ${
-                  tab === l ? "text-copper" : "text-cream/40 hover:text-cream"
-                }`}
+                className={`font-mono text-[10px] uppercase tracking-[0.15em] ${tab === l ? "text-copper" : "text-cream/40 hover:text-cream"}`}
               >
                 {l.toUpperCase()}
               </button>
             ))}
           </div>
 
-          {/* Editor + Preview */}
           <div className="grid gap-6 lg:grid-cols-2">
             <div>
               <textarea
@@ -220,9 +292,7 @@ export default function CardEditor({
                 spellCheck={false}
                 className="h-[70vh] w-full rounded-sm border border-copper/25 bg-navy-deep p-3 font-mono text-[11px] leading-relaxed text-cream/90 outline-none focus:border-copper"
               />
-              {parsed.err && (
-                <p className="mt-1 font-mono text-[10px] text-absent">JSON: {parsed.err}</p>
-              )}
+              {parsed.err && <p className="mt-1 font-mono text-[10px] text-absent">JSON: {parsed.err}</p>}
             </div>
             <div>
               {previewable(parsed.card) ? (
@@ -235,7 +305,6 @@ export default function CardEditor({
             </div>
           </div>
 
-          {/* Guardar */}
           <div className="mt-6 flex items-center gap-4">
             <button
               onClick={() => save(true)}

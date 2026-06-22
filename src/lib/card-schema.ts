@@ -17,8 +17,11 @@ export function validateCard(obj: unknown): { ok: boolean; errors: string[]; car
 
   if (!SEVERITIES.includes(c.severity as string)) errors.push(`severity inválido (${SEVERITIES.join("|")})`);
   if (c.lang !== "es" && c.lang !== "en") errors.push('lang debe ser "es" o "en"');
-  if (c.status !== undefined && c.status !== "published" && c.status !== "draft")
-    errors.push('status debe ser "published" o "draft"');
+  if (
+    c.status !== undefined &&
+    !["published", "draft", "archived"].includes(c.status as string)
+  )
+    errors.push('status debe ser "published", "draft" o "archived"');
 
   const f = c.fulcrums as Record<string, Record<string, unknown>> | undefined;
   if (!f || typeof f !== "object") {
