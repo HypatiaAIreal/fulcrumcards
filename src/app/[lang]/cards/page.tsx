@@ -9,14 +9,16 @@ import {
 } from "@/lib/fulcrum";
 import { getDictionary, type Locale } from "@/lib/i18n";
 
+export const dynamic = "force-dynamic";
+
 export function generateMetadata({ params }: { params: { lang: Locale } }) {
   return { title: getDictionary(params.lang).meta.catalogTitle };
 }
 
-export default function CardsPage({ params }: { params: { lang: Locale } }) {
+export default async function CardsPage({ params }: { params: { lang: Locale } }) {
   const { lang } = params;
   const dict = getDictionary(lang);
-  const cards = getAllCards(lang);
+  const cards = await getAllCards(lang);
 
   return (
     <main className="mx-auto max-w-6xl px-6 py-12 md:py-20">

@@ -2,20 +2,17 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import FulcrumCard from "@/components/FulcrumCard";
-import { getAllCards, getCardById, getCardIds } from "@/lib/cards";
+import { getAllCards, getCardById } from "@/lib/cards";
 import { getDictionary, type Locale } from "@/lib/i18n";
 
-/** Pre-genera una ruta por cada card (combinada con cada idioma del layout). */
-export function generateStaticParams() {
-  return getCardIds().map((id) => ({ id }));
-}
+export const dynamic = "force-dynamic";
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
   params: { lang: Locale; id: string };
-}): Metadata {
-  const card = getCardById(params.lang, params.id);
+}): Promise<Metadata> {
+  const card = await getCardById(params.lang, params.id);
   if (!card) return { title: "404" };
   return {
     title: `${card.title} · ${getDictionary(params.lang).nav.card} #${card.id}`,
@@ -23,22 +20,22 @@ export function generateMetadata({
   };
 }
 
-export default function CardPage({
+export default async function CardPage({
   params,
 }: {
   params: { lang: Locale; id: string };
 }) {
   const { lang, id } = params;
   const dict = getDictionary(lang);
-  const card = getCardById(lang, id);
+  const card = await getCardById(lang, id);
   if (!card) notFound();
 
   // Relacionadas: la card de contraste primero, luego otras del mismo sector.
   const MAX_RELATED = 4;
   const contrastCard = card.contrast?.card_ref
-    ? getCardById(lang, card.contrast.card_ref)
-    : undefined;
-  const sameSector = getAllCards(lang).filter(
+    ? await getCardById(lang, card.contrast.card_ref)
+    : null;
+  const sameSector = (await getAllCards(lang)).filter(
     (c) => c.id !== card.id && c.id !== contrastCard?.id && c.sector === card.sector
   );
   const related = [

@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { locales, defaultLocale } from "@/lib/i18n";
+import { AUTH_COOKIE, verifyToken } from "@/lib/auth";
 
 function detectLocale(req: NextRequest): string {
   const header = req.headers.get("accept-language");
@@ -14,14 +15,33 @@ function detectLocale(req: NextRequest): string {
   return defaultLocale;
 }
 
-export function middleware(req: NextRequest) {
+export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
-  // Si ya empieza por un locale, no hacer nada.
-  const hasLocale = locales.some(
+  // --- Admin: protección por JWT (excepto la página de login) ---
+  if (pathname === "/admin" || pathname.startsWith("/admin/")) {
+    if (pathname !== "/admin/login") {
+      const ok = await verifyToken(req.cookies.get(AUTH_COOKIE)?.value);
+      if (!ok) {
+        const url = req.nextUrl.clone();
+        url.pathname = "/admin/login";
+        url.searchParams.set("from", pathname);
+        return NextResponse.redirect(url);
+      }
+    }
+    return NextResponse.next();
+  }
+
+  // --- Público: routing de idioma ---
+  const current = locales.find(
     (l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`)
   );
-  if (hasLocale) return;
+  if (current) {
+    // Propaga el locale al root layout para <html lang>.
+    const headers = new Headers(req.headers);
+    headers.set("x-locale", current);
+    return NextResponse.next({ request: { headers } });
+  }
 
   const locale = detectLocale(req);
   const url = req.nextUrl.clone();
@@ -30,6 +50,6 @@ export function middleware(req: NextRequest) {
 }
 
 export const config = {
-  // Excluye _next, api y cualquier archivo con extensión (imágenes, etc.).
+  // Excluye _next, api y archivos con extensión (imágenes, etc.).
   matcher: ["/((?!_next|api|.*\\..*).*)"],
 };
