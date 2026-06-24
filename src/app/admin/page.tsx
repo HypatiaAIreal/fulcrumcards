@@ -1,12 +1,25 @@
 import Link from "next/link";
-import { adminListCards, listSectors, type CardStatus, type Severity } from "@/lib/cards";
+import {
+  adminListCards,
+  listSectors,
+  DEFAULT_VISIBILITY,
+  VISIBILITIES,
+  type CardStatus,
+  type Severity,
+  type Visibility,
+} from "@/lib/cards";
 import { isLocale, type Locale } from "@/lib/i18n";
 import LogoutButton from "@/components/admin/LogoutButton";
-import DeleteButton from "@/components/admin/DeleteButton";
+import AdminCardsTable, { type AdminRow } from "@/components/admin/AdminCardsTable";
 
 export const dynamic = "force-dynamic";
 
 const SEVERITIES: Severity[] = ["strong", "mixed", "warning", "critical"];
+const VIS_LABEL: Record<Visibility, string> = {
+  public: "Pública",
+  teaser: "Teaser",
+  hidden: "Oculta",
+};
 
 type SP = { [k: string]: string | undefined };
 
@@ -19,6 +32,7 @@ export default async function AdminDashboard({
   const sector = searchParams.sector || "";
   const severity = (searchParams.severity || "") as Severity | "";
   const status = (searchParams.status || "") as CardStatus | "";
+  const visibility = (searchParams.visibility || "") as Visibility | "";
   const q = searchParams.q || "";
 
   const cards = await adminListCards({
@@ -26,16 +40,21 @@ export default async function AdminDashboard({
     sector: sector || undefined,
     severity: severity || undefined,
     status: status || undefined,
+    visibility: visibility || undefined,
     q: q || undefined,
   });
   const sectors = listSectors();
 
-  const sevColor: Record<string, string> = {
-    strong: "var(--verified)",
-    mixed: "var(--assumed)",
-    warning: "var(--warning)",
-    critical: "var(--absent)",
-  };
+  const rows: AdminRow[] = cards.map((c) => ({
+    id: c.id,
+    title: c.title,
+    sector: c.sector,
+    severity: c.severity,
+    status: c.status || "published",
+    version: c.version ?? 1,
+    versions: c._versions,
+    visibility: (c.visibility as Visibility) || DEFAULT_VISIBILITY,
+  }));
 
   return (
     <main className="mx-auto max-w-6xl px-5 py-8 sm:px-8">
@@ -55,10 +74,7 @@ export default async function AdminDashboard({
       </header>
 
       {/* Filtros */}
-      <form
-        method="get"
-        className="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-6"
-      >
+      <form method="get" className="mb-6 grid grid-cols-2 gap-3 sm:grid-cols-7">
         <select name="sector" defaultValue={sector} className="rounded-sm border border-copper/25 bg-navy-deep px-2 py-2 font-sans text-xs text-cream">
           <option value="">Todos los sectores</option>
           {sectors.map((s) => (
@@ -69,6 +85,12 @@ export default async function AdminDashboard({
           <option value="">Toda severidad</option>
           {SEVERITIES.map((s) => (
             <option key={s} value={s}>{s}</option>
+          ))}
+        </select>
+        <select name="visibility" defaultValue={visibility} className="rounded-sm border border-copper/25 bg-navy-deep px-2 py-2 font-sans text-xs text-cream">
+          <option value="">Toda visibilidad</option>
+          {VISIBILITIES.map((v) => (
+            <option key={v} value={v}>{VIS_LABEL[v]}</option>
           ))}
         </select>
         <select name="status" defaultValue={status} className="rounded-sm border border-copper/25 bg-navy-deep px-2 py-2 font-sans text-xs text-cream">
@@ -100,66 +122,7 @@ export default async function AdminDashboard({
         {cards.length} cards ({lang})
       </div>
 
-      {/* Tabla */}
-      <div className="overflow-x-auto rounded-sm border border-copper/15">
-        <table className="w-full border-collapse text-left">
-          <thead>
-            <tr className="border-b border-copper/15 font-mono text-[9px] uppercase tracking-[0.15em] text-copper/70">
-              <th className="px-3 py-2">#</th>
-              <th className="px-3 py-2">Título</th>
-              <th className="px-3 py-2">Sector</th>
-              <th className="px-3 py-2">Severidad</th>
-              <th className="px-3 py-2">Estado</th>
-              <th className="px-3 py-2">Versión</th>
-              <th className="px-3 py-2 text-right">Acciones</th>
-            </tr>
-          </thead>
-          <tbody>
-            {cards.map((c) => (
-              <tr key={`${c.id}-${c.lang}`} className="border-b border-copper/10 text-sm">
-                <td className="px-3 py-2 font-mono text-[11px] text-copper/70">{c.id}</td>
-                <td className="px-3 py-2 font-display text-cream/90">{c.title}</td>
-                <td className="px-3 py-2 font-sans text-[12px] text-cream/60">{c.sector}</td>
-                <td className="px-3 py-2">
-                  <span
-                    className="font-mono text-[10px] uppercase tracking-wider"
-                    style={{ color: sevColor[c.severity] }}
-                  >
-                    {c.severity}
-                  </span>
-                </td>
-                <td className="px-3 py-2 font-mono text-[10px] uppercase tracking-wider text-cream/50">
-                  {c.status || "published"}
-                </td>
-                <td className="px-3 py-2 font-mono text-[10px] text-cream/50">
-                  v{c.version ?? 1}
-                  {c._versions > 1 && (
-                    <span className="text-copper/60"> · {c._versions} vers.</span>
-                  )}
-                </td>
-                <td className="px-3 py-2">
-                  <div className="flex items-center justify-end gap-4">
-                    <Link
-                      href={`/${lang}/cards/${c.id}`}
-                      target="_blank"
-                      className="font-mono text-[10px] uppercase tracking-wider text-cream/50 hover:text-cream"
-                    >
-                      Ver
-                    </Link>
-                    <Link
-                      href={`/admin/cards/${c.id}`}
-                      className="font-mono text-[10px] uppercase tracking-wider text-copper hover:text-copper-light"
-                    >
-                      Versiones
-                    </Link>
-                    <DeleteButton id={c.id} title={c.title} />
-                  </div>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+      <AdminCardsTable rows={rows} lang={lang} />
     </main>
   );
 }

@@ -12,6 +12,16 @@ import { defaultLocale, type Locale } from "@/lib/i18n";
 export type FulcrumStatus = "verified" | "assumed" | "absent";
 export type Severity = "strong" | "mixed" | "warning" | "critical";
 export type CardStatus = "published" | "draft" | "archived";
+/**
+ * Visibilidad pública (a nivel de card, compartida por todas sus versiones):
+ *  - public: visible y accesible (tile completo + landing propia)
+ *  - teaser: visible pero bloqueada (tile en gris con candado, landing "próximamente")
+ *  - hidden: no aparece en ningún sitio público (solo en el admin)
+ */
+export type Visibility = "public" | "teaser" | "hidden";
+export const VISIBILITIES: Visibility[] = ["public", "teaser", "hidden"];
+/** Visibilidad por defecto de una card nueva (el usuario la activa a public). */
+export const DEFAULT_VISIBILITY: Visibility = "teaser";
 
 export interface Fulcrum {
   status: FulcrumStatus;
@@ -53,6 +63,8 @@ export interface Card {
   model?: string;
   created_by?: string;
   notes?: string;
+  // --- visibilidad pública (nivel card) ---
+  visibility?: Visibility;
 }
 
 export interface VersionMeta {
@@ -89,21 +101,40 @@ function today(): string {
 
 /* ---------------------------------- Público --------------------------------- */
 
+/**
+ * Catálogo público: versiones publicadas que NO están ocultas
+ * (devuelve public + teaser; la página decide el estilo según `visibility`).
+ */
 export async function getAllCards(lang: Locale): Promise<Card[]> {
   noStore();
   const col = await fichas();
-  return col.find({ lang, status: "published" }, NO_ID).sort({ id: 1 }).toArray();
+  return col
+    .find({ lang, status: "published", visibility: { $ne: "hidden" } }, NO_ID)
+    .sort({ id: 1 })
+    .toArray();
 }
 
+/**
+ * Card individual para una landing: versión publicada y no oculta.
+ * Devuelve también las `teaser` (la página muestra "próximamente"); las
+ * `hidden` devuelven null → 404.
+ */
 export async function getCardById(lang: Locale, id: string): Promise<Card | null> {
   noStore();
   const col = await fichas();
-  return col.findOne({ lang, id, status: "published" }, NO_ID);
+  return col.findOne(
+    { lang, id, status: "published", visibility: { $ne: "hidden" } },
+    NO_ID
+  );
 }
 
 export async function getCardIds(): Promise<string[]> {
   const col = await fichas();
-  const ids = await col.distinct("id", { lang: defaultLocale, status: "published" });
+  const ids = await col.distinct("id", {
+    lang: defaultLocale,
+    status: "published",
+    visibility: { $ne: "hidden" },
+  });
   return ids.sort();
 }
 
@@ -114,6 +145,7 @@ export interface CardFilters {
   severity?: Severity;
   lang?: Locale;
   status?: CardStatus;
+  visibility?: Visibility;
   q?: string;
 }
 
@@ -125,6 +157,7 @@ export async function adminListCards(filters: CardFilters = {}): Promise<AdminCa
   const match: Record<string, unknown> = { lang: filters.lang || defaultLocale };
   if (filters.sector) match.sector = filters.sector;
   if (filters.severity) match.severity = filters.severity;
+  if (filters.visibility) match.visibility = filters.visibility;
   if (filters.q) match.title = { $regex: filters.q, $options: "i" };
 
   const pipeline: object[] = [
@@ -226,13 +259,39 @@ async function archiveOthers(id: string, exceptVersion: number) {
   );
 }
 
+/** Visibilidad vigente de un id (cualquier doc existente), o el default si es nuevo. */
+async function currentVisibility(id: string): Promise<Visibility> {
+  const col = await fichas();
+  const doc = await col.findOne({ id }, { projection: { _id: 0, visibility: 1 } });
+  return (doc?.visibility as Visibility) || DEFAULT_VISIBILITY;
+}
+
 async function writePair(id: string, version: number, status: CardStatus, es: Card, en: Card, meta: VersionMeta) {
   const col = await fichas();
+  // La visibilidad es a nivel de card: la nueva versión hereda la vigente.
+  const visibility = await currentVisibility(id);
   applyMeta(es, id, "es", version, status, meta);
   applyMeta(en, id, "en", version, status, meta);
+  es.visibility = visibility;
+  en.visibility = visibility;
   await col.replaceOne({ id, lang: "es", version }, es, { upsert: true });
   await col.replaceOne({ id, lang: "en", version }, en, { upsert: true });
   if (status === "published") await archiveOthers(id, version);
+}
+
+/** Cambia la visibilidad de una card (todas sus versiones e idiomas). */
+export async function setVisibility(id: string, visibility: Visibility): Promise<number> {
+  const col = await fichas();
+  const r = await col.updateMany({ id }, { $set: { visibility } });
+  return r.modifiedCount ?? 0;
+}
+
+/** Cambia la visibilidad de varias cards de golpe (acción masiva del admin). */
+export async function setVisibilityMany(ids: string[], visibility: Visibility): Promise<number> {
+  if (ids.length === 0) return 0;
+  const col = await fichas();
+  const r = await col.updateMany({ id: { $in: ids } }, { $set: { visibility } });
+  return r.modifiedCount ?? 0;
 }
 
 /** Crea la versión 1 de una card con el id que trae la propia card. */

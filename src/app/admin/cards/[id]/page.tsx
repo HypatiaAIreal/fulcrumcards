@@ -26,12 +26,20 @@ export default async function CardVersionsPage({
         <Link href="/admin" className="font-mono text-[11px] uppercase tracking-[0.2em] text-copper hover:text-cream">
           ← Admin
         </Link>
-        <Link
-          href={`/admin/cards/${params.id}/new`}
-          className="rounded-sm bg-copper px-4 py-2 font-mono text-[10px] uppercase tracking-[0.15em] text-navy-deep transition-colors hover:bg-copper-light"
-        >
-          + Nueva versión
-        </Link>
+        <div className="flex items-center gap-3">
+          <Link
+            href={`/admin/cards/${params.id}/teaser`}
+            className="rounded-sm border border-copper/40 px-4 py-2 font-mono text-[10px] uppercase tracking-[0.15em] text-copper transition-colors hover:bg-copper/10"
+          >
+            Teaser LinkedIn
+          </Link>
+          <Link
+            href={`/admin/cards/${params.id}/new`}
+            className="rounded-sm bg-copper px-4 py-2 font-mono text-[10px] uppercase tracking-[0.15em] text-navy-deep transition-colors hover:bg-copper-light"
+          >
+            + Nueva versión
+          </Link>
+        </div>
       </nav>
 
       <h1 className="mb-1 font-display text-3xl font-extrabold text-cream">{title}</h1>

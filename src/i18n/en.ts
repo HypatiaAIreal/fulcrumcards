@@ -48,6 +48,20 @@ export const en = {
     viewDiagnosis: "View diagnosis →",
     underConstruction: (planned: number) =>
       `Catalog under construction · ${planned} cards`,
+    bySector: "Catalog by sector",
+    comingSoon: "Coming soon",
+    lockedAria: "Locked card — coming soon",
+  },
+  teaser: {
+    kicker: "Coming soon",
+    heading: "This card will be published soon",
+    body: "Leave your email and we'll let you know as soon as the full diagnosis is available.",
+    emailPlaceholder: "you@email.com",
+    cta: "Notify me when it's published",
+    sending: "Sending…",
+    success: "Done! We'll let you know as soon as it's published.",
+    invalid: "Enter a valid email.",
+    error: "Something went wrong. Try again.",
   },
   card: {
     diagnosis: "Fulcrum diagnosis",

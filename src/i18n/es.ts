@@ -49,6 +49,20 @@ export const es = {
     viewDiagnosis: "Ver diagnóstico →",
     underConstruction: (planned: number) =>
       `Catálogo en construcción · ${planned} cards`,
+    bySector: "Catálogo por sector",
+    comingSoon: "Próximamente",
+    lockedAria: "Card bloqueada — próximamente",
+  },
+  teaser: {
+    kicker: "Próximamente",
+    heading: "Esta card se publicará próximamente",
+    body: "Déjanos tu email y te avisaremos en cuanto el diagnóstico completo esté disponible.",
+    emailPlaceholder: "tu@email.com",
+    cta: "Avísame cuando se publique",
+    sending: "Enviando…",
+    success: "¡Hecho! Te avisaremos en cuanto se publique.",
+    invalid: "Introduce un email válido.",
+    error: "Algo salió mal. Inténtalo de nuevo.",
   },
   card: {
     diagnosis: "Diagnóstico de fulcros",
